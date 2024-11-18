@@ -33,6 +33,23 @@ function AdminPage() {
         }
     };
 
+    const getStatusClassName = (status) => {
+        switch (status) {
+            case 'pending':
+                return 'status-pending';
+            case 'processed':
+                return 'status-processed';
+            case 'shipped':
+                return 'status-shipped';
+            case 'delivered':
+                return 'status-delivered';
+            case 'cancelled':
+                return 'status-cancelled';
+            default:
+                return '';
+        }
+    };
+
     return (
         <div className="admin-container">
             <h1>Gestion des Commandes</h1>
@@ -48,42 +65,46 @@ function AdminPage() {
                         <th>Total</th>
                         <th>Statut</th>
                         <th>Actions</th>
-                        <th>Produits</th> {/* Nouvelle colonne pour les produits */}
+                        <th>Produits</th>
                     </tr>
                 </thead>
                 <tbody>
-                    {orders.map(order => (
-                        <tr key={order.id}>
-                            <td>{order.id}</td>
-                            <td>{`${order.name} ${order.surname}`}</td>
-                            <td>{order.city}</td>
-                            <td>{order.neighborhood}</td>
-                            <td>{order.phone}</td>
-                            <td>{order.total_price} FCFA</td>
-                            <td>{order.status}</td>
-                            <td>
-                                <select 
-                                    value={order.status}
-                                    onChange={e => handleStatusChange(order.id, e.target.value)}
-                                >
-                                    <option value="pending">Pending</option>
-                                    <option value="processed">Processed</option>
-                                    <option value="shipped">Shipped</option>
-                                    <option value="delivered">Delivered</option>
-                                    <option value="cancelled">Cancelled</option>
-                                </select>
-                            </td>
-                            <td>
-                                <ul>
-                                    {order.products.map(product => (
-                                        <li key={product.product_name}>
-                                            {product.product_name} - {product.product_price} FCFA (Quantité : {product.quantity})
-                                        </li>
-                                    ))}
-                                </ul>
-                            </td>
-                        </tr>
-                    ))}
+                    {orders.map(order => {
+                        const className = getStatusClassName(order.status);
+                        console.log(`Statut: ${order.status}, Classe CSS: ${className}`); // Log pour vérifier les classes CSS
+                        return (
+                            <tr key={order.id} className={className}>
+                                <td>{order.id}</td>
+                                <td>{`${order.name} ${order.surname}`}</td>
+                                <td>{order.city}</td>
+                                <td>{order.neighborhood}</td>
+                                <td>{order.phone}</td>
+                                <td>{order.total_price} FCFA</td>
+                                <td>{order.status}</td>
+                                <td>
+                                    <select 
+                                        value={order.status}
+                                        onChange={e => handleStatusChange(order.id, e.target.value)}
+                                    >
+                                        <option value="pending">En attente</option>
+                                        <option value="processed">Traitée</option>
+                                        <option value="shipped">Expédiée</option>
+                                        <option value="delivered">Livrée</option>
+                                        <option value="cancelled">Annulée</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <ul>
+                                        {order.products.map(product => (
+                                            <li key={product.product_name}>
+                                                {product.product_name} - {product.product_price} FCFA (Quantité : {product.quantity})
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </td>
+                            </tr>
+                        );
+                    })}
                 </tbody>
             </table>
         </div>

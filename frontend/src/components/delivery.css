@@ -1,73 +1,53 @@
-/* src/components/delivery.css */
-.delivery-page {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 30px;
-    background-color: #f9f9f9;
+/* Conteneur principal du formulaire */
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
 }
 
-.delivery-page h2 {
+/* Titre du formulaire */
+.form-container h1 {
+    text-align: center;
     margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
 }
 
-.delivery-page form {
-    display: flex;
-    flex-direction: column;
-}
-
-.delivery-page label {
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-.delivery-page input {
+/* Style pour les inputs */
+.form-container input {
+    width: 100%;
     padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
+    margin: 10px 0;
+    border: 1px solid #ddd;
     border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
 }
 
-/* Wrapper for the buttons to space them out */
-.delivery-page .button-group {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-
-.delivery-page button {
-    padding: 10px 20px;
-    background-color: #28a745;
+/* Style pour le bouton */
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
     color: white;
-    font-weight: bold;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
+    font-size: 16px;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
-.delivery-page button:hover {
-    background-color: #218838;
+/* Changement de couleur du bouton au survol */
+.form-container button:hover {
+    background-color: #45a049;
 }
 
-.delivery-page .cancel-button {
-    background-color: #dc3545;
-}
-
-.delivery-page .cancel-button:hover {
-    background-color: #c82333;
-}
-/* src/components/delivery.css */
+/* Style pour le message d'erreur */
 .error-message {
     color: red;
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-.payment-info {
-    font-size: 16px;
-    color: #555;
-    margin: 10px 0;
     text-align: center;
+    margin-top: 10px;
 }

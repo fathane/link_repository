@@ -30,14 +30,30 @@
     text-align: left;
 }
 
-/* Style pour les lignes du tableau */
-.orders-table tr:nth-child(even) {
-    background-color: #f2f2f2;
+/* Couleurs de fond pour les différentes statuts */
+.status-pending {
+    background-color: #ffeb3b !important; /* Jaune pour en attente */
+}
+
+.status-processed {
+    background-color: #03a9f4 !important; /* Bleu pour traité */
+}
+
+.status-shipped {
+    background-color: #ff9800 !important; /* Orange pour expédié */
+}
+
+.status-delivered {
+    background-color: #4caf50 !important; /* Vert pour livré */
+}
+
+.status-cancelled {
+    background-color: #f44336 !important; /* Rouge pour annulé */
 }
 
 /* Style pour les messages d'erreur */
 .error-message {
     color: red;
-    margin-top: 10px;
     text-align: center;
+    margin-top: 10px;
 }
