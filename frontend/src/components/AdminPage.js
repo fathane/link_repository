@@ -10,6 +10,7 @@ function AdminPage() {
         const fetchOrders = async () => {
             try {
                 const response = await axios.get('http://localhost:5000/api/orders');
+                console.log(response.data); // Vérifiez les données reçues dans la console
                 setOrders(response.data);
             } catch (error) {
                 setErrorMessage('Erreur lors du chargement des commandes. Veuillez réessayer.');
@@ -47,6 +48,7 @@ function AdminPage() {
                         <th>Total</th>
                         <th>Statut</th>
                         <th>Actions</th>
+                        <th>Produits</th> {/* Nouvelle colonne pour les produits */}
                     </tr>
                 </thead>
                 <tbody>
@@ -70,6 +72,15 @@ function AdminPage() {
                                     <option value="delivered">Delivered</option>
                                     <option value="cancelled">Cancelled</option>
                                 </select>
+                            </td>
+                            <td>
+                                <ul>
+                                    {order.products.map(product => (
+                                        <li key={product.product_name}>
+                                            {product.product_name} - {product.product_price} FCFA (Quantité : {product.quantity})
+                                        </li>
+                                    ))}
+                                </ul>
                             </td>
                         </tr>
                     ))}
