@@ -25,7 +25,20 @@ function App() {
 
     // Filtrer les produits par catégorie, nom, et description
     const filteredProducts = useMemo(() => {
-        return shuffledProducts.filter(
+        const calculateRelevance = (product) => {
+            let relevanceScore = 0;
+            const searchLower = searchQuery.toLowerCase();
+    
+            // Calcul de la pertinence pour le nom, la catégorie et la description
+            if (product.name.toLowerCase().includes(searchLower)) relevanceScore += 3; // Score plus élevé pour le nom
+            if (product.category.toLowerCase().includes(searchLower)) relevanceScore += 2; // Score plus bas pour la catégorie
+            if (product.description && product.description.toLowerCase().includes(searchLower)) relevanceScore += 1; // Score plus bas pour la description
+    
+            return relevanceScore;
+        };
+    
+        // Filtrer les produits selon le filtre de catégorie et la recherche
+        const filtered = shuffledProducts.filter(
             product =>
                 (filter === 'tous' || product.category === filter) &&
                 (
@@ -34,8 +47,24 @@ function App() {
                     (product.description && product.description.toLowerCase().includes(searchQuery.toLowerCase()))
                 )
         );
+    
+        // Ajouter un produit "moins pertinent" (ayant un score de pertinence égal à 0)
+        const lessRelevantProducts = shuffledProducts.filter(
+            product =>
+                !(
+                    product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                    product.category.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                    (product.description && product.description.toLowerCase().includes(searchQuery.toLowerCase()))
+                )
+        );
+    
+        // Trier les produits filtrés par pertinence
+        const sortedFilteredProducts = filtered.sort((a, b) => calculateRelevance(b) - calculateRelevance(a));
+    
+        // Retourner les produits triés et les moins pertinents
+        return [...sortedFilteredProducts, ...lessRelevantProducts];
     }, [shuffledProducts, searchQuery, filter]); // Le tableau de dépendances inclut shuffledProducts, searchQuery et filter
-
+    
     // Ajouter un produit au panier
     const addToCart = (product, quantity) => {
         setCart(prevCart => {
