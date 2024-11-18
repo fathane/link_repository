@@ -6,6 +6,8 @@ import Product from './components/Product';
 import CartPage from './components/CartPage';
 import Modal from './components/Modal';
 import DeliveryPage from './components/DeliveryPage';
+import ConfirmationPage from './components/ConfirmationPage'; // Ajout de ConfirmationPage
+import AdminPage from './components/AdminPage'; // Ajout de AdminPage
 import products from './productsData';
 
 function App() {
@@ -165,6 +167,12 @@ function App() {
                     path="/validate-order"
                     element={<ValidateOrder cartItems={cart} totalPrice={totalPrice} onEmptyCart={emptyCart} />}
                 />
+
+                {/* Page de confirmation */}
+                <Route path="/confirmation" element={<ConfirmationPage />} />
+
+                {/* Page d'administration */}
+                <Route path="/admin" element={<AdminPage />} />
             </Routes>
 
             {/* Modal pour afficher les détails du produit sélectionné */}

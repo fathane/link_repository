@@ -1,24 +1,28 @@
 const express = require('express');
 const cors = require('cors');
-const app = express();
 const orderRoutes = require('./routes/orderRoutes');
-const errorHandler = require('./middleware/errorHandler');
 
-// Configuration de CORS
+const app = express();
+
+// Configuration de CORS pour permettre les requêtes depuis le frontend
 app.use(cors({
-    origin: 'http://localhost:3000' // URL du frontend
+    origin: 'http://localhost:3000', // Adresse de votre frontend
 }));
 
-// Middleware pour parser les requêtes JSON
+// Middleware pour traiter les requêtes JSON
 app.use(express.json());
 
-// Routes pour les commandes
+// Enregistrement des routes
 app.use('/api', orderRoutes);
 
-// Middleware pour la gestion des erreurs
-app.use(errorHandler);
+// Middleware pour gérer les erreurs
+app.use((err, req, res, next) => {
+    console.error(err.stack);
+    res.status(500).send({ message: 'Erreur interne du serveur' });
+});
 
-// Démarrer le serveur
-app.listen(5000, () => {
-    console.log('Serveur en cours d\'exécution sur http://localhost:5000');
+// Lancer le serveur
+const PORT = 5000;
+app.listen(PORT, () => {
+    console.log(`Serveur en cours d'exécution sur http://localhost:${PORT}`);
 });
