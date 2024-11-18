@@ -16,8 +16,18 @@ function CartPage({ cart, onRemoveFromCart }) {
         if (cart.length > 0) {
             setIsLoading(true);
             try {
+                // Ajouter des informations de livraison fictives pour le test
+                const deliveryInfo = {
+                    name: "John",
+                    surname: "Doe",
+                    city: "City",
+                    neighborhood: "Neighborhood",
+                    phone: "123456789"
+                };
+
                 const orderData = {
                     items: cart,
+                    deliveryInfo, // Ajouter deliveryInfo aux données de la commande
                     totalPrice: calculateTotal(),
                 };
                 console.log("Données de commande envoyées:", orderData);
