@@ -1,4 +1,3 @@
-// frontend/src/components/ValidateOrder.js
 import React, { useState } from 'react';
 
 const ValidateOrder = ({ items, totalPrice, onEmptyCart }) => {
@@ -12,31 +11,32 @@ const ValidateOrder = ({ items, totalPrice, onEmptyCart }) => {
   const [message, setMessage] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  // Gérer les changements dans les champs de saisie
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setDeliveryInfo({ ...deliveryInfo, [name]: value });
   };
 
-  // Gérer la soumission de la commande
   const handleOrderSubmit = async () => {
     setIsSubmitting(true);
     setMessage('Envoi de la commande...');
-  
+    console.log('Envoi de la commande avec les données:', { items, deliveryInfo, totalPrice });
+
     try {
-      const response = await fetch('http://localhost:5000/api/orders', {
+      // Envoyer les articles de commande au backend
+      const orderResponse = await fetch('http://localhost:5000/api/orders', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ items, deliveryInfo, totalPrice }),
       });
-  
-      if (response.ok) {
-        const data = await response.json(); // Si vous souhaitez utiliser les données
-        console.log('Réponse du backend:', data);
+      const orderResponseData = await orderResponse.json();
+      console.log('Réponse du backend pour les commandes:', orderResponseData);
+
+      if (orderResponse.ok) {
         setMessage('Commande validée avec succès!');
-        onEmptyCart(); // Vider le panier après validation
+        onEmptyCart();
       } else {
         setMessage('Erreur lors de la validation de la commande');
+        console.error('Erreur lors de la validation de la commande:', orderResponseData);
       }
     } catch (error) {
       console.error('Erreur lors de la communication avec le serveur:', error);
@@ -45,7 +45,7 @@ const ValidateOrder = ({ items, totalPrice, onEmptyCart }) => {
   
     setIsSubmitting(false);
   };
-  
+
   return (
     <div>
       <h2>Valider la commande</h2>

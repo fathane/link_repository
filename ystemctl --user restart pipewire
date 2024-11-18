@@ -1,0 +1,147 @@
+nov. 05 09:39:12 fedora systemd[2232]: Started pipewire-pulse.service - PipeWire PulseAudio.
+nov. 05 12:04:06 fedora systemd[2232]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+nov. 05 12:04:06 fedora systemd[2232]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+nov. 05 12:04:06 fedora systemd[2232]: pipewire-pulse.service: Consumed 2.947s CPU time.
+[0;1;39m-- Boot 98088a02f09644459e0776270ec2b549 --[0m
+nov. 05 12:11:45 fedora systemd[2273]: Started pipewire-pulse.service - PipeWire PulseAudio.
+[0;1;39m-- Boot b1367d3529ce4d28a9deb1d3998aaf8a --[0m
+nov. 05 13:26:21 fedora systemd[2244]: Started pipewire-pulse.service - PipeWire PulseAudio.
+nov. 05 13:45:39 fedora systemd[2244]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+nov. 05 13:45:39 fedora systemd[2244]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+[0;1;39m-- Boot e237b478d58640f4a5d5be29b9c16af2 --[0m
+nov. 05 17:11:09 fedora systemd[2210]: Started pipewire-pulse.service - PipeWire PulseAudio.
+nov. 05 19:24:58 fedora systemd[2210]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+nov. 05 19:24:58 fedora systemd[2210]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+nov. 05 19:24:58 fedora systemd[2210]: pipewire-pulse.service: Consumed 9.157s CPU time.
+[0;1;39m-- Boot 1a45562985a342d8a8a0c495d7e8819d --[0m
+nov. 06 09:35:04 fedora systemd[2225]: Started pipewire-pulse.service - PipeWire PulseAudio.
+nov. 06 20:56:25 fedora systemd[2225]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+nov. 06 20:56:25 fedora systemd[2225]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+nov. 06 20:56:25 fedora systemd[2225]: pipewire-pulse.service: Consumed 34.402s CPU time.
+[0;1;39m-- Boot d80807360670430ba7f0e98f1e05c886 --[0m
+nov. 07 15:05:58 fedora systemd[2154]: Started pipewire-pulse.service - PipeWire PulseAudio.
+nov. 07 19:21:45 fedora systemd[2154]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+nov. 07 19:21:45 fedora systemd[2154]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+nov. 07 19:21:45 fedora systemd[2154]: pipewire-pulse.service: Consumed 1.108s CPU time.
+[0;1;39m-- Boot c7f84a60f77c4ae396d7fd43bacc0224 --[0m
+nov. 08 09:25:10 fedora systemd[2179]: Started pipewire-pulse.service - PipeWire PulseAudio.
+nov. 08 16:55:44 fedora systemd[2179]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+nov. 08 16:55:44 fedora systemd[2179]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+nov. 08 16:55:44 fedora systemd[2179]: pipewire-pulse.service: Consumed 1.819s CPU time.
+[0;1;39m-- Boot fa9eaee952514a7b82e0e929117767f6 --[0m
+nov. 08 16:59:46 fedora systemd[2158]: Started pipewire-pulse.service - PipeWire PulseAudio.
+nov. 08 18:28:30 fedora systemd[2158]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+nov. 08 18:28:30 fedora systemd[2158]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+[0;1;39m-- Boot cc7c8498ba984ca9b1259f2ae590d3da --[0m
+nov. 08 19:24:28 fedora systemd[2228]: Started pipewire-pulse.service - PipeWire PulseAudio.
+nov. 08 20:16:15 fedora systemd[2228]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+nov. 08 20:16:15 fedora systemd[2228]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+nov. 08 20:16:15 fedora systemd[2228]: pipewire-pulse.service: Consumed 4.890s CPU time.
+[0;1;39m-- Boot d6270616a06e4948a432c555a614640c --[0m
+nov. 08 21:22:17 fedora systemd[2161]: Started pipewire-pulse.service - PipeWire PulseAudio.
+nov. 08 22:25:57 fedora systemd[2161]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+nov. 08 22:25:57 fedora systemd[2161]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+[0;1;39m-- Boot 13a14eac85394b84ace6a6864fea1f64 --[0m
+nov. 09 06:08:40 fedora systemd[2162]: Started pipewire-pulse.service - PipeWire PulseAudio.
+nov. 09 07:45:06 fedora systemd[2162]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+nov. 09 07:45:06 fedora systemd[2162]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+[0;1;39m-- Boot a73170fc81e946818a24b6ede8494077 --[0m
+nov. 09 08:18:08 fedora systemd[2188]: Started pipewire-pulse.service - PipeWire PulseAudio.
+nov. 09 11:20:07 fedora systemd[2188]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+nov. 09 11:20:07 fedora systemd[2188]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+nov. 09 11:20:07 fedora systemd[2188]: pipewire-pulse.service: Consumed 2.254s CPU time.
+[0;1;39m-- Boot 0da0ac0c5c474649b1a6d0d16f5a8bbb --[0m
+nov. 09 18:22:39 fedora systemd[2217]: Started pipewire-pulse.service - PipeWire PulseAudio.
+nov. 09 19:43:45 fedora systemd[2217]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+nov. 09 19:43:45 fedora systemd[2217]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+nov. 09 19:43:45 fedora systemd[2217]: pipewire-pulse.service: Consumed 14.223s CPU time.
+[0;1;39m-- Boot d4ff83971c1f4a0293c4860047c11256 --[0m
+nov. 09 21:03:51 fedora systemd[2170]: Started pipewire-pulse.service - PipeWire PulseAudio.
+nov. 09 22:52:15 fedora systemd[2170]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+nov. 09 22:52:15 fedora systemd[2170]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+[0;1;39m-- Boot 9127502872484a62a0d2481703f04e9e --[0m
+nov. 10 08:46:35 fedora systemd[2170]: Started pipewire-pulse.service - PipeWire PulseAudio.
+nov. 10 09:20:58 fedora systemd[2170]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+nov. 10 09:20:58 fedora systemd[2170]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+[0;1;39m-- Boot 106f5f756f254a37a8626dd1110bda6b --[0m
+nov. 10 13:18:38 fedora systemd[2170]: Started pipewire-pulse.service - PipeWire PulseAudio.
+nov. 10 14:41:19 fedora systemd[2170]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+nov. 10 14:41:19 fedora systemd[2170]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+[0;1;39m-- Boot 48097b3ec493430480e5e76212e234ce --[0m
+nov. 10 16:44:36 fedora systemd[2173]: Started pipewire-pulse.service - PipeWire PulseAudio.
+nov. 10 21:33:46 fedora systemd[2173]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+nov. 10 21:33:46 fedora systemd[2173]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+[0;1;39m-- Boot cbace194672a420390479062471186cf --[0m
+nov. 11 09:27:37 fedora systemd[2182]: Started pipewire-pulse.service - PipeWire PulseAudio.
+nov. 11 12:45:26 fedora systemd[2182]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+nov. 11 12:45:26 fedora systemd[2182]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+nov. 11 12:45:26 fedora systemd[2182]: pipewire-pulse.service: Consumed 4.619s CPU time.
+[0;1;39m-- Boot 92c9ca02ddb4412a8336c476eefbb3b9 --[0m
+nov. 11 13:56:02 fedora systemd[2251]: Started pipewire-pulse.service - PipeWire PulseAudio.
+nov. 11 13:59:18 fedora systemd[2251]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+nov. 11 13:59:18 fedora systemd[2251]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+[0;1;39m-- Boot a5544a4ba4334d009aef763b61497941 --[0m
+nov. 11 14:29:32 fedora systemd[2238]: Started pipewire-pulse.service - PipeWire PulseAudio.
+nov. 11 18:49:39 fedora systemd[2238]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+nov. 11 18:49:39 fedora systemd[2238]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+nov. 11 18:49:39 fedora systemd[2238]: pipewire-pulse.service: Consumed 3.696s CPU time.
+[0;1;39m-- Boot 1c65e54e784c4d7a9ae993ec30668b50 --[0m
+nov. 11 21:20:34 fedora systemd[2173]: Started pipewire-pulse.service - PipeWire PulseAudio.
+nov. 11 22:09:35 fedora systemd[2173]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+nov. 11 22:09:35 fedora systemd[2173]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+[0;1;39m-- Boot 9dbe29b2bd5f49caa8ca33a8fce43eed --[0m
+nov. 12 05:01:37 fedora systemd[2172]: Started pipewire-pulse.service - PipeWire PulseAudio.
+nov. 12 06:01:16 fedora systemd[2172]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+nov. 12 06:01:16 fedora systemd[2172]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+[0;1;39m-- Boot 6480117a02274a0da573979fe759cdca --[0m
+nov. 12 09:37:20 fedora systemd[2210]: Started pipewire-pulse.service - PipeWire PulseAudio.
+nov. 12 10:10:23 fedora systemd[2210]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+nov. 12 10:10:23 fedora systemd[2210]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+nov. 12 10:10:23 fedora systemd[2210]: pipewire-pulse.service: Consumed 7.877s CPU time.
+[0;1;39m-- Boot 8a85d05e5f664582bfcd6d9e5373ca1b --[0m
+nov. 12 10:20:37 fedora systemd[2218]: Started pipewire-pulse.service - PipeWire PulseAudio.
+nov. 12 14:39:01 fedora systemd[2218]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+nov. 12 14:39:01 fedora systemd[2218]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+nov. 12 14:39:01 fedora systemd[2218]: pipewire-pulse.service: Consumed 34.282s CPU time.
+[0;1;39m-- Boot a267fc156bc646609044ee412c2f1ef3 --[0m
+nov. 12 15:22:33 fedora systemd[2230]: Started pipewire-pulse.service - PipeWire PulseAudio.
+nov. 12 19:41:39 fedora systemd[2230]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+nov. 12 19:41:39 fedora systemd[2230]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+nov. 12 19:41:39 fedora systemd[2230]: pipewire-pulse.service: Consumed 27.477s CPU time.
+[0;1;39m-- Boot 7b004b3b121d4b59bdd4e29cf6b1c1ea --[0m
+nov. 12 21:43:45 fedora systemd[2160]: Started pipewire-pulse.service - PipeWire PulseAudio.
+nov. 12 22:29:31 fedora systemd[2160]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+nov. 12 22:29:31 fedora systemd[2160]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+[0;1;39m-- Boot fc850881afef443089c8bd4f95e79074 --[0m
+nov. 12 23:10:32 fedora systemd[2182]: Started pipewire-pulse.service - PipeWire PulseAudio.
+nov. 12 23:15:17 fedora systemd[2182]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+nov. 12 23:15:17 fedora systemd[2182]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+[0;1;39m-- Boot 88d3f227eb6d4942b044e334404f9be3 --[0m
+nov. 13 06:47:44 fedora systemd[2186]: Started pipewire-pulse.service - PipeWire PulseAudio.
+nov. 13 07:27:35 fedora systemd[2186]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+nov. 13 07:27:35 fedora systemd[2186]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+[0;1;39m-- Boot 0ab47ea9066b41aa9014ba59be856ee2 --[0m
+nov. 13 09:04:31 fedora systemd[2205]: Started pipewire-pulse.service - PipeWire PulseAudio.
+nov. 13 16:34:52 fedora systemd[2205]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+nov. 13 16:34:52 fedora systemd[2205]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+nov. 13 16:34:52 fedora systemd[2205]: pipewire-pulse.service: Consumed 3.718s CPU time.
+[0;1;39m-- Boot bc6cb8329c56496aaa4c8dd6338fcb53 --[0m
+nov. 13 16:36:55 fedora systemd[2229]: Started pipewire-pulse.service - PipeWire PulseAudio.
+nov. 14 01:14:18 fedora systemd[2229]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+nov. 14 01:14:18 fedora systemd[2229]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+nov. 14 01:14:18 fedora systemd[2229]: pipewire-pulse.service: Consumed 12.089s CPU time.
+[0;1;39m-- Boot a98c4c05234c4a8f99232e5c548305b1 --[0m
+nov. 14 05:35:39 fedora systemd[2233]: Started pipewire-pulse.service - PipeWire PulseAudio.
+[0;1;39m-- Boot 7c08d8ec8998490485e9fb863c0e95e4 --[0m
+nov. 14 15:05:51 fedora systemd[2420]: Started pipewire-pulse.service - PipeWire PulseAudio.
+[0;1;39m-- Boot cd6efc8dd4d24ac7bb4f7866ccbdc778 --[0m
+nov. 14 20:42:22 fedora systemd[2409]: Started pipewire-pulse.service - PipeWire PulseAudio.
+nov. 14 22:39:31 fedora systemd[2409]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+nov. 14 22:39:31 fedora systemd[2409]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+[0;1;39m-- Boot 07e6a34c18b84336839f8ac5d745a868 --[0m
+nov. 15 00:48:01 fedora systemd[2448]: Started pipewire-pulse.service - PipeWire PulseAudio.
+nov. 15 01:25:56 fedora systemd[2448]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+nov. 15 01:25:56 fedora systemd[2448]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+[0;1;39m-- Boot dfcee0fecc3e4e7f8d54bf7c7a61400d --[0m
+nov. 15 06:26:45 fedora pipewire-pulse[2686]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mmod.protocol-pulse: client 0x56461c427710 [pactl]: ERROR command:7 (EXIT) tag:2 error:1 (Permission non accordée)[0m
+nov. 15 06:27:29 fedora pipewire-pulse[2686]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mmod.protocol-pulse: client 0x56461c4d5430 [pactl]: ERROR command:7 (EXIT) tag:2 error:1 (Permission non accordée)[0m
