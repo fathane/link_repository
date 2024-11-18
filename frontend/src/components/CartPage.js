@@ -1,46 +1,18 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import axios from 'axios';
 import './cart.css';
 
 function CartPage({ cart, onRemoveFromCart }) {
     const navigate = useNavigate();
     const [errorMessage, setErrorMessage] = useState('');
-    const [isLoading, setIsLoading] = useState(false);
 
     const calculateTotal = () => {
         return cart.reduce((acc, item) => acc + item.quantity * item.price, 0);
     };
 
-    const handleValidation = async () => {
+    const handleProceedToDelivery = () => {
         if (cart.length > 0) {
-            setIsLoading(true);
-            try {
-                // Ajouter des informations de livraison fictives pour le test
-                const deliveryInfo = {
-                    name: "John",
-                    surname: "Doe",
-                    city: "City",
-                    neighborhood: "Neighborhood",
-                    phone: "123456789"
-                };
-
-                const orderData = {
-                    items: cart,
-                    deliveryInfo, // Ajouter deliveryInfo aux données de la commande
-                    totalPrice: calculateTotal(),
-                };
-                console.log("Données de commande envoyées:", orderData);
-
-                const response = await axios.post('http://localhost:5000/api/orders', orderData);
-                console.log("Réponse du serveur:", response.data);
-
-                navigate('/delivery');
-            } catch (error) {
-                console.error('Erreur lors de la validation du panier:', error.response ? error.response.data : error.message);
-                setErrorMessage('Une erreur est survenue. Veuillez réessayer.');
-            }
-            setIsLoading(false);
+            navigate('/delivery', { state: { cart, totalPrice: calculateTotal() } });
         } else {
             setErrorMessage('Votre panier est vide. Ajoutez des articles avant de valider la commande.');
         }
@@ -71,8 +43,8 @@ function CartPage({ cart, onRemoveFromCart }) {
             </div>
             <div className="cart-summary">
                 <span className="total-general">Total Général ({cart.length} articles) = {calculateTotal()}FCFA</span>
-                <button className="validate-button" onClick={handleValidation} disabled={isLoading}>
-                    {isLoading ? 'Validation en cours...' : 'Valider'}
+                <button className="validate-button" onClick={handleProceedToDelivery}>
+                    Procéder à la livraison
                 </button>
             </div>
 
