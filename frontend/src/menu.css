@@ -17,7 +17,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: white; /* Couleur de fond de la première ligne */
+    background-color: white;
+    /* Couleur de fond de la première ligne */
     color: white;
 }
 
@@ -157,41 +158,49 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 0; /* Retire tout padding autour de `.food-item` */
-    margin: 0; /* Retire toute marge */
+    padding: 0;
+    /* Retire tout padding autour de `.food-item` */
+    margin: 0;
+    /* Retire toute marge */
 }
 
 .food-info {
     text-align: center;
-    margin-top: 5px; /* Réduit l'écart avec l'image */
+    margin-top: 5px;
+    /* Réduit l'écart avec l'image */
 }
 
 .food-info h3 {
     font-size: 16px;
-    margin: 5px 0; /* Réduit l'espacement supérieur et inférieur */
+    margin: 5px 0;
+    /* Réduit l'espacement supérieur et inférieur */
 }
 
 .food-info .price {
     font-size: 14px;
     color: #e67e22;
-    margin-top: 2px; /* Réduit l'espacement au-dessus du prix */
+    margin-top: 2px;
+    /* Réduit l'espacement au-dessus du prix */
 }
 
 
 .food-info {
     text-align: center;
-    margin-top: 5px; /* Réduit l'écart avec l'image */
+    margin-top: 5px;
+    /* Réduit l'écart avec l'image */
 }
 
 .food-info h3 {
     font-size: 16px;
-    margin: 5px 0; /* Réduit l'espacement supérieur et inférieur */
+    margin: 5px 0;
+    /* Réduit l'espacement supérieur et inférieur */
 }
 
 .food-info .price {
     font-size: 14px;
     color: #e67e22;
-    margin-top: 2px; /* Réduit l'espacement au-dessus du prix */
+    margin-top: 2px;
+    /* Réduit l'espacement au-dessus du prix */
 }
 
 /* Pour les petites tailles d'écran, ajuster le nombre de produits sur chaque ligne */
@@ -325,17 +334,23 @@ body {
 
 /* Styles pour la modale de confirmation de commande */
 .modal-livraison {
-    display: none; /* Masquer par défaut */
+    display: none;
+    /* Masquer par défaut */
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Centre la modale */
-    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
-    width: 80%; /* Ajuster la largeur selon besoin */
-    max-width: 600px; /* Largeur maximale */
+    transform: translate(-50%, -50%);
+    /* Centre la modale */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Fond semi-transparent */
+    width: 80%;
+    /* Ajuster la largeur selon besoin */
+    max-width: 600px;
+    /* Largeur maximale */
     padding: 20px;
     border-radius: 10px;
-    z-index: 1000; /* S'assurer que la modale est au-dessus des autres éléments */
+    z-index: 1000;
+    /* S'assurer que la modale est au-dessus des autres éléments */
 }
 
 .modal-livraison__content {
@@ -458,7 +473,8 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 80%; /* Ajustez cette valeur pour la taille souhaitée */
+    width: 80%;
+    /* Ajustez cette valeur pour la taille souhaitée */
     max-width: 500px;
     background-color: white;
     border: 1px solid #ccc;
@@ -467,7 +483,8 @@ body {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 1000;
     overflow-y: auto;
-    max-height: 80vh; /* Limite la hauteur pour ne pas dépasser l'écran */
+    max-height: 80vh;
+    /* Limite la hauteur pour ne pas dépasser l'écran */
 }
 
 /* Masquer le défilement horizontal si présent */
@@ -485,12 +502,14 @@ body {
 }
 
 .cart-container button:first-of-type {
-    background-color: #4CAF50; /* Couleur pour le bouton "Valider commande" */
+    background-color: #4CAF50;
+    /* Couleur pour le bouton "Valider commande" */
     color: white;
 }
 
 .cart-container button:last-of-type {
-    background-color: #f44336; /* Couleur pour le bouton "Fermer" */
+    background-color: #f44336;
+    /* Couleur pour le bouton "Fermer" */
     color: white;
 }
 
@@ -599,7 +618,8 @@ body {
     z-index: 1000;
     overflow-y: auto;
     max-height: 80vh;
-    display: none; /* Masqué par défaut */
+    display: none;
+    /* Masqué par défaut */
 }
 
 /* Style pour chaque item dans le panier */
@@ -621,11 +641,13 @@ body {
 }
 
 .cart-container button:first-of-type {
-    background-color: #4CAF50; /* Bouton "Valider commande" */
+    background-color: #4CAF50;
+    /* Bouton "Valider commande" */
 }
 
 .cart-container button:last-of-type {
-    background-color: #f44336; /* Bouton "Fermer" */
+    background-color: #f44336;
+    /* Bouton "Fermer" */
 }
 
 .cart-container button:hover {
@@ -769,7 +791,8 @@ body {
 
 .modal-description {
     font-size: 14px;
-    color: #1fad2b !important; /* Use !important to enforce this color */
+    color: #1fad2b !important;
+    /* Use !important to enforce this color */
     line-height: 1.5;
     margin: 10px 0;
     white-space: pre-line;
@@ -795,7 +818,8 @@ body {
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
     text-align: center;
-    flex: 1 1 120px; /* Minimum button width */
+    flex: 1 1 120px;
+    /* Minimum button width */
 }
 
 .filter-button.active {
@@ -833,3 +857,64 @@ body {
     background-position: center;
     min-height: 100vh;
 } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modal-product-image {
+    width: 100%;
+    height: auto;
+}
+
+.modal-product-video {
+    width: 100%;
+    height: auto;
+}
+
+.modal-buttons,
+.view-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.view-buttons button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.view-buttons button:hover {
+    background-color: #ccc;
+}
+
+.modal-buttons button {
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.modal-buttons .cancel-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.modal-buttons .cancel-button:hover {
+    background-color: #e53935;
+}

@@ -7,6 +7,7 @@ const products = [
         originalPrice: 20,
         category: 'electronic',
         imgSrc: './image/menu-1.png',
+        videoSrc: './video/video.mp4', // Ajoutez ce champ pour les vidéos
         description: 'Un plat de spaghettis savoureux avec sauce maison',
         modalDescription: 'Our special spaghetti with fresh ingredients and homemade sauce'
     },
@@ -15,7 +16,8 @@ const products = [
         name: 'Viande',
         price: 15,
         category: 'traditionnel',
-        imgSrc: './image/menu-3.png'
+        imgSrc: './image/menu-3.png',
+        videoSrc: './video/viande.mp4' // Ajoutez ce champ pour les vidéos
     },
     {
         id: 3,
@@ -35,13 +37,14 @@ const products = [
         name: 'Plat Vegan',
         price: 10,
         category: 'vegan',
-        imgSrc: './image/vegan-dish.jpg' },
+        imgSrc: './image/menus.jpg' },
     {
         id: 6,
         name: 'Dessert',
         price: 5,
         category: 'dessert',
         imgSrc: './image/dessert.jpg' }
+    // Ajoutez des vidéos pour les autres produits si nécessaire
 ];
 
 export default products;
