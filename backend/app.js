@@ -1,28 +1,24 @@
 const express = require('express');
 const cors = require('cors');
-const orderRoutes = require('./routes/orderRoutes');
+const bodyParser = require('body-parser');
+const authRoutes = require('./routes/authRoutes');
+const orderRoutes = require('./routes/orderRoutes'); // Ajoutez cette ligne
 
 const app = express();
+const port = 5000;
 
-// Configuration de CORS pour permettre les requêtes depuis le frontend
-app.use(cors({
-    origin: 'http://localhost:3000', // Adresse de votre frontend
-}));
+app.use(cors());
+app.use(bodyParser.json());
 
-// Middleware pour traiter les requêtes JSON
-app.use(express.json());
-
-// Enregistrement des routes
-app.use('/api', orderRoutes);
-
-// Middleware pour gérer les erreurs
-app.use((err, req, res, next) => {
-    console.error(err.stack);
-    res.status(500).send({ message: 'Erreur interne du serveur' });
+app.use((req, res, next) => {
+    console.log(`${req.method} ${req.url}`); // Log chaque requête
+    next();
 });
 
-// Lancer le serveur
-const PORT = 5000;
-app.listen(PORT, () => {
-    console.log(`Serveur en cours d'exécution sur http://localhost:${PORT}`);
+// Utiliser les routes définies
+app.use('/api', authRoutes);
+app.use('/api', orderRoutes); // Ajoutez cette ligne
+
+app.listen(port, () => {
+    console.log(`Serveur en cours d'exécution sur http://localhost:${port}`);
 });

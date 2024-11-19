@@ -62,4 +62,19 @@ router.put('/orders/:id/status', (req, res) => {
     });
 });
 
+router.get('/orders', async (req, res) => {
+    try {
+        db.query('SELECT * FROM orders', (err, results) => {
+            if (err) {
+                console.error('Erreur lors du chargement des commandes', err);
+                return res.status(500).json({ error: 'Erreur lors du chargement des commandes' });
+            }
+            res.json(results);
+        });
+    } catch (error) {
+        console.error('Erreur lors du chargement des commandes', error);
+        res.status(500).json({ error: 'Erreur lors du chargement des commandes' });
+    }
+});
+
 module.exports = router;
