@@ -857,18 +857,17 @@ body {
     background-position: center;
     min-height: 100vh;
 } */
+.modal {
+    max-width: 600px; /* Limite la largeur du modal */
+    width: 90%; /* Prend 90% de la largeur de l'écran */
+    margin: auto; /* Centre le modal */
+    overflow: hidden; /* Cache le contenu qui déborde */
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.modal-content {
+    overflow-y: auto; /* Permet le défilement vertical si le contenu dépasse */
+    max-height: 80vh; /* Limite la hauteur à 80% de la hauteur de la fenêtre */
+}
 
 .modal-product-image {
     width: 100%;

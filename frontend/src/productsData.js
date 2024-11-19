@@ -7,7 +7,7 @@ const products = [
         originalPrice: 20,
         category: 'electronic',
         imgSrc: './image/menu-1.png',
-        videoSrc: './video/video.mp4', // Ajoutez ce champ pour les vidéos
+        videoSrc: './video/video.mp4',
         description: 'Un plat de spaghettis savoureux avec sauce maison',
         modalDescription: 'Our special spaghetti with fresh ingredients and homemade sauce'
     },
@@ -17,7 +17,7 @@ const products = [
         price: 15,
         category: 'traditionnel',
         imgSrc: './image/menu-3.png',
-        videoSrc: './video/viande.mp4' // Ajoutez ce champ pour les vidéos
+        videoSrc: './video/viande.mp4'
     },
     {
         id: 3,
