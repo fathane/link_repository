@@ -145,7 +145,11 @@ function App() {
                 />
                 <Route path="/confirmation" element={<ConfirmationPage />} />
                 <Route path="/login" element={<AdminLoginPage />} />
-                <Route path="/admin" element={<ProtectedRoute><AdminPage /></ProtectedRoute>} />
+                <Route path="/admin" element={
+                    <ProtectedRoute>
+                        <AdminPage />
+                    </ProtectedRoute>
+                } />
             </Routes>
 
             {selectedProduct && (

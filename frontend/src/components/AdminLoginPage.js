@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import './auth.css'; // Assurez-vous que ce chemin est correct
+import './auth.css';
 
 function AdminLoginPage() {
     const [email, setEmail] = useState('');
