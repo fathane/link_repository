@@ -10,7 +10,7 @@ function AdminPage() {
         const fetchOrders = async () => {
             try {
                 const response = await axios.get('http://localhost:5000/api/orders');
-                console.log(response.data); // Vérifiez les données reçues dans la console
+                console.log(response.data);
                 setOrders(response.data);
             } catch (error) {
                 setErrorMessage('Erreur lors du chargement des commandes. Veuillez réessayer.');

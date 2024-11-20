@@ -126,7 +126,7 @@ function App() {
             </div>
 
             <Routes>
-                <Route path="/" element={<Navigate to="/menu" />} />
+                <Route path="/" element={<Navigate to="/menu" replace />} />
                 <Route
                     path="/menu"
                     element={
@@ -144,10 +144,8 @@ function App() {
                     element={<ValidateOrder cartItems={cart} totalPrice={totalPrice} onEmptyCart={emptyCart} />}
                 />
                 <Route path="/confirmation" element={<ConfirmationPage />} />
-                <Route path="/link" element={<AdminLoginPage />} />
-                <Route element={<ProtectedRoute />}>
-                    <Route path="/admin" element={<AdminPage />} />
-                </Route>
+                <Route path="/login" element={<AdminLoginPage />} />
+                <Route path="/admin" element={<ProtectedRoute><AdminPage /></ProtectedRoute>} />
             </Routes>
 
             {selectedProduct && (

@@ -10,15 +10,12 @@ function AdminLoginPage() {
     const navigate = useNavigate();
 
     const handleLogin = async () => {
-        console.log('Tentative de connexion:', { email, password }); // Log des informations envoyées
         try {
-            const response = await axios.post('http://localhost:5000/api/link', { email, password });
-            console.log('Réponse:', response.data); // Log de la réponse du backend
+            const response = await axios.post('http://localhost:5000/api/login', { email, password });
             localStorage.setItem('token', response.data.token);
             axios.defaults.headers.common['Authorization'] = `Bearer ${response.data.token}`;
-            navigate('/admin');
+            navigate('/admin'); // Rediriger vers /admin après une connexion réussie
         } catch (error) {
-            console.error('Erreur de connexion:', error.response ? error.response.data : error.message);
             setError('Email ou mot de passe incorrect');
         }
     };

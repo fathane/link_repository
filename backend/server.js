@@ -11,13 +11,12 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.use((req, res, next) => {
-    console.log(`${req.method} ${req.url}`); // Log chaque requête
+    console.log(`${req.method} ${req.url}`);
     next();
 });
 
-// Utiliser les routes définies
 app.use('/api', authRoutes);
-app.use('/api', orderRoutes); // Ajoutez cette ligne
+app.use('/api', orderRoutes);
 
 app.listen(port, () => {
     console.log(`Serveur en cours d'exécution sur http://localhost:${port}`);

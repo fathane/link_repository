@@ -1,15 +1,15 @@
 import React from 'react';
-import { Navigate, Outlet } from 'react-router-dom';
+import { Navigate } from 'react-router-dom';
 import axios from 'axios';
 
-const ProtectedRoute = () => {
+const ProtectedRoute = ({ children }) => {
     const token = localStorage.getItem('token');
 
     if (token) {
         axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
-        return <Outlet />;
+        return children;
     } else {
-        return <Navigate to="/login/link" />;
+        return <Navigate to="/login" replace />;
     }
 };
 

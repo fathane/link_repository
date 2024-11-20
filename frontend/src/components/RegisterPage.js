@@ -11,8 +11,8 @@ function RegisterPage() {
 
     const handleRegister = async () => {
         try {
-            await axios.post('http://localhost:5000/api/register', { email, password });
-            navigate('/login');
+            await axios.post('http://localhost:5000/api/login', { email, password });
+            navigate('/admin');
         } catch (error) {
             setError('Erreur lors de l\'enregistrement');
         }
