@@ -1,4 +1,5 @@
 // src/productsData.js
+
 const products = [
     {
         id: 1,
@@ -17,7 +18,7 @@ const products = [
         price: 15,
         category: 'traditionnel',
         imgSrc: './image/menu-3.png',
-        videoSrc: './video/viande.mp4'
+        videoSrc: './video/nike.mp4'
     },
     {
         id: 3,

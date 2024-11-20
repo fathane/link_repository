@@ -42,7 +42,7 @@ function CartPage({ cart, onRemoveFromCart }) {
                 )}
             </div>
             <div className="cart-summary">
-                <span className="total-general">Total Général ({cart.length} articles) = {calculateTotal()}FCFA</span>
+                <span className="total-general">Total Général ({cart.length} articles) = {calculateTotal()} FCFA</span>
                 <button className="validate-button" onClick={handleProceedToDelivery}>
                     Procéder à la livraison
                 </button>

@@ -2,7 +2,7 @@ const db = require('../config/db');
 
 const createOrder = (req, res) => {
     const { items, deliveryInfo, totalPrice } = req.body;
-    console.log('Requête reçue:', JSON.stringify(req.body, null, 2)); // Log complet des données reçues
+    console.log('Requête reçue:', JSON.stringify(req.body, null, 2));
 
     // Vérification des données
     if (!items || !deliveryInfo || !totalPrice) {
