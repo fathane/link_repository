@@ -1,4 +1,5 @@
 const express = require('express');
+const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const { check, validationResult } = require('express-validator');
 const db = require('../config/db');
@@ -23,12 +24,15 @@ router.post('/login', [
             if (results.length === 0) {
                 return res.status(401).json({ error: 'Email ou mot de passe incorrect' });
             }
-            const isMatch = (password === results[0].password);
+
+            const user = results[0];
+            const isMatch = await bcrypt.compare(password, user.password); // Comparaison du mot de passe
+
             if (!isMatch) {
                 return res.status(401).json({ error: 'Email ou mot de passe incorrect' });
             }
 
-            const token = jwt.sign({ userId: results[0].id }, 'SECRET_KEY', { expiresIn: '1h' });
+            const token = jwt.sign({ userId: user.id }, 'SECRET_KEY', { expiresIn: '1h' });
             req.session.token = token; // Stocker le token dans la session
             res.json({ token });
         });

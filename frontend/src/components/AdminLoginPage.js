@@ -23,7 +23,7 @@ function AdminLoginPage() {
 
     return (
         <div className="auth-container">
-            <h1>Connexion Admin</h1>
+            <h1>Connexion</h1>
             <input
                 type="email"
                 value={email}
