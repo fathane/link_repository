@@ -12,8 +12,9 @@ function AdminLoginPage() {
     const handleLogin = async () => {
         try {
             const response = await axios.post('http://localhost:5000/api/login', { email, password });
-            localStorage.setItem('token', response.data.token);
-            axios.defaults.headers.common['Authorization'] = `Bearer ${response.data.token}`;
+            const token = response.data.token;
+            sessionStorage.setItem('token', token);
+            axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
             navigate('/admin'); // Rediriger vers /admin après une connexion réussie
         } catch (error) {
             setError('Email ou mot de passe incorrect');

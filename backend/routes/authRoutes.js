@@ -2,7 +2,6 @@ const express = require('express');
 const jwt = require('jsonwebtoken');
 const { check, validationResult } = require('express-validator');
 const db = require('../config/db');
-
 const router = express.Router();
 
 router.post('/login', [
@@ -30,6 +29,7 @@ router.post('/login', [
             }
 
             const token = jwt.sign({ userId: results[0].id }, 'SECRET_KEY', { expiresIn: '1h' });
+            req.session.token = token; // Stocker le token dans la session
             res.json({ token });
         });
     } catch (error) {
