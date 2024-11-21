@@ -19,7 +19,7 @@ const CheckoutPage = () => {
     };
 
     try {
-      const response = await axios.post('http://localhost:3000/api/orders', orderData);
+      const response = await axios.post('https://link-repository.onrender.com/api/orders', orderData);
       console.log('Commande envoyée avec succès', response.data);
       alert('Commande validée !');
     } catch (error) {
