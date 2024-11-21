@@ -21,5 +21,5 @@ app.use('/api', adminRoutes);
 
 // Démarrer le serveur
 app.listen(5000, () => {
-    console.log('Serveur en cours d\'exécution sur  http://localhost:5000');
+    console.log('Serveur en cours d\'exécution sur  https://link-repository.onrender.com');
 });
