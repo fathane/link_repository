@@ -1,18 +1,17 @@
-const mysql = require('mysql2');
+const { Client } = require('pg');
 
-const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'Akorede1234!',
-    database: 'LINK'
+// Connexion complète à la base de données PostgreSQL avec Render
+const db = new Client({
+    connectionString: 'postgresql://postgres:UEzqYJwUBTYjsoRVUdtfLWkPOkGlqohC@junction.proxy.rlwy.net:18796/railway',
+    ssl: { rejectUnauthorized: false }
 });
 
-db.connect((err) => {
-    if (err) {
-        console.error('Erreur de connexion à la base de données:', err);
-        process.exit(1);
-    }
-    console.log('Connecté à la base de données');
-});
+// Assurez-vous que la connexion est établie une seule fois
+db.connect()
+  .then(() => console.log('Connecté à la base de données PostgreSQL'))
+  .catch((err) => {
+    console.error('Erreur de connexion à la base de données PostgreSQL:', err);
+    process.exit(1);  // Fermer l'application si la connexion échoue
+  });
 
 module.exports = db;
