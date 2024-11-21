@@ -1,67 +1,40 @@
-// src/productsData.js
-
-const products = [
+const electronicProducts = [
     {
         id: 1,
-        name: 'adidas',
+        name: 'Spaghetti',
         price: 15,
         originalPrice: 20,
         category: 'electronic',
-        imgSrc: './image/vert.avif',
+        imgSrc: './image/menu-1.png',
         videoSrc: './video/video.mp4',
-        stock: "illimité",
+        stock: 'illimité',
         description: 'Un plat de spaghettis savoureux avec sauce maison',
         modalDescription: 'Our special spaghetti with fresh ingredients and homemade sauce'
-    },
+    }
+    // Ajoute plus de produits électroniques ici
+];
+
+const traditionalProducts = [
     {
         id: 2,
         name: 'Nike air',
         price: 15,
         category: 'traditionnel',
+        stock: 'en stock',
+        description: 'Nike Aire max pointure valide\n Pointure 37-49',
+        modalDescription: '✅ Nike Aire max pointure valide\n ✅ Pointure 37-49',
         imgSrc: './image/nike.jpg',
         videoSrc: './video/nike.mp4'
-    },
-    {
-        id: 3,
-        name: 'Sauce verte',
-        price: 15,
-        category: 'traditionnel',
-        imgSrc: './image/menu-4.png'
-    },
-    {
-        id: 4,
-        name: 'Riz blanc',
-        price: 15,
-        category: 'traditionnel',
-        imgSrc: './image/menu-5.png' },
-    {
-        id: 5,
-        name: 'Plat Vegan',
-        price: 10,
-        category: 'vegan',
-        imgSrc: './image/menus.jpg' },
-    {
-        id: 6,
-        name: 'Dessert',
-        price: 5,
-        category: 'dessert',
-        imgSrc: './image/dessert.jpg'
-    },
-    {
-        id: 7,
-        name: 'Dessert',
-        price: 5,
-        category: 'dessert',
-        imgSrc: './image/dessert.jpg'
-    },
-    {
-        id: 8,
-        name: 'Dessert',
-        price: 5,
-        category: 'dessert',
-        imgSrc: './image/dessert.jpg'
     }
-    // Ajoutez des vidéos pour les autres produits si nécessaire
+    // Ajoute plus de produits traditionnels ici
 ];
 
-export default products;
+// Ajoute d'autres catégories de produits si nécessaire
+
+const products = [
+    ...electronicProducts,
+    ...traditionalProducts
+    // Ajoute d'autres listes de produits ici
+];
+
+export { electronicProducts, traditionalProducts, products };

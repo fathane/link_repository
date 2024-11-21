@@ -12,10 +12,6 @@ function Modal({ product, onClose, onAddToCart }) {
         onClose();
     };
 
-    const toggleView = () => {
-        setShowVideo(!showVideo);
-    };
-
     return (
         <div className="modal-overlay" onClick={onClose}>
             <div className="modal-content" onClick={e => e.stopPropagation()}>
@@ -26,7 +22,7 @@ function Modal({ product, onClose, onAddToCart }) {
                     <img src={product.imgSrc} alt={product.name} className="modal-product-image" />
                 )}
                 <p>Prix: {product.price} FCFA</p>
-                <p>Stock: <span style={{ color: 'green' }}>{product.stock}</span></p> {/* Ajout de la ligne pour le stock */}
+                <p>Stock: <span style={{ color: 'red' }}>{product.stock}</span></p> {/* Texte de couleur */}
                 <p className="modal-description">{product.modalDescription || product.description}</p>
                 <div className="quantity-container">
                     <label>Quantité:</label>
@@ -41,7 +37,6 @@ function Modal({ product, onClose, onAddToCart }) {
                 <div className="view-buttons">
                     <button onClick={() => setShowVideo(false)}>Image</button>
                     <button onClick={() => setShowVideo(true)}>Vidéo</button>
-                    <button onClick={toggleView}>Basculer</button> {/* Bouton pour utiliser toggleView */}
                 </div>
 
                 <div className="modal-buttons">
