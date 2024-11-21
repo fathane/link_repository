@@ -22,7 +22,7 @@ function Modal({ product, onClose, onAddToCart }) {
                     <img src={product.imgSrc} alt={product.name} className="modal-product-image" />
                 )}
                 <p>Prix: {product.price} FCFA</p>
-                <p>Stock: <span style={{ color: 'red' }}>{product.stock}</span></p> {/* Texte de couleur */}
+                <p>Stock: <span style={{ color: 'green' }}>{product.stock}</span></p> {/* Texte de couleur */}
                 <p className="modal-description">{product.modalDescription || product.description}</p>
                 <div className="quantity-container">
                     <label>Quantité:</label>

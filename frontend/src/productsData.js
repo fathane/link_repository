@@ -1,40 +1,28 @@
-const electronicProducts = [
+
+const products = [
     {
         id: 1,
-        name: 'Spaghetti',
-        price: 15,
-        originalPrice: 20,
+        name: 'adidas',
+        price: 10000,
+        originalPrice: 15000,
         category: 'electronic',
-        imgSrc: './image/menu-1.png',
+        imgSrc: './image/vert.avif',
         videoSrc: './video/video.mp4',
-        stock: 'illimité',
-        description: 'Un plat de spaghettis savoureux avec sauce maison',
-        modalDescription: 'Our special spaghetti with fresh ingredients and homemade sauce'
-    }
-    // Ajoute plus de produits électroniques ici
-];
-
-const traditionalProducts = [
+        description: '✅Un plat de <span style="color: red;">spaghettis</span> savoureux avec sauce maison',
+        modalDescription: 'Our special spaghetti with fresh ingredients and homemade sauce\n Our special spaghetti with fresh ingredients and homemade sauce\n Our special spaghetti with fresh ingredients and homemade sauce\n Our special spaghetti with fresh ingredients and homemade sauce\nOur special spaghetti with fresh ingredients and homemade sauce'
+    },
     {
         id: 2,
         name: 'Nike air',
-        price: 15,
+        price: 15000,
+        originalPrice: 25000,
         category: 'traditionnel',
-        stock: 'en stock',
         description: 'Nike Aire max pointure valide\n Pointure 37-49',
         modalDescription: '✅ Nike Aire max pointure valide\n ✅ Pointure 37-49',
         imgSrc: './image/nike.jpg',
         videoSrc: './video/nike.mp4'
-    }
-    // Ajoute plus de produits traditionnels ici
+    },
+    // ... Autres produits
 ];
 
-// Ajoute d'autres catégories de produits si nécessaire
-
-const products = [
-    ...electronicProducts,
-    ...traditionalProducts
-    // Ajoute d'autres listes de produits ici
-];
-
-export { electronicProducts, traditionalProducts, products };
+export default products;

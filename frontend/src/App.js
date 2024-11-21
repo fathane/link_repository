@@ -10,7 +10,7 @@ import ConfirmationPage from './components/ConfirmationPage';
 import AdminPage from './components/AdminPage';
 import AdminLoginPage from './components/AdminLoginPage';
 import ProtectedRoute from './components/ProtectedRoute';
-import { products } from './productsData'; // Seulement importer products
+import products from './productsData';
 
 function App() {
     const [cart, setCart] = useState([]);
