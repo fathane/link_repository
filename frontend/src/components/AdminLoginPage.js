@@ -11,7 +11,7 @@ function AdminLoginPage() {
 
     const handleLogin = async () => {
         try {
-            const response = await axios.post('http://localhost:5000/api/login', { email, password });
+            const response = await axios.post(' http://localhost:5000/api/login', { email, password });
             const token = response.data.token;
             sessionStorage.setItem('token', token);
             axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;

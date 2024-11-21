@@ -40,7 +40,7 @@ function DeliveryForm() {
             };
             console.log("Données de commande envoyées:", orderData);
 
-            const response = await axios.post('http://localhost:5000/api/orders', orderData);
+            const response = await axios.post(' http://localhost:5000/api/orders', orderData);
             console.log("Réponse du serveur:", response.data);
 
             navigate('/confirmation');

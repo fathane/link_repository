@@ -9,7 +9,7 @@ function AdminPage() {
     useEffect(() => {
         const fetchOrders = async () => {
             try {
-                const response = await axios.get('http://localhost:5000/api/orders');
+                const response = await axios.get(' http://localhost:5000/api/orders');
                 console.log(response.data);
                 setOrders(response.data);
             } catch (error) {
@@ -22,7 +22,7 @@ function AdminPage() {
 
     const handleStatusChange = async (orderId, newStatus) => {
         try {
-            await axios.put(`http://localhost:5000/api/orders/${orderId}/status`, { status: newStatus });
+            await axios.put(` http://localhost:5000/api/orders/${orderId}/status`, { status: newStatus });
             setOrders(prevOrders =>
                 prevOrders.map(order =>
                     order.id === orderId ? { ...order, status: newStatus } : order
