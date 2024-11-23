@@ -27,11 +27,11 @@ function CartPage({ cart, onRemoveFromCart }) {
                 {cart.length > 0 ? (
                     cart.map((item, index) => (
                         <div key={index} className="cart-item">
-                            <img src={item.imgSrc} alt={item.name} className="cart-item-image" />
+                            <img src={`${process.env.PUBLIC_URL}${item.imgSrcs[0]}`} alt={item.name} className="cart-item-image" /> {/* Utilise le premier chemin d'image */}
                             <span className="cart-item-name">{item.name}</span>
                             <span className="cart-item-quantity">Quantité: {item.quantity}</span>
-                            <span className="cart-item-price">Prix unitaire: {item.price}FCFA</span>
-                            <span className="cart-item-total">Total: {item.quantity * item.price}FCFA</span>
+                            <span className="cart-item-price">Prix unitaire: {item.price} FCFA</span>
+                            <span className="cart-item-total">Total: {item.quantity * item.price} FCFA</span>
                             <button onClick={() => onRemoveFromCart(item.id)} className="remove-button">
                                 Supprimer
                             </button>
