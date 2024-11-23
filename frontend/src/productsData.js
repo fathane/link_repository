@@ -193,7 +193,7 @@ const products = [
         name: 'Nike Air Jordan Retro High OG coloris blanc, noir et marron',
         price: 19995,
         category: 'habillement',
-        imgSrcs: ['./image/nike_noir_blanc_marron/image1.jpeg', './image/nike_noir_blanc_marron/image2.jpeg', './image/nike_noir_blanc_marron/image3.jpeg', './image/nike_noir_blanc_marron/image4.jpeg', './image/nike_noir_blanc_marron/image5.jpeg'],
+        imgSrcs: ['./image/nike_noir_blanc_marron/image1.jpeg', './image/nike_noir_blanc_marron/image2.jpeg', './image/nike_noir_blanc_marron/image3.jpeg', './image/nike_noir_blanc_marron/image4.jpeg'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Chaussures décontractées',
@@ -204,7 +204,7 @@ const products = [
         name: 'Nike Dunk Low Light Bone vert',
         price: 18000,
         category: 'habillement',
-        imgSrcs: ['./image/nike_noir_vert/image1.jpeg', './image/nike_noir_vert/image2.jpeg', './image/nike_noir_vert/image3.jpeg', './image/nike_noir_vert/image4.jpeg', './image/nike_noir_vert/image5.jpeg'],
+        imgSrcs: ['./image/nike_noir_vert/image1.jpeg', './image/nike_noir_vert/image2.jpeg', './image/nike_noir_vert/image3.jpeg', './image/nike_noir_vert/image4.jpeg'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Chaussures décontractées',
@@ -215,7 +215,7 @@ const products = [
         name: 'Nike Dunk Low Light Bone, vert',
         price: 18000,
         category: 'habillement',
-        imgSrcs: ['./image/nike_noir_vert/image1.jpeg', './image/nike_noir_vert/image2.jpeg', './image/nike_noir_vert/image3.jpeg', './image/nike_noir_vert/image4.jpeg', './image/nike_noir_vert/image5.jpeg'],
+        imgSrcs: ['./image/nike_noir_vert/image1.jpeg', './image/nike_noir_vert/image2.jpeg', './image/nike_noir_vert/image3.jpeg', './image/nike_noir_vert/image4.jpeg'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Chaussures décontractées',
@@ -226,7 +226,7 @@ const products = [
         name: 'Nike Dunk Low orange vif',
         price: 24900,
         category: 'habillement',
-        imgSrcs: ['./image/Nike_orange/image1.jpeg', './image/Nike_orange/image2.jpeg', './image/Nike_orange/image3.jpeg', './image/Nike_orange/image4.jpeg'],
+        imgSrcs: ['./image/Nike_orange/image1.jpeg', './image/Nike_orange/image2.jpeg', './image/Nike_orange/image3.jpeg'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Chaussures décontractées',
@@ -259,7 +259,7 @@ const products = [
         name: 'Puma sude xl',
         price: 26999,
         category: 'habillement',
-        imgSrcs: ['./image/puma_sude_xl/image1.jpeg', './image/puma_sude_xl/image2.jpeg', './image/puma_sude_xl/image3.jpeg'],
+        imgSrcs: ['./image/puma_sude_xl/image1.jpeg'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Chaussures décontractées',
@@ -303,4 +303,3 @@ const products = [
 ];
 
 export default products;
-
