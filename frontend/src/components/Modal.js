@@ -3,6 +3,7 @@ import '../menu.css';
 
 function Modal({ product, onClose, onAddToCart }) {
     const [quantity, setQuantity] = useState(1);
+    const [currentImageIndex, setCurrentImageIndex] = useState(0); // État pour gérer l'image actuelle
     const [showVideo, setShowVideo] = useState(false); // État pour basculer entre image et vidéo
 
     if (!product) return null;
@@ -12,6 +13,14 @@ function Modal({ product, onClose, onAddToCart }) {
         onClose();
     };
 
+    const nextImage = () => {
+        setCurrentImageIndex((currentImageIndex + 1) % product.imgSrcs.length);
+    };
+
+    const prevImage = () => {
+        setCurrentImageIndex((currentImageIndex - 1 + product.imgSrcs.length) % product.imgSrcs.length);
+    };
+
     return (
         <div className="modal-overlay" onClick={onClose}>
             <div className="modal-content" onClick={e => e.stopPropagation()}>
@@ -19,9 +28,13 @@ function Modal({ product, onClose, onAddToCart }) {
                 {showVideo ? (
                     <video src={product.videoSrc} controls className="modal-product-video"></video>
                 ) : (
-                    <img src={product.imgSrc} alt={product.name} className="modal-product-image" />
+                    <div className="image-container">
+                        <button className="nav-arrow left-arrow" onClick={prevImage}>&#10094;</button>
+                        <img src={product.imgSrcs[currentImageIndex]} alt={product.name} className="modal-product-image" />
+                        <button className="nav-arrow right-arrow" onClick={nextImage}>&#10095;</button>
+                    </div>
                 )}
-                <p>Prix: {product.price} FCFA</p>
+                <p>Prix: {product.price.toLocaleString()} FCFA</p>
                 <p>Stock: <span style={{ color: 'green' }}>{product.stock}</span></p> {/* Texte de couleur */}
                 <p className="modal-description">{product.modalDescription || product.description}</p>
                 <div className="quantity-container">

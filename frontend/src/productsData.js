@@ -1,30 +1,306 @@
-
 const products = [
     {
         id: 1,
-        name: 'adidas',
-        price: 10000,
-        originalPrice: 15000,
+        name: 'Nike Air marron',
+        price: 24800,
+        originalPrice: 36000,
         category: 'habillement',
-        imgSrc: './image/vert.avif',
-        videoSrc: './video/video.mp4',
-        stock: "illimite",
-        description: '✅Un plat de spaghettis savoureux avec sauce maison',
-        modalDescription: 'Adidas : Ces baskets Adidas sont idéales pour allier confort et style,\nque ce soit pour vos activités sportives ou pour un usage quotidien. Leur design moderne et leur finition de qualité offrent un excellent maintien\net s adaptent parfaitement à tous les styles.\nQue vous soyez sportif ou amateur de mode,\nelles sont un choix sûr pour vos journées actives'
+        imgSrcs: ['./image/image1.jpeg', './image/image2.jpeg', './image/image3.jpeg', './image/image4.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "illimité",
+        description: '✅ Chaussure tendance',
+        modalDescription: 'Avec un design moderne et une finition de qualité, ces baskets offrent un excellent maintien. Que vous soyez un passionné ou simplement à la recherche d un look tendance, les Air sont le choix parfait pour allier performance et élégance.'
     },
     {
         id: 2,
-        name: 'Nike air',
-        price: 15000,
-        originalPrice: 25000,
+        name: 'Adidas blanc, Stan Smith.',
+        price: 22500,
         category: 'habillement',
-        stock: "limité",
-        description: 'Nike Aire max pointure valide\n Pointure 37-49',
-        modalDescription: '✅Nike Air : Ces baskets Nike Air Max sont parfaites pour bouger avec style,\nque ce soit pour le sport ou tous les jours. Elles sont super confortables,\nabsorbent bien les chocs\net s’adaptent à tous les pieds, avec des pointures allant de 37 à 49.\nQue vous soyez sportif ou fan de looks tendance,\nelles seront votre meilleur allié.✅',
-        imgSrc: './image/nike.jpg',
-        videoSrc: './video/nike.mp4'
+        imgSrcs: ['./image/Adidas_blanc/image.jpeg', './image/Adidas_blanc/image2.jpeg', './image/Adidas_blanc/image3.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Adidas blanc, look élegant',
+        modalDescription: 'Avec leur design épuré et leur confort exceptionnel, ces baskets vous permettront de rester actif tout en ayant fière allure. Que ce soit pour une séance d entraînement intense ou une sortie décontractée, les Adidas blanches sont là pour vous soutenir.'
     },
-    // ... Autres produits
+    {
+        id: 3,
+        name: 'Adidas Campus bleu',
+        price: 24500,
+        category: 'habillement',
+        imgSrcs: ['./image/adidas_bleu/image1.jpeg', './image/adidas_bleu/image2.jpeg', './image/adidas_bleu/image3.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Chaussures décontractées',
+        modalDescription: '✅ Leur design dynamique et moderne assure un excellent maintien, vous permettant de vous déplacer avec aisance. Que vous soyez en train de courir ou de flâner en ville, ces baskets vous garantissent un look stylé et décontracté.'
+    },
+    {
+        id: 4,
+        name: 'Adidas Campus marron',
+        price: 24500,
+        category: 'habillement',
+        imgSrcs: ['./image/Adidas_marron/image1.jpeg', './image/Adidas_marron/image2.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Chaussures décontractées',
+        modalDescription: 'Avec leur design chic et leur qualité de fabrication, elles vous offrent un excellent maintien tout en ajoutant une touche de sophistication à votre tenue. Faites une déclaration de mode tout en vous sentant bien dans vos mouvements.'
+    },
+    {
+        id: 5,
+        name: 'Adidas Campus vert',
+        price: 24500,
+        category: 'habillement',
+        imgSrcs: ['./image/adidas_vert_fonce/image1.jpeg', './image/adidas_vert_fonce/image2.jpeg' , './image/adidas_vert_fonce/image3.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Chaussures décontractées',
+        modalDescription: '✅ Leur conception ergonomique garantit un maintien optimal, vous permettant de rester actif et élégant. Que vous soyez au gymnase ou en ville, ces baskets vous accompagneront avec style.'
+    },
+    {
+        id: 6,
+        name: 'Air blanc',
+        price: 24900,
+        originalPrice: 35000,
+        category: 'habillement',
+        imgSrcs: ['./image/Air_blanc/image1.jpeg', './image/Air_blanc/image2.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Chaussures décontractées',
+        modalDescription: 'Leur confort exceptionnel et leur style élégant font des Air blanches un choix parfait pour vos activités quotidiennes. Que vous couriez ou que vous vous détendiez, elles vous offrent le soutien dont vous avez besoin.'
+    },
+    {
+        id: 7,
+        name: 'Nike Air More Uptempo',
+        price: 24900,
+        category: 'habillement',
+        imgSrcs: ['./image/Air_maron/image1.jpeg', './image/Air_maron/image2.jpeg', './image/Air_maron/image3.jpeg', './image/Air_maron/image4.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Chaussures décontractées',
+        modalDescription: '✅ Avec un design élégant et un excellent maintien, elles vous permettent de bouger librement tout en ayant fière allure. Faites de chaque pas une déclaration de style avec les Air marron.'
+    },
+    {
+        id: 8,
+        name: 'Nike Air noir',
+        price: 22900,
+        category: 'habillement',
+        imgSrcs: ['./image/Air_noir/image1.jpeg', './image/Air_noir/image2.jpeg', './image/Air_noir/image3.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Chaussures décontractées',
+        modalDescription: 'Elles offrent un confort inégalé et s adaptent à toutes les pointures, faisant d elles un must-have pour toute garde-robe.'
+    },
+    {
+        id: 9,
+        name: 'Jordan bleu',
+        price: 19998,
+        category: 'habillement',
+        imgSrcs: ['./image/chaussure_bleu/image1.jpeg', './image/chaussure_bleu/image2.jpeg', './image/chaussure_bleu/image3.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Chaussures décontractées',
+        modalDescription: '✅ Leur design dynamique et leur confort exceptionnel vous permettent de rester actif tout en ayant fière allure. Que vous soyez en train de courir ou de flâner en ville, ces chaussures vous garantissent un look stylé.'
+    },
+    {
+        id: 10,
+        name: ' Air Jordan Retro noir',
+        price: 26500,
+        category: 'habillement',
+        imgSrcs: ['./image/Jordan_noir/image1.jpeg', './image/Jordan_noir/image2.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Chaussures décontractées',
+        modalDescription: '✅ Avec leur design audacieux et leur excellent maintien, elles vous permettent de vous déplacer avec aisance. Faites une déclaration de mode tout en vous sentant bien dans vos mouvements.'
+    },
+    {
+        id: 11,
+        name: 'New Balance 827 blanc',
+        price: 24900,
+        category: 'habillement',
+        imgSrcs: ['./image/new_balance_blanc/image1.jpeg', './image/new_balance_blanc/image2.jpeg', './image/new_balance_blanc/image3.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Chaussures décontractées',
+        modalDescription: '✅ Leur design élégant et leur qualité de fabrication vous garantissent un excellent maintien. Que vous soyez au gymnase ou en ville, les New Balance blanches sont là pour vous soutenir.'
+    },
+    {
+        id: 12,
+        name: 'New balance blanc',
+        price: 24000,
+        category: 'habillement',
+        imgSrcs: ['./image/New_balance_blanc/image1.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Chaussures décontractées',
+        modalDescription: 'Leur confort exceptionnel et leur style élégant font des New Balance blanches un choix parfait pour vos activités quotidiennes. Que vous couriez ou que vous vous détendiez, elles vous offrent le soutien dont vous avez besoin.'
+    },
+    {
+        id: 13,
+        name: 'New Balance 550 coloris beige et marron',
+        price: 24800,
+        category: 'habillement',
+        imgSrcs: ['./image/new_balance_noir_marron/image1.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Chaussures décontractées',
+        modalDescription: '✅ Avec leur design chic et leur qualité de fabrication, elles vous offrent un excellent maintien tout en ajoutant une touche de sophistication à votre tenue. Faites une déclaration de mode tout en vous sentant bien dans vos mouvements.'
+    },
+    {
+        id: 14,
+        name: 'New Balance 2002R vert pastel',
+        price: 24900,
+        category: 'habillement',
+        imgSrcs: ['./image/New_balance_vert/image1.jpeg', './image/New_balance_vert/image2.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Chaussures décontractées',
+        modalDescription: '✅ Leur conception ergonomique garantit un maintien optimal, vous permettant de rester actif et élégant. Que vous soyez au gymnase ou en ville, ces baskets vous accompagneront avec style.'
+    },
+    {
+        id: 15,
+        name: 'Nike blanc gris',
+        price: 19500,
+        category: 'habillement',
+        imgSrcs: ['./image/Nike_blanc_gris/image1.jpeg', './image/Nike_blanc_gris/image2.jpeg', './image/Nike_blanc_gris/image3.jpeg', './image/Nike_blanc_gris/image4.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Chaussures décontractées',
+        modalDescription: '✅ Leur design moderne et leur qualité de fabrication vous garantissent un excellent maintien. Que vous soyez sur le terrain ou en ville, les Nike blanches et grises sont là pour vous soutenir.'
+    },
+    {
+        id: 16,
+        name: 'Nike Dunk Low, coloris blanc, gris et marron',
+        price: 19000,
+        category: 'habillement',
+        imgSrcs: ['./image/nike_blanc_marron/image1.jpeg', './image/nike_blanc_marron/image2.jpeg', './image/nike_blanc_marron/image3.jpeg', './image/nike_blanc_marron/image4.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Chaussures décontractées',
+        modalDescription: '✅ Avec un design élégant et un excellent maintien, elles vous permettent de bouger librement tout en ayant fière allure. Faites de chaque pas une déclaration de style avec les Nike blanches et marron.'
+    },
+    {
+        id: 17,
+        name: 'Nike Air bleu',
+        price: 17900,
+        category: 'habillement',
+        imgSrcs: ['./image/Nike_bleu/image1.jpeg', './image/Nike_bleu/image2.jpeg', './image/Nike_bleu/image3.jpeg', './image/Nike_bleu/image4.jpeg', './image/Nike_bleu/image5.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Chaussures décontractées',
+        modalDescription: '✅ Leur design sophistiqué et leur qualité de fabrication en font un excellent choix pour toutes les occasions. Restez actif tout en affichant un style impeccable avec les Nike bleues.'
+    },
+    {
+        id: 18,
+        name: 'Nike Air Jordan Retro High OG coloris blanc, noir et marron',
+        price: 19995,
+        category: 'habillement',
+        imgSrcs: ['./image/nike_noir_blanc_marron/image1.jpeg', './image/nike_noir_blanc_marron/image2.jpeg', './image/nike_noir_blanc_marron/image3.jpeg', './image/nike_noir_blanc_marron/image4.jpeg', './image/nike_noir_blanc_marron/image5.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Chaussures décontractées',
+        modalDescription: '✅  Leur design moderne et leur confort exceptionnel vous permettent de rester actif tout en ayant fière allure. Que vous couriez ou que vous vous détendiez, elles vous offriront le soutien dont vous avez besoin.'
+    },
+    {
+        id: 19,
+        name: 'Nike Dunk Low Light Bone vert',
+        price: 18000,
+        category: 'habillement',
+        imgSrcs: ['./image/nike_noir_vert/image1.jpeg', './image/nike_noir_vert/image2.jpeg', './image/nike_noir_vert/image3.jpeg', './image/nike_noir_vert/image4.jpeg', './image/nike_noir_vert/image5.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Chaussures décontractées',
+        modalDescription: 'Leur conception ergonomique garantit un maintien optimal, vous permettant de rester actif et élégant. Que vous soyez au gymnase ou en ville, ces baskets vous accompagneront avec style.'
+    },
+    {
+        id: 20,
+        name: 'Nike Dunk Low Light Bone, vert',
+        price: 18000,
+        category: 'habillement',
+        imgSrcs: ['./image/nike_noir_vert/image1.jpeg', './image/nike_noir_vert/image2.jpeg', './image/nike_noir_vert/image3.jpeg', './image/nike_noir_vert/image4.jpeg', './image/nike_noir_vert/image5.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Chaussures décontractées',
+        modalDescription: 'Avec un design élégant et un excellent maintien, elles vous permettent de bouger librement tout en ayant fière allure. Faites de chaque pas une déclaration de style avec les Nike noir et vert.'
+    },
+    {
+        id: 21,
+        name: 'Nike Dunk Low orange vif',
+        price: 24900,
+        category: 'habillement',
+        imgSrcs: ['./image/Nike_orange/image1.jpeg', './image/Nike_orange/image2.jpeg', './image/Nike_orange/image3.jpeg', './image/Nike_orange/image4.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Chaussures décontractées',
+        modalDescription: 'Leur design dynamique et moderne assure un excellent maintien, vous permettant de vous déplacer avec aisance. Que vous soyez en train de courir ou de flâner en ville, ces baskets vous garantiront un look stylé et décontracté.'
+    },
+    {
+        id: 22,
+        name: 'Nike SB',
+        price: 21999,
+        category: 'habillement',
+        imgSrcs: ['./image/nike_vert/image1.jpeg', './image/nike_vert/image2.jpeg', './image/nike_vert/image3.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Chaussures décontractées',
+        modalDescription: 'Leur conception ergonomique garantit un maintien optimal, vous permettant de rester actif et élégant. Que vous soyez au gymnase ou en ville, ces baskets vous accompagneront avec style.'
+    },
+    {
+        id: 23,
+        name: 'Puma bleu, modèle Suede XL',
+        price: 26900,
+        category: 'habillement',
+        imgSrcs: ['./image/puma_bleu/image1.jpeg',],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Chaussures décontractées',
+        modalDescription: '✅Leur design dynamique et leur confort exceptionnel vous permettent de rester actif tout en ayant fière allure. Que vous soyez en train de courir ou de flâner en ville, ces chaussures vous garantiront un look stylé.'
+    },
+    {
+        id: 24,
+        name: 'Puma sude xl',
+        price: 26999,
+        category: 'habillement',
+        imgSrcs: ['./image/puma_sude_xl/image1.jpeg', './image/puma_sude_xl/image2.jpeg', './image/puma_sude_xl/image3.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Chaussures décontractées',
+        modalDescription: '✅Leur confort exceptionnel et leur style élégant font des Puma Sude XL un choix parfait pour vos activités quotidiennes. Que vous couriez ou que vous vous détendiez, elles vous offriront le soutien dont vous avez besoin.'
+    },
+    {
+        id: 25,
+        name: 'Nike Air noir\n AIR FLEA',
+        price: 24800,
+        category: 'habillement',
+        imgSrcs: ['./image/Air_image_black.jpeg', './image/Air_image_multicolor.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Chaussures décontractées',
+        modalDescription: '✅La Nike Air noire est une chaussure élégante et intemporelle, offrant une combinaison parfaite de style et de confort. Dotée de la technologie Air de Nike, elle procure un amorti supérieur pour un confort optimal tout au long de la journée.'
+    },
+    {
+        id: 26,
+        name: 'Nike Air couleur verte',
+        price: 24800,
+        category: 'habillement',
+        imgSrcs: ['./image/Air_image_green.jpeg', './image/Air_image_multicolor.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Chaussures décontractées',
+        modalDescription: '✅ La Nike Air couleur verte est une chaussure dynamique et moderne, parfaite pour ceux qui recherchent une paire audacieuse et confortable'
+    },
+    {
+        id: 27,
+        name: 'Nike Air couleur blanche',
+        price: 24800,
+        category: 'habillement',
+        imgSrcs: ['./image/Air_image_white.jpeg', './image/Air_image_multicolor.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Chaussures décontractées',
+        modalDescription: '✅ La Nike Air couleur verte est une chaussure dynamique et moderne, parfaite pour ceux qui recherchent une paire audacieuse et confortable'
+    },
+    // .
+    // ... autres produits
 ];
 
 export default products;
+

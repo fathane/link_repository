@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router } from 'react-router-dom'; // Assurez-vous d'utiliser un seul Router ici
+import { BrowserRouter as Router } from 'react-router-dom';
 import App from './App';
 import './index.css';
 
