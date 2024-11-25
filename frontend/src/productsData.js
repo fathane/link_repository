@@ -39,7 +39,7 @@ const products = [
         price: 24500,
         category: 'habillement',
         imgSrcs: ['./image/Adidas_marron/image1.jpeg', './image/Adidas_marron/image2.jpeg'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Adidas_campus_marron.mp4',
         stock: "en stock",
         description: 'Chaussures décontractées',
         modalDescription: 'Avec leur design chic et leur qualité de fabrication, elles vous offrent un excellent maintien tout en ajoutant une touche de sophistication à votre tenue. Faites une déclaration de mode tout en vous sentant bien dans vos mouvements.'
@@ -50,7 +50,7 @@ const products = [
         price: 24500,
         category: 'habillement',
         imgSrcs: ['./image/adidas_vert_fonce/image1.jpeg', './image/adidas_vert_fonce/image2.jpeg' , './image/adidas_vert_fonce/image3.jpeg'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Adidas_campus_vert.mp4',
         stock: "en stock",
         description: 'Chaussures décontractées',
         modalDescription: '✅ Leur conception ergonomique garantit un maintien optimal, vous permettant de rester actif et élégant. Que vous soyez au gymnase ou en ville, ces baskets vous accompagneront avec style.'
