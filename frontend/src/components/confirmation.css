@@ -1,0 +1,28 @@
+/* confirmation.css */
+.confirmation-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.menu-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.menu-button:hover {
+    background-color: #cc8400; /* Teinte plus foncée d'orange pour le survol */
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
