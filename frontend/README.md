@@ -1,6 +1,6 @@
-# Getting Started with Create LINK
+# Getting Started with Create Link
 
-This project was bootstrapped with [Create LINK](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create Link](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -14,7 +14,7 @@ Open [https://link-repository.onrender.com](https://link-repository.onrender.com
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`App
+### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
@@ -41,7 +41,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Learn More
 
-You can learn more in the [Create LINK documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can learn more in the [Create Link documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
