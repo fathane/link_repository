@@ -113,7 +113,7 @@ function App() {
 
             <div className="top-bar-second-line">
                 <div className="filter-container">
-                    {['tous', 'habillement', 'cuisine', 'electronic', 'decoration', 'mecanique'].map(category => (
+                    {['tous', 'habillement', 'cuisine', 'electronique', 'decoration', 'beauté'].map(category => (
                         <button
                             key={category}
                             className={`filter-button ${filter === category ? 'active' : ''}`}

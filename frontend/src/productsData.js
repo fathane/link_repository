@@ -300,6 +300,364 @@ const products = [
     },
     // .
     // ... autres produits
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ////////////////
+    {
+        id: 1000,
+        name: 'Ecouteur',
+        price: 4500,
+        category: 'electronique',
+        imgSrcs: ['./image/Martistore_calavi/air_pod/image1.png', './image/Martistore_calavi/air_pod/image2.png', './image/Martistore_calavi/air_pod/image3.png', './image/Martistore_calavi/air_pod/image4.png', './image/Martistore_calavi/air_pod/image5.png', './image/Martistore_calavi/air_pod/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Son de haute qualité et un confort optimal.',
+        modalDescription: '✅ Profitez d’un son exceptionnel avec ces écouteurs modernes, confortables et fiables, conçus pour une utilisation prolongée.'
+    },
+    {
+        id: 1001,
+        name: 'Jazz tam-tam bactérie',
+        price: 7000, //5000
+        category: 'tous',
+        imgSrcs: ['./image/Martistore_calavi/bacteries/image1.png', './image/Martistore_calavi/bacteries/image2.png', './image/Martistore_calavi/bacteries/image3.png', './image/Martistore_calavi/bacteries/image4.png', './image/Martistore_calavi/bacteries/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Un tam-tam ludique et éducatif.',
+        modalDescription: '✅ Découvrez ce tam-tam pour enfants, un instrument coloré et amusant qui développe la créativité et l’amour de la musique.'
+    },
+    {
+        id: 1002,
+        name: 'Moule pastel',
+        price: 900, //700
+        category: 'cuisine',
+        imgSrcs: ['./image/Martistore_calavi/forme_pates/image1.png', './image/Martistore_calavi/forme_pates/image2.png', './image/Martistore_calavi/forme_pates/image3.png', './image/Martistore_calavi/forme_pates/image4.png', './image/Martistore_calavi/forme_pates/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Moule pastel pratique et résistant.',
+        modalDescription: '✅ Simplifiez vos créations culinaires avec ce moule pastel, parfait pour des résultats impeccables et un design élégant.'
+    },
+    {
+        id: 1003,
+        name: 'Jeux de construction',
+        price: 6000, //700
+        category: 'tous',
+        imgSrcs: ['./image/Martistore_calavi/jouet/image1.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Jeu de construction police lot de 50 pcs',
+        modalDescription: 'Offrez à vos enfants un jeu de construction amusant et éducatif, parfait pour des heures de divertissement'
+    },
+    /*{
+        id: 1004,
+        name: 'lampe noel',
+        price: 24800,
+        category: 'decoration',
+        imgSrcs: ['./image/Martistore_calavi/lampe_noel/image1.png', './image/Martistore_calavi/lampe_noel/image2.png', './image/Martistore_calavi/lampe_noel/image3.png', './image/Martistore_calavi/lampe_noel/image4.png', './image/Martistore_calavi/lampe_noel/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Lampe de Noël élégante et festive, parfaite pour illuminer vos soirées et créer une ambiance chaleureuse.',
+        modalDescription: '✅ Ajoutez une touche magique à vos fêtes avec cette lampe de Noël au design unique et lumineux.'
+    },*/
+    {
+        id: 1005,
+        name: 'Lampe solaire de luxe',
+        price: 2450, //1700
+        category: 'decoration',
+        imgSrcs: ['./image/Martistore_calavi/lampe_solaire/image1.png', './image/Martistore_calavi/lampe_solaire/image2.png', './image/Martistore_calavi/lampe_solaire/image3.png', './image/Martistore_calavi/lampe_solaire/image4.png', './image/Martistore_calavi/lampe_solaire/image5.png', './image/Martistore_calavi/lampe_solaire/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Lampe solaire élégante et économique',
+        modalDescription: '✅ Profitez d un éclairage durable et écologique avec cette lampe solaire de luxe, parfaite pour vos décorations extérieures.'
+    },
+    {
+        id: 1006,
+        name: 'montre',
+        price: 2000,
+        category: 'electronique',
+        imgSrcs: ['./image/Martistore_calavi/montres/image1.png', './image/Martistore_calavi/montres/image2.png', './image/Martistore_calavi/montres/image3.png', './image/Martistore_calavi/montres/image4.png', './image/Martistore_calavi/montres/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Montre élégante et moderne, idéale pour allier style et fonctionnalité au quotidien',
+        modalDescription: '✅ Affichez votre style avec cette montre moderne, conçue pour allier praticité et élégance.'
+    },
+    {
+        id: 1007,
+        name: 'Moulinex',
+        price: 18000, //15000
+        category: 'cuisine',
+        imgSrcs: ['./image/Martistore_calavi/moulinex/image1.png', './image/Martistore_calavi/moulinex/image2.png', './image/Martistore_calavi/moulinex/image3.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Moulinex performant et polyvalent.',
+        modalDescription: '✅ Simplifiez vos préparations culinaires avec ce moulinex efficace et durable, conçu pour répondre à tous vos besoins en cuisine.'
+    },
+    {
+        id: 1008,
+        name: 'Ordinateur jeu pour enfant',
+        price: 15500, //11000
+        category: 'tous',
+        imgSrcs: ['./image/Martistore_calavi/ordinateur_jeu/image1.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Ordinateur éducatif et ludique.',
+        modalDescription: '✅ Offrez à votre enfant une expérience d’apprentissage amusante avec cet ordinateur de jeu interactif et intuitif.'
+    },
+    {
+        id: 1009,
+        name: 'Mini ventilateur rechargeablea',
+        price: 1950, //1500
+        category: 'tous',
+        imgSrcs: ['./image/Martistore_calavi/petit_ventillateur/image1.png', './image/Martistore_calavi/petit_ventillateur/image2.png', './image/Martistore_calavi/petit_ventillateur/image3.png', './image/Martistore_calavi/petit_ventillateur/image4.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Mini ventilateur, pratique et portable.',
+        modalDescription: '✅ Restez frais où que vous soyez avec ce mini ventilateur rechargeable, léger et puissant.'
+    },
+    /*{
+        id: 1010,
+        name: 'pistolet a bulles',
+        price: 24800,
+        category: 'tous',
+        imgSrcs: ['./image/Martistore_calavi/pistolet_a_bulles/image1.png', './image/Martistore_calavi/pistolet_a_bulles/image2.png', './image/Martistore_calavi/pistolet_a_bulles/image3.png', './image/Martistore_calavi/pistolet_a_bulles/image4.png', './image/Martistore_calavi/pistolet_a_bulles/image5.png', './image/Martistore_calavi/pistolet_a_bulles/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Pistolet à bulles amusant et facile à utiliser, parfait pour des moments de jeu et de détente en famille.',
+        modalDescription: '"✅ Créez des instants magiques avec ce pistolet à bulles, idéal pour les enfants et pour des jeux en extérieur.'
+    },*/
+    {
+        id: 1010,
+        name: 'tapis', 
+        price: 2500,
+        category: 'decoration',
+        imgSrcs: ['./image/Martistore_calavi/tapis_de_douche/image1.png', './image/Martistore_calavi/tapis_de_douche/image2.png', './image/Martistore_calavi/tapis_de_douche/image3.png', './image/Martistore_calavi/tapis_de_douche/image4.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Tapis de douche absorbant et confortable.',
+        modalDescription: '✅ Profitez de ce tapis de douche doux et absorbant, conçu pour garder votre sol propre et sec après chaque utilisation.'
+    },
+    {
+        id: 1011,
+        name: 'Chauffe eaux Scarlett',
+        price: 5500, //4000
+        category: 'cuisine',
+        imgSrcs: ['./image/Martistore_calavi/termousse/image1.png', './image/Martistore_calavi/termousse/image2.png', './image/Martistore_calavi/termousse/image3.png', './image/Martistore_calavi/termousse/image4.png', './image/Martistore_calavi/termousse/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Idéal pour fournir de l’eau chaude rapidement.',
+        modalDescription: '✅ Profitez d’une eau chaude instantanée avec ce chauffe-eaux Scarlett, conçu pour une utilisation pratique et rapide.'
+    },
+    {
+        id: 1026,
+        name: 'Tondeuse rechargeable',
+        price: 8000,
+        category: 'electronique',
+        imgSrcs: ['./image/Martistore_calavi/tondeuses/image1.png', './image/Martistore_calavi/tondeuses/image2.png', './image/Martistore_calavi/tondeuses/image3.png', './image/Martistore_calavi/tondeuses/image4.png', './image/Martistore_calavi/tondeuses/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Tondeuse rechargeable, pratique et efficace.',
+        modalDescription: '✅ Tondeuse rechargeable pour un usage pratique, offrant une coupe nette et précise à chaque utilisation.'
+    },
+    {
+        id: 1012,
+        name: 'verre à vin',
+        price: 7000, //5500
+        category: 'tous',
+        imgSrcs: ['./image/Martistore_calavi/verre_arrondi/image1.png', './image/Martistore_calavi/verre_arrondi/image2.png', './image/Martistore_calavi/verre_arrondi/image3.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Parfait pour vos moments conviviaux.',
+        modalDescription: '✅  Profitez de vos dégustations avec ce lot de verres à vin, idéal pour sublimer chaque instant. Lot de 6.'
+    },
+    {
+        id: 1013,
+        name: 'verre à whisky',
+        price: 5000, //3000
+        category: 'tous',
+        imgSrcs: ['./image/Martistore_calavi/verre_cylindrique/image1.png', './image/Martistore_calavi/verre_cylindrique/image2.png', './image/Martistore_calavi/verre_cylindrique/image3.png', './image/Martistore_calavi/verre_cylindrique/image4.png', './image/Martistore_calavi/verre_cylindrique/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Verre à whisky lisse de 290 ml.',
+        modalDescription: 'Un design raffiné pour un moment de dégustation parfait, ces verres ajoutent une touche de classe à chaque occasion.'
+    },
+    {
+        id: 1014,
+        name: 'verre',
+        price: 5500,
+        category: 'tous',
+        imgSrcs: ['./image/Martistore_calavi/verre_forme_ovale/image1.png', './image/Martistore_calavi/verre_forme_ovale/image2.png', './image/Martistore_calavi/verre_forme_ovale/image3.png', './image/Martistore_calavi/verre_forme_ovale/image4.png'],
+        videoSrc: './video/link.mp4',
+        stock: "Limité",
+        description: 'Un choix élégant pour votre table.',
+        modalDescription: 'Un design unique et pratique pour vos repas et moments de détente. Ces verres ajouteront une note raffinée à vos occasions spéciales. Lot de 6'
+    },
+    {
+        id: 1015,
+        name: 'Jouet automobile pour enfant',
+        price: 3500, //2500
+        category: 'tous',
+        imgSrcs: ['./image/Martistore_calavi/voitures_jeu/image1.png', './image/Martistore_calavi/voitures_jeu/image2.png', './image/Martistore_calavi/voitures_jeu/image3.png', './image/Martistore_calavi/voitures_jeu/image4.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Parfait pour des heures de jeu.',
+        modalDescription: '✅ Offrez à votre enfant des moments de jeu captivants avec cette voiture jouet, conçue pour stimuler l imagination.'
+    },
+    {
+        id: 1016,
+        name: 'Ecouteur M10',
+        price: 4500, //1500
+        category: 'electronique',
+        imgSrcs: ['./image/Martistore_calavi/ecouteur_m10/image1.png', './image/Martistore_calavi/ecouteur_m10/image2.png', './image/Martistore_calavi/ecouteur_m10/image3.png', './image/Martistore_calavi/ecouteur_m10/image4.png', './image/Martistore_calavi/ecouteur_m10/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Son clair et puissant.',
+        modalDescription: '✅ Profitez d’une qualité sonore exceptionnelle avec les écouteurs M10, offrant confort et performance à petit prix. Parfaits pour écouter de la musique ou passer des appels'
+    },
+    {
+        id: 1017,
+        name: 'Ecouteur powerbank JBL Air F9 Pro',
+        price: 4500, //1500
+        category: 'electronique',
+        imgSrcs: ['./image/Martistore_calavi/ecouteur_m10/image4.png', './image/Martistore_calavi/ecouteur_m10/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Ecoute longue durée.',
+        modalDescription: '✅ Profitez d’un son premium avec les écouteurs JBL Air F9 Pro, offrant puissance et autonomie grâce à leur powerbank intégré.'
+    },
+    {
+        id: 1018,
+        name: 'Casque bluethoot P35',
+        price: 4500, //1500
+        category: 'tous',
+        imgSrcs: ['./image/doss_new_martistore/Casque_Bluetooth_P35/image1.png', './image/doss_new_martistore/Casque_Bluetooth_P35/image2.png', './image/doss_new_martistore/Casque_Bluetooth_P35/image3.png', './image/doss_new_martistore/Casque_Bluetooth_P35/image4.png', './image/doss_new_martistore/Casque_Bluetooth_P35/image5.png', './image/doss_new_martistore/Casque_Bluetooth_P35/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Qualité sonore exceptionnelle.',
+        modalDescription: '✅ Profitez d une écoute sans fil immersive avec le casque Bluetooth P35, idéal pour les musiques, appels et jeux.'
+    },
+    {
+        id: 1019,
+        name: 'Chargeurs rapide',
+        price: 2000, //1200
+        category: 'tous',
+        imgSrcs: ['./image/doss_new_martistore/chargeurs/image1.png', './image/doss_new_martistore/chargeurs/image2.png', './image/doss_new_martistore/chargeurs/image3.png', './image/doss_new_martistore/chargeurs/image4.png', './image/doss_new_martistore/chargeurs/image5.png', './image/doss_new_martistore/chargeurs/image6.png', './image/doss_new_martistore/chargeurs/image7.png', './image/doss_new_martistore/chargeurs/image8.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Chargeur rapide iPhone, Samsung.',
+        modalDescription: '✅ Accélérez votre recharge avec ce chargeur rapide, conçu pour une performance optimale et une compatibilité étendue.'
+    },
+    {
+        id: 1020,
+        name: 'Huile à levres',
+        price: 2000, //1200
+        category: 'beauté',
+        imgSrcs: ['./image/doss_new_martistore/huile_a_levre/image1.png', './image/doss_new_martistore/huile_a_levre/image2.png', './image/doss_new_martistore/huile_a_levre/image3.png', './image/doss_new_martistore/huile_a_levre/image4.png', './image/doss_new_martistore/huile_a_levre/image5.png', './image/doss_new_martistore/huile_a_levre/image6.png', './image/doss_new_martistore/huile_a_levre/image7.png', './image/doss_new_martistore/huile_a_levre/image8.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Huile à lèvres nourrissante.',
+        modalDescription: '✅ Offrez à vos lèvres un soin intensif avec cette huile à lèvres, pour une hydratation longue durée et un effet lisse.'
+    },
+    {
+        id: 1027,
+        name: 'Lampe solaire',
+        price: 6000, //4500
+        category: 'electronique',
+        imgSrcs: ['./image/doss_new_martistore/lampe_solaire/image1.png', './image/doss_new_martistore/lampe_solaire/image2.png', './image/doss_new_martistore/lampe_solaire/image3.png', './image/doss_new_martistore/lampe_solaire/image4.png', './image/doss_new_martistore/lampe_solaire/image5.png', './image/doss_new_martistore/lampe_solaire/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Lampe solaire, solution efficace',
+        modalDescription: '✅ 100 watt, 12000 mAh batterie rechargeable \n✅Haute luminosité 🔆 \n✅ Une nuit complète de sauvegarde ( 12h ) n✅Peut être chargé à la fois par le panneau solaire et l électricité \n✅ 4 types de lumières réglables \n✅Fonction de sortie pour charger le téléphone portable en cas d urgence \n✅IP66 imperméable 🧥'
+    },
+    {
+        id: 1021,
+        name: 'Moustiquaire pliable',
+        price: 7000, //4500
+        category: 'tous',
+        imgSrcs: ['./image/doss_new_martistore/moustiquaire_pliable/image1.png', './image/doss_new_martistore/moustiquaire_pliable/image2.png', './image/doss_new_martistore/moustiquaire_pliable/image3.png', './image/doss_new_martistore/moustiquaire_pliable/image4.png', './image/doss_new_martistore/moustiquaire_pliable/image5.png', './image/doss_new_martistore/moustiquaire_pliable/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Moustiquaire pliable 3 place 190*160*80 2 place 190*135*80',
+        modalDescription: 'Pratique pendant la chaleur pour profiter de l extérieur sans être exposé aux moustiques. Protégez-vous et vos enfants avec cette moustiquaire pliable.'
+    },
+    {
+        id: 1022,
+        name: 'Pèse aliment',
+        price: 2950, //2500
+        category: 'cuisine',
+        imgSrcs: ['./image/doss_new_martistore/pese_aliments/image1.png', './image/doss_new_martistore/pese_aliments/image2.png', './image/doss_new_martistore/pese_aliments/image3.png', './image/doss_new_martistore/pese_aliments/image4.png', './image/doss_new_martistore/pese_aliments/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Pratique pour mesurer avec précision.',
+        modalDescription: 'Outil idéal pour peser vos aliments avec précision. Assurez-vous de cuisiner avec les bonnes quantités, pour un meilleur contrôle de vos recettes.'
+    },
+    {
+        id: 1023,
+        name: 'Petite brune',
+        price: 2300, //1500
+        category: 'beauté',
+        imgSrcs: ['./image/doss_new_martistore/petit_brume/image1.png', './image/doss_new_martistore/petit_brume/image2.png', './image/doss_new_martistore/petit_brume/image3.png', './image/doss_new_martistore/petit_brume/image4.png', './image/doss_new_martistore/petit_brume/image5.png', './image/doss_new_martistore/petit_brume/image6.png', './image/doss_new_martistore/petit_brume/image7.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Ensemble de brume corporelle de 88 ml.',
+        modalDescription: 'Idéal pour se rafraîchir et hydrater la peau. La brume florale offre un parfum léger et agréable, tout en apportant une sensation de fraîcheur et de confort.'
+    },
+    {
+        id: 1024,
+        name: 'Papier peint autocollant',
+        price: 4000, //3000
+        category: 'beauté',
+        imgSrcs: ['./image/doss_new_martistore/rouleau_deco/image1.png', './image/doss_new_martistore/rouleau_deco/image2.png', './image/doss_new_martistore/rouleau_deco/image3.png', './image/doss_new_martistore/rouleau_deco/image4.png', './image/doss_new_martistore/rouleau_deco/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Rouleau de papier peint autoadhésif.',
+        modalDescription: 'Facile à appliquer et à retirer, ce papier peint ajoute une touche moderne à votre intérieur tout en étant pratique et durable.Dimension de 5 mètres sur 60 cm'
+    },
+    {
+        id: 1025,
+        name: 'Découpeuse de légume  multifonction',
+        price: 5000, //4000
+        category: 'cuisine',
+        imgSrcs: ['./image/doss_new_martistore/ustensiles_aliments/image1.png', './image/doss_new_martistore/ustensiles_aliments/image2.png', './image/doss_new_martistore/ustensiles_aliments/image3.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Découpeuse pratique pour trancher.',
+        modalDescription: 'Avec ses multiples lames, cette découpeuse vous permet de gagner du temps en cuisine tout en obtenant des résultats parfaits à chaque utilisation.'
+    },
+    //id 1026 take
+    //id 1027 take
 ];
 
 export default products;
