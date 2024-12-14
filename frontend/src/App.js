@@ -95,7 +95,7 @@ function App() {
         <div className="App">
             <div className="top-bar-first-line">
                 <div className="logo-line">
-                    <img src={`${process.env.PUBLIC_URL}/link.png`} alt="Logo Whilf Rede" />
+                    <img src={`${process.env.PUBLIC_URL}/whilfcart.png`} alt="Logo Whilf Rede" />
                 </div>
                 <input
                     type="text"
