@@ -658,6 +658,185 @@ const products = [
     },
     //id 1026 take
     //id 1027 take
+
+
+    {
+        id: 1028,
+        name: 'Assiete plateau',
+        price: 8000, //5000
+        category: 'tous',
+        imgSrcs: ['./image/new_doss/Assiette_plateau_7000/image1.png', './image/new_doss/Assiette_plateau_7000/image2.png', './image/new_doss/Assiette_plateau_7000/image3.png', './image/new_doss/Assiette_plateau_7000/image4.png', './image/new_doss/Assiette_plateau_7000/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Plateau élégant',
+        modalDescription: '✅ Plateau multifonctions parfait pour servir et présenter vos plats avec style.'
+    },
+    {
+        id: 1029,
+        name: 'Boite porte ustensiles',
+        price: 3000, //2500
+        category: 'cuisine',
+        imgSrcs: ['./image/new_doss/Boite_porte_ustensiles/image1.png', './image/new_doss/Boite_porte_ustensiles/image2.png', './image/new_doss/Boite_porte_ustensiles/image3.png', './image/new_doss/Boite_porte_ustensiles/image4.png', './image/new_doss/Boite_porte_ustensiles/image5.png', './image/new_doss/Boite_porte_ustensiles/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Boîte pratique',
+        modalDescription: '✅ Organisez facilement vos ustensiles avec cette boîte robuste et moderne.'
+    },
+    {
+        id: 1030,
+        name: 'cable à trois entrées',
+        price: 6000, //5000
+        category: 'electronique',
+        imgSrcs: ['./image/new_doss/cable_trois_entre/image1.png', './image/new_doss/cable_trois_entre/image2.png', './image/new_doss/cable_trois_entre/image3.png', './image/new_doss/cable_trois_entre/image4.png', './image/new_doss/cable_trois_entre/image5.png', './image/new_doss/cable_trois_entre/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Cable multifonction',
+        modalDescription: '✅ Rechargez plusieurs appareils simultanément avec ce câble durable et pratique.'
+    },
+    {
+        id: 1031,
+        name: 'Cintre en bois',
+        price: 600, //500
+        category: 'tous',
+        imgSrcs: ['./image/new_doss/Cintre_en_bois_700/image1.png', './image/new_doss/Cintre_en_bois_700/image2.png', './image/new_doss/Cintre_en_bois_700/image3.png', './image/new_doss/Cintre_en_bois_700/image4.png', './image/new_doss/Cintre_en_bois_700/image5.png', './image/new_doss/Cintre_en_bois_700/image6.png', './image/new_doss/Cintre_en_bois_700/image7.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Cintre élégant',
+        modalDescription: '✅ Parfait pour suspendre vos vêtements et optimiser votre garde-robe.'
+    },
+    {
+        id: 1032,
+        name: 'Decapsuleur magnétique',
+        price: 1500, //1200
+        category: 'tous',
+        imgSrcs: ['./image/new_doss/Decapsuleur_magnétique/image1.png', './image/new_doss/Decapsuleur_magnétique/image2.png', './image/new_doss/Decapsuleur_magnétique/image3.png', './image/new_doss/Decapsuleur_magnétique/image4.png', './image/new_doss/Decapsuleur_magnétique/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Décapsuleur moderne',
+        modalDescription: '✅ Aimanté et pratique, il simplifie l’ouverture de vos bouteilles.'
+    },
+    {
+        id: 1033,
+        name: 'Diffuseur de senteurs',
+        price: 1500, //1000
+        category: 'tous',
+        imgSrcs: ['./image/new_doss/diffuseur_de_senteur_2000/image1.png', './image/new_doss/diffuseur_de_senteur_2000/image2.png', './image/new_doss/diffuseur_de_senteur_2000/image3.png', './image/new_doss/diffuseur_de_senteur_2000/image4.png', './image/new_doss/diffuseur_de_senteur_2000/image5.png', './image/new_doss/diffuseur_de_senteur_2000/image6.png', './image/new_doss/diffuseur_de_senteur_2000/image7.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Parfum d intérieur moderne',
+        modalDescription: '✅ Créez une ambiance agréable et apaisante avec ce diffuseur de senteurs.'
+    },
+    {
+        id: 1034,
+        name: 'Échelle télescopique',
+        price: 49000, //40000
+        category: 'tous',
+        imgSrcs: ['./image/new_doss/Echelle_télescopique_40.000/image1.png', './image/new_doss/Echelle_télescopique_40.000/image2.png', './image/new_doss/Echelle_télescopique_40.000/image3.png', './image/new_doss/Echelle_télescopique_40.000/image4.png', './image/new_doss/Echelle_télescopique_40.000/image5.png', './image/new_doss/Echelle_télescopique_40.000/image6.png', './image/new_doss/Echelle_télescopique_40.000/image7.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Échelle compacte et extensible.',
+        modalDescription: '✅ Accédez facilement aux hauteurs grâce à son design télescopique robuste.'
+    },
+    {
+        id: 1035,
+        name: 'Étagère de rangement',
+        price: 5500, //4000
+        category: 'tous',
+        imgSrcs: ['./image/new_doss/etagere_de_range/image1.png', './image/new_doss/etagere_de_range/image2.png', './image/new_doss/etagere_de_range/image3.png', './image/new_doss/etagere_de_range/image4.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Organisateur pratique.',
+        modalDescription: '✅ Rangez efficacement vos affaires grâce à cette étagère solide et esthétique.'
+    },
+    {
+        id: 1036,
+        name: 'Fer à repasser',
+        price: 6500, //5000
+        category: 'electronique',
+        imgSrcs: ['./image/new_doss/fer_a_repasser/image1.png', './image/new_doss/fer_a_repasser/image2.png', './image/new_doss/fer_a_repasser/image3.png', './image/new_doss/fer_a_repasser/image4.png', './image/new_doss/fer_a_repasser/image5.png', './image/new_doss/fer_a_repasser/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Repassage facile et rapide.',
+        modalDescription: '✅ Obtenez des vêtements impeccables grâce à ce fer à repasser performant.'
+    },
+    {
+        id: 1037,
+        name: 'Filtre eau',
+        price: 700, //600
+        category: 'cuisine',
+        imgSrcs: ['./image/new_doss/filtre_eau_700/image1.png', './image/new_doss/filtre_eau_700/image2.png', './image/new_doss/filtre_eau_700/image3.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Filtrage rapide et efficace.',
+        modalDescription: '✅ Profitez d’une eau pure et saine avec ce filtre pratique et économique.'
+    },
+    {
+        id: 1038,
+        name: 'Friteuse à air',
+        price: 21000, //19000
+        category: 'cuisine',
+        imgSrcs: ['./image/new_doss/Friteuse_a_air_19.000/image1.png', './image/new_doss/Friteuse_a_air_19.000/image2.png', './image/new_doss/Friteuse_a_air_19.000/image3.png', './image/new_doss/Friteuse_a_air_19.000/image4.png', './image/new_doss/Friteuse_a_air_19.000/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Cuisine sans huile. 6 L',
+        modalDescription: '✅ Préparez des repas sains et savoureux grâce à cette friteuse à air moderne.'
+    },
+    {
+        id: 1039,
+        name: 'Gobelet',
+        price: 200, //~120
+        category: 'tous',
+        imgSrcs: ['./image/new_doss/gobelet/image1.png', './image/new_doss/gobelet/image2.png', './image/new_doss/gobelet/image3.png', './image/new_doss/gobelet/image4.png', './image/new_doss/gobelet/image5.png', './image/new_doss/gobelet/image6.png', './image/new_doss/gobelet/image7.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Gobelet pratique',
+        modalDescription: '✅ Idéal pour vos boissons.'
+    },
+    {
+        id: 1043,
+        name: 'Grande batteuse électrique',
+        price: 5500, //5000
+        category: 'electronique',
+        imgSrcs: ['./image/new_doss/Grande_batteuse _electrique_5000/image1.png', './image/new_doss/Grande_batteuse _electrique_5000/image2.png', './image/new_doss/Grande_batteuse _electrique_5000/image3.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Mélangeur rapide et puissant.',
+        modalDescription: '✅ Facilitez vos préparations culinaires avec cette batteuse électrique performante.'
+    },
+    {
+        id: 1040,
+        name: 'Lumiere led petit',
+        price: 1800, //1300
+        category: 'tous',
+        imgSrcs: ['./image/new_doss/lumiere_led/image1.png', './image/new_doss/lumiere_led/image2.png', './image/new_doss/lumiere_led/image3.png', './image/new_doss/lumiere_led/image4.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Éclairage écoénergétique.',
+        modalDescription: '✅ Illuminez votre espace avec cette lumière LED longue durée et économique.'
+    },
+    {
+        id: 1041,
+        name: 'Mini four electrique 3en1',
+        price: 21000, //19000
+        category: 'cuisine',
+        imgSrcs: ['./image/new_doss/Mini_four_electrique_3en1_19.000/image1.png', './image/new_doss/Mini_four_electrique_3en1_19.000/image2.png', './image/new_doss/Mini_four_electrique_3en1_19.000/image3.png', './image/new_doss/Mini_four_electrique_3en1_19.000/image4.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Four compact et polyvalent',
+        modalDescription: '✅ Idéal pour griller, cuire et réchauffer avec un seul appareil.'
+    },
+    {
+        id: 1042,
+        name: 'Spatule de cuisine',
+        price: 3000, //1500
+        category: 'cuisine',
+        imgSrcs: ['./image/new_doss/Spatule_de_cuisine/image1.png', './image/new_doss/Spatule_de_cuisine/image2.png', './image/new_doss/Spatule_de_cuisine/image3.png', './image/new_doss/Spatule_de_cuisine/image4.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: ' Outil pratique de cuisine. Lot de 4 pcs',
+        modalDescription: '✅ Manipulez vos aliments facilement grâce à cette spatule ergonomique et résistante.'
+    },
+    //id 1043 used
 ];
 
 export default products;
