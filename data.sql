@@ -29,7 +29,7 @@ CREATE TABLE carts (
 
 CREATE TABLE cart_items (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    cart_id INT,
+    cart_id INT,e
     product_id INT,
     quantity INT NOT NULL,
     price DECIMAL(10, 2) NOT NULL,
