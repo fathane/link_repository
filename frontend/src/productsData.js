@@ -837,6 +837,220 @@ const products = [
         modalDescription: '✅ Manipulez vos aliments facilement grâce à cette spatule ergonomique et résistante.'
     },
     //id 1043 used
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        id: 1044,
+        name: 'Armoire de rangement',
+        price: 4000, //3000
+        category: 'decoration',
+        imgSrcs: ['./image/new_24_12/Armoire_de_rangement_3000/image1.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Pratique, Spacieuse, Élégante',
+        modalDescription: '✅ Cette armoire de rangement offre une solution élégante pour organiser votre espace. Avec sa grande capacité, elle vous aide à garder vos affaires bien rangées et accessibles.'
+    },
+    {
+        id: 1045,
+        name: 'Chaussures',
+        price: 9500, //9000
+        category: 'cuisine',
+        imgSrcs: ['./image/new_24_12/basket/image1.png', './image/new_24_12/basket/image2.png', './image/new_24_12/basket/image3.png', './image/new_24_12/basket/image4.png', './image/new_24_12/basket/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Chaussure pratique',
+        modalDescription: '✅ Chaussures pour vous'
+    },
+    {
+        id: 1046,
+        name: 'Chaussures blanche, noir',
+        price: 9500, //9000
+        category: 'cuisine',
+        imgSrcs: ['./image/new_24_12/basket_B/image1.png', './image/new_24_12/basket_B/image2.png', './image/new_24_12/basket_B/image3.png', './image/new_24_12/basket_B/image4.png', './image/new_24_12/basket_B/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Chaussure pratique',
+        modalDescription: '✅ Chaussures pour vous'
+    },
+    {
+        id: 1047,
+        name: 'Bassin pour pédicure',
+        price: 12000, //10000
+        category: 'cuisine',
+        imgSrcs: ['./image/new_24_12/Bassin_pour_pedicure_10000/image1.png', './image/new_24_12/Bassin_pour_pedicure_10000/image2.png', './image/new_24_12/Bassin_pour_pedicure_10000/image3.png', './image/new_24_12/Bassin_pour_pedicure_10000/image4.png', './image/new_24_12/Bassin_pour_pedicure_10000/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Relaxant, Pratique, Confortable',
+        modalDescription: '✅ Ce bassin pour pédicure est parfait pour un moment de détente à la maison. Sa conception pratique vous permet de prendre soin de vos pieds tout en vous relaxant.'
+    },
+    {
+        id: 1048,
+        name: 'Brosse de visage',
+        price: 1700, //1500
+        category: 'cuisine',
+        imgSrcs: ['./image/new_24_12/Brosse_de_visage_1500/image1.png', './image/new_24_12/Brosse_de_visage_1500/image2.png', './image/new_24_12/Brosse_de_visage_1500/image3.png', './image/new_24_12/Brosse_de_visage_1500/image4.png',],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Douce, Efficace, Pratique',
+        modalDescription: '✅ Cette brosse de visage est idéale pour un nettoyage en profondeur. Elle aide à exfolier et à revitaliser votre peau, vous offrant un teint éclatant.'
+    },
+    {
+        id: 1049,
+        name: 'Coupe légume à 6 lamelles',
+        price: 4500, //4000
+        category: 'cuisine',
+        imgSrcs: ['./image/new_24_12/Coupe-legume_a_6_lamelles_4000/image1.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image2.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image3.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image4.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image5.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image6.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image7.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image8.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image9.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image10.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Innovant, Pratique, Rapide',
+        modalDescription: '✅ Ce coupe-légume à 6 lamelles facilite la préparation de vos ingrédients. Sa conception innovante vous permet de gagner du temps en cuisine tout en obtenant des coupes parfaites.'
+    },
+    {
+        id: 1050,
+        name: 'Ensemble carafe',
+        price: 4000, //3500
+        category: 'cuisine',
+        imgSrcs: ['./image/new_24_12/Ensemble_carafe_3500/image1.png', './image/new_24_12/Ensemble_carafe_3500/image2.png', './image/new_24_12/Ensemble_carafe_3500/image3.png', './image/new_24_12/Ensemble_carafe_3500/image4.png', './image/new_24_12/Ensemble_carafe_3500/image5.png', './image/new_24_12/Ensemble_carafe_3500/image6.png', './image/new_24_12/Ensemble_carafe_3500/image7.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Pratique, Sophistiqué',
+        modalDescription: '✅ Cet ensemble de carafe est parfait pour servir vos boissons avec style. Son design raffiné ajoute une touche d élégance à vos repas.'
+    },
+    {
+        id: 1051,
+        name: 'Ensemble silicone 19pcs',
+        price: 9000, //8500
+        category: 'cuisine',
+        imgSrcs: ['./image/new_24_12/ensemble_silicone_19pcs_8500/image1.png', './image/new_24_12/ensemble_silicone_19pcs_8500/image2.png', './image/new_24_12/ensemble_silicone_19pcs_8500/image3.png', './image/new_24_12/ensemble_silicone_19pcs_8500/image4.png', './image/new_24_12/ensemble_silicone_19pcs_8500/image5.png', './image/new_24_12/ensemble_silicone_19pcs_8500/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Complet, Pratique, Durable',
+        modalDescription: '✅ Cet ensemble de 19 pièces en silicone est idéal pour tous vos besoins culinaires. Sa durabilité et sa polyvalence en font un choix parfait pour les passionnés de cuisine'
+    },
+    {
+        id: 1052,
+        name: 'Etagere de range multifonctions',
+        price: 3000, //2500
+        category: 'cuisine',
+        imgSrcs: ['./image/new_24_12/Etagere_de_range_multifonctions_2500/image1.png', './image/new_24_12/Etagere_de_range_multifonctions_2500/image2.png', './image/new_24_12/Etagere_de_range_multifonctions_2500/image3.png', './image/new_24_12/Etagere_de_range_multifonctions_2500/image4.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Polyvalente, Spacieuse, Pratique',
+        modalDescription: '✅ Cette étagère multifonctions est conçue pour optimiser votre espace de rangement. Elle vous permet d organiser vos habits, chaussures avec élégance.'
+    },
+    {
+        id: 1053,
+        name: 'Fer repasser raf',
+        price: 4500, //4000
+        category: 'cuisine',
+        imgSrcs: ['./image/new_24_12/fer_repasser_raf_4000/image1.png', './image/new_24_12/fer_repasser_raf_4000/image2.png', './image/new_24_12/fer_repasser_raf_4000/image3.png', './image/new_24_12/fer_repasser_raf_4000/image4.png','./image/new_24_12/fer_repasser_raf_4000/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Efficace, Compact, Pratique',
+        modalDescription: '✅ Ce fer à repasser est conçu pour vous offrir des résultats impeccables. Sa taille compacte le rend facile à utiliser et à ranger.'
+    },
+    {
+        id: 1054,
+        name: 'Lingettes',
+        price: 400, //300
+        category: 'cuisine',
+        imgSrcs: ['./image/new_24_12/lingettes_300/image1.png', './image/new_24_12/lingettes_300/image2.png', './image/new_24_12/lingettes_300/image3.png', './image/new_24_12/lingettes_300/image4.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Pratiques, Hygiéniques, Essentielles',
+        modalDescription: '✅ Ces lingettes sont idéales pour un nettoyage rapide et efficace. Leur praticité en fait un produit essentiel pour maintenir la propreté.'
+    },
+    {
+        id: 1055,
+        name: 'Mini mortier',
+        price: 1400, //1300
+        category: 'cuisine',
+        imgSrcs: ['./image/new_24_12/mini_mortier_1300/image1.png', './image/new_24_12/mini_mortier_1300/image2.png', './image/new_24_12/mini_mortier_1300/image3.png', './image/new_24_12/mini_mortier_1300/image4.png', './image/new_24_12/mini_mortier_1300/image5.png', './image/new_24_12/mini_mortier_1300/image6.png', './image/new_24_12/mini_mortier_1300/image7.png', './image/new_24_12/mini_mortier_1300/image8.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Compact, Pratique, Efficace',
+        modalDescription: '✅ Ce mini mortier est parfait pour moudre vos épices et herbes. Sa taille compacte le rend facile à utiliser et à ranger.'
+    },
+    {
+        id: 1056,
+        name: 'Mixeur de fruits',
+        price: 3500, //3000
+        category: 'cuisine',
+        imgSrcs: ['./image/new_24_12/Mixeur_de_fruits_3000/image1.png', './image/new_24_12/Mixeur_de_fruits_3000/image2.png', './image/new_24_12/Mixeur_de_fruits_3000/image3.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Pratique, Efficace, Rapide',
+        modalDescription: '✅ Ce mixeur de fruits est idéal pour préparer des smoothies et des jus frais. Sa puissance vous permet de créer des boissons saines en un rien de temps.'
+    },
+    {
+        id: 1057,
+        name: 'Presse citron',
+        price: 800, //700
+        category: 'cuisine',
+        imgSrcs: ['./image/new_24_12/presse_citron_700/image1.png', './image/new_24_12/presse_citron_700/image2.png', './image/new_24_12/presse_citron_700/image3.png', './image/new_24_12/presse_citron_700/image4.png', './image/new_24_12/presse_citron_700/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Pratique, Efficace, Compact',
+        modalDescription: '✅ Ce presse-citron est un outil indispensable pour extraire le jus de vos agrumes. Sa conception compacte facilite son utilisation en cuisine.'
+    },
+    {
+        id: 1058,
+        name: 'Serviette 3 pcs',
+        price: 14000, //12000
+        category: 'cuisine',
+        imgSrcs: ['./image/new_24_12/serviette_3_pcs_12000/image1.png', './image/new_24_12/serviette_3_pcs_12000/image2.png', './image/new_24_12/serviette_3_pcs_12000/image3.png', './image/new_24_12/serviette_3_pcs_12000/image4.png', './image/new_24_12/serviette_3_pcs_12000/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Douce, Pratique, Essentielle',
+        modalDescription: '✅ Cet ensemble de serviettes est parfait. Leur douceur et leur praticité en font un choix idéal.'
+    },
+    {
+        id: 1059,
+        name: 'Tente automatique',
+        price: 17000, //15000
+        category: 'cuisine',
+        imgSrcs: ['./image/new_24_12/Tente_automatique_15000/image1.png', './image/new_24_12/Tente_automatique_15000/image2.png', './image/new_24_12/Tente_automatique_15000/image3.png', './image/new_24_12/Tente_automatique_15000/image4.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Pratique, Rapide, Spacieuse',
+        modalDescription: '✅ Cette tente automatique est idéale pour vos sorties en plein air. Facilité de montage et son espace généreux.'
+    },
+    {
+        id: 1060,
+        name: 'Thermos numérique',
+        price: 2200, //2000
+        category: 'tous',
+        imgSrcs: ['./image/new_24_12/Thermos_numérique_2000/image1.png', './image/new_24_12/Thermos_numérique_2000/image2.png', './image/new_24_12/Thermos_numérique_2000/image3.png', './image/new_24_12/Thermos_numérique_2000/image4.png', './image/new_24_12/Thermos_numérique_2000/image5.png', './image/new_24_12/Thermos_numérique_2000/image6.png', './image/new_24_12/Thermos_numérique_2000/image7.png', './image/new_24_12/Thermos_numérique_2000/image8.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Intelligent, Pratique, Durable',
+        modalDescription: '✅ Ce thermos numérique est conçu pour garder vos boissons à la température idéale'
+    },
+    {
+        id: 1061,
+        name: 'Ventilation de climatisation',
+        price: 4700, //4500
+        category: 'cuisine',
+        imgSrcs: ['./image/new_24_12/Ventilation_de_climatisation_4500/image1.png', './image/new_24_12/Ventilation_de_climatisation_4500/image2.png', './image/new_24_12/Ventilation_de_climatisation_4500/image3.png', './image/new_24_12/Ventilation_de_climatisation_4500/image4.png', './image/new_24_12/Ventilation_de_climatisation_4500/image5.png', './image/new_24_12/Ventilation_de_climatisation_4500/image6.png', './image/new_24_12/Ventilation_de_climatisation_4500/image7.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Efficace, Pratique, Confortable',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
 ];
 
 export default products;
