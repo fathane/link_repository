@@ -335,12 +335,12 @@ const products = [
 
 
 
-
+    // 40%
     ////////////////
     {
         id: 1000,
         name: 'Ecouteur',
-        price: 1500,
+        price: 2100,
         category: 'electronique',
         imgSrcs: ['./image/Martistore_calavi/air_pod/image1.png', './image/Martistore_calavi/air_pod/image2.png', './image/Martistore_calavi/air_pod/image3.png', './image/Martistore_calavi/air_pod/image4.png', './image/Martistore_calavi/air_pod/image5.png', './image/Martistore_calavi/air_pod/image6.png'],
         videoSrc: './video/link.mp4',
@@ -351,7 +351,7 @@ const products = [
     {
         id: 1001,
         name: 'Jazz tam-tam bactérie',
-        price: 5500, //5000
+        price: 7000, //5000
         category: 'tous',
         imgSrcs: ['./image/Martistore_calavi/bacteries/image1.png', './image/Martistore_calavi/bacteries/image2.png', './image/Martistore_calavi/bacteries/image3.png', './image/Martistore_calavi/bacteries/image4.png', './image/Martistore_calavi/bacteries/image5.png'],
         videoSrc: './video/link.mp4',
@@ -359,7 +359,7 @@ const products = [
         description: 'Un tam-tam ludique et éducatif.',
         modalDescription: '✅ Découvrez ce tam-tam pour enfants, un instrument coloré et amusant qui développe la créativité et l’amour de la musique.'
     },
-    {
+    /*{
         id: 1002,
         name: 'Moule pastel',
         price: 750, //700
@@ -369,8 +369,8 @@ const products = [
         stock: "en stock",
         description: 'Moule pastel pratique et résistant.',
         modalDescription: '✅ Simplifiez vos créations culinaires avec ce moule pastel, parfait pour des résultats impeccables et un design élégant.'
-    },
-    {
+    },*/
+    /*{
         id: 1003,
         name: 'Jeux de construction',
         price: 6000, //700
@@ -380,7 +380,7 @@ const products = [
         stock: "en stock",
         description: 'Jeu de construction police lot de 50 pcs',
         modalDescription: 'Offrez à vos enfants un jeu de construction amusant et éducatif, parfait pour des heures de divertissement'
-    },
+    },*/
     /*{
         id: 1004,
         name: 'lampe noel',
@@ -395,7 +395,7 @@ const products = [
     {
         id: 1005,
         name: 'Lampe solaire de luxe',
-        price: 1850, //1700
+        price: 2450, //1700
         category: 'decoration',
         imgSrcs: ['./image/Martistore_calavi/lampe_solaire/image1.png', './image/Martistore_calavi/lampe_solaire/image2.png', './image/Martistore_calavi/lampe_solaire/image3.png', './image/Martistore_calavi/lampe_solaire/image4.png', './image/Martistore_calavi/lampe_solaire/image5.png', './image/Martistore_calavi/lampe_solaire/image6.png'],
         videoSrc: './video/link.mp4',
@@ -417,7 +417,7 @@ const products = [
     {
         id: 1007,
         name: 'Moulinex',
-        price: 16900, //15000
+        price: 21000, //15000
         category: 'cuisine',
         imgSrcs: ['./image/Martistore_calavi/moulinex/image1.png', './image/Martistore_calavi/moulinex/image2.png', './image/Martistore_calavi/moulinex/image3.png'],
         videoSrc: './video/link.mp4',
@@ -425,7 +425,7 @@ const products = [
         description: 'Moulinex performant et polyvalent.',
         modalDescription: '✅ Simplifiez vos préparations culinaires avec ce moulinex efficace et durable, conçu pour répondre à tous vos besoins en cuisine.'
     },
-    {
+    /*{
         id: 1008,
         name: 'Ordinateur jeu pour enfant',
         price: 12000, //11000
@@ -435,11 +435,11 @@ const products = [
         stock: "en stock",
         description: 'Ordinateur éducatif et ludique.',
         modalDescription: '✅ Offrez à votre enfant une expérience d’apprentissage amusante avec cet ordinateur de jeu interactif et intuitif.'
-    },
+    },*/
     {
         id: 1009,
         name: 'Mini ventilateur rechargeablea',
-        price: 1500, //1500
+        price: 2100, //1500
         category: 'tous',
         imgSrcs: ['./image/Martistore_calavi/petit_ventillateur/image1.png', './image/Martistore_calavi/petit_ventillateur/image2.png', './image/Martistore_calavi/petit_ventillateur/image3.png', './image/Martistore_calavi/petit_ventillateur/image4.png'],
         videoSrc: './video/link.mp4',
@@ -461,7 +461,7 @@ const products = [
     {
         id: 1010,
         name: 'tapis', 
-        price: 2500,
+        price: 3000,
         category: 'decoration',
         imgSrcs: ['./image/Martistore_calavi/tapis_de_douche/image1.png', './image/Martistore_calavi/tapis_de_douche/image2.png', './image/Martistore_calavi/tapis_de_douche/image3.png', './image/Martistore_calavi/tapis_de_douche/image4.png'],
         videoSrc: './video/link.mp4',
@@ -472,7 +472,7 @@ const products = [
     {
         id: 1011,
         name: 'Chauffe eaux Scarlett',
-        price: 4200, //4000
+        price: 5600, //4000
         category: 'cuisine',
         imgSrcs: ['./image/Martistore_calavi/termousse/image1.png', './image/Martistore_calavi/termousse/image2.png', './image/Martistore_calavi/termousse/image3.png', './image/Martistore_calavi/termousse/image4.png', './image/Martistore_calavi/termousse/image5.png'],
         videoSrc: './video/link.mp4',
@@ -483,7 +483,7 @@ const products = [
     {
         id: 1026,
         name: 'Tondeuse rechargeable',
-        price: 8000,
+        price: 9000, //8000
         category: 'electronique',
         imgSrcs: ['./image/Martistore_calavi/tondeuses/image1.png', './image/Martistore_calavi/tondeuses/image2.png', './image/Martistore_calavi/tondeuses/image3.png', './image/Martistore_calavi/tondeuses/image4.png', './image/Martistore_calavi/tondeuses/image5.png'],
         videoSrc: './video/link.mp4',
@@ -494,7 +494,7 @@ const products = [
     {
         id: 1012,
         name: 'verre à vin',
-        price: 6000, //5500
+        price: 7700, //5500
         category: 'tous',
         imgSrcs: ['./image/Martistore_calavi/verre_arrondi/image1.png', './image/Martistore_calavi/verre_arrondi/image2.png', './image/Martistore_calavi/verre_arrondi/image3.png'],
         videoSrc: './video/link.mp4',
@@ -505,7 +505,7 @@ const products = [
     {
         id: 1013,
         name: 'verre à whisky',
-        price: 3500, //3000
+        price: 4200, //3000
         category: 'tous',
         imgSrcs: ['./image/Martistore_calavi/verre_cylindrique/image1.png', './image/Martistore_calavi/verre_cylindrique/image2.png', './image/Martistore_calavi/verre_cylindrique/image3.png', './image/Martistore_calavi/verre_cylindrique/image4.png', './image/Martistore_calavi/verre_cylindrique/image5.png'],
         videoSrc: './video/link.mp4',
@@ -516,7 +516,7 @@ const products = [
     {
         id: 1014,
         name: 'verre',
-        price: 5500,
+        price: 7500, //5500
         category: 'tous',
         imgSrcs: ['./image/Martistore_calavi/verre_forme_ovale/image1.png', './image/Martistore_calavi/verre_forme_ovale/image2.png', './image/Martistore_calavi/verre_forme_ovale/image3.png', './image/Martistore_calavi/verre_forme_ovale/image4.png'],
         videoSrc: './video/link.mp4',
@@ -538,7 +538,7 @@ const products = [
     {
         id: 1016,
         name: 'Ecouteur M10',
-        price: 1500, //1500
+        price: 2100, //1500
         category: 'electronique',
         imgSrcs: ['./image/Martistore_calavi/ecouteur_m10/image1.png', './image/Martistore_calavi/ecouteur_m10/image2.png', './image/Martistore_calavi/ecouteur_m10/image3.png', './image/Martistore_calavi/ecouteur_m10/image4.png', './image/Martistore_calavi/ecouteur_m10/image5.png'],
         videoSrc: './video/link.mp4',
@@ -549,7 +549,7 @@ const products = [
     {
         id: 1017,
         name: 'Ecouteur powerbank JBL Air F9 Pro',
-        price: 1500, //1500
+        price: 2100, //1500
         category: 'electronique',
         imgSrcs: ['./image/Martistore_calavi/ecouteur_m10/image4.png', './image/Martistore_calavi/ecouteur_m10/image5.png'],
         videoSrc: './video/link.mp4',
@@ -560,7 +560,7 @@ const products = [
     {
         id: 1018,
         name: 'Casque bluethoot P35',
-        price: 2000, //1500
+        price: 3000, //1500
         category: 'tous',
         imgSrcs: ['./image/doss_new_martistore/Casque_Bluetooth_P35/image1.png', './image/doss_new_martistore/Casque_Bluetooth_P35/image2.png', './image/doss_new_martistore/Casque_Bluetooth_P35/image3.png', './image/doss_new_martistore/Casque_Bluetooth_P35/image4.png', './image/doss_new_martistore/Casque_Bluetooth_P35/image5.png', './image/doss_new_martistore/Casque_Bluetooth_P35/image6.png'],
         videoSrc: './video/link.mp4',
@@ -571,7 +571,7 @@ const products = [
     {
         id: 1019,
         name: 'Chargeurs rapide',
-        price: 1200, //1200
+        price: 1680, //1200
         category: 'tous',
         imgSrcs: ['./image/doss_new_martistore/chargeurs/image1.png', './image/doss_new_martistore/chargeurs/image2.png', './image/doss_new_martistore/chargeurs/image3.png', './image/doss_new_martistore/chargeurs/image4.png', './image/doss_new_martistore/chargeurs/image5.png', './image/doss_new_martistore/chargeurs/image6.png', './image/doss_new_martistore/chargeurs/image7.png', './image/doss_new_martistore/chargeurs/image8.png'],
         videoSrc: './video/link.mp4',
@@ -582,7 +582,7 @@ const products = [
     {
         id: 1020,
         name: 'Huile à levres',
-        price: 2000, //1200
+        price: 1700, //1200
         category: 'beauté',
         imgSrcs: ['./image/doss_new_martistore/huile_a_levre/image1.png', './image/doss_new_martistore/huile_a_levre/image2.png', './image/doss_new_martistore/huile_a_levre/image3.png', './image/doss_new_martistore/huile_a_levre/image4.png', './image/doss_new_martistore/huile_a_levre/image5.png', './image/doss_new_martistore/huile_a_levre/image6.png', './image/doss_new_martistore/huile_a_levre/image7.png', './image/doss_new_martistore/huile_a_levre/image8.png'],
         videoSrc: './video/link.mp4',
@@ -593,7 +593,7 @@ const products = [
     {
         id: 1027,
         name: 'Lampe solaire',
-        price: 5000, //4500
+        price: 6300, //4500
         category: 'electronique',
         imgSrcs: ['./image/doss_new_martistore/lampe_solaire/image1.png', './image/doss_new_martistore/lampe_solaire/image2.png', './image/doss_new_martistore/lampe_solaire/image3.png', './image/doss_new_martistore/lampe_solaire/image4.png', './image/doss_new_martistore/lampe_solaire/image5.png', './image/doss_new_martistore/lampe_solaire/image6.png'],
         videoSrc: './video/link.mp4',
@@ -604,7 +604,7 @@ const products = [
     {
         id: 1021,
         name: 'Moustiquaire pliable',
-        price: 4500, //4500
+        price: 6300, //4500
         category: 'tous',
         imgSrcs: ['./image/doss_new_martistore/moustiquaire_pliable/image1.png', './image/doss_new_martistore/moustiquaire_pliable/image2.png', './image/doss_new_martistore/moustiquaire_pliable/image3.png', './image/doss_new_martistore/moustiquaire_pliable/image4.png', './image/doss_new_martistore/moustiquaire_pliable/image5.png', './image/doss_new_martistore/moustiquaire_pliable/image6.png'],
         videoSrc: './video/link.mp4',
@@ -615,7 +615,7 @@ const products = [
     {
         id: 1022,
         name: 'Pèse aliment',
-        price: 2600, //2500
+        price: 3500, //2500
         category: 'cuisine',
         imgSrcs: ['./image/doss_new_martistore/pese_aliments/image1.png', './image/doss_new_martistore/pese_aliments/image2.png', './image/doss_new_martistore/pese_aliments/image3.png', './image/doss_new_martistore/pese_aliments/image4.png', './image/doss_new_martistore/pese_aliments/image5.png'],
         videoSrc: './video/link.mp4',
@@ -626,7 +626,7 @@ const products = [
     {
         id: 1023,
         name: 'Petite brune',
-        price: 1600, //1500
+        price: 2100, //1500
         category: 'beauté',
         imgSrcs: ['./image/doss_new_martistore/petit_brume/image1.png', './image/doss_new_martistore/petit_brume/image2.png', './image/doss_new_martistore/petit_brume/image3.png', './image/doss_new_martistore/petit_brume/image4.png', './image/doss_new_martistore/petit_brume/image5.png', './image/doss_new_martistore/petit_brume/image6.png', './image/doss_new_martistore/petit_brume/image7.png'],
         videoSrc: './video/link.mp4',
@@ -637,7 +637,7 @@ const products = [
     {
         id: 1024,
         name: 'Papier peint autocollant',
-        price: 3500, //3000
+        price: 4200, //3000
         category: 'beauté',
         imgSrcs: ['./image/doss_new_martistore/rouleau_deco/image1.png', './image/doss_new_martistore/rouleau_deco/image2.png', './image/doss_new_martistore/rouleau_deco/image3.png', './image/doss_new_martistore/rouleau_deco/image4.png', './image/doss_new_martistore/rouleau_deco/image5.png'],
         videoSrc: './video/link.mp4',
@@ -648,7 +648,7 @@ const products = [
     {
         id: 1025,
         name: 'Découpeuse de légume  multifonction',
-        price: 4500, //4000
+        price: 5600, //4000
         category: 'cuisine',
         imgSrcs: ['./image/doss_new_martistore/ustensiles_aliments/image1.png', './image/doss_new_martistore/ustensiles_aliments/image2.png', './image/doss_new_martistore/ustensiles_aliments/image3.png'],
         videoSrc: './video/link.mp4',
@@ -663,7 +663,7 @@ const products = [
     {
         id: 1028,
         name: 'Assiete plateau',
-        price: 5500, //5000
+        price: 7000, //5000
         category: 'tous',
         imgSrcs: ['./image/new_doss/Assiette_plateau_7000/image1.png', './image/new_doss/Assiette_plateau_7000/image2.png', './image/new_doss/Assiette_plateau_7000/image3.png', './image/new_doss/Assiette_plateau_7000/image4.png', './image/new_doss/Assiette_plateau_7000/image5.png'],
         videoSrc: './video/link.mp4',
@@ -674,7 +674,7 @@ const products = [
     {
         id: 1029,
         name: 'Boite porte ustensiles',
-        price: 3000, //2500
+        price: 3500, //2500
         category: 'cuisine',
         imgSrcs: ['./image/new_doss/Boite_porte_ustensiles/image1.png', './image/new_doss/Boite_porte_ustensiles/image2.png', './image/new_doss/Boite_porte_ustensiles/image3.png', './image/new_doss/Boite_porte_ustensiles/image4.png', './image/new_doss/Boite_porte_ustensiles/image5.png', './image/new_doss/Boite_porte_ustensiles/image6.png'],
         videoSrc: './video/link.mp4',
@@ -707,7 +707,7 @@ const products = [
     {
         id: 1032,
         name: 'Decapsuleur magnétique',
-        price: 1300, //1200
+        price: 1500, //1200
         category: 'tous',
         imgSrcs: ['./image/new_doss/Decapsuleur_magnétique/image1.png', './image/new_doss/Decapsuleur_magnétique/image2.png', './image/new_doss/Decapsuleur_magnétique/image3.png', './image/new_doss/Decapsuleur_magnétique/image4.png', './image/new_doss/Decapsuleur_magnétique/image5.png'],
         videoSrc: './video/link.mp4',
@@ -718,7 +718,7 @@ const products = [
     {
         id: 1033,
         name: 'Diffuseur de senteurs',
-        price: 1100, //1000
+        price: 1500, //1000
         category: 'tous',
         imgSrcs: ['./image/new_doss/diffuseur_de_senteur_2000/image1.png', './image/new_doss/diffuseur_de_senteur_2000/image2.png', './image/new_doss/diffuseur_de_senteur_2000/image3.png', './image/new_doss/diffuseur_de_senteur_2000/image4.png', './image/new_doss/diffuseur_de_senteur_2000/image5.png', './image/new_doss/diffuseur_de_senteur_2000/image6.png', './image/new_doss/diffuseur_de_senteur_2000/image7.png'],
         videoSrc: './video/link.mp4',
@@ -729,7 +729,7 @@ const products = [
     {
         id: 1034,
         name: 'Échelle télescopique',
-        price: 41000, //40000
+        price: 46000, //40000
         category: 'tous',
         imgSrcs: ['./image/new_doss/Echelle_télescopique_40.000/image1.png', './image/new_doss/Echelle_télescopique_40.000/image2.png', './image/new_doss/Echelle_télescopique_40.000/image3.png', './image/new_doss/Echelle_télescopique_40.000/image4.png', './image/new_doss/Echelle_télescopique_40.000/image5.png', './image/new_doss/Echelle_télescopique_40.000/image6.png', './image/new_doss/Echelle_télescopique_40.000/image7.png'],
         videoSrc: './video/link.mp4',
@@ -740,7 +740,7 @@ const products = [
     {
         id: 1035,
         name: 'Étagère de rangement',
-        price: 4500, //4000
+        price: 5600, //4000
         category: 'tous',
         imgSrcs: ['./image/new_doss/etagere_de_range/image1.png', './image/new_doss/etagere_de_range/image2.png', './image/new_doss/etagere_de_range/image3.png', './image/new_doss/etagere_de_range/image4.png'],
         videoSrc: './video/link.mp4',
@@ -751,7 +751,7 @@ const products = [
     {
         id: 1036,
         name: 'Fer à repasser',
-        price: 5000, //5000
+        price: 6000, //5000
         category: 'electronique',
         imgSrcs: ['./image/new_doss/fer_a_repasser/image1.png', './image/new_doss/fer_a_repasser/image2.png', './image/new_doss/fer_a_repasser/image3.png', './image/new_doss/fer_a_repasser/image4.png', './image/new_doss/fer_a_repasser/image5.png', './image/new_doss/fer_a_repasser/image6.png'],
         videoSrc: './video/link.mp4',
@@ -773,7 +773,7 @@ const products = [
     {
         id: 1038,
         name: 'Friteuse à air',
-        price: 19500, //19000
+        price: 23000, //19000
         category: 'cuisine',
         imgSrcs: ['./image/new_doss/Friteuse_a_air_19.000/image1.png', './image/new_doss/Friteuse_a_air_19.000/image2.png', './image/new_doss/Friteuse_a_air_19.000/image3.png', './image/new_doss/Friteuse_a_air_19.000/image4.png', './image/new_doss/Friteuse_a_air_19.000/image5.png'],
         videoSrc: './video/link.mp4',
@@ -795,7 +795,7 @@ const products = [
     {
         id: 1043,
         name: 'Grande batteuse électrique',
-        price: 5500, //5000
+        price: 6000, //5000
         category: 'electronique',
         imgSrcs: ['./image/new_doss/Grande_batteuse _electrique_5000/image1.png', './image/new_doss/Grande_batteuse _electrique_5000/image2.png', './image/new_doss/Grande_batteuse _electrique_5000/image3.png'],
         videoSrc: './video/link.mp4',
@@ -806,7 +806,7 @@ const products = [
     {
         id: 1040,
         name: 'Lumiere led petit',
-        price: 1400, //1300
+        price: 1900, //1300
         category: 'tous',
         imgSrcs: ['./image/new_doss/lumiere_led/image1.png', './image/new_doss/lumiere_led/image2.png', './image/new_doss/lumiere_led/image3.png', './image/new_doss/lumiere_led/image4.png'],
         videoSrc: './video/link.mp4',
@@ -817,7 +817,7 @@ const products = [
     {
         id: 1041,
         name: 'Mini four electrique 3en1',
-        price: 19500, //19000
+        price: 23500, //19000
         category: 'cuisine',
         imgSrcs: ['./image/new_doss/Mini_four_electrique_3en1_19.000/image1.png', './image/new_doss/Mini_four_electrique_3en1_19.000/image2.png', './image/new_doss/Mini_four_electrique_3en1_19.000/image3.png', './image/new_doss/Mini_four_electrique_3en1_19.000/image4.png'],
         videoSrc: './video/link.mp4',
@@ -828,7 +828,7 @@ const products = [
     {
         id: 1042,
         name: 'Spatule de cuisine',
-        price: 2000, //1500
+        price: 2100, //1500
         category: 'cuisine',
         imgSrcs: ['./image/new_doss/Spatule_de_cuisine/image1.png', './image/new_doss/Spatule_de_cuisine/image2.png', './image/new_doss/Spatule_de_cuisine/image3.png', './image/new_doss/Spatule_de_cuisine/image4.png'],
         videoSrc: './video/link.mp4',
@@ -856,7 +856,7 @@ const products = [
     {
         id: 1044,
         name: 'Armoire de rangement',
-        price: 4000, //3000
+        price: 4500, //3000
         category: 'decoration',
         imgSrcs: ['./image/new_24_12/Armoire_de_rangement_3000/image1.png'],
         videoSrc: './video/link.mp4',
@@ -867,8 +867,8 @@ const products = [
     {
         id: 1045,
         name: 'Chaussures',
-        price: 9500, //9000
-        category: 'cuisine',
+        price: 12000, //9000
+        category: 'habillements',
         imgSrcs: ['./image/new_24_12/basket/image1.png', './image/new_24_12/basket/image2.png', './image/new_24_12/basket/image3.png', './image/new_24_12/basket/image4.png', './image/new_24_12/basket/image5.png'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
@@ -878,8 +878,8 @@ const products = [
     {
         id: 1046,
         name: 'Chaussures blanche, noir',
-        price: 9500, //9000
-        category: 'cuisine',
+        price: 11000, //9000
+        category: 'habillement',
         imgSrcs: ['./image/new_24_12/basket_B/image1.png', './image/new_24_12/basket_B/image2.png', './image/new_24_12/basket_B/image3.png', './image/new_24_12/basket_B/image4.png', './image/new_24_12/basket_B/image5.png'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
@@ -889,8 +889,8 @@ const products = [
     {
         id: 1047,
         name: 'Bassin pour pédicure',
-        price: 12000, //10000
-        category: 'cuisine',
+        price: 14000, //10000
+        category: 'tous',
         imgSrcs: ['./image/new_24_12/Bassin_pour_pedicure_10000/image1.png', './image/new_24_12/Bassin_pour_pedicure_10000/image2.png', './image/new_24_12/Bassin_pour_pedicure_10000/image3.png', './image/new_24_12/Bassin_pour_pedicure_10000/image4.png', './image/new_24_12/Bassin_pour_pedicure_10000/image5.png'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
@@ -900,8 +900,8 @@ const products = [
     {
         id: 1048,
         name: 'Brosse de visage',
-        price: 1700, //1500
-        category: 'cuisine',
+        price: 2100, //1500
+        category: 'beauté',
         imgSrcs: ['./image/new_24_12/Brosse_de_visage_1500/image1.png', './image/new_24_12/Brosse_de_visage_1500/image2.png', './image/new_24_12/Brosse_de_visage_1500/image3.png', './image/new_24_12/Brosse_de_visage_1500/image4.png',],
         videoSrc: './video/link.mp4',
         stock: "en stock",
@@ -911,7 +911,7 @@ const products = [
     {
         id: 1049,
         name: 'Coupe légume à 6 lamelles',
-        price: 4500, //4000
+        price: 5600, //4000
         category: 'cuisine',
         imgSrcs: ['./image/new_24_12/Coupe-legume_a_6_lamelles_4000/image1.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image2.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image3.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image4.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image5.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image6.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image7.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image8.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image9.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image10.png'],
         videoSrc: './video/link.mp4',
@@ -922,7 +922,7 @@ const products = [
     {
         id: 1050,
         name: 'Ensemble carafe',
-        price: 4000, //3500
+        price: 4900, //3500
         category: 'cuisine',
         imgSrcs: ['./image/new_24_12/Ensemble_carafe_3500/image1.png', './image/new_24_12/Ensemble_carafe_3500/image2.png', './image/new_24_12/Ensemble_carafe_3500/image3.png', './image/new_24_12/Ensemble_carafe_3500/image4.png', './image/new_24_12/Ensemble_carafe_3500/image5.png', './image/new_24_12/Ensemble_carafe_3500/image6.png', './image/new_24_12/Ensemble_carafe_3500/image7.png'],
         videoSrc: './video/link.mp4',
@@ -933,7 +933,7 @@ const products = [
     {
         id: 1051,
         name: 'Ensemble silicone 19pcs',
-        price: 9000, //8500
+        price: 9500, //8500
         category: 'cuisine',
         imgSrcs: ['./image/new_24_12/ensemble_silicone_19pcs_8500/image1.png', './image/new_24_12/ensemble_silicone_19pcs_8500/image2.png', './image/new_24_12/ensemble_silicone_19pcs_8500/image3.png', './image/new_24_12/ensemble_silicone_19pcs_8500/image4.png', './image/new_24_12/ensemble_silicone_19pcs_8500/image5.png', './image/new_24_12/ensemble_silicone_19pcs_8500/image6.png'],
         videoSrc: './video/link.mp4',
@@ -944,8 +944,8 @@ const products = [
     {
         id: 1052,
         name: 'Etagere de range multifonctions',
-        price: 3000, //2500
-        category: 'cuisine',
+        price: 4500, //2500
+        category: 'tous',
         imgSrcs: ['./image/new_24_12/Etagere_de_range_multifonctions_2500/image1.png', './image/new_24_12/Etagere_de_range_multifonctions_2500/image2.png', './image/new_24_12/Etagere_de_range_multifonctions_2500/image3.png', './image/new_24_12/Etagere_de_range_multifonctions_2500/image4.png'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
@@ -977,7 +977,7 @@ const products = [
     {
         id: 1055,
         name: 'Mini mortier',
-        price: 1400, //1300
+        price: 1900, //1300
         category: 'cuisine',
         imgSrcs: ['./image/new_24_12/mini_mortier_1300/image1.png', './image/new_24_12/mini_mortier_1300/image2.png', './image/new_24_12/mini_mortier_1300/image3.png', './image/new_24_12/mini_mortier_1300/image4.png', './image/new_24_12/mini_mortier_1300/image5.png', './image/new_24_12/mini_mortier_1300/image6.png', './image/new_24_12/mini_mortier_1300/image7.png', './image/new_24_12/mini_mortier_1300/image8.png'],
         videoSrc: './video/link.mp4',
@@ -988,7 +988,7 @@ const products = [
     {
         id: 1056,
         name: 'Mixeur de fruits',
-        price: 3500, //3000
+        price: 4200, //3000
         category: 'cuisine',
         imgSrcs: ['./image/new_24_12/Mixeur_de_fruits_3000/image1.png', './image/new_24_12/Mixeur_de_fruits_3000/image2.png', './image/new_24_12/Mixeur_de_fruits_3000/image3.png'],
         videoSrc: './video/link.mp4',
@@ -999,7 +999,7 @@ const products = [
     {
         id: 1057,
         name: 'Presse citron',
-        price: 800, //700
+        price: 750, //700
         category: 'cuisine',
         imgSrcs: ['./image/new_24_12/presse_citron_700/image1.png', './image/new_24_12/presse_citron_700/image2.png', './image/new_24_12/presse_citron_700/image3.png', './image/new_24_12/presse_citron_700/image4.png', './image/new_24_12/presse_citron_700/image5.png'],
         videoSrc: './video/link.mp4',
@@ -1010,7 +1010,7 @@ const products = [
     {
         id: 1058,
         name: 'Serviette 3 pcs',
-        price: 14000, //12000
+        price: 15000, //12000
         category: 'cuisine',
         imgSrcs: ['./image/new_24_12/serviette_3_pcs_12000/image1.png', './image/new_24_12/serviette_3_pcs_12000/image2.png', './image/new_24_12/serviette_3_pcs_12000/image3.png', './image/new_24_12/serviette_3_pcs_12000/image4.png', './image/new_24_12/serviette_3_pcs_12000/image5.png'],
         videoSrc: './video/link.mp4',
@@ -1032,7 +1032,7 @@ const products = [
     {
         id: 1060,
         name: 'Thermos numérique',
-        price: 2200, //2000
+        price: 3500, //2000
         category: 'tous',
         imgSrcs: ['./image/new_24_12/Thermos_numérique_2000/image1.png', './image/new_24_12/Thermos_numérique_2000/image2.png', './image/new_24_12/Thermos_numérique_2000/image3.png', './image/new_24_12/Thermos_numérique_2000/image4.png', './image/new_24_12/Thermos_numérique_2000/image5.png', './image/new_24_12/Thermos_numérique_2000/image6.png', './image/new_24_12/Thermos_numérique_2000/image7.png', './image/new_24_12/Thermos_numérique_2000/image8.png'],
         videoSrc: './video/link.mp4',
@@ -1043,7 +1043,7 @@ const products = [
     {
         id: 1061,
         name: 'Ventilation de climatisation',
-        price: 4700, //4500
+        price: 5900, //4500
         category: 'cuisine',
         imgSrcs: ['./image/new_24_12/Ventilation_de_climatisation_4500/image1.png', './image/new_24_12/Ventilation_de_climatisation_4500/image2.png', './image/new_24_12/Ventilation_de_climatisation_4500/image3.png', './image/new_24_12/Ventilation_de_climatisation_4500/image4.png', './image/new_24_12/Ventilation_de_climatisation_4500/image5.png', './image/new_24_12/Ventilation_de_climatisation_4500/image6.png', './image/new_24_12/Ventilation_de_climatisation_4500/image7.png'],
         videoSrc: './video/link.mp4',
