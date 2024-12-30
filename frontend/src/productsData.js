@@ -49,7 +49,7 @@ const products = [
         name: 'Adidas Campus vert',
         price: 24500,
         category: 'habillement',
-        imgSrcs: ['./image/adidas_vert_fonce/image1.jpeg', './image/adidas_vert_fonce/image2.jpeg' , './image/adidas_vert_fonce/image3.jpeg'],
+        imgSrcs: ['./image/adidas_vert_fonce/image1.jpeg', './image/adidas_vert_fonce/image2.jpeg', './image/adidas_vert_fonce/image3.jpeg'],
         videoSrc: './video/Adidas_campus_vert.mp4',
         stock: "en stock",
         description: 'Chaussures décontractées',
@@ -460,7 +460,7 @@ const products = [
     },*/
     {
         id: 1010,
-        name: 'tapis', 
+        name: 'tapis',
         price: 3000,
         category: 'decoration',
         imgSrcs: ['./image/Martistore_calavi/tapis_de_douche/image1.png', './image/Martistore_calavi/tapis_de_douche/image2.png', './image/Martistore_calavi/tapis_de_douche/image3.png', './image/Martistore_calavi/tapis_de_douche/image4.png'],
@@ -957,7 +957,7 @@ const products = [
         name: 'Fer repasser raf',
         price: 4500, //4000
         category: 'cuisine',
-        imgSrcs: ['./image/new_24_12/fer_repasser_raf_4000/image1.png', './image/new_24_12/fer_repasser_raf_4000/image2.png', './image/new_24_12/fer_repasser_raf_4000/image3.png', './image/new_24_12/fer_repasser_raf_4000/image4.png','./image/new_24_12/fer_repasser_raf_4000/image5.png'],
+        imgSrcs: ['./image/new_24_12/fer_repasser_raf_4000/image1.png', './image/new_24_12/fer_repasser_raf_4000/image2.png', './image/new_24_12/fer_repasser_raf_4000/image3.png', './image/new_24_12/fer_repasser_raf_4000/image4.png', './image/new_24_12/fer_repasser_raf_4000/image5.png'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Efficace, Compact, Pratique',
@@ -1011,7 +1011,7 @@ const products = [
         id: 1058,
         name: 'Serviette 3 pcs',
         price: 15000, //12000
-        category: 'cuisine',
+        category: 'tous',
         imgSrcs: ['./image/new_24_12/serviette_3_pcs_12000/image1.png', './image/new_24_12/serviette_3_pcs_12000/image2.png', './image/new_24_12/serviette_3_pcs_12000/image3.png', './image/new_24_12/serviette_3_pcs_12000/image4.png', './image/new_24_12/serviette_3_pcs_12000/image5.png'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
@@ -1022,7 +1022,7 @@ const products = [
         id: 1059,
         name: 'Tente automatique',
         price: 17000, //15000
-        category: 'cuisine',
+        category: 'tous',
         imgSrcs: ['./image/new_24_12/Tente_automatique_15000/image1.png', './image/new_24_12/Tente_automatique_15000/image2.png', './image/new_24_12/Tente_automatique_15000/image3.png', './image/new_24_12/Tente_automatique_15000/image4.png'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
@@ -1044,13 +1044,941 @@ const products = [
         id: 1061,
         name: 'Ventilation de climatisation',
         price: 5900, //4500
-        category: 'cuisine',
+        category: 'electronique',
         imgSrcs: ['./image/new_24_12/Ventilation_de_climatisation_4500/image1.png', './image/new_24_12/Ventilation_de_climatisation_4500/image2.png', './image/new_24_12/Ventilation_de_climatisation_4500/image3.png', './image/new_24_12/Ventilation_de_climatisation_4500/image4.png', './image/new_24_12/Ventilation_de_climatisation_4500/image5.png', './image/new_24_12/Ventilation_de_climatisation_4500/image6.png', './image/new_24_12/Ventilation_de_climatisation_4500/image7.png'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Efficace, Pratique, Confortable',
         modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        id: 1062,
+        name: 'Sac multi-fonction',
+        price: 4500, //3500
+        category: 'tous',
+        imgSrcs: ['./image/Product_new/Akuesle_Sac_multifonction_3500/image1.png', './image/Product_new/Akuesle_Sac_multifonction_3500/image2.png', './image/Product_new/Akuesle_Sac_multifonction_3500/image3.png', './image/Product_new/Akuesle_Sac_multifonction_3500/image4.png', './image/Product_new/Akuesle_Sac_multifonction_3500/image5.png', './image/Product_new/Akuesle_Sac_multifonction_3500/image6.png', './image/Product_new/Akuesle_Sac_multifonction_3500/image7.png', './image/Product_new/Akuesle_Sac_multifonction_3500/image8.png', './image/Product_new/Akuesle_Sac_multifonction_3500/image9.png', './image/Product_new/Akuesle_Sac_multifonction_3500/image10.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Efficace, Pratique, Confortable',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1063,
+        name: 'Adaptateur solide de voiture',
+        price: 2000, //1200
+        category: 'tous',
+        imgSrcs: ['./image/Product_new/Akuesley_Adaptateur_voiture_1200/image1.png', './image/Product_new/Akuesley_Adaptateur_voiture_1200/image2.png', './image/Product_new/Akuesley_Adaptateur_voiture_1200/image3.png', './image/Product_new/Akuesley_Adaptateur_voiture_1200/image4.png', './image/Product_new/Akuesley_Adaptateur_voiture_1200/image5.png', './image/Product_new/Akuesley_Adaptateur_voiture_1200/image6.png', './image/Product_new/Akuesley_Adaptateur_voiture_1200/image7.png', './image/Product_new/Akuesley_Adaptateur_voiture_1200/image8.png', './image/Product_new/Akuesley_Adaptateur_voiture_1200/image9.png', './image/Product_new/Akuesley_Adaptateur_voiture_1200/image10.png', './image/Product_new/Akuesley_Adaptateur_voiture_1200/image11.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1064,
+        name: 'Casque P9 pro max',
+        price: 3500, //2200
+        category: 'electronique',
+        imgSrcs: ['./image/Product_new/Akuesley_Casque_P9_pro_max_2200/image1.png', './image/Product_new/Akuesley_Casque_P9_pro_max_2200/image2.png', './image/Product_new/Akuesley_Casque_P9_pro_max_2200/image3.png', './image/Product_new/Akuesley_Casque_P9_pro_max_2200/image4.png', './image/Product_new/Akuesley_Casque_P9_pro_max_2200/image5.png', './image/Product_new/Akuesley_Casque_P9_pro_max_2200/image6.png', './image/Product_new/Akuesley_Casque_P9_pro_max_2200/image7.png', './image/Product_new/Akuesley_Casque_P9_pro_max_2200/image8.png', './image/Product_new/Akuesley_Casque_P9_pro_max_2200/image9.png', './image/Product_new/Akuesley_Casque_P9_pro_max_2200/image10.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1065,
+        name: 'Diffuseur de senteur',
+        price: 3000, //2200
+        category: 'tous',
+        imgSrcs: ['./image/Product_new/Akuesley_Diffuseur_de_senteur_veuilleuse_2200/image1.png', './image/Product_new/Akuesley_Diffuseur_de_senteur_veuilleuse_2200/image2.png', './image/Product_new/Akuesley_Diffuseur_de_senteur_veuilleuse_2200/image3.png', './image/Product_new/Akuesley_Diffuseur_de_senteur_veuilleuse_2200/image4.png', './image/Product_new/Akuesley_Diffuseur_de_senteur_veuilleuse_2200/image5.png', './image/Product_new/Akuesley_Diffuseur_de_senteur_veuilleuse_2200/image6.png', './image/Product_new/Akuesley_Diffuseur_de_senteur_veuilleuse_2200/image7.png', './image/Product_new/Akuesley_Diffuseur_de_senteur_veuilleuse_2200/image8.png', './image/Product_new/Akuesley_Diffuseur_de_senteur_veuilleuse_2200/image9.png', './image/Product_new/Akuesley_Diffuseur_de_senteur_veuilleuse_2200/image10.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1066,
+        name: 'Grand sac de rangement',
+        price: 4000, //3000
+        category: 'tous',
+        imgSrcs: ['./image/Product_new/Akuesley_Grand_sac_de_rangement_3000/image1.png', './image/Product_new/Akuesley_Grand_sac_de_rangement_3000/image2.png', './image/Product_new/Akuesley_Grand_sac_de_rangement_3000/image3.png', './image/Product_new/Akuesley_Grand_sac_de_rangement_3000/image4.png', './image/Product_new/Akuesley_Grand_sac_de_rangement_3000/image5.png', './image/Product_new/Akuesley_Grand_sac_de_rangement_3000/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1067,
+        name: 'Kits de studio professionnel',
+        price: 14500, //11000
+        category: 'electronique',
+        imgSrcs: ['./image/Product_new/Akuesley_Kits_de_studio_professionnel_11000/image1.png', './image/Product_new/Akuesley_Kits_de_studio_professionnel_11000/image2.png', './image/Product_new/Akuesley_Kits_de_studio_professionnel_11000/image3.png', './image/Product_new/Akuesley_Kits_de_studio_professionnel_11000/image4.png', './image/Product_new/Akuesley_Kits_de_studio_professionnel_11000/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1068,
+        name: 'Pose ordinateur refroidissant',
+        price: 7000, //6000
+        category: 'tous',
+        imgSrcs: ['./image/Product_new/Akuesley_pose_ordinateur_a_refroidisseur_6000/image1.png', './image/Product_new/Akuesley_pose_ordinateur_a_refroidisseur_6000/image2.png', './image/Product_new/Akuesley_pose_ordinateur_a_refroidisseur_6000/image3.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1069,
+        name: 'Diffuseur de senteur',
+        price: 3500, //2700
+        category: 'tous',
+        imgSrcs: ['./image/Product_new/Akuesley_Projecteur_multicolore_2700/image1.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image2.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image3.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image4.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image5.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image6.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image7.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image8.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1070,
+        name: 'Projecteur octogonal multicolore',
+        price: 7500, //6000
+        category: 'electronique',
+        imgSrcs: ['./image/Product_new/Akuesley_Projecteur_octogonal_multicolore_6000/image1.png', './image/Product_new/Akuesley_Projecteur_octogonal_multicolore_6000/image2.png', './image/Product_new/Akuesley_Projecteur_octogonal_multicolore_6000/image3.png', './image/Product_new/Akuesley_Projecteur_octogonal_multicolore_6000/image4.png', './image/Product_new/Akuesley_Projecteur_octogonal_multicolore_6000/image5.png', './image/Product_new/Akuesley_Projecteur_octogonal_multicolore_6000/image6.png', './image/Product_new/Akuesley_Projecteur_octogonal_multicolore_6000/image7.png', './image/Product_new/Akuesley_Projecteur_octogonal_multicolore_6000/image8.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1071,
+        name: 'Support téléphone pour voiture',
+        price: 1500, //1000
+        category: 'tous',
+        imgSrcs: ['./image/Product_new/Akuesley_Support_téléphone_voiture_1000/image1.png', './image/Product_new/Akuesley_Support_téléphone_voiture_1000/image2.png', './image/Product_new/Akuesley_Support_téléphone_voiture_1000/image3.png', './image/Product_new/Akuesley_Support_téléphone_voiture_1000/image4.png', './image/Product_new/Akuesley_Support_téléphone_voiture_1000/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1072,
+        name: 'Support solide pour téléphone',
+        price: 1500, //1200
+        category: 'tous',
+        imgSrcs: ['./image/Product_new/Akuesley_Support1_téléphone_1200/image1.png', './image/Product_new/Akuesley_Support1_téléphone_1200/image2.png', './image/Product_new/Akuesley_Support1_téléphone_1200/image3.png', './image/Product_new/Akuesley_Support1_téléphone_1200/image4.png', './image/Product_new/Akuesley_Support1_téléphone_1200/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1073,
+        name: 'Ampoule à pile led',
+        price: 2000, //1500
+        category: 'electronique',
+        imgSrcs: ['./image/Product_new/Martistore_Ampoule_a_pile_led_1500/image1.png', './image/Product_new/Martistore_Ampoule_a_pile_led_1500/image2.png', './image/Product_new/Martistore_Ampoule_a_pile_led_1500/image3.png', './image/Product_new/Martistore_Ampoule_a_pile_led_1500/image4.png', './image/Product_new/Martistore_Ampoule_a_pile_led_1500/image5.png', './image/Product_new/Martistore_Ampoule_a_pile_led_1500/image6.png', './image/Product_new/Martistore_Ampoule_a_pile_led_1500/image7.png', './image/Product_new/Martistore_Ampoule_a_pile_led_1500/image8.png', './image/Product_new/Martistore_Ampoule_a_pile_led_1500/image9.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1074,
+        name: 'Barbecue pliable et portable',
+        price: 7000, //6000
+        category: 'cuisine',
+        imgSrcs: ['./image/Product_new/Martistore_Barbecue_pliable_portable_6000/image1.png', './image/Product_new/Martistore_Barbecue_pliable_portable_6000/image2.png', './image/Product_new/Martistore_Barbecue_pliable_portable_6000/image3.png', './image/Product_new/Martistore_Barbecue_pliable_portable_6000/image4.png', './image/Product_new/Martistore_Barbecue_pliable_portable_6000/image5.png', './image/Product_new/Martistore_Barbecue_pliable_portable_6000/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1075,
+        name: 'Batteuse électrique pratique',
+        price: 4000, //3000
+        category: 'cuisine',
+        imgSrcs: ['./image/Product_new/Martistore_Batteuse_électrique_3000/image1.png', './image/Product_new/Martistore_Batteuse_électrique_3000/image2.png', './image/Product_new/Martistore_Batteuse_électrique_3000/image3.png', './image/Product_new/Martistore_Batteuse_électrique_3000/image4.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1076,
+        name: 'Bouclier anti-onde',
+        price: 5500, //4000
+        category: 'electronique',
+        imgSrcs: ['./image/Product_new/Martistore_Bouclier_anti-onde_4000/image1.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1077,
+        name: 'Tasse à couvercle pratique',
+        price: 2000, //1000
+        category: 'cuisine',
+        imgSrcs: ['./image/Product_new/Martistore_Chic_tasse_a_couvercle_1000/image1.png', './image/Product_new/Martistore_Chic_tasse_a_couvercle_1000/image2.png', './image/Product_new/Martistore_Chic_tasse_a_couvercle_1000/image3.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1078,
+        name: 'Drone amateur',
+        price: 17000, //15000
+        category: 'electronique',
+        imgSrcs: ['./image/Product_new/Martistore_Drone_amateur_15000/image1.png', './image/Product_new/Martistore_Drone_amateur_15000/image2.png', './image/Product_new/Martistore_Drone_amateur_15000/image3.png', './image/Product_new/Martistore_Drone_amateur_15000/image4.png', './image/Product_new/Martistore_Drone_amateur_15000/image5.png', './image/Product_new/Martistore_Drone_amateur_15000/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1079,
+        name: 'Extrateur de jus rechargeable',
+        price: 6500, //5000
+        category: 'cuisine',
+        imgSrcs: ['./image/Product_new/Martistore_Extrateur_de_jus_rechargeable_5000/image1.png', './image/Product_new/Martistore_Extrateur_de_jus_rechargeable_5000/image2.png', './image/Product_new/Martistore_Extrateur_de_jus_rechargeable_5000/image3.png', './image/Product_new/Martistore_Extrateur_de_jus_rechargeable_5000/image4.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1080,
+        name: 'Gaine à bande',
+        price: 3000, //2500
+        category: 'beauté',
+        imgSrcs: ['./image/Product_new/Martistore_Gaine_a_bande_retrace_2500/image1.png', './image/Product_new/Martistore_Gaine_a_bande_retrace_2500/image2.png', './image/Product_new/Martistore_Gaine_a_bande_retrace_2500/image3.png', './image/Product_new/Martistore_Gaine_a_bande_retrace_2500/image4.png', './image/Product_new/Martistore_Gaine_a_bande_retrace_2500/image5.png', './image/Product_new/Martistore_Gaine_a_bande_retrace_2500/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1081,
+        name: 'Grand fer à lisser',
+        price: 4200, //3500
+        category: 'electronique',
+        imgSrcs: ['./image/Product_new/Martistore_Grand_fer_a_lisser_3500/image1.png', './image/Product_new/Martistore_Grand_fer_a_lisser_3500/image2.png', './image/Product_new/Martistore_Grand_fer_a_lisser_3500/image3.png', './image/Product_new/Martistore_Grand_fer_a_lisser_3500/image4.png', './image/Product_new/Martistore_Grand_fer_a_lisser_3500/image5.png', './image/Product_new/Martistore_Grand_fer_a_lisser_3500/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1082,
+        name: 'Micro',
+        price: 16500, //14000
+        category: 'electronique',
+        imgSrcs: ['./image/Product_new/martistore_micro_14500/image1.png', './image/Product_new/martistore_micro_14500/image2.png', './image/Product_new/martistore_micro_14500/image3.png', './image/Product_new/martistore_micro_14500/image4.png', './image/Product_new/martistore_micro_14500/image5.png', './image/Product_new/martistore_micro_14500/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1083,
+        name: 'Mini couteau pliant',
+        price: 400, //200
+        category: 'cuisine',
+        imgSrcs: ['./image/Product_new/Martistore_Mini_couteau_porte_cle_pliant_200/image1.png', './image/Product_new/Martistore_Mini_couteau_porte_cle_pliant_200/image2.png', './image/Product_new/Martistore_Mini_couteau_porte_cle_pliant_200/image3.png', './image/Product_new/Martistore_Mini_couteau_porte_cle_pliant_200/image4.png', './image/Product_new/Martistore_Mini_couteau_porte_cle_pliant_200/image5.png', './image/Product_new/Martistore_Mini_couteau_porte_cle_pliant_200/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1084,
+        name: 'Mini diffuseur de senteurs',
+        price: 1700, //1200
+        category: 'tous',
+        imgSrcs: ['./image/Product_new/Martistore_Mini_diffuseur_de_senteurs_1200/image1.png', './image/Product_new/Martistore_Mini_diffuseur_de_senteurs_1200/image2.png', './image/Product_new/Martistore_Mini_diffuseur_de_senteurs_1200/image3.png', './image/Product_new/Martistore_Mini_diffuseur_de_senteurs_1200/image4.png', './image/Product_new/Martistore_Mini_diffuseur_de_senteurs_1200/image5.png', './image/Product_new/Martistore_Mini_diffuseur_de_senteurs_1200/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1085,
+        name: 'Mini lampe de nuit intelligente',
+        price: 3000, //2000
+        category: 'electronique',
+        imgSrcs: ['./image/Product_new/Martistore_Mini_lampe_de_nuit_intelligente_telecommande_2000/image1.png', './image/Product_new/Martistore_Mini_lampe_de_nuit_intelligente_telecommande_2000/image2.png', './image/Product_new/Martistore_Mini_lampe_de_nuit_intelligente_telecommande_2000/image3.png', './image/Product_new/Martistore_Mini_lampe_de_nuit_intelligente_telecommande_2000/image4.png', './image/Product_new/Martistore_Mini_lampe_de_nuit_intelligente_telecommande_2000/image5.png', './image/Product_new/Martistore_Mini_lampe_de_nuit_intelligente_telecommande_2000/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1086,
+        name: 'Mini lampe de nuit intelligente',
+        price: 4000, //3500
+        category: 'electronique',
+        imgSrcs: ['./image/Product_new/Martistore_Plat_blanc_Carré_lot_6_3500/image1.png', './image/Product_new/Martistore_Plat_blanc_Carré_lot_6_3500/image2.png', './image/Product_new/Martistore_Plat_blanc_Carré_lot_6_3500/image3.png', './image/Product_new/Martistore_Plat_blanc_Carré_lot_6_3500/image4.png', './image/Product_new/Martistore_Plat_blanc_Carré_lot_6_3500/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1087,
+        name: 'Plat en forme de losange',
+        price: 5200, //4300
+        category: 'cuisine',
+        imgSrcs: ['./image/Product_new/Martistore_plat_losange_lot_de_6_4300/image1.png', './image/Product_new/Martistore_plat_losange_lot_de_6_4300/image2.png', './image/Product_new/Martistore_plat_losange_lot_de_6_4300/image3.png', './image/Product_new/Martistore_plat_losange_lot_de_6_4300/image4.png', './image/Product_new/Martistore_plat_losange_lot_de_6_4300/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1088,
+        name: 'Plat en forme arrondie',
+        price: 6500, //4500
+        category: 'cuisine',
+        imgSrcs: ['./image/Product_new/Martistore_Plat_rond_irrégulier_4500/image1.png', './image/Product_new/Martistore_Plat_rond_irrégulier_4500/image2.png', './image/Product_new/Martistore_Plat_rond_irrégulier_4500/image3.png', './image/Product_new/Martistore_Plat_rond_irrégulier_4500/image4.png', './image/Product_new/Martistore_Plat_rond_irrégulier_4500/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1089,
+        name: 'Plat en forme de rectangle',
+        price: 6600, //4800
+        category: 'cuisine',
+        imgSrcs: ['./image/Product_new/Martistore_rectangle_irrégulier_lot_6_4800/image1.png', './image/Product_new/Martistore_rectangle_irrégulier_lot_6_4800/image2.png', './image/Product_new/Martistore_rectangle_irrégulier_lot_6_4800/image3.png', './image/Product_new/Martistore_rectangle_irrégulier_lot_6_4800/image4.png', './image/Product_new/Martistore_rectangle_irrégulier_lot_6_4800/image5.png', './image/Product_new/Martistore_rectangle_irrégulier_lot_6_4800/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1090,
+        name: 'Support pour les ordinateurs',
+        price: 3000, //2000
+        category: 'tous',
+        imgSrcs: ['./image/Product_new/Martistore_Support_ordinateur_2000/image1.png', './image/Product_new/Martistore_Support_ordinateur_2000/image2.png', './image/Product_new/Martistore_Support_ordinateur_2000/image3.png', './image/Product_new/Martistore_Support_ordinateur_2000/image4.png', './image/Product_new/Martistore_Support_ordinateur_2000/image5.png', './image/Product_new/Martistore_Support_ordinateur_2000/image6.png', './image/Product_new/Martistore_Support_ordinateur_2000/image7.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1091,
+        name: 'Tondeuse rechargeable',
+        price: 3000, //2000
+        category: 'electronique',
+        imgSrcs: ['./image/Product_new/Martistore_Tondeuse_rechargeable_3500/image1.png', './image/Product_new/Martistore_Tondeuse_rechargeable_3500/image2.png', './image/Product_new/Martistore_Tondeuse_rechargeable_3500/image3.png', './image/Product_new/Martistore_Tondeuse_rechargeable_3500/image4.png', './image/Product_new/Martistore_Tondeuse_rechargeable_3500/image5.png', './image/Product_new/Martistore_Tondeuse_rechargeable_3500/image6.png', './image/Product_new/Martistore_Tondeuse_rechargeable_3500/image7.png', './image/Product_new/Martistore_Tondeuse_rechargeable_3500/image8.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1092,
+        name: 'Trepied, selfie avec lumières',
+        price: 6000, //4000
+        category: 'electronique',
+        imgSrcs: ['./image/Product_new/Martistore_Trepied_selfie_avec_lumières_4000/image1.png', './image/Product_new/Martistore_Trepied_selfie_avec_lumières_4000/image2.png', './image/Product_new/Martistore_Trepied_selfie_avec_lumières_4000/image3.png', './image/Product_new/Martistore_Trepied_selfie_avec_lumières_4000/image4.png', './image/Product_new/Martistore_Trepied_selfie_avec_lumières_4000/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1093,
+        name: 'Verre à whisky 6pcs',
+        price: 5200, //3500
+        category: 'tous',
+        imgSrcs: ['./image/Product_new/Martistore_Verre_a_whisky_de_luxe_lot_de_6_pcs_3500/image1.png', './image/Product_new/Martistore_Verre_a_whisky_de_luxe_lot_de_6_pcs_3500/image2.png', './image/Product_new/Martistore_Verre_a_whisky_de_luxe_lot_de_6_pcs_3500/image3.png', './image/Product_new/Martistore_Verre_a_whisky_de_luxe_lot_de_6_pcs_3500/image4.png', './image/Product_new/Martistore_Verre_a_whisky_de_luxe_lot_de_6_pcs_3500/image5.png', './image/Product_new/Martistore_Verre_a_whisky_de_luxe_lot_de_6_pcs_3500/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1094,
+        name: 'Minicoupe-légumes',
+        price: 1800, //1300
+        category: 'cuisine',
+        imgSrcs: ['./image/Product_new/sk_lux_Mini_coupe-légumes_manuel_1300/image1.png', './image/Product_new/sk_lux_Mini_coupe-légumes_manuel_1300/image2.png', './image/Product_new/sk_lux_Mini_coupe-légumes_manuel_1300/image3.png', './image/Product_new/sk_lux_Mini_coupe-légumes_manuel_1300/image4.png', './image/Product_new/sk_lux_Mini_coupe-légumes_manuel_1300/image5.png', './image/Product_new/sk_lux_Mini_coupe-légumes_manuel_1300/image6.png', './image/Product_new/sk_lux_Mini_coupe-légumes_manuel_1300/image7.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1095,
+        name: 'Nettoyant éffervescent et désinfectant',
+        price: 225, //150
+        category: 'tous',
+        imgSrcs: ['./image/Product_new/sk_luxe_Nettoyant_effervescent_désinfectant/image1.png', './image/Product_new/sk_luxe_Nettoyant_effervescent_désinfectant/image2.png', './image/Product_new/sk_luxe_Nettoyant_effervescent_désinfectant/image3.png', './image/Product_new/sk_luxe_Nettoyant_effervescent_désinfectant/image4.png', './image/Product_new/sk_luxe_Nettoyant_effervescent_désinfectant/image5.png', './image/Product_new/sk_luxe_Nettoyant_effervescent_désinfectant/image6.png', './image/Product_new/sk_luxe_Nettoyant_effervescent_désinfectant/image7.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1096,
+        name: 'Peigne chauffante',
+        price: 5600, //4000
+        category: 'beauté',
+        imgSrcs: ['./image/Product_new/SK_LUXe_Peigne_chauffante_4000/image1.png', './image/Product_new/SK_LUXe_Peigne_chauffante_4000/image2.png', './image/Product_new/SK_LUXe_Peigne_chauffante_4000/image3.png', './image/Product_new/SK_LUXe_Peigne_chauffante_4000/image4.png', './image/Product_new/SK_LUXe_Peigne_chauffante_4000/image5.png', './image/Product_new/SK_LUXe_Peigne_chauffante_4000/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1097,
+        name: 'Pistolet masseur',
+        price: 5600, //4000
+        category: 'beauté',
+        imgSrcs: ['./image/Product_new/sk_luxe_Pistolet_masseur_5000/image1.png', './image/Product_new/sk_luxe_Pistolet_masseur_5000/image2.png', './image/Product_new/sk_luxe_Pistolet_masseur_5000/image3.png', './image/Product_new/sk_luxe_Pistolet_masseur_5000/image4.png', './image/Product_new/sk_luxe_Pistolet_masseur_5000/image5.png', './image/Product_new/sk_luxe_Pistolet_masseur_5000/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+
+    {
+        id: 1098,
+        name: 'Saladiers en verre',
+        price: 4000, //3000
+        category: 'tous',
+        imgSrcs: ['./image/Product_new/sk_luxe_saladiers_en_verre_3000/image1.png', './image/Product_new/sk_luxe_saladiers_en_verre_3000/image2.png', './image/Product_new/sk_luxe_saladiers_en_verre_3000/image3.png', './image/Product_new/sk_luxe_saladiers_en_verre_3000/image4.png', './image/Product_new/sk_luxe_saladiers_en_verre_3000/image5.png', './image/Product_new/sk_luxe_saladiers_en_verre_3000/image6.png', './image/Product_new/sk_luxe_saladiers_en_verre_3000/image7.png', './image/Product_new/sk_luxe_saladiers_en_verre_3000/image8.png', './image/Product_new/sk_luxe_saladiers_en_verre_3000/image9.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1100,
+        name: 'Vetement, fleuri, blanc, vert',
+        price: 11000, //9000
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/vetements/image1.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1101,
+        name: 'Habit, culotte, bleue',
+        price: 11000, //9000
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/vetements/image2.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1102,
+        name: 'Habit, culotte, marron',
+        price: 11000, //9000
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/vetements/image2.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1103,
+        name: 'Habit, culotte, rouge, rose',
+        price: 11000, //9000
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/vetements/image4.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1104,
+        name: 'Habit, culotte, blanc, gris',
+        price: 11000, //9000
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/vetements/image5.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1105,
+        name: 'Habit, culotte, jaune, vert',
+        price: 11000, //9000
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/vetements/image6.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+    {
+        id: 1106,
+        name: 'Habit, culotte, fleuri rouge',
+        price: 11000, //9000
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/vetements/image7.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        id: 1107,
+        name: 'Sac dame élégant',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image1.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1108,
+        name: 'Sac dame moderne',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image2.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1109,
+        name: 'Sac dame chic',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image3.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1110,
+        name: 'Sac dame classique',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image4.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1111,
+        name: 'Sac dame sportif',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image5.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1112,
+        name: 'Sac dame pratique',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image6.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1113,
+        name: 'Sac dame stylé',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image7.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1114,
+        name: 'Sac dame tendance',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image8.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1115,
+        name: 'Sac dame minimaliste',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image9.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1116,
+        name: 'Sac dame fonctionnel',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image10.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1117,
+        name: 'Sac dame professionnel',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image11.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1118,
+        name: 'Sac dame urbain',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image12.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1119,
+        name: 'Sac dame tendance',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image13.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1120,
+        name: 'Sac dame raffiné',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image14.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1121,
+        name: 'Sac dame chic',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image15.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1122,
+        name: 'Sac dame robuste',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image16.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1123,
+        name: 'Sac dame féminin',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image17.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1124,
+        name: 'Sac dame vintage',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image18.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1125,
+        name: 'Sac dame élégant',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image19.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1126,
+        name: 'Sac dame pratique',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image20.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1127,
+        name: 'Sac dame urbain',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image21.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1128,
+        name: 'Sac dame minimaliste',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image22.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1129,
+        name: 'Sac dame fonctionnel',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image23.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1130,
+        name: 'Sac dame professionnel',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image24.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1131,
+        name: 'Sac dame stylé',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image25.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1132,
+        name: 'Sac dame tendance',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image26.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1133,
+        name: 'Sac dame élégant',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image27.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1134,
+        name: 'Sac dame stylé',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image28.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1135,
+        name: 'Sac dame chic',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image29.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1136,
+        name: 'Sac dame moderne',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image30.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1137,
+        name: 'Sac dame luxueux',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image31.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1138,
+        name: 'Sac dame pratique',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image32.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1139,
+        name: 'Sac dame sophistiqué',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image33.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1140,
+        name: 'Sac dame unique',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image34.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1141,
+        name: 'Sac dame stylish',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image35.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1142,
+        name: 'Sac dame confortable',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image36.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    }
+
+
 ];
 
 export default products;
