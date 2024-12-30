@@ -15,7 +15,7 @@ import products from './productsData';
 function App() {
     const [cart, setCart] = useState([]);
     const [selectedProduct, setSelectedProduct] = useState(null);
-    const [searchQuery, setSearchQuery] = useState('✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.');
+    const [searchQuery, setSearchQuery] = useState('');
     const [filter, setFilter] = useState('tous');
     const [shuffledProducts, setShuffledProducts] = useState([]);
 
@@ -116,7 +116,7 @@ function App() {
                     {['tous', 'habillement', 'cuisine', 'electronique', 'decoration', 'beauté'].map(category => (
                         <button
                             key={category}
-                            className={`filter-button ${filter === category ? 'active' : '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'}`}
+                            className={`filter-button ${filter === category ? 'active' : ''}`}
                             onClick={() => setFilter(category)}
                         >
                             {category.charAt(0).toUpperCase() + category.slice(1)}
