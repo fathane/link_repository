@@ -1590,7 +1590,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1108,
@@ -1601,7 +1601,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1109,
@@ -1612,7 +1612,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1110,
@@ -1623,7 +1623,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1111,
@@ -1634,7 +1634,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1112,
@@ -1645,7 +1645,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1113,
@@ -1656,7 +1656,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1114,
@@ -1667,7 +1667,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1115,
@@ -1678,7 +1678,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1116,
@@ -1689,7 +1689,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1117,
@@ -1700,7 +1700,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1118,
@@ -1711,7 +1711,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1119,
@@ -1722,7 +1722,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1120,
@@ -1733,7 +1733,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1121,
@@ -1744,7 +1744,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1122,
@@ -1755,7 +1755,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1123,
@@ -1766,7 +1766,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1124,
@@ -1777,7 +1777,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1125,
@@ -1788,7 +1788,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1126,
@@ -1799,7 +1799,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1127,
@@ -1810,7 +1810,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1128,
@@ -1821,7 +1821,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1129,
@@ -1832,7 +1832,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1130,
@@ -1843,7 +1843,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1131,
@@ -1854,7 +1854,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1132,
@@ -1865,7 +1865,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1133,
@@ -1876,7 +1876,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1134,
@@ -1887,7 +1887,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1135,
@@ -1898,7 +1898,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1136,
@@ -1909,7 +1909,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1137,
@@ -1920,7 +1920,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1138,
@@ -1931,7 +1931,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1139,
@@ -1942,7 +1942,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1140,
@@ -1953,7 +1953,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1141,
@@ -1964,7 +1964,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     },
     {
         id: 1142,
@@ -1975,7 +1975,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: ''
     }
 
 
