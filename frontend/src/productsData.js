@@ -1049,7 +1049,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Efficace, Pratique, Confortable',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
 
 
@@ -1076,7 +1076,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Efficace, Pratique, Confortable',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1063,
@@ -1087,7 +1087,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1064,
@@ -1098,7 +1098,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1065,
@@ -1109,7 +1109,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1066,
@@ -1120,7 +1120,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1067,
@@ -1131,7 +1131,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1068,
@@ -1142,7 +1142,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1069,
@@ -1153,7 +1153,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1070,
@@ -1164,7 +1164,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1071,
@@ -1175,7 +1175,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1072,
@@ -1186,7 +1186,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1073,
@@ -1197,7 +1197,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1074,
@@ -1208,7 +1208,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1075,
@@ -1219,7 +1219,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1076,
@@ -1230,7 +1230,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1077,
@@ -1241,7 +1241,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1078,
@@ -1252,7 +1252,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1079,
@@ -1263,7 +1263,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1080,
@@ -1274,7 +1274,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1081,
@@ -1285,7 +1285,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1082,
@@ -1296,7 +1296,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1083,
@@ -1307,7 +1307,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1084,
@@ -1318,7 +1318,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1085,
@@ -1329,7 +1329,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1086,
@@ -1340,7 +1340,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1087,
@@ -1351,7 +1351,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1088,
@@ -1362,7 +1362,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1089,
@@ -1373,7 +1373,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1090,
@@ -1384,7 +1384,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1091,
@@ -1395,7 +1395,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1092,
@@ -1406,7 +1406,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1093,
@@ -1417,7 +1417,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1094,
@@ -1428,7 +1428,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1095,
@@ -1439,7 +1439,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1096,
@@ -1450,7 +1450,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1097,
@@ -1461,7 +1461,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
 
     {
@@ -1473,7 +1473,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1100,
@@ -1484,7 +1484,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1101,
@@ -1495,7 +1495,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1102,
@@ -1506,7 +1506,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1103,
@@ -1517,7 +1517,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1104,
@@ -1528,7 +1528,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1105,
@@ -1539,7 +1539,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
     {
         id: 1106,
@@ -1550,7 +1550,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Cette ventilation de climatisation est essentielle pour maintenir une atmosphère agréable. Son design efficace assure une circulation d air optimale, vous permettant de profiter d un confort maximal, même pendant les journées les plus chaudes.'
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
 
 
