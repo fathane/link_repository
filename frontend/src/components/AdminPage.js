@@ -4,7 +4,7 @@ import './admin.css';
 
 function AdminPage() {
     const [orders, setOrders] = useState([]);
-    const [errorMessage, setErrorMessage] = useState('');
+    const [errorMessage, setErrorMessage] = useState('✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.');
 
     useEffect(() => {
         const fetchOrders = async () => {
@@ -46,7 +46,7 @@ function AdminPage() {
             case 'cancelled':
                 return 'status-cancelled';
             default:
-                return '';
+                return '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.';
         }
     };
 
