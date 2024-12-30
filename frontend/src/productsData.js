@@ -49,7 +49,7 @@ const products = [
         name: 'Adidas Campus vert',
         price: 24500,
         category: 'habillement',
-        imgSrcs: ['./image/adidas_vert_fonce/image1.jpeg', './image/adidas_vert_fonce/image2.jpeg' , './image/adidas_vert_fonce/image3.jpeg'],
+        imgSrcs: ['./image/adidas_vert_fonce/image1.jpeg', './image/adidas_vert_fonce/image2.jpeg', './image/adidas_vert_fonce/image3.jpeg'],
         videoSrc: './video/Adidas_campus_vert.mp4',
         stock: "en stock",
         description: 'Chaussures décontractées',
@@ -335,12 +335,12 @@ const products = [
 
 
 
-
+    // 40%
     ////////////////
     {
         id: 1000,
         name: 'Ecouteur',
-        price: 4500,
+        price: 2100,
         category: 'electronique',
         imgSrcs: ['./image/Martistore_calavi/air_pod/image1.png', './image/Martistore_calavi/air_pod/image2.png', './image/Martistore_calavi/air_pod/image3.png', './image/Martistore_calavi/air_pod/image4.png', './image/Martistore_calavi/air_pod/image5.png', './image/Martistore_calavi/air_pod/image6.png'],
         videoSrc: './video/link.mp4',
@@ -359,18 +359,18 @@ const products = [
         description: 'Un tam-tam ludique et éducatif.',
         modalDescription: '✅ Découvrez ce tam-tam pour enfants, un instrument coloré et amusant qui développe la créativité et l’amour de la musique.'
     },
-    {
+    /*{
         id: 1002,
         name: 'Moule pastel',
-        price: 900, //700
+        price: 750, //700
         category: 'cuisine',
         imgSrcs: ['./image/Martistore_calavi/forme_pates/image1.png', './image/Martistore_calavi/forme_pates/image2.png', './image/Martistore_calavi/forme_pates/image3.png', './image/Martistore_calavi/forme_pates/image4.png', './image/Martistore_calavi/forme_pates/image5.png'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Moule pastel pratique et résistant.',
         modalDescription: '✅ Simplifiez vos créations culinaires avec ce moule pastel, parfait pour des résultats impeccables et un design élégant.'
-    },
-    {
+    },*/
+    /*{
         id: 1003,
         name: 'Jeux de construction',
         price: 6000, //700
@@ -380,7 +380,7 @@ const products = [
         stock: "en stock",
         description: 'Jeu de construction police lot de 50 pcs',
         modalDescription: 'Offrez à vos enfants un jeu de construction amusant et éducatif, parfait pour des heures de divertissement'
-    },
+    },*/
     /*{
         id: 1004,
         name: 'lampe noel',
@@ -417,7 +417,7 @@ const products = [
     {
         id: 1007,
         name: 'Moulinex',
-        price: 18000, //15000
+        price: 21000, //15000
         category: 'cuisine',
         imgSrcs: ['./image/Martistore_calavi/moulinex/image1.png', './image/Martistore_calavi/moulinex/image2.png', './image/Martistore_calavi/moulinex/image3.png'],
         videoSrc: './video/link.mp4',
@@ -425,21 +425,21 @@ const products = [
         description: 'Moulinex performant et polyvalent.',
         modalDescription: '✅ Simplifiez vos préparations culinaires avec ce moulinex efficace et durable, conçu pour répondre à tous vos besoins en cuisine.'
     },
-    {
+    /*{
         id: 1008,
         name: 'Ordinateur jeu pour enfant',
-        price: 15500, //11000
+        price: 12000, //11000
         category: 'tous',
         imgSrcs: ['./image/Martistore_calavi/ordinateur_jeu/image1.png'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Ordinateur éducatif et ludique.',
         modalDescription: '✅ Offrez à votre enfant une expérience d’apprentissage amusante avec cet ordinateur de jeu interactif et intuitif.'
-    },
+    },*/
     {
         id: 1009,
         name: 'Mini ventilateur rechargeablea',
-        price: 1950, //1500
+        price: 2100, //1500
         category: 'tous',
         imgSrcs: ['./image/Martistore_calavi/petit_ventillateur/image1.png', './image/Martistore_calavi/petit_ventillateur/image2.png', './image/Martistore_calavi/petit_ventillateur/image3.png', './image/Martistore_calavi/petit_ventillateur/image4.png'],
         videoSrc: './video/link.mp4',
@@ -460,8 +460,8 @@ const products = [
     },*/
     {
         id: 1010,
-        name: 'tapis', 
-        price: 2500,
+        name: 'tapis',
+        price: 3000,
         category: 'decoration',
         imgSrcs: ['./image/Martistore_calavi/tapis_de_douche/image1.png', './image/Martistore_calavi/tapis_de_douche/image2.png', './image/Martistore_calavi/tapis_de_douche/image3.png', './image/Martistore_calavi/tapis_de_douche/image4.png'],
         videoSrc: './video/link.mp4',
@@ -472,7 +472,7 @@ const products = [
     {
         id: 1011,
         name: 'Chauffe eaux Scarlett',
-        price: 5500, //4000
+        price: 5600, //4000
         category: 'cuisine',
         imgSrcs: ['./image/Martistore_calavi/termousse/image1.png', './image/Martistore_calavi/termousse/image2.png', './image/Martistore_calavi/termousse/image3.png', './image/Martistore_calavi/termousse/image4.png', './image/Martistore_calavi/termousse/image5.png'],
         videoSrc: './video/link.mp4',
@@ -483,7 +483,7 @@ const products = [
     {
         id: 1026,
         name: 'Tondeuse rechargeable',
-        price: 8000,
+        price: 9000, //8000
         category: 'electronique',
         imgSrcs: ['./image/Martistore_calavi/tondeuses/image1.png', './image/Martistore_calavi/tondeuses/image2.png', './image/Martistore_calavi/tondeuses/image3.png', './image/Martistore_calavi/tondeuses/image4.png', './image/Martistore_calavi/tondeuses/image5.png'],
         videoSrc: './video/link.mp4',
@@ -494,7 +494,7 @@ const products = [
     {
         id: 1012,
         name: 'verre à vin',
-        price: 7000, //5500
+        price: 7700, //5500
         category: 'tous',
         imgSrcs: ['./image/Martistore_calavi/verre_arrondi/image1.png', './image/Martistore_calavi/verre_arrondi/image2.png', './image/Martistore_calavi/verre_arrondi/image3.png'],
         videoSrc: './video/link.mp4',
@@ -505,7 +505,7 @@ const products = [
     {
         id: 1013,
         name: 'verre à whisky',
-        price: 5000, //3000
+        price: 4200, //3000
         category: 'tous',
         imgSrcs: ['./image/Martistore_calavi/verre_cylindrique/image1.png', './image/Martistore_calavi/verre_cylindrique/image2.png', './image/Martistore_calavi/verre_cylindrique/image3.png', './image/Martistore_calavi/verre_cylindrique/image4.png', './image/Martistore_calavi/verre_cylindrique/image5.png'],
         videoSrc: './video/link.mp4',
@@ -516,7 +516,7 @@ const products = [
     {
         id: 1014,
         name: 'verre',
-        price: 5500,
+        price: 7500, //5500
         category: 'tous',
         imgSrcs: ['./image/Martistore_calavi/verre_forme_ovale/image1.png', './image/Martistore_calavi/verre_forme_ovale/image2.png', './image/Martistore_calavi/verre_forme_ovale/image3.png', './image/Martistore_calavi/verre_forme_ovale/image4.png'],
         videoSrc: './video/link.mp4',
@@ -527,7 +527,7 @@ const products = [
     {
         id: 1015,
         name: 'Jouet automobile pour enfant',
-        price: 3500, //2500
+        price: 3000, //2500
         category: 'tous',
         imgSrcs: ['./image/Martistore_calavi/voitures_jeu/image1.png', './image/Martistore_calavi/voitures_jeu/image2.png', './image/Martistore_calavi/voitures_jeu/image3.png', './image/Martistore_calavi/voitures_jeu/image4.png'],
         videoSrc: './video/link.mp4',
@@ -538,7 +538,7 @@ const products = [
     {
         id: 1016,
         name: 'Ecouteur M10',
-        price: 4500, //1500
+        price: 2100, //1500
         category: 'electronique',
         imgSrcs: ['./image/Martistore_calavi/ecouteur_m10/image1.png', './image/Martistore_calavi/ecouteur_m10/image2.png', './image/Martistore_calavi/ecouteur_m10/image3.png', './image/Martistore_calavi/ecouteur_m10/image4.png', './image/Martistore_calavi/ecouteur_m10/image5.png'],
         videoSrc: './video/link.mp4',
@@ -549,7 +549,7 @@ const products = [
     {
         id: 1017,
         name: 'Ecouteur powerbank JBL Air F9 Pro',
-        price: 4500, //1500
+        price: 2100, //1500
         category: 'electronique',
         imgSrcs: ['./image/Martistore_calavi/ecouteur_m10/image4.png', './image/Martistore_calavi/ecouteur_m10/image5.png'],
         videoSrc: './video/link.mp4',
@@ -560,7 +560,7 @@ const products = [
     {
         id: 1018,
         name: 'Casque bluethoot P35',
-        price: 4500, //1500
+        price: 3000, //1500
         category: 'tous',
         imgSrcs: ['./image/doss_new_martistore/Casque_Bluetooth_P35/image1.png', './image/doss_new_martistore/Casque_Bluetooth_P35/image2.png', './image/doss_new_martistore/Casque_Bluetooth_P35/image3.png', './image/doss_new_martistore/Casque_Bluetooth_P35/image4.png', './image/doss_new_martistore/Casque_Bluetooth_P35/image5.png', './image/doss_new_martistore/Casque_Bluetooth_P35/image6.png'],
         videoSrc: './video/link.mp4',
@@ -571,7 +571,7 @@ const products = [
     {
         id: 1019,
         name: 'Chargeurs rapide',
-        price: 2000, //1200
+        price: 1680, //1200
         category: 'tous',
         imgSrcs: ['./image/doss_new_martistore/chargeurs/image1.png', './image/doss_new_martistore/chargeurs/image2.png', './image/doss_new_martistore/chargeurs/image3.png', './image/doss_new_martistore/chargeurs/image4.png', './image/doss_new_martistore/chargeurs/image5.png', './image/doss_new_martistore/chargeurs/image6.png', './image/doss_new_martistore/chargeurs/image7.png', './image/doss_new_martistore/chargeurs/image8.png'],
         videoSrc: './video/link.mp4',
@@ -582,7 +582,7 @@ const products = [
     {
         id: 1020,
         name: 'Huile à levres',
-        price: 2000, //1200
+        price: 1700, //1200
         category: 'beauté',
         imgSrcs: ['./image/doss_new_martistore/huile_a_levre/image1.png', './image/doss_new_martistore/huile_a_levre/image2.png', './image/doss_new_martistore/huile_a_levre/image3.png', './image/doss_new_martistore/huile_a_levre/image4.png', './image/doss_new_martistore/huile_a_levre/image5.png', './image/doss_new_martistore/huile_a_levre/image6.png', './image/doss_new_martistore/huile_a_levre/image7.png', './image/doss_new_martistore/huile_a_levre/image8.png'],
         videoSrc: './video/link.mp4',
@@ -593,7 +593,7 @@ const products = [
     {
         id: 1027,
         name: 'Lampe solaire',
-        price: 6000, //4500
+        price: 6300, //4500
         category: 'electronique',
         imgSrcs: ['./image/doss_new_martistore/lampe_solaire/image1.png', './image/doss_new_martistore/lampe_solaire/image2.png', './image/doss_new_martistore/lampe_solaire/image3.png', './image/doss_new_martistore/lampe_solaire/image4.png', './image/doss_new_martistore/lampe_solaire/image5.png', './image/doss_new_martistore/lampe_solaire/image6.png'],
         videoSrc: './video/link.mp4',
@@ -604,7 +604,7 @@ const products = [
     {
         id: 1021,
         name: 'Moustiquaire pliable',
-        price: 7000, //4500
+        price: 6300, //4500
         category: 'tous',
         imgSrcs: ['./image/doss_new_martistore/moustiquaire_pliable/image1.png', './image/doss_new_martistore/moustiquaire_pliable/image2.png', './image/doss_new_martistore/moustiquaire_pliable/image3.png', './image/doss_new_martistore/moustiquaire_pliable/image4.png', './image/doss_new_martistore/moustiquaire_pliable/image5.png', './image/doss_new_martistore/moustiquaire_pliable/image6.png'],
         videoSrc: './video/link.mp4',
@@ -615,7 +615,7 @@ const products = [
     {
         id: 1022,
         name: 'Pèse aliment',
-        price: 2950, //2500
+        price: 3500, //2500
         category: 'cuisine',
         imgSrcs: ['./image/doss_new_martistore/pese_aliments/image1.png', './image/doss_new_martistore/pese_aliments/image2.png', './image/doss_new_martistore/pese_aliments/image3.png', './image/doss_new_martistore/pese_aliments/image4.png', './image/doss_new_martistore/pese_aliments/image5.png'],
         videoSrc: './video/link.mp4',
@@ -626,7 +626,7 @@ const products = [
     {
         id: 1023,
         name: 'Petite brune',
-        price: 2300, //1500
+        price: 2100, //1500
         category: 'beauté',
         imgSrcs: ['./image/doss_new_martistore/petit_brume/image1.png', './image/doss_new_martistore/petit_brume/image2.png', './image/doss_new_martistore/petit_brume/image3.png', './image/doss_new_martistore/petit_brume/image4.png', './image/doss_new_martistore/petit_brume/image5.png', './image/doss_new_martistore/petit_brume/image6.png', './image/doss_new_martistore/petit_brume/image7.png'],
         videoSrc: './video/link.mp4',
@@ -637,7 +637,7 @@ const products = [
     {
         id: 1024,
         name: 'Papier peint autocollant',
-        price: 4000, //3000
+        price: 4200, //3000
         category: 'beauté',
         imgSrcs: ['./image/doss_new_martistore/rouleau_deco/image1.png', './image/doss_new_martistore/rouleau_deco/image2.png', './image/doss_new_martistore/rouleau_deco/image3.png', './image/doss_new_martistore/rouleau_deco/image4.png', './image/doss_new_martistore/rouleau_deco/image5.png'],
         videoSrc: './video/link.mp4',
@@ -648,7 +648,7 @@ const products = [
     {
         id: 1025,
         name: 'Découpeuse de légume  multifonction',
-        price: 5000, //4000
+        price: 5600, //4000
         category: 'cuisine',
         imgSrcs: ['./image/doss_new_martistore/ustensiles_aliments/image1.png', './image/doss_new_martistore/ustensiles_aliments/image2.png', './image/doss_new_martistore/ustensiles_aliments/image3.png'],
         videoSrc: './video/link.mp4',
@@ -663,7 +663,7 @@ const products = [
     {
         id: 1028,
         name: 'Assiete plateau',
-        price: 8000, //5000
+        price: 7000, //5000
         category: 'tous',
         imgSrcs: ['./image/new_doss/Assiette_plateau_7000/image1.png', './image/new_doss/Assiette_plateau_7000/image2.png', './image/new_doss/Assiette_plateau_7000/image3.png', './image/new_doss/Assiette_plateau_7000/image4.png', './image/new_doss/Assiette_plateau_7000/image5.png'],
         videoSrc: './video/link.mp4',
@@ -674,7 +674,7 @@ const products = [
     {
         id: 1029,
         name: 'Boite porte ustensiles',
-        price: 3000, //2500
+        price: 3500, //2500
         category: 'cuisine',
         imgSrcs: ['./image/new_doss/Boite_porte_ustensiles/image1.png', './image/new_doss/Boite_porte_ustensiles/image2.png', './image/new_doss/Boite_porte_ustensiles/image3.png', './image/new_doss/Boite_porte_ustensiles/image4.png', './image/new_doss/Boite_porte_ustensiles/image5.png', './image/new_doss/Boite_porte_ustensiles/image6.png'],
         videoSrc: './video/link.mp4',
@@ -685,7 +685,7 @@ const products = [
     {
         id: 1030,
         name: 'cable à trois entrées',
-        price: 6000, //5000
+        price: 5500, //5000
         category: 'electronique',
         imgSrcs: ['./image/new_doss/cable_trois_entre/image1.png', './image/new_doss/cable_trois_entre/image2.png', './image/new_doss/cable_trois_entre/image3.png', './image/new_doss/cable_trois_entre/image4.png', './image/new_doss/cable_trois_entre/image5.png', './image/new_doss/cable_trois_entre/image6.png'],
         videoSrc: './video/link.mp4',
@@ -696,7 +696,7 @@ const products = [
     {
         id: 1031,
         name: 'Cintre en bois',
-        price: 600, //500
+        price: 550, //500
         category: 'tous',
         imgSrcs: ['./image/new_doss/Cintre_en_bois_700/image1.png', './image/new_doss/Cintre_en_bois_700/image2.png', './image/new_doss/Cintre_en_bois_700/image3.png', './image/new_doss/Cintre_en_bois_700/image4.png', './image/new_doss/Cintre_en_bois_700/image5.png', './image/new_doss/Cintre_en_bois_700/image6.png', './image/new_doss/Cintre_en_bois_700/image7.png'],
         videoSrc: './video/link.mp4',
@@ -729,7 +729,7 @@ const products = [
     {
         id: 1034,
         name: 'Échelle télescopique',
-        price: 49000, //40000
+        price: 46000, //40000
         category: 'tous',
         imgSrcs: ['./image/new_doss/Echelle_télescopique_40.000/image1.png', './image/new_doss/Echelle_télescopique_40.000/image2.png', './image/new_doss/Echelle_télescopique_40.000/image3.png', './image/new_doss/Echelle_télescopique_40.000/image4.png', './image/new_doss/Echelle_télescopique_40.000/image5.png', './image/new_doss/Echelle_télescopique_40.000/image6.png', './image/new_doss/Echelle_télescopique_40.000/image7.png'],
         videoSrc: './video/link.mp4',
@@ -740,7 +740,7 @@ const products = [
     {
         id: 1035,
         name: 'Étagère de rangement',
-        price: 5500, //4000
+        price: 5600, //4000
         category: 'tous',
         imgSrcs: ['./image/new_doss/etagere_de_range/image1.png', './image/new_doss/etagere_de_range/image2.png', './image/new_doss/etagere_de_range/image3.png', './image/new_doss/etagere_de_range/image4.png'],
         videoSrc: './video/link.mp4',
@@ -751,7 +751,7 @@ const products = [
     {
         id: 1036,
         name: 'Fer à repasser',
-        price: 6500, //5000
+        price: 6000, //5000
         category: 'electronique',
         imgSrcs: ['./image/new_doss/fer_a_repasser/image1.png', './image/new_doss/fer_a_repasser/image2.png', './image/new_doss/fer_a_repasser/image3.png', './image/new_doss/fer_a_repasser/image4.png', './image/new_doss/fer_a_repasser/image5.png', './image/new_doss/fer_a_repasser/image6.png'],
         videoSrc: './video/link.mp4',
@@ -762,7 +762,7 @@ const products = [
     {
         id: 1037,
         name: 'Filtre eau',
-        price: 700, //600
+        price: 650, //600
         category: 'cuisine',
         imgSrcs: ['./image/new_doss/filtre_eau_700/image1.png', './image/new_doss/filtre_eau_700/image2.png', './image/new_doss/filtre_eau_700/image3.png'],
         videoSrc: './video/link.mp4',
@@ -773,7 +773,7 @@ const products = [
     {
         id: 1038,
         name: 'Friteuse à air',
-        price: 21000, //19000
+        price: 23000, //19000
         category: 'cuisine',
         imgSrcs: ['./image/new_doss/Friteuse_a_air_19.000/image1.png', './image/new_doss/Friteuse_a_air_19.000/image2.png', './image/new_doss/Friteuse_a_air_19.000/image3.png', './image/new_doss/Friteuse_a_air_19.000/image4.png', './image/new_doss/Friteuse_a_air_19.000/image5.png'],
         videoSrc: './video/link.mp4',
@@ -784,7 +784,7 @@ const products = [
     {
         id: 1039,
         name: 'Gobelet',
-        price: 200, //~120
+        price: 150, //~120
         category: 'tous',
         imgSrcs: ['./image/new_doss/gobelet/image1.png', './image/new_doss/gobelet/image2.png', './image/new_doss/gobelet/image3.png', './image/new_doss/gobelet/image4.png', './image/new_doss/gobelet/image5.png', './image/new_doss/gobelet/image6.png', './image/new_doss/gobelet/image7.png'],
         videoSrc: './video/link.mp4',
@@ -795,7 +795,7 @@ const products = [
     {
         id: 1043,
         name: 'Grande batteuse électrique',
-        price: 5500, //5000
+        price: 6000, //5000
         category: 'electronique',
         imgSrcs: ['./image/new_doss/Grande_batteuse _electrique_5000/image1.png', './image/new_doss/Grande_batteuse _electrique_5000/image2.png', './image/new_doss/Grande_batteuse _electrique_5000/image3.png'],
         videoSrc: './video/link.mp4',
@@ -806,7 +806,7 @@ const products = [
     {
         id: 1040,
         name: 'Lumiere led petit',
-        price: 1800, //1300
+        price: 1900, //1300
         category: 'tous',
         imgSrcs: ['./image/new_doss/lumiere_led/image1.png', './image/new_doss/lumiere_led/image2.png', './image/new_doss/lumiere_led/image3.png', './image/new_doss/lumiere_led/image4.png'],
         videoSrc: './video/link.mp4',
@@ -817,7 +817,7 @@ const products = [
     {
         id: 1041,
         name: 'Mini four electrique 3en1',
-        price: 21000, //19000
+        price: 23500, //19000
         category: 'cuisine',
         imgSrcs: ['./image/new_doss/Mini_four_electrique_3en1_19.000/image1.png', './image/new_doss/Mini_four_electrique_3en1_19.000/image2.png', './image/new_doss/Mini_four_electrique_3en1_19.000/image3.png', './image/new_doss/Mini_four_electrique_3en1_19.000/image4.png'],
         videoSrc: './video/link.mp4',
@@ -828,7 +828,7 @@ const products = [
     {
         id: 1042,
         name: 'Spatule de cuisine',
-        price: 3000, //1500
+        price: 2100, //1500
         category: 'cuisine',
         imgSrcs: ['./image/new_doss/Spatule_de_cuisine/image1.png', './image/new_doss/Spatule_de_cuisine/image2.png', './image/new_doss/Spatule_de_cuisine/image3.png', './image/new_doss/Spatule_de_cuisine/image4.png'],
         videoSrc: './video/link.mp4',
@@ -837,6 +837,1148 @@ const products = [
         modalDescription: '✅ Manipulez vos aliments facilement grâce à cette spatule ergonomique et résistante.'
     },
     //id 1043 used
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        id: 1044,
+        name: 'Armoire de rangement',
+        price: 4500, //3000
+        category: 'decoration',
+        imgSrcs: ['./image/new_24_12/Armoire_de_rangement_3000/image1.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Pratique, Spacieuse, Élégante',
+        modalDescription: '✅ Cette armoire de rangement offre une solution élégante pour organiser votre espace. Avec sa grande capacité, elle vous aide à garder vos affaires bien rangées et accessibles.'
+    },
+    {
+        id: 1045,
+        name: 'Chaussures',
+        price: 12000, //9000
+        category: 'habillements',
+        imgSrcs: ['./image/new_24_12/basket/image1.png', './image/new_24_12/basket/image2.png', './image/new_24_12/basket/image3.png', './image/new_24_12/basket/image4.png', './image/new_24_12/basket/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Chaussure pratique',
+        modalDescription: '✅ Chaussures pour vous'
+    },
+    {
+        id: 1046,
+        name: 'Chaussures blanche, noir',
+        price: 11000, //9000
+        category: 'habillement',
+        imgSrcs: ['./image/new_24_12/basket_B/image1.png', './image/new_24_12/basket_B/image2.png', './image/new_24_12/basket_B/image3.png', './image/new_24_12/basket_B/image4.png', './image/new_24_12/basket_B/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Chaussure pratique',
+        modalDescription: '✅ Chaussures pour vous'
+    },
+    {
+        id: 1047,
+        name: 'Bassin pour pédicure',
+        price: 14000, //10000
+        category: 'tous',
+        imgSrcs: ['./image/new_24_12/Bassin_pour_pedicure_10000/image1.png', './image/new_24_12/Bassin_pour_pedicure_10000/image2.png', './image/new_24_12/Bassin_pour_pedicure_10000/image3.png', './image/new_24_12/Bassin_pour_pedicure_10000/image4.png', './image/new_24_12/Bassin_pour_pedicure_10000/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Relaxant, Pratique, Confortable',
+        modalDescription: '✅ Ce bassin pour pédicure est parfait pour un moment de détente à la maison. Sa conception pratique vous permet de prendre soin de vos pieds tout en vous relaxant.'
+    },
+    {
+        id: 1048,
+        name: 'Brosse de visage',
+        price: 2100, //1500
+        category: 'beauté',
+        imgSrcs: ['./image/new_24_12/Brosse_de_visage_1500/image1.png', './image/new_24_12/Brosse_de_visage_1500/image2.png', './image/new_24_12/Brosse_de_visage_1500/image3.png', './image/new_24_12/Brosse_de_visage_1500/image4.png',],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Douce, Efficace, Pratique',
+        modalDescription: '✅ Cette brosse de visage est idéale pour un nettoyage en profondeur. Elle aide à exfolier et à revitaliser votre peau, vous offrant un teint éclatant.'
+    },
+    {
+        id: 1049,
+        name: 'Coupe légume à 6 lamelles',
+        price: 5600, //4000
+        category: 'cuisine',
+        imgSrcs: ['./image/new_24_12/Coupe-legume_a_6_lamelles_4000/image1.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image2.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image3.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image4.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image5.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image6.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image7.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image8.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image9.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image10.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Innovant, Pratique, Rapide',
+        modalDescription: '✅ Ce coupe-légume à 6 lamelles facilite la préparation de vos ingrédients. Sa conception innovante vous permet de gagner du temps en cuisine tout en obtenant des coupes parfaites.'
+    },
+    {
+        id: 1050,
+        name: 'Ensemble carafe',
+        price: 4900, //3500
+        category: 'cuisine',
+        imgSrcs: ['./image/new_24_12/Ensemble_carafe_3500/image1.png', './image/new_24_12/Ensemble_carafe_3500/image2.png', './image/new_24_12/Ensemble_carafe_3500/image3.png', './image/new_24_12/Ensemble_carafe_3500/image4.png', './image/new_24_12/Ensemble_carafe_3500/image5.png', './image/new_24_12/Ensemble_carafe_3500/image6.png', './image/new_24_12/Ensemble_carafe_3500/image7.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Pratique, Sophistiqué',
+        modalDescription: '✅ Cet ensemble de carafe est parfait pour servir vos boissons avec style. Son design raffiné ajoute une touche d élégance à vos repas.'
+    },
+    {
+        id: 1051,
+        name: 'Ensemble silicone 19pcs',
+        price: 9500, //8500
+        category: 'cuisine',
+        imgSrcs: ['./image/new_24_12/ensemble_silicone_19pcs_8500/image1.png', './image/new_24_12/ensemble_silicone_19pcs_8500/image2.png', './image/new_24_12/ensemble_silicone_19pcs_8500/image3.png', './image/new_24_12/ensemble_silicone_19pcs_8500/image4.png', './image/new_24_12/ensemble_silicone_19pcs_8500/image5.png', './image/new_24_12/ensemble_silicone_19pcs_8500/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Complet, Pratique, Durable',
+        modalDescription: '✅ Cet ensemble de 19 pièces en silicone est idéal pour tous vos besoins culinaires. Sa durabilité et sa polyvalence en font un choix parfait pour les passionnés de cuisine'
+    },
+    {
+        id: 1052,
+        name: 'Etagere de range multifonctions',
+        price: 4500, //2500
+        category: 'tous',
+        imgSrcs: ['./image/new_24_12/Etagere_de_range_multifonctions_2500/image1.png', './image/new_24_12/Etagere_de_range_multifonctions_2500/image2.png', './image/new_24_12/Etagere_de_range_multifonctions_2500/image3.png', './image/new_24_12/Etagere_de_range_multifonctions_2500/image4.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Polyvalente, Spacieuse, Pratique',
+        modalDescription: '✅ Cette étagère multifonctions est conçue pour optimiser votre espace de rangement. Elle vous permet d organiser vos habits, chaussures avec élégance.'
+    },
+    {
+        id: 1053,
+        name: 'Fer repasser raf',
+        price: 4500, //4000
+        category: 'cuisine',
+        imgSrcs: ['./image/new_24_12/fer_repasser_raf_4000/image1.png', './image/new_24_12/fer_repasser_raf_4000/image2.png', './image/new_24_12/fer_repasser_raf_4000/image3.png', './image/new_24_12/fer_repasser_raf_4000/image4.png', './image/new_24_12/fer_repasser_raf_4000/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Efficace, Compact, Pratique',
+        modalDescription: '✅ Ce fer à repasser est conçu pour vous offrir des résultats impeccables. Sa taille compacte le rend facile à utiliser et à ranger.'
+    },
+    {
+        id: 1054,
+        name: 'Lingettes',
+        price: 400, //300
+        category: 'cuisine',
+        imgSrcs: ['./image/new_24_12/lingettes_300/image1.png', './image/new_24_12/lingettes_300/image2.png', './image/new_24_12/lingettes_300/image3.png', './image/new_24_12/lingettes_300/image4.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Pratiques, Hygiéniques, Essentielles',
+        modalDescription: '✅ Ces lingettes sont idéales pour un nettoyage rapide et efficace. Leur praticité en fait un produit essentiel pour maintenir la propreté.'
+    },
+    {
+        id: 1055,
+        name: 'Mini mortier',
+        price: 1900, //1300
+        category: 'cuisine',
+        imgSrcs: ['./image/new_24_12/mini_mortier_1300/image1.png', './image/new_24_12/mini_mortier_1300/image2.png', './image/new_24_12/mini_mortier_1300/image3.png', './image/new_24_12/mini_mortier_1300/image4.png', './image/new_24_12/mini_mortier_1300/image5.png', './image/new_24_12/mini_mortier_1300/image6.png', './image/new_24_12/mini_mortier_1300/image7.png', './image/new_24_12/mini_mortier_1300/image8.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Compact, Pratique, Efficace',
+        modalDescription: '✅ Ce mini mortier est parfait pour moudre vos épices et herbes. Sa taille compacte le rend facile à utiliser et à ranger.'
+    },
+    {
+        id: 1056,
+        name: 'Mixeur de fruits',
+        price: 4200, //3000
+        category: 'cuisine',
+        imgSrcs: ['./image/new_24_12/Mixeur_de_fruits_3000/image1.png', './image/new_24_12/Mixeur_de_fruits_3000/image2.png', './image/new_24_12/Mixeur_de_fruits_3000/image3.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Pratique, Efficace, Rapide',
+        modalDescription: '✅ Ce mixeur de fruits est idéal pour préparer des smoothies et des jus frais. Sa puissance vous permet de créer des boissons saines en un rien de temps.'
+    },
+    {
+        id: 1057,
+        name: 'Presse citron',
+        price: 750, //700
+        category: 'cuisine',
+        imgSrcs: ['./image/new_24_12/presse_citron_700/image1.png', './image/new_24_12/presse_citron_700/image2.png', './image/new_24_12/presse_citron_700/image3.png', './image/new_24_12/presse_citron_700/image4.png', './image/new_24_12/presse_citron_700/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Pratique, Efficace, Compact',
+        modalDescription: '✅ Ce presse-citron est un outil indispensable pour extraire le jus de vos agrumes. Sa conception compacte facilite son utilisation en cuisine.'
+    },
+    {
+        id: 1058,
+        name: 'Serviette 3 pcs',
+        price: 15000, //12000
+        category: 'tous',
+        imgSrcs: ['./image/new_24_12/serviette_3_pcs_12000/image1.png', './image/new_24_12/serviette_3_pcs_12000/image2.png', './image/new_24_12/serviette_3_pcs_12000/image3.png', './image/new_24_12/serviette_3_pcs_12000/image4.png', './image/new_24_12/serviette_3_pcs_12000/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Douce, Pratique, Essentielle',
+        modalDescription: '✅ Cet ensemble de serviettes est parfait. Leur douceur et leur praticité en font un choix idéal.'
+    },
+    {
+        id: 1059,
+        name: 'Tente automatique',
+        price: 17000, //15000
+        category: 'tous',
+        imgSrcs: ['./image/new_24_12/Tente_automatique_15000/image1.png', './image/new_24_12/Tente_automatique_15000/image2.png', './image/new_24_12/Tente_automatique_15000/image3.png', './image/new_24_12/Tente_automatique_15000/image4.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Pratique, Rapide, Spacieuse',
+        modalDescription: '✅ Cette tente automatique est idéale pour vos sorties en plein air. Facilité de montage et son espace généreux.'
+    },
+    {
+        id: 1060,
+        name: 'Thermos numérique',
+        price: 3500, //2000
+        category: 'tous',
+        imgSrcs: ['./image/new_24_12/Thermos_numérique_2000/image1.png', './image/new_24_12/Thermos_numérique_2000/image2.png', './image/new_24_12/Thermos_numérique_2000/image3.png', './image/new_24_12/Thermos_numérique_2000/image4.png', './image/new_24_12/Thermos_numérique_2000/image5.png', './image/new_24_12/Thermos_numérique_2000/image6.png', './image/new_24_12/Thermos_numérique_2000/image7.png', './image/new_24_12/Thermos_numérique_2000/image8.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Intelligent, Pratique, Durable',
+        modalDescription: '✅ Ce thermos numérique est conçu pour garder vos boissons à la température idéale'
+    },
+    {
+        id: 1061,
+        name: 'Ventilation de climatisation',
+        price: 5900, //4500
+        category: 'electronique',
+        imgSrcs: ['./image/new_24_12/Ventilation_de_climatisation_4500/image1.png', './image/new_24_12/Ventilation_de_climatisation_4500/image2.png', './image/new_24_12/Ventilation_de_climatisation_4500/image3.png', './image/new_24_12/Ventilation_de_climatisation_4500/image4.png', './image/new_24_12/Ventilation_de_climatisation_4500/image5.png', './image/new_24_12/Ventilation_de_climatisation_4500/image6.png', './image/new_24_12/Ventilation_de_climatisation_4500/image7.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Efficace, Pratique, Confortable',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        id: 1062,
+        name: 'Sac multi-fonction',
+        price: 4500, //3500
+        category: 'tous',
+        imgSrcs: ['./image/Product_new/Akuesle_Sac_multifonction_3500/image1.png', './image/Product_new/Akuesle_Sac_multifonction_3500/image2.png', './image/Product_new/Akuesle_Sac_multifonction_3500/image3.png', './image/Product_new/Akuesle_Sac_multifonction_3500/image4.png', './image/Product_new/Akuesle_Sac_multifonction_3500/image5.png', './image/Product_new/Akuesle_Sac_multifonction_3500/image6.png', './image/Product_new/Akuesle_Sac_multifonction_3500/image7.png', './image/Product_new/Akuesle_Sac_multifonction_3500/image8.png', './image/Product_new/Akuesle_Sac_multifonction_3500/image9.png', './image/Product_new/Akuesle_Sac_multifonction_3500/image10.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Efficace, Pratique, Confortable',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1063,
+        name: 'Adaptateur solide de voiture',
+        price: 2000, //1200
+        category: 'tous',
+        imgSrcs: ['./image/Product_new/Akuesley_Adaptateur_voiture_1200/image1.png', './image/Product_new/Akuesley_Adaptateur_voiture_1200/image2.png', './image/Product_new/Akuesley_Adaptateur_voiture_1200/image3.png', './image/Product_new/Akuesley_Adaptateur_voiture_1200/image4.png', './image/Product_new/Akuesley_Adaptateur_voiture_1200/image5.png', './image/Product_new/Akuesley_Adaptateur_voiture_1200/image6.png', './image/Product_new/Akuesley_Adaptateur_voiture_1200/image7.png', './image/Product_new/Akuesley_Adaptateur_voiture_1200/image8.png', './image/Product_new/Akuesley_Adaptateur_voiture_1200/image9.png', './image/Product_new/Akuesley_Adaptateur_voiture_1200/image10.png', './image/Product_new/Akuesley_Adaptateur_voiture_1200/image11.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1064,
+        name: 'Casque P9 pro max',
+        price: 3500, //2200
+        category: 'electronique',
+        imgSrcs: ['./image/Product_new/Akuesley_Casque_P9_pro_max_2200/image1.png', './image/Product_new/Akuesley_Casque_P9_pro_max_2200/image2.png', './image/Product_new/Akuesley_Casque_P9_pro_max_2200/image3.png', './image/Product_new/Akuesley_Casque_P9_pro_max_2200/image4.png', './image/Product_new/Akuesley_Casque_P9_pro_max_2200/image5.png', './image/Product_new/Akuesley_Casque_P9_pro_max_2200/image6.png', './image/Product_new/Akuesley_Casque_P9_pro_max_2200/image7.png', './image/Product_new/Akuesley_Casque_P9_pro_max_2200/image8.png', './image/Product_new/Akuesley_Casque_P9_pro_max_2200/image9.png', './image/Product_new/Akuesley_Casque_P9_pro_max_2200/image10.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1065,
+        name: 'Diffuseur de senteur',
+        price: 3000, //2200
+        category: 'tous',
+        imgSrcs: ['./image/Product_new/Akuesley_Diffuseur_de_senteur_veuilleuse_2200/image1.png', './image/Product_new/Akuesley_Diffuseur_de_senteur_veuilleuse_2200/image2.png', './image/Product_new/Akuesley_Diffuseur_de_senteur_veuilleuse_2200/image3.png', './image/Product_new/Akuesley_Diffuseur_de_senteur_veuilleuse_2200/image4.png', './image/Product_new/Akuesley_Diffuseur_de_senteur_veuilleuse_2200/image5.png', './image/Product_new/Akuesley_Diffuseur_de_senteur_veuilleuse_2200/image6.png', './image/Product_new/Akuesley_Diffuseur_de_senteur_veuilleuse_2200/image7.png', './image/Product_new/Akuesley_Diffuseur_de_senteur_veuilleuse_2200/image8.png', './image/Product_new/Akuesley_Diffuseur_de_senteur_veuilleuse_2200/image9.png', './image/Product_new/Akuesley_Diffuseur_de_senteur_veuilleuse_2200/image10.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1066,
+        name: 'Grand sac de rangement',
+        price: 4000, //3000
+        category: 'tous',
+        imgSrcs: ['./image/Product_new/Akuesley_Grand_sac_de_rangement_3000/image1.png', './image/Product_new/Akuesley_Grand_sac_de_rangement_3000/image2.png', './image/Product_new/Akuesley_Grand_sac_de_rangement_3000/image3.png', './image/Product_new/Akuesley_Grand_sac_de_rangement_3000/image4.png', './image/Product_new/Akuesley_Grand_sac_de_rangement_3000/image5.png', './image/Product_new/Akuesley_Grand_sac_de_rangement_3000/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1067,
+        name: 'Kits de studio professionnel',
+        price: 14500, //11000
+        category: 'electronique',
+        imgSrcs: ['./image/Product_new/Akuesley_Kits_de_studio_professionnel_11000/image1.png', './image/Product_new/Akuesley_Kits_de_studio_professionnel_11000/image2.png', './image/Product_new/Akuesley_Kits_de_studio_professionnel_11000/image3.png', './image/Product_new/Akuesley_Kits_de_studio_professionnel_11000/image4.png', './image/Product_new/Akuesley_Kits_de_studio_professionnel_11000/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1068,
+        name: 'Pose ordinateur refroidissant',
+        price: 7000, //6000
+        category: 'tous',
+        imgSrcs: ['./image/Product_new/Akuesley_pose_ordinateur_a_refroidisseur_6000/image1.png', './image/Product_new/Akuesley_pose_ordinateur_a_refroidisseur_6000/image2.png', './image/Product_new/Akuesley_pose_ordinateur_a_refroidisseur_6000/image3.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1069,
+        name: 'Diffuseur de senteur',
+        price: 3500, //2700
+        category: 'tous',
+        imgSrcs: ['./image/Product_new/Akuesley_Projecteur_multicolore_2700/image1.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image2.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image3.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image4.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image5.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image6.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image7.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image8.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1070,
+        name: 'Projecteur octogonal multicolore',
+        price: 7500, //6000
+        category: 'electronique',
+        imgSrcs: ['./image/Product_new/Akuesley_Projecteur_octogonal_multicolore_6000/image1.png', './image/Product_new/Akuesley_Projecteur_octogonal_multicolore_6000/image2.png', './image/Product_new/Akuesley_Projecteur_octogonal_multicolore_6000/image3.png', './image/Product_new/Akuesley_Projecteur_octogonal_multicolore_6000/image4.png', './image/Product_new/Akuesley_Projecteur_octogonal_multicolore_6000/image5.png', './image/Product_new/Akuesley_Projecteur_octogonal_multicolore_6000/image6.png', './image/Product_new/Akuesley_Projecteur_octogonal_multicolore_6000/image7.png', './image/Product_new/Akuesley_Projecteur_octogonal_multicolore_6000/image8.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1071,
+        name: 'Support téléphone pour voiture',
+        price: 1500, //1000
+        category: 'tous',
+        imgSrcs: ['./image/Product_new/Akuesley_Support_téléphone_voiture_1000/image1.png', './image/Product_new/Akuesley_Support_téléphone_voiture_1000/image2.png', './image/Product_new/Akuesley_Support_téléphone_voiture_1000/image3.png', './image/Product_new/Akuesley_Support_téléphone_voiture_1000/image4.png', './image/Product_new/Akuesley_Support_téléphone_voiture_1000/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1072,
+        name: 'Support solide pour téléphone',
+        price: 1500, //1200
+        category: 'tous',
+        imgSrcs: ['./image/Product_new/Akuesley_Support1_téléphone_1200/image1.png', './image/Product_new/Akuesley_Support1_téléphone_1200/image2.png', './image/Product_new/Akuesley_Support1_téléphone_1200/image3.png', './image/Product_new/Akuesley_Support1_téléphone_1200/image4.png', './image/Product_new/Akuesley_Support1_téléphone_1200/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1073,
+        name: 'Ampoule à pile led',
+        price: 2000, //1500
+        category: 'electronique',
+        imgSrcs: ['./image/Product_new/Martistore_Ampoule_a_pile_led_1500/image1.png', './image/Product_new/Martistore_Ampoule_a_pile_led_1500/image2.png', './image/Product_new/Martistore_Ampoule_a_pile_led_1500/image3.png', './image/Product_new/Martistore_Ampoule_a_pile_led_1500/image4.png', './image/Product_new/Martistore_Ampoule_a_pile_led_1500/image5.png', './image/Product_new/Martistore_Ampoule_a_pile_led_1500/image6.png', './image/Product_new/Martistore_Ampoule_a_pile_led_1500/image7.png', './image/Product_new/Martistore_Ampoule_a_pile_led_1500/image8.png', './image/Product_new/Martistore_Ampoule_a_pile_led_1500/image9.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1074,
+        name: 'Barbecue pliable et portable',
+        price: 7000, //6000
+        category: 'cuisine',
+        imgSrcs: ['./image/Product_new/Martistore_Barbecue_pliable_portable_6000/image1.png', './image/Product_new/Martistore_Barbecue_pliable_portable_6000/image2.png', './image/Product_new/Martistore_Barbecue_pliable_portable_6000/image3.png', './image/Product_new/Martistore_Barbecue_pliable_portable_6000/image4.png', './image/Product_new/Martistore_Barbecue_pliable_portable_6000/image5.png', './image/Product_new/Martistore_Barbecue_pliable_portable_6000/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1075,
+        name: 'Batteuse électrique pratique',
+        price: 4000, //3000
+        category: 'cuisine',
+        imgSrcs: ['./image/Product_new/Martistore_Batteuse_électrique_3000/image1.png', './image/Product_new/Martistore_Batteuse_électrique_3000/image2.png', './image/Product_new/Martistore_Batteuse_électrique_3000/image3.png', './image/Product_new/Martistore_Batteuse_électrique_3000/image4.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1076,
+        name: 'Bouclier anti-onde',
+        price: 5500, //4000
+        category: 'electronique',
+        imgSrcs: ['./image/Product_new/Martistore_Bouclier_anti-onde_4000/image1.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1077,
+        name: 'Tasse à couvercle pratique',
+        price: 2000, //1000
+        category: 'cuisine',
+        imgSrcs: ['./image/Product_new/Martistore_Chic_tasse_a_couvercle_1000/image1.png', './image/Product_new/Martistore_Chic_tasse_a_couvercle_1000/image2.png', './image/Product_new/Martistore_Chic_tasse_a_couvercle_1000/image3.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1078,
+        name: 'Drone amateur',
+        price: 17000, //15000
+        category: 'electronique',
+        imgSrcs: ['./image/Product_new/Martistore_Drone_amateur_15000/image1.png', './image/Product_new/Martistore_Drone_amateur_15000/image2.png', './image/Product_new/Martistore_Drone_amateur_15000/image3.png', './image/Product_new/Martistore_Drone_amateur_15000/image4.png', './image/Product_new/Martistore_Drone_amateur_15000/image5.png', './image/Product_new/Martistore_Drone_amateur_15000/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1079,
+        name: 'Extrateur de jus rechargeable',
+        price: 6500, //5000
+        category: 'cuisine',
+        imgSrcs: ['./image/Product_new/Martistore_Extrateur_de_jus_rechargeable_5000/image1.png', './image/Product_new/Martistore_Extrateur_de_jus_rechargeable_5000/image2.png', './image/Product_new/Martistore_Extrateur_de_jus_rechargeable_5000/image3.png', './image/Product_new/Martistore_Extrateur_de_jus_rechargeable_5000/image4.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1080,
+        name: 'Gaine à bande',
+        price: 3000, //2500
+        category: 'beauté',
+        imgSrcs: ['./image/Product_new/Martistore_Gaine_a_bande_retrace_2500/image1.png', './image/Product_new/Martistore_Gaine_a_bande_retrace_2500/image2.png', './image/Product_new/Martistore_Gaine_a_bande_retrace_2500/image3.png', './image/Product_new/Martistore_Gaine_a_bande_retrace_2500/image4.png', './image/Product_new/Martistore_Gaine_a_bande_retrace_2500/image5.png', './image/Product_new/Martistore_Gaine_a_bande_retrace_2500/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1081,
+        name: 'Grand fer à lisser',
+        price: 4200, //3500
+        category: 'electronique',
+        imgSrcs: ['./image/Product_new/Martistore_Grand_fer_a_lisser_3500/image1.png', './image/Product_new/Martistore_Grand_fer_a_lisser_3500/image2.png', './image/Product_new/Martistore_Grand_fer_a_lisser_3500/image3.png', './image/Product_new/Martistore_Grand_fer_a_lisser_3500/image4.png', './image/Product_new/Martistore_Grand_fer_a_lisser_3500/image5.png', './image/Product_new/Martistore_Grand_fer_a_lisser_3500/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1082,
+        name: 'Micro',
+        price: 16500, //14000
+        category: 'electronique',
+        imgSrcs: ['./image/Product_new/martistore_micro_14500/image1.png', './image/Product_new/martistore_micro_14500/image2.png', './image/Product_new/martistore_micro_14500/image3.png', './image/Product_new/martistore_micro_14500/image4.png', './image/Product_new/martistore_micro_14500/image5.png', './image/Product_new/martistore_micro_14500/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1083,
+        name: 'Mini couteau pliant',
+        price: 400, //200
+        category: 'cuisine',
+        imgSrcs: ['./image/Product_new/Martistore_Mini_couteau_porte_cle_pliant_200/image1.png', './image/Product_new/Martistore_Mini_couteau_porte_cle_pliant_200/image2.png', './image/Product_new/Martistore_Mini_couteau_porte_cle_pliant_200/image3.png', './image/Product_new/Martistore_Mini_couteau_porte_cle_pliant_200/image4.png', './image/Product_new/Martistore_Mini_couteau_porte_cle_pliant_200/image5.png', './image/Product_new/Martistore_Mini_couteau_porte_cle_pliant_200/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1084,
+        name: 'Mini diffuseur de senteurs',
+        price: 1700, //1200
+        category: 'tous',
+        imgSrcs: ['./image/Product_new/Martistore_Mini_diffuseur_de_senteurs_1200/image1.png', './image/Product_new/Martistore_Mini_diffuseur_de_senteurs_1200/image2.png', './image/Product_new/Martistore_Mini_diffuseur_de_senteurs_1200/image3.png', './image/Product_new/Martistore_Mini_diffuseur_de_senteurs_1200/image4.png', './image/Product_new/Martistore_Mini_diffuseur_de_senteurs_1200/image5.png', './image/Product_new/Martistore_Mini_diffuseur_de_senteurs_1200/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1085,
+        name: 'Mini lampe de nuit intelligente',
+        price: 3000, //2000
+        category: 'electronique',
+        imgSrcs: ['./image/Product_new/Martistore_Mini_lampe_de_nuit_intelligente_telecommande_2000/image1.png', './image/Product_new/Martistore_Mini_lampe_de_nuit_intelligente_telecommande_2000/image2.png', './image/Product_new/Martistore_Mini_lampe_de_nuit_intelligente_telecommande_2000/image3.png', './image/Product_new/Martistore_Mini_lampe_de_nuit_intelligente_telecommande_2000/image4.png', './image/Product_new/Martistore_Mini_lampe_de_nuit_intelligente_telecommande_2000/image5.png', './image/Product_new/Martistore_Mini_lampe_de_nuit_intelligente_telecommande_2000/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1086,
+        name: 'Mini lampe de nuit intelligente',
+        price: 4000, //3500
+        category: 'electronique',
+        imgSrcs: ['./image/Product_new/Martistore_Plat_blanc_Carré_lot_6_3500/image1.png', './image/Product_new/Martistore_Plat_blanc_Carré_lot_6_3500/image2.png', './image/Product_new/Martistore_Plat_blanc_Carré_lot_6_3500/image3.png', './image/Product_new/Martistore_Plat_blanc_Carré_lot_6_3500/image4.png', './image/Product_new/Martistore_Plat_blanc_Carré_lot_6_3500/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1087,
+        name: 'Plat en forme de losange',
+        price: 5200, //4300
+        category: 'cuisine',
+        imgSrcs: ['./image/Product_new/Martistore_plat_losange_lot_de_6_4300/image1.png', './image/Product_new/Martistore_plat_losange_lot_de_6_4300/image2.png', './image/Product_new/Martistore_plat_losange_lot_de_6_4300/image3.png', './image/Product_new/Martistore_plat_losange_lot_de_6_4300/image4.png', './image/Product_new/Martistore_plat_losange_lot_de_6_4300/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1088,
+        name: 'Plat en forme arrondie',
+        price: 6500, //4500
+        category: 'cuisine',
+        imgSrcs: ['./image/Product_new/Martistore_Plat_rond_irrégulier_4500/image1.png', './image/Product_new/Martistore_Plat_rond_irrégulier_4500/image2.png', './image/Product_new/Martistore_Plat_rond_irrégulier_4500/image3.png', './image/Product_new/Martistore_Plat_rond_irrégulier_4500/image4.png', './image/Product_new/Martistore_Plat_rond_irrégulier_4500/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1089,
+        name: 'Plat en forme de rectangle',
+        price: 6600, //4800
+        category: 'cuisine',
+        imgSrcs: ['./image/Product_new/Martistore_rectangle_irrégulier_lot_6_4800/image1.png', './image/Product_new/Martistore_rectangle_irrégulier_lot_6_4800/image2.png', './image/Product_new/Martistore_rectangle_irrégulier_lot_6_4800/image3.png', './image/Product_new/Martistore_rectangle_irrégulier_lot_6_4800/image4.png', './image/Product_new/Martistore_rectangle_irrégulier_lot_6_4800/image5.png', './image/Product_new/Martistore_rectangle_irrégulier_lot_6_4800/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1090,
+        name: 'Support pour les ordinateurs',
+        price: 3000, //2000
+        category: 'tous',
+        imgSrcs: ['./image/Product_new/Martistore_Support_ordinateur_2000/image1.png', './image/Product_new/Martistore_Support_ordinateur_2000/image2.png', './image/Product_new/Martistore_Support_ordinateur_2000/image3.png', './image/Product_new/Martistore_Support_ordinateur_2000/image4.png', './image/Product_new/Martistore_Support_ordinateur_2000/image5.png', './image/Product_new/Martistore_Support_ordinateur_2000/image6.png', './image/Product_new/Martistore_Support_ordinateur_2000/image7.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1091,
+        name: 'Tondeuse rechargeable',
+        price: 3000, //2000
+        category: 'electronique',
+        imgSrcs: ['./image/Product_new/Martistore_Tondeuse_rechargeable_3500/image1.png', './image/Product_new/Martistore_Tondeuse_rechargeable_3500/image2.png', './image/Product_new/Martistore_Tondeuse_rechargeable_3500/image3.png', './image/Product_new/Martistore_Tondeuse_rechargeable_3500/image4.png', './image/Product_new/Martistore_Tondeuse_rechargeable_3500/image5.png', './image/Product_new/Martistore_Tondeuse_rechargeable_3500/image6.png', './image/Product_new/Martistore_Tondeuse_rechargeable_3500/image7.png', './image/Product_new/Martistore_Tondeuse_rechargeable_3500/image8.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1092,
+        name: 'Trepied, selfie avec lumières',
+        price: 6000, //4000
+        category: 'electronique',
+        imgSrcs: ['./image/Product_new/Martistore_Trepied_selfie_avec_lumières_4000/image1.png', './image/Product_new/Martistore_Trepied_selfie_avec_lumières_4000/image2.png', './image/Product_new/Martistore_Trepied_selfie_avec_lumières_4000/image3.png', './image/Product_new/Martistore_Trepied_selfie_avec_lumières_4000/image4.png', './image/Product_new/Martistore_Trepied_selfie_avec_lumières_4000/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1093,
+        name: 'Verre à whisky 6pcs',
+        price: 5200, //3500
+        category: 'tous',
+        imgSrcs: ['./image/Product_new/Martistore_Verre_a_whisky_de_luxe_lot_de_6_pcs_3500/image1.png', './image/Product_new/Martistore_Verre_a_whisky_de_luxe_lot_de_6_pcs_3500/image2.png', './image/Product_new/Martistore_Verre_a_whisky_de_luxe_lot_de_6_pcs_3500/image3.png', './image/Product_new/Martistore_Verre_a_whisky_de_luxe_lot_de_6_pcs_3500/image4.png', './image/Product_new/Martistore_Verre_a_whisky_de_luxe_lot_de_6_pcs_3500/image5.png', './image/Product_new/Martistore_Verre_a_whisky_de_luxe_lot_de_6_pcs_3500/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1094,
+        name: 'Minicoupe-légumes',
+        price: 1800, //1300
+        category: 'cuisine',
+        imgSrcs: ['./image/Product_new/sk_lux_Mini_coupe-légumes_manuel_1300/image1.png', './image/Product_new/sk_lux_Mini_coupe-légumes_manuel_1300/image2.png', './image/Product_new/sk_lux_Mini_coupe-légumes_manuel_1300/image3.png', './image/Product_new/sk_lux_Mini_coupe-légumes_manuel_1300/image4.png', './image/Product_new/sk_lux_Mini_coupe-légumes_manuel_1300/image5.png', './image/Product_new/sk_lux_Mini_coupe-légumes_manuel_1300/image6.png', './image/Product_new/sk_lux_Mini_coupe-légumes_manuel_1300/image7.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1095,
+        name: 'Nettoyant éffervescent et désinfectant',
+        price: 225, //150
+        category: 'tous',
+        imgSrcs: ['./image/Product_new/sk_luxe_Nettoyant_effervescent_désinfectant/image1.png', './image/Product_new/sk_luxe_Nettoyant_effervescent_désinfectant/image2.png', './image/Product_new/sk_luxe_Nettoyant_effervescent_désinfectant/image3.png', './image/Product_new/sk_luxe_Nettoyant_effervescent_désinfectant/image4.png', './image/Product_new/sk_luxe_Nettoyant_effervescent_désinfectant/image5.png', './image/Product_new/sk_luxe_Nettoyant_effervescent_désinfectant/image6.png', './image/Product_new/sk_luxe_Nettoyant_effervescent_désinfectant/image7.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1096,
+        name: 'Peigne chauffante',
+        price: 5600, //4000
+        category: 'beauté',
+        imgSrcs: ['./image/Product_new/SK_LUXe_Peigne_chauffante_4000/image1.png', './image/Product_new/SK_LUXe_Peigne_chauffante_4000/image2.png', './image/Product_new/SK_LUXe_Peigne_chauffante_4000/image3.png', './image/Product_new/SK_LUXe_Peigne_chauffante_4000/image4.png', './image/Product_new/SK_LUXe_Peigne_chauffante_4000/image5.png', './image/Product_new/SK_LUXe_Peigne_chauffante_4000/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1097,
+        name: 'Pistolet masseur',
+        price: 5600, //4000
+        category: 'beauté',
+        imgSrcs: ['./image/Product_new/sk_luxe_Pistolet_masseur_5000/image1.png', './image/Product_new/sk_luxe_Pistolet_masseur_5000/image2.png', './image/Product_new/sk_luxe_Pistolet_masseur_5000/image3.png', './image/Product_new/sk_luxe_Pistolet_masseur_5000/image4.png', './image/Product_new/sk_luxe_Pistolet_masseur_5000/image5.png', './image/Product_new/sk_luxe_Pistolet_masseur_5000/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+
+    {
+        id: 1098,
+        name: 'Saladiers en verre',
+        price: 4000, //3000
+        category: 'tous',
+        imgSrcs: ['./image/Product_new/sk_luxe_saladiers_en_verre_3000/image1.png', './image/Product_new/sk_luxe_saladiers_en_verre_3000/image2.png', './image/Product_new/sk_luxe_saladiers_en_verre_3000/image3.png', './image/Product_new/sk_luxe_saladiers_en_verre_3000/image4.png', './image/Product_new/sk_luxe_saladiers_en_verre_3000/image5.png', './image/Product_new/sk_luxe_saladiers_en_verre_3000/image6.png', './image/Product_new/sk_luxe_saladiers_en_verre_3000/image7.png', './image/Product_new/sk_luxe_saladiers_en_verre_3000/image8.png', './image/Product_new/sk_luxe_saladiers_en_verre_3000/image9.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1100,
+        name: 'Vetement, fleuri, blanc, vert',
+        price: 11000, //9000
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/vetements/image1.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1101,
+        name: 'Habit, culotte, bleue',
+        price: 11000, //9000
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/vetements/image2.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1102,
+        name: 'Habit, culotte, marron',
+        price: 11000, //9000
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/vetements/image2.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1103,
+        name: 'Habit, culotte, rouge, rose',
+        price: 11000, //9000
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/vetements/image4.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1104,
+        name: 'Habit, culotte, blanc, gris',
+        price: 11000, //9000
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/vetements/image5.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1105,
+        name: 'Habit, culotte, jaune, vert',
+        price: 11000, //9000
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/vetements/image6.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1106,
+        name: 'Habit, culotte, fleuri rouge',
+        price: 11000, //9000
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/vetements/image7.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        id: 1107,
+        name: 'Sac dame élégant',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image1.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1108,
+        name: 'Sac dame moderne',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image2.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1109,
+        name: 'Sac dame chic',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image3.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1110,
+        name: 'Sac dame classique',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image4.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1111,
+        name: 'Sac dame sportif',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image5.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1112,
+        name: 'Sac dame pratique',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image6.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1113,
+        name: 'Sac dame stylé',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image7.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1114,
+        name: 'Sac dame tendance',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image8.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1115,
+        name: 'Sac dame minimaliste',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image9.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1116,
+        name: 'Sac dame fonctionnel',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image10.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1117,
+        name: 'Sac dame professionnel',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image11.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1118,
+        name: 'Sac dame urbain',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image12.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1119,
+        name: 'Sac dame tendance',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image13.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1120,
+        name: 'Sac dame raffiné',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image14.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1121,
+        name: 'Sac dame chic',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image15.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1122,
+        name: 'Sac dame robuste',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image16.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1123,
+        name: 'Sac dame féminin',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image17.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1124,
+        name: 'Sac dame vintage',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image18.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1125,
+        name: 'Sac dame élégant',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image19.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1126,
+        name: 'Sac dame pratique',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image20.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1127,
+        name: 'Sac dame urbain',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image21.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1128,
+        name: 'Sac dame minimaliste',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image22.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1129,
+        name: 'Sac dame fonctionnel',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image23.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1130,
+        name: 'Sac dame professionnel',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image24.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1131,
+        name: 'Sac dame stylé',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image25.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1132,
+        name: 'Sac dame tendance',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image26.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1133,
+        name: 'Sac dame élégant',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image27.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1134,
+        name: 'Sac dame stylé',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image28.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1135,
+        name: 'Sac dame chic',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image29.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1136,
+        name: 'Sac dame moderne',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image30.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1137,
+        name: 'Sac dame luxueux',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image31.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1138,
+        name: 'Sac dame pratique',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image32.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1139,
+        name: 'Sac dame sophistiqué',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image33.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1140,
+        name: 'Sac dame unique',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image34.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1141,
+        name: 'Sac dame stylish',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image35.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    },
+    {
+        id: 1142,
+        name: 'Sac dame confortable',
+        price: 8500,
+        category: 'habillement',
+        imgSrcs: ['./image/Product_new/sac_dame/image36.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, Durable, Polyvalent',
+        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+    }
+
+
 ];
 
 export default products;
