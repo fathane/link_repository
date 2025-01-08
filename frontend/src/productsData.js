@@ -1976,7 +1976,241 @@ const products = [
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
-    }
+    },
+
+
+
+
+    ///////////////////////////////
+
+
+
+
+    {
+        id: 1143,
+        name: 'Bouteille à glaçons.',
+        price: 3100, //2300
+        category: 'tous',
+        imgSrcs: ['./image/08_01/Martistore_Bouteille_a_moule_a_glace_2300/image1.png', './image/08_01/Martistore_Bouteille_a_moule_a_glace_2300/image2.png', './image/08_01/Martistore_Bouteille_a_moule_a_glace_2300/image3.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Glaçons nomades frais ❄️',
+        modalDescription: 'C est une bouteille pratique 🧊✨ qui permet de faire et transporter des glaçons facilement. Idéale pour garder vos boissons bien fraîches 🥤❄️, où que vous soyez !'
+    },
+    {
+        id: 1144,
+        name: 'Support pliable',
+        price: 8500, //7500
+        category: 'tous',
+        imgSrcs: ['./image/08_01/Martistore_Bureau_pliable_pour_ordinateur_portable_7500/image1.png', './image/08_01/Martistore_Bureau_pliable_pour_ordinateur_portable_7500/image2.png', './image/08_01/Martistore_Bureau_pliable_pour_ordinateur_portable_7500/image3.png', './image/08_01/Martistore_Bureau_pliable_pour_ordinateur_portable_7500/image4.png', './image/08_01/Martistore_Bureau_pliable_pour_ordinateur_portable_7500/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Support pliable ergonomique ✨💻',
+        modalDescription: 'C est un support ajustable et ergonomique 🪑💻, parfait pour travailler confortablement. Léger, pliable et pratique à transporter, il s adapte à toutes vos positions et besoins. ✅✨'
+    },
+    {
+        id: 1145,
+        name: 'Ustensiles cuisine',
+        price: 8500, //7500
+        category: 'tous',
+        imgSrcs: ['./image/08_01/Martistore_Bureau_pliable_pour_ordinateur_portable_7500/image1.png', './image/08_01/Martistore_Bureau_pliable_pour_ordinateur_portable_7500/image2.png', './image/08_01/Martistore_Bureau_pliable_pour_ordinateur_portable_7500/image3.png', './image/08_01/Martistore_Bureau_pliable_pour_ordinateur_portable_7500/image4.png', './image/08_01/Martistore_Bureau_pliable_pour_ordinateur_portable_7500/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Ustensiles cuisine 🍴✨',
+        modalDescription: 'Un ensemble de casseroles 🥘, parfait pour cuisiner avec style. Robustes, antiadhésives et faciles à nettoyer'
+    },
+    {
+        id: 1146,
+        name: 'Casseroles antiadhesive',
+        price: 31000, //29000
+        category: 'Casseroles antiadhesive',
+        imgSrcs: ['./image/08_01/Martistore_Casserole_antiadhesive_5pcs_29000/image1.png', './image/08_01/Martistore_Casserole_antiadhesive_5pcs_29000/image2.png', './image/08_01/Martistore_Casserole_antiadhesive_5pcs_29000/image3.png', './image/08_01/Martistore_Casserole_antiadhesive_5pcs_29000/image4.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Cinq casseroles 🍴✨',
+        modalDescription: '🍳 Ensemble de cinq casseroles antiadhesive avec couvercles en verre et poignées dorées ✨'
+    },
+    {
+        id: 1147,
+        name: 'Casserole de table',
+        price: 15700, //11800
+        category: 'tous',
+        imgSrcs: ['./image/08_01/Martistore_Casserole_de_table_11800/image1.png', './image/08_01/Martistore_Casserole_de_table_11800/image2.png', './image/08_01/Martistore_Casserole_de_table_11800/image3.png', './image/08_01/Martistore_Casserole_de_table_11800/image4.png', './image/08_01/Martistore_Casserole_de_table_11800/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Casserole de table 🍴✨',
+        modalDescription: 'Un ensemble de cinq casseroles de table🥘. Robustes, antiadhésives et faciles à nettoyer'
+    },
+    {
+        id: 1148,
+        name: 'Casserole électronique',
+        price: 5700, //4500
+        category: 'tous',
+        imgSrcs: ['./image/08_01/Martistore_Casserole_electronique_3en1 _avec_cuisson_a_la_vapeur_4500/image1.png', './image/08_01/Martistore_Casserole_electronique_3en1 _avec_cuisson_a_la_vapeur_4500/image2.png', './image/08_01/Martistore_Casserole_electronique_3en1 _avec_cuisson_a_la_vapeur_4500/image3.png', './image/08_01/Martistore_Casserole_electronique_3en1 _avec_cuisson_a_la_vapeur_4500/image4.png', './image/08_01/Martistore_Casserole_electronique_3en1 _avec_cuisson_a_la_vapeur_4500/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: '🍜 Mini cuiseur électronique',
+        modalDescription: '🍜 Casserole électronique, pour vous'
+    },
+    {
+        id: 1149,
+        name: 'Support multifonction pratique',
+        price: 10500, //8000
+        category: 'tous',
+        imgSrcs: ['./image/08_01/Martistore_Dispositif_Support_multifonctions_8000/image1.png', './image/08_01/Martistore_Dispositif_Support_multifonctions_8000/image2.png', './image/08_01/Martistore_Dispositif_Support_multifonctions_8000/image3.png', './image/08_01/Martistore_Dispositif_Support_multifonctions_8000/image4.png', './image/08_01/Martistore_Dispositif_Support_multifonctions_8000/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Support multifonction',
+        modalDescription: 'Ce support multifonction allie praticité et design, offrant des crochets pour suspendre vêtements, chapeaux et clés, ainsi que des étagères spacieuses pour organiser chaussures, sacs et autres accessoires. Idéal pour une entrée ou un espace restreint, il permet de garder vos affaires bien rangées tout en apportant une touche moderne à votre intérieur.'
+    },
+    {
+        id: 1150,
+        name: 'Boîte à lunch pratique 🥪🥤🍴',
+        price: 4000, //3000
+        category: 'tous',
+        imgSrcs: ['./image/08_01/Martistore_Enseigne_de_boite_a_lunche_3en1_et_gourde_3000/image1.png', './image/08_01/Martistore_Enseigne_de_boite_a_lunche_3en1_et_gourde_3000/image2.png', './image/08_01/Martistore_Enseigne_de_boite_a_lunche_3en1_et_gourde_3000/image3.png', './image/08_01/Martistore_Enseigne_de_boite_a_lunche_3en1_et_gourde_3000/image4.png', './image/08_01/Martistore_Enseigne_de_boite_a_lunche_3en1_et_gourde_3000/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Boîte à lunch pratique',
+        modalDescription: 'Un ensemble tout-en-un pour vos repas 🍱, comprenant une boîte hermétique, une tasse isotherme 🥤 et des couverts 🍴. Idéal pour le bureau, l école ou les sorties, avec un design moderne et coloré. 🌟'
+    },
+    {
+        id: 1151,
+        name: 'Égouttoir à vaisselle',
+        price: 10700, //9500
+        category: 'tous',
+        imgSrcs: ['./image/08_01/Martistore_Grand_range_vaisselle_3niveau_9500/image1.png', './image/08_01/Martistore_Grand_range_vaisselle_3niveau_9500/image2.png', './image/08_01/Martistore_Grand_range_vaisselle_3niveau_9500/image3.png', './image/08_01/Martistore_Grand_range_vaisselle_3niveau_9500/image4.png', './image/08_01/Martistore_Grand_range_vaisselle_3niveau_9500/image5.png', './image/08_01/Martistore_Grand_range_vaisselle_3niveau_9500/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Range vaisselle 🥢🍽️',
+        modalDescription: 'Ce range-vaisselle à plusieurs niveaux est parfait pour organiser et sécher vos assiettes, bols et couverts. Avec son design compact et fonctionnel, il optimise l espace dans votre cuisine tout en gardant votre vaisselle propre et bien rangée. Pratique, élégant et durable ! 🌟'
+    },
+
+
+
+
+
+    {
+        id: 1152,
+        name: 'Éclairage studio professionnel.',
+        price: 43000, //39000
+        category: 'tous',
+        imgSrcs: ['./image/08_01/Martistore_Lumière_led_déclairage_39000/image1.png', './image/08_01/Martistore_Lumière_led_déclairage_39000/image2.png', './image/08_01/Martistore_Lumière_led_déclairage_39000/image3.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Éclairage studio',
+        modalDescription: 'Une lampe de studio puissante avec un réflecteur et un support réglable, parfaite pour la photographie et la vidéographie 🎥📸💡.'
+    },
+    {
+        id: 1153,
+        name: 'Panneau LED lumineux.',
+        price: 18000, //16500
+        category: 'tous',
+        imgSrcs: ['./image/08_01/Martistore_Lumière_led_Pro_Multicolore_680w_16500/image1.png', './image/08_01/Martistore_Lumière_led_Pro_Multicolore_680w_16500/image2.png', './image/08_01/Martistore_Lumière_led_Pro_Multicolore_680w_16500/image3.png', './image/08_01/Martistore_Lumière_led_Pro_Multicolore_680w_16500/image4.png', './image/08_01/Martistore_Lumière_led_Pro_Multicolore_680w_16500/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Panneau LED lumineux 💡.',
+        modalDescription: 'Un panneau LED ajustable avec volets de contrôle de la lumière, offrant un éclairage puissant et doux, idéal pour les prises de vue en studio 📸💡.'
+    },
+    {
+        id: 1154,
+        name: 'Micro-cravate sans fil.',
+        price: 11500, //9500
+        category: 'tous',
+        imgSrcs: ['./image/08_01/Martistore_Micro_cravate_sans_fil_3 boutes_2_micro_rechar_9500/image1.png', './image/08_01/Martistore_Micro_cravate_sans_fil_3 boutes_2_micro_rechar_9500/image2.png', './image/08_01/Martistore_Micro_cravate_sans_fil_3 boutes_2_micro_rechar_9500/image3.png', './image/08_01/Martistore_Micro_cravate_sans_fil_3 boutes_2_micro_rechar_9500/image4.png', './image/08_01/Martistore_Micro_cravate_sans_fil_3 boutes_2_micro_rechar_9500/image5.png', './image/08_01/Martistore_Micro_cravate_sans_fil_3 boutes_2_micro_rechar_9500/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Micro-cravate',
+        modalDescription: 'Un kit de microphones-cravates sans fil, comprenant deux émetteurs et un récepteur, idéal pour capturer un son clair et de qualité en déplacement, parfait pour les interviews et les vidéos 🎤📹🔊.'
+    },
+    {
+        id: 1155,
+        name: 'Mini climatiseur portable.',
+        price: 8900, //7500
+        category: 'electronique',
+        imgSrcs: ['./image/08_01/Martistore_mini_Clim_refroidisseur_dair_7500/image1.png', './image/08_01/Martistore_mini_Clim_refroidisseur_dair_7500/image2.png', './image/08_01/Martistore_mini_Clim_refroidisseur_dair_7500/image3.png', './image/08_01/Martistore_mini_Clim_refroidisseur_dair_7500/image4.png', './image/08_01/Martistore_mini_Clim_refroidisseur_dair_7500/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Mini climatiseur',
+        modalDescription: 'Un mini climatiseur portable compact et efficace, idéal pour rafraîchir de petites pièces ou un espace personnel, offrant une brise fraîche instantanée ❄️🌀👌.'
+    },
+    {
+        id: 1156,
+        name: 'Moulin électrique portable.',
+        price: 5500, //4000
+        category: 'cuisine',
+        imgSrcs: ['./image/08_01/Martistore_Mini_moulin_a_sec_4000/image1.png', './image/08_01/Martistore_Mini_moulin_a_sec_4000/image2.png', './image/08_01/Martistore_Mini_moulin_a_sec_4000/image3.png', './image/08_01/Martistore_Mini_moulin_a_sec_4000/image4.png', './image/08_01/Martistore_Mini_moulin_a_sec_4000/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Mini climatiseur',
+        modalDescription: 'Un mini moulin à sec, parfait pour moudre les grains, épices ou noix avec précision, compact et facile à utiliser dans la cuisine 🥜🌾⚙️.'
+    },
+    {
+        id: 1157,
+        name: 'Chauffe-eau électrique compact',
+        price: 6000, //4500
+        category: 'electronique',
+        imgSrcs: ['./image/08_01/Martistore_New_Chauffe_eau_RAF_de_2L_4500/image1.png', './image/08_01/Martistore_New_Chauffe_eau_RAF_de_2L_4500/image2.png', './image/08_01/Martistore_New_Chauffe_eau_RAF_de_2L_4500/image3.png', './image/08_01/Martistore_New_Chauffe_eau_RAF_de_2L_4500/image4.png', './image/08_01/Martistore_New_Chauffe_eau_RAF_de_2L_4500/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Mini climatiseur',
+        modalDescription: 'Le chauffe-eau électrique , d une capacité de 2 litres, offre un chauffage rapide et efficace, parfait pour les petites utilisations domestiques 🚿⚡🔥.'
+    },
+    {
+        id: 1158,
+        name: 'Distributeur de dentifrice.',
+        price: 1200, //900
+        category: 'electronique',
+        imgSrcs: ['./image/08_01/Martistore_Protège-brosse_a_dent_avec_distributeur_900/image1.png', './image/08_01/Martistore_Protège-brosse_a_dent_avec_distributeur_900/image2.png', './image/08_01/Martistore_Protège-brosse_a_dent_avec_distributeur_900/image3.png', './image/08_01/Martistore_Protège-brosse_a_dent_avec_distributeur_900/image4.png', './image/08_01/Martistore_Protège-brosse_a_dent_avec_distributeur_900/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Distributeur de dentifrice.',
+        modalDescription: 'Un protège-brosse à dents avec distributeur de dentifrice intégré, pratique et hygiénique, parfait pour organiser votre espace de salle de bain tout en assurant une distribution facile du dentifrice 🪥🧴🚿.'
+    },
+    {
+        id: 1159,
+        name: 'Support mural pratique.',
+        price: 4700, //3500
+        category: 'electronique',
+        imgSrcs: ['./image/08_01/Martistore_Support_de_rangement_murale_3500/image1.png', './image/08_01/Martistore_Support_de_rangement_murale_3500/image2.png', './image/08_01/Martistore_Support_de_rangement_murale_3500/image3.png', './image/08_01/Martistore_Support_de_rangement_murale_3500/image4.png', './image/08_01/Martistore_Support_de_rangement_murale_3500/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Support mural',
+        modalDescription: 'Un support de rangement mural, idéal pour organiser divers objets de manière compacte et accessible, tout en économisant de l espace dans votre maison ou bureau 🧱🛠️📦.'
+    },
+    {
+        id: 1160,
+        name: 'Thermos isolant 500ml.',
+        price: 2800, //2200
+        category: 'electronique',
+        imgSrcs: ['./image/08_01/Martistore_Thermos_a_double_paroi_500ml_2200/image1.png', './image/08_01/Martistore_Thermos_a_double_paroi_500ml_2200/image2.png', './image/08_01/Martistore_Thermos_a_double_paroi_500ml_2200/image3.png', './image/08_01/Martistore_Thermos_a_double_paroi_500ml_2200/image4.png', './image/08_01/Martistore_Thermos_a_double_paroi_500ml_2200/image5.png', './image/08_01/Martistore_Thermos_a_double_paroi_500ml_2200/image6.png', './image/08_01/Martistore_Thermos_a_double_paroi_500ml_2200/image7.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Thermos à double paroi',
+        modalDescription: 'Un thermos à double paroi de 500 ml, conçu pour maintenir vos boissons chaudes ou froides pendant plusieurs heures, parfait pour une utilisation en déplacement ou au bureau ☕❄️🌡️.'
+    },
+    {
+        id: 1161,
+        name: 'Tire-bouchon manuel',
+        price: 1800, //1500
+        category: 'electronique',
+        imgSrcs: ['./image/08_01/Martistore_Tire_bouchon_manuel_1500/image1.png', './image/08_01/Martistore_Tire_bouchon_manuel_1500/image2.png', './image/08_01/Martistore_Tire_bouchon_manuel_1500/image3.png', './image/08_01/Martistore_Tire_bouchon_manuel_1500/image4.png', './image/08_01/Martistore_Tire_bouchon_manuel_1500/image5.png', './image/08_01/Martistore_Tire_bouchon_manuel_1500/image6.png', './image/08_01/Martistore_Tire_bouchon_manuel_1500/image7.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Ouvre-bouteille pratique, élégant.',
+        modalDescription: 'Un tire-bouchon manuel pratique et élégant 🍷. Idéal pour ouvrir vos bouteilles de vin sans effort. Sa prise en main facile 🤲 et son design classique 👌 le rendent indispensable pour les amateurs de vin. Profitez d’un moment convivial sans tracas! 🥂'
+    },
+    {
+        id: 1162,
+        name: 'Mini ventilateur',
+        price: 4500, //3000
+        category: 'electronique',
+        imgSrcs: ['./image/08_01/SK_LUX_Mini_ventilateur_de_table_3000/image1.png', './image/08_01/SK_LUX_Mini_ventilateur_de_table_3000/image2.png', './image/08_01/SK_LUX_Mini_ventilateur_de_table_3000/image3.png', './image/08_01/SK_LUX_Mini_ventilateur_de_table_3000/image4.png', './image/08_01/SK_LUX_Mini_ventilateur_de_table_3000/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'mini ventilateur de table',
+        modalDescription: 'Ce mini ventilateur de table est parfait pour un rafraîchissement instantané 🌬️. Compact et léger 🏖️, il se place facilement sur votre bureau ou votre table de chevet. Avec son design pratique 👌, il vous accompagnera partout pour des moments frais et agréables, même lors des journées les plus chaudes ☀️.'
+    },
 
 
 ];
