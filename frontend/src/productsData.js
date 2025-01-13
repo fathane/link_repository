@@ -1146,10 +1146,10 @@ const products = [
     },
     {
         id: 1069,
-        name: 'Diffuseur de senteur',
+        name: 'Diffuseur de lumière',
         price: 3500, //2700
         category: 'tous',
-        imgSrcs: ['./image/Product_new/Akuesley_Projecteur_multicolore_2700/image1.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image2.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image3.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image4.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image5.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image6.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image7.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image8.png'],
+        imgSrcs: ['./image/Product_new/Akuesley_Projecteur_multicolore_2700/image1.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image2.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image3.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image4.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image5.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image6.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image7.png'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
@@ -1584,7 +1584,7 @@ const products = [
     {
         id: 1107,
         name: 'Sac dame élégant',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image1.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1595,7 +1595,7 @@ const products = [
     {
         id: 1108,
         name: 'Sac dame moderne',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image2.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1606,7 +1606,7 @@ const products = [
     {
         id: 1109,
         name: 'Sac dame chic',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image3.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1617,7 +1617,7 @@ const products = [
     {
         id: 1110,
         name: 'Sac dame classique',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image4.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1628,7 +1628,7 @@ const products = [
     {
         id: 1111,
         name: 'Sac dame sportif',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image5.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1639,7 +1639,7 @@ const products = [
     {
         id: 1112,
         name: 'Sac dame pratique',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image6.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1650,7 +1650,7 @@ const products = [
     {
         id: 1113,
         name: 'Sac dame stylé',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image7.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1661,7 +1661,7 @@ const products = [
     {
         id: 1114,
         name: 'Sac dame tendance',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image8.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1672,7 +1672,7 @@ const products = [
     {
         id: 1115,
         name: 'Sac dame minimaliste',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image9.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1683,7 +1683,7 @@ const products = [
     {
         id: 1116,
         name: 'Sac dame fonctionnel',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image10.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1694,7 +1694,7 @@ const products = [
     {
         id: 1117,
         name: 'Sac dame professionnel',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image11.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1705,7 +1705,7 @@ const products = [
     {
         id: 1118,
         name: 'Sac dame urbain',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image12.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1716,7 +1716,7 @@ const products = [
     {
         id: 1119,
         name: 'Sac dame tendance',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image13.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1727,7 +1727,7 @@ const products = [
     {
         id: 1120,
         name: 'Sac dame raffiné',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image14.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1738,7 +1738,7 @@ const products = [
     {
         id: 1121,
         name: 'Sac dame chic',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image15.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1749,7 +1749,7 @@ const products = [
     {
         id: 1122,
         name: 'Sac dame robuste',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image16.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1760,7 +1760,7 @@ const products = [
     {
         id: 1123,
         name: 'Sac dame féminin',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image17.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1771,7 +1771,7 @@ const products = [
     {
         id: 1124,
         name: 'Sac dame vintage',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image18.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1782,7 +1782,7 @@ const products = [
     {
         id: 1125,
         name: 'Sac dame élégant',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image19.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1793,7 +1793,7 @@ const products = [
     {
         id: 1126,
         name: 'Sac dame pratique',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image20.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1804,7 +1804,7 @@ const products = [
     {
         id: 1127,
         name: 'Sac dame urbain',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image21.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1815,7 +1815,7 @@ const products = [
     {
         id: 1128,
         name: 'Sac dame minimaliste',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image22.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1826,7 +1826,7 @@ const products = [
     {
         id: 1129,
         name: 'Sac dame fonctionnel',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image23.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1837,7 +1837,7 @@ const products = [
     {
         id: 1130,
         name: 'Sac dame professionnel',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image24.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1848,7 +1848,7 @@ const products = [
     {
         id: 1131,
         name: 'Sac dame stylé',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image25.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1859,7 +1859,7 @@ const products = [
     {
         id: 1132,
         name: 'Sac dame tendance',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image26.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1870,7 +1870,7 @@ const products = [
     {
         id: 1133,
         name: 'Sac dame élégant',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image27.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1881,7 +1881,7 @@ const products = [
     {
         id: 1134,
         name: 'Sac dame stylé',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image28.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1892,7 +1892,7 @@ const products = [
     {
         id: 1135,
         name: 'Sac dame chic',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image29.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1903,7 +1903,7 @@ const products = [
     {
         id: 1136,
         name: 'Sac dame moderne',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image30.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1914,7 +1914,7 @@ const products = [
     {
         id: 1137,
         name: 'Sac dame luxueux',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image31.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1925,7 +1925,7 @@ const products = [
     {
         id: 1138,
         name: 'Sac dame pratique',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image32.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1936,7 +1936,7 @@ const products = [
     {
         id: 1139,
         name: 'Sac dame sophistiqué',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image33.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1947,7 +1947,7 @@ const products = [
     {
         id: 1140,
         name: 'Sac dame unique',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image34.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1958,7 +1958,7 @@ const products = [
     {
         id: 1141,
         name: 'Sac dame stylish',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image35.jpeg'],
         videoSrc: './video/link.mp4',
@@ -1969,7 +1969,7 @@ const products = [
     {
         id: 1142,
         name: 'Sac dame confortable',
-        price: 8500,
+        price: 13000,
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image36.jpeg'],
         videoSrc: './video/link.mp4',
