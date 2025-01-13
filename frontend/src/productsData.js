@@ -1588,7 +1588,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image1.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1599,7 +1599,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image2.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1610,7 +1610,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image3.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1621,7 +1621,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image4.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1632,7 +1632,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image5.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1643,7 +1643,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image6.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1654,7 +1654,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image7.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1665,7 +1665,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image8.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1676,7 +1676,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image9.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1687,7 +1687,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image10.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1698,7 +1698,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image11.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1709,7 +1709,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image12.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1720,7 +1720,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image13.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1731,7 +1731,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image14.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1742,7 +1742,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image15.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1753,7 +1753,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image16.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1764,7 +1764,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image17.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1775,7 +1775,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image18.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1786,7 +1786,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image19.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1797,7 +1797,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image20.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1808,7 +1808,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image21.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1819,7 +1819,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image22.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1830,7 +1830,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image23.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1841,7 +1841,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image24.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1852,7 +1852,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image25.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1863,7 +1863,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image26.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1874,7 +1874,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image27.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1885,7 +1885,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image28.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1896,7 +1896,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image29.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1907,7 +1907,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image30.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1918,7 +1918,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image31.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1929,7 +1929,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image32.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1940,7 +1940,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image33.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1951,7 +1951,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image34.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1962,7 +1962,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image35.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
@@ -1973,7 +1973,7 @@ const products = [
         category: 'habillement',
         imgSrcs: ['./image/Product_new/sac_dame/image36.jpeg'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
     },
