@@ -981,7 +981,7 @@ const products = [
         category: 'cuisine',
         imgSrcs: ['./image/new_24_12/mini_mortier_1300/image1.png', './image/new_24_12/mini_mortier_1300/image2.png', './image/new_24_12/mini_mortier_1300/image3.png', './image/new_24_12/mini_mortier_1300/image4.png', './image/new_24_12/mini_mortier_1300/image5.png', './image/new_24_12/mini_mortier_1300/image6.png', './image/new_24_12/mini_mortier_1300/image7.png', './image/new_24_12/mini_mortier_1300/image8.png'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Compact, Pratique, Efficace',
         modalDescription: '✅ Ce mini mortier est parfait pour moudre vos épices et herbes. Sa taille compacte le rend facile à utiliser et à ranger.'
     },
@@ -1038,18 +1038,18 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Intelligent, Pratique, Durable',
-        modalDescription: '✅ Ce thermos numérique est conçu pour garder vos boissons à la température idéale'
+        modalDescription: 'Thermos numérique 🧃, pratique et moderne, permettant de contrôler la température de vos boissons avec précision grâce à son affichage numérique. Parfait pour garder vos boissons chaudes ou froides pendant plusieurs heures, idéal pour les déplacements ou les journées bien remplies.'
     },
     {
         id: 1061,
         name: 'Ventilation de climatisation',
-        price: 5900, //4500
+        price: 5500, //4500
         category: 'electronique',
         imgSrcs: ['./image/new_24_12/Ventilation_de_climatisation_4500/image1.png', './image/new_24_12/Ventilation_de_climatisation_4500/image2.png', './image/new_24_12/Ventilation_de_climatisation_4500/image3.png', './image/new_24_12/Ventilation_de_climatisation_4500/image4.png', './image/new_24_12/Ventilation_de_climatisation_4500/image5.png', './image/new_24_12/Ventilation_de_climatisation_4500/image6.png', './image/new_24_12/Ventilation_de_climatisation_4500/image7.png'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Efficace, Pratique, Confortable',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Ventilation de climatisation 🌬️, idéale pour rafraîchir et améliorer la circulation de l air dans votre espace. Facile à installer, elle permet de maintenir une température agréable tout en réduisant l humidité, pour un confort optimal.'
     },
 
 
@@ -1076,7 +1076,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Efficace, Pratique, Confortable',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Sac multi-fonction 👜, pratique et polyvalent, idéal pour organiser vos affaires au quotidien. Avec plusieurs compartiments, il offre un espace de rangement optimal pour vos objets personnels, que ce soit pour le travail, les loisirs ou les voyages.'
     },
     {
         id: 1063,
@@ -1087,7 +1087,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Adaptateur solide de voiture 🚗, conçu pour charger vos appareils en toute sécurité pendant vos trajets. Compact et robuste, il se fixe facilement dans votre véhicule et garantit une charge rapide et fiable pour vos téléphones et autres gadgets.'
     },
     {
         id: 1064,
@@ -1098,7 +1098,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Casque P9 Pro Max 🎧, offrant un son clair et puissant pour une expérience audio immersive. Confortable et réglable, il est parfait pour écouter de la musique, regarder des films ou passer des appels, tout en offrant une bonne isolation sonore.'
     },
     {
         id: 1065,
@@ -1109,7 +1109,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Diffuseur de senteur 🌸, parfait pour parfumer agréablement votre espace. Il diffuse une fragrance douce et apaisante, créant une ambiance relaxante et agréable dans votre maison ou bureau.'
     },
     {
         id: 1066,
@@ -1120,7 +1120,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Grand sac de rangement 🧳, spacieux et pratique, idéal pour organiser vos affaires à la maison ou lors de vos voyages. Solide et facile à transporter, il offre une grande capacité pour garder vos objets en ordre.'
     },
     {
         id: 1067,
@@ -1131,29 +1131,29 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Kits de studio professionnel 🎬, l équipement essentiel pour des enregistrements de qualité supérieure. Ils offrent tout ce qu il faut pour vos projets de photographie, vidéo ou audio. Parfaits pour les créateurs cherchant des résultats professionnels.'
     },
     {
         id: 1068,
         name: 'Pose ordinateur refroidissant',
-        price: 7000, //6000
+        price: 7300, //6000
         category: 'tous',
         imgSrcs: ['./image/Product_new/Akuesley_pose_ordinateur_a_refroidisseur_6000/image1.png', './image/Product_new/Akuesley_pose_ordinateur_a_refroidisseur_6000/image2.png', './image/Product_new/Akuesley_pose_ordinateur_a_refroidisseur_6000/image3.png'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Support refroidissant pour ordinateur 💻, pratique et efficace, idéal pour maintenir votre ordinateur à une température optimale pendant de longues sessions de travail ou de jeu. Son design ergonomique aide également à améliorer votre confort en ajustant la position de l écran.'
     },
     {
         id: 1069,
         name: 'Diffuseur de lumière',
-        price: 3500, //2700
+        price: 3400, //2700
         category: 'tous',
         imgSrcs: ['./image/Product_new/Akuesley_Projecteur_multicolore_2700/image1.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image2.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image3.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image4.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image5.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image6.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image7.png'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Diffuseur de lumière 🌟, idéal pour créer une ambiance douce et apaisante dans n importe quelle pièce. Il répartit la lumière de manière homogène, offrant un éclairage agréable pour vos moments de détente ou de travail.'
     },
     {
         id: 1070,
@@ -1164,7 +1164,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Projecteur octogonal multicolore 🌈, parfait pour créer une ambiance unique avec ses jeux de lumière dynamiques. Idéal pour décorer votre espace, il diffuse des couleurs vibrantes qui ajoutent de la magie à vos soirées ou événements spéciaux.'
     },
     {
         id: 1071,
@@ -1175,7 +1175,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Support téléphone pour voiture 🚗, pratique et sécurisé, idéal pour garder votre téléphone à portée de main tout en conduisant. Facile à installer et à ajuster, il vous permet d utiliser votre GPS ou de prendre des appels en toute sécurité.'
     },
     {
         id: 1072,
@@ -1186,7 +1186,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Support solide pour téléphone 📱, robuste et stable, parfait pour maintenir votre téléphone en place pendant vos appels, visionnages ou vidéos en toute sécurité. Pratique et ajustable, il vous permet de profiter d une expérience confortable.'
     },
     {
         id: 1073,
@@ -1197,73 +1197,73 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Ampoule à pile LED 💡, pratique et économique, idéale pour éclairer vos espaces sans prise de courant. Facile à utiliser et à déplacer, elle offre une lumière douce et durable pour une utilisation en intérieur comme en extérieur.'
     },
     {
         id: 1074,
         name: 'Barbecue pliable et portable',
-        price: 7000, //6000
+        price: 6500, //6000
         category: 'cuisine',
         imgSrcs: ['./image/Product_new/Martistore_Barbecue_pliable_portable_6000/image1.png', './image/Product_new/Martistore_Barbecue_pliable_portable_6000/image2.png', './image/Product_new/Martistore_Barbecue_pliable_portable_6000/image3.png', './image/Product_new/Martistore_Barbecue_pliable_portable_6000/image4.png', './image/Product_new/Martistore_Barbecue_pliable_portable_6000/image5.png', './image/Product_new/Martistore_Barbecue_pliable_portable_6000/image6.png'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Barbecue pliable et portable 🔥, idéal pour vos sorties en plein air 🌳. Facile à transporter et à installer, il vous permet de griller vos plats préférés où que vous soyez 🍖. Compact et pratique, il rend vos moments conviviaux encore plus simples et agréables.'
     },
     {
         id: 1075,
         name: 'Batteuse électrique pratique',
-        price: 4000, //3000
+        price: 3500, //3000
         category: 'cuisine',
         imgSrcs: ['./image/Product_new/Martistore_Batteuse_électrique_3000/image1.png', './image/Product_new/Martistore_Batteuse_électrique_3000/image2.png', './image/Product_new/Martistore_Batteuse_électrique_3000/image3.png', './image/Product_new/Martistore_Batteuse_électrique_3000/image4.png'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Batteuse électrique pratique 🧁, parfaite pour vous simplifier la vie en cuisine. Elle vous aide à mélanger, fouetter et pétrir en un rien de temps, que ce soit pour des gâteaux 🍰, des pâtes ou d autres recettes. Son design et ses vitesses la rendent facile à utiliser, rendant la préparation de vos plats encore plus agréable.'
     },
     {
         id: 1076,
         name: 'Bouclier anti-onde',
-        price: 5500, //4000
+        price: 4700, //4000
         category: 'electronique',
         imgSrcs: ['./image/Product_new/Martistore_Bouclier_anti-onde_4000/image1.png'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Bouclier anti-onde ⚡, conçu pour protéger contre les ondes électromagnétiques 📶, léger et discret 🛡️, idéal pour réduire l exposition aux appareils électroniques et favoriser un environnement plus sain.'
     },
     {
         id: 1077,
         name: 'Tasse à couvercle pratique',
-        price: 2000, //1000
+        price: 1500, //1000
         category: 'cuisine',
         imgSrcs: ['./image/Product_new/Martistore_Chic_tasse_a_couvercle_1000/image1.png', './image/Product_new/Martistore_Chic_tasse_a_couvercle_1000/image2.png', './image/Product_new/Martistore_Chic_tasse_a_couvercle_1000/image3.png'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Tasse en verre à couvercle pratique ☕, parfaite pour le lait. Son couvercle garde votre boisson à une température idéale 🔥, tout en offrant un design élégant et fonctionnel.'
     },
     {
         id: 1078,
         name: 'Drone amateur',
-        price: 17000, //15000
+        price: 16000, //15000
         category: 'electronique',
         imgSrcs: ['./image/Product_new/Martistore_Drone_amateur_15000/image1.png', './image/Product_new/Martistore_Drone_amateur_15000/image2.png', './image/Product_new/Martistore_Drone_amateur_15000/image3.png', './image/Product_new/Martistore_Drone_amateur_15000/image4.png', './image/Product_new/Martistore_Drone_amateur_15000/image5.png', './image/Product_new/Martistore_Drone_amateur_15000/image6.png'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Drone amateur 🚁, léger et facile à manœuvrer 🕹️, idéal pour capturer des vidéos aériennes et des photos époustouflantes 📸, parfait pour les débutants et les passionnés de technologie.'
     },
     {
         id: 1079,
         name: 'Extrateur de jus rechargeable',
-        price: 6500, //5000
+        price: 5500, //5000
         category: 'cuisine',
         imgSrcs: ['./image/Product_new/Martistore_Extrateur_de_jus_rechargeable_5000/image1.png', './image/Product_new/Martistore_Extrateur_de_jus_rechargeable_5000/image2.png', './image/Product_new/Martistore_Extrateur_de_jus_rechargeable_5000/image3.png', './image/Product_new/Martistore_Extrateur_de_jus_rechargeable_5000/image4.png'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Extracteur de jus 🍊, pratique et écologique 🌱, idéal pour préparer des jus frais et sains 🍹, facile à utiliser et à transporter 🚶‍♂️, parfait pour un mode de vie actif.'
     },
     {
         id: 1080,
@@ -1274,40 +1274,40 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Gaine à bande 💪, idéale pour soutenir et maintenir la posture 🧑‍⚕️, confortable et discrète sous les vêtements 👚, parfaite pour un maintien optimal toute la journée.'
     },
     {
         id: 1081,
         name: 'Grand fer à lisser',
-        price: 4200, //3500
+        price: 3900, //3500
         category: 'electronique',
         imgSrcs: ['./image/Product_new/Martistore_Grand_fer_a_lisser_3500/image1.png', './image/Product_new/Martistore_Grand_fer_a_lisser_3500/image2.png', './image/Product_new/Martistore_Grand_fer_a_lisser_3500/image3.png', './image/Product_new/Martistore_Grand_fer_a_lisser_3500/image4.png', './image/Product_new/Martistore_Grand_fer_a_lisser_3500/image5.png', './image/Product_new/Martistore_Grand_fer_a_lisser_3500/image6.png'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Grand fer à lisser ✨, idéal pour obtenir des cheveux lisses et soyeux 💇‍♀️, chauffe rapidement 🔥 et offre une utilisation facile pour un coiffage parfait au quotidien.'
     },
     {
         id: 1082,
         name: 'Micro',
-        price: 16500, //14000
+        price: 15500, //14000
         category: 'electronique',
         imgSrcs: ['./image/Product_new/martistore_micro_14500/image1.png', './image/Product_new/martistore_micro_14500/image2.png', './image/Product_new/martistore_micro_14500/image3.png', './image/Product_new/martistore_micro_14500/image4.png', './image/Product_new/martistore_micro_14500/image5.png', './image/Product_new/martistore_micro_14500/image6.png'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Micro 🎤 sans fil, idéal pour les conférences 🗣️, offrant une clarté sonore exceptionnelle 🔊 et une grande mobilité 🚶‍♂️, facile à utiliser et à transporter.'
     },
     {
         id: 1083,
         name: 'Mini couteau pliant',
-        price: 400, //200
+        price: 300, //200
         category: 'cuisine',
         imgSrcs: ['./image/Product_new/Martistore_Mini_couteau_porte_cle_pliant_200/image1.png', './image/Product_new/Martistore_Mini_couteau_porte_cle_pliant_200/image2.png', './image/Product_new/Martistore_Mini_couteau_porte_cle_pliant_200/image3.png', './image/Product_new/Martistore_Mini_couteau_porte_cle_pliant_200/image4.png', './image/Product_new/Martistore_Mini_couteau_porte_cle_pliant_200/image5.png', './image/Product_new/Martistore_Mini_couteau_porte_cle_pliant_200/image6.png'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Mini couteau pliant 🔪 compact et pratique, idéal pour les petits travaux de découpe 🧑‍🍳 et facile à transporter 🚶‍♂️.'
     },
     {
         id: 1084,
@@ -1323,24 +1323,24 @@ const products = [
     {
         id: 1085,
         name: 'Mini lampe de nuit intelligente',
-        price: 3000, //2000
+        price: 2700, //2000
         category: 'electronique',
         imgSrcs: ['./image/Product_new/Martistore_Mini_lampe_de_nuit_intelligente_telecommande_2000/image1.png', './image/Product_new/Martistore_Mini_lampe_de_nuit_intelligente_telecommande_2000/image2.png', './image/Product_new/Martistore_Mini_lampe_de_nuit_intelligente_telecommande_2000/image3.png', './image/Product_new/Martistore_Mini_lampe_de_nuit_intelligente_telecommande_2000/image4.png', './image/Product_new/Martistore_Mini_lampe_de_nuit_intelligente_telecommande_2000/image5.png', './image/Product_new/Martistore_Mini_lampe_de_nuit_intelligente_telecommande_2000/image6.png'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Mini lampe de nuit intelligente 💡, légère et réglable, idéale pour un éclairage doux la nuit 🌙.'
     },
     {
         id: 1086,
-        name: 'Mini lampe de nuit intelligente',
+        name: 'PLat en forme carré',
         price: 4000, //3500
         category: 'electronique',
         imgSrcs: ['./image/Product_new/Martistore_Plat_blanc_Carré_lot_6_3500/image1.png', './image/Product_new/Martistore_Plat_blanc_Carré_lot_6_3500/image2.png', './image/Product_new/Martistore_Plat_blanc_Carré_lot_6_3500/image3.png', './image/Product_new/Martistore_Plat_blanc_Carré_lot_6_3500/image4.png', './image/Product_new/Martistore_Plat_blanc_Carré_lot_6_3500/image5.png'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Plat en forme carré 🍽️, moderne et pratique, idéal pour servir vos repas avec une présentation soignée et originale.'
     },
     {
         id: 1087,
@@ -1351,7 +1351,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Plat en forme de losange 🍽️, élégant et original, parfait pour présenter vos plats avec style ✨.'
     },
     {
         id: 1088,
@@ -1362,7 +1362,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Plat en forme arrondie 🍽️, design simple et élégant, parfait pour servir vos repas avec harmonie.'
     },
     {
         id: 1089,
@@ -1373,7 +1373,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Plat en forme de rectangle 🍽️, pratique et moderne, idéal pour servir vos plats avec style.'
     },
     {
         id: 1090,
@@ -1384,7 +1384,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Support pour ordinateur 💻, ergonomique et stable, idéal pour améliorer votre confort de travail en ajustant la hauteur de votre écran.'
     },
     {
         id: 1091,
@@ -1395,7 +1395,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Tondeuse rechargeable ✂️, pratique et sans fil, idéale pour une coupe précise à tout moment, facile à utiliser et à recharger.'
     },
     {
         id: 1092,
@@ -1406,18 +1406,18 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Trépied selfie avec lumières 📸, idéal pour des photos et vidéos parfaites, ajustable et portable, offre un éclairage optimal pour des selfies réussis à tout moment.'
     },
     {
         id: 1093,
         name: 'Verre à whisky 6pcs',
-        price: 5200, //3500
+        price: 4200, //3500
         category: 'tous',
         imgSrcs: ['./image/Product_new/Martistore_Verre_a_whisky_de_luxe_lot_de_6_pcs_3500/image1.png', './image/Product_new/Martistore_Verre_a_whisky_de_luxe_lot_de_6_pcs_3500/image2.png', './image/Product_new/Martistore_Verre_a_whisky_de_luxe_lot_de_6_pcs_3500/image3.png', './image/Product_new/Martistore_Verre_a_whisky_de_luxe_lot_de_6_pcs_3500/image4.png', './image/Product_new/Martistore_Verre_a_whisky_de_luxe_lot_de_6_pcs_3500/image5.png', './image/Product_new/Martistore_Verre_a_whisky_de_luxe_lot_de_6_pcs_3500/image6.png'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Verre à whisky 6pcs 🥃, élégant et robuste, parfait pour déguster votre whisky préféré avec style, idéal pour les soirées entre amis ou les moments de détente.'
     },
     {
         id: 1094,
@@ -1428,7 +1428,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Minicoupe-légumes 🥕, pratique et compact, idéal pour hacher rapidement vos légumes en petites portions, facile à utiliser et à nettoyer.'
     },
     {
         id: 1095,
@@ -1439,7 +1439,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Nettoyant effervescent et désinfectant 🧼, efficace pour éliminer les impuretés et les bactéries, facile à utiliser et laisse une surface propre et fraîche.'
     },
     {
         id: 1096,
@@ -1450,7 +1450,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Peigne chauffant 🔥, idéal pour lisser vos cheveux en douceur, chauffe rapidement pour un coiffage rapide et efficace.'
     },
     {
         id: 1097,
@@ -1461,7 +1461,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Pistolet masseur 💆‍♂️, idéal pour détendre les muscles et soulager les tensions, facile à utiliser pour un confort optimal.'
     },
 
     {
@@ -1473,7 +1473,7 @@ const products = [
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
-        modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
+        modalDescription: 'Saladiers en verre 🍽️, élégants et pratiques, parfaits pour préparer et servir vos salades avec style.'
     },
     {
         id: 1100,
@@ -2212,6 +2212,157 @@ const products = [
         modalDescription: 'Ce mini ventilateur de table est parfait pour un rafraîchissement instantané 🌬️. Compact et léger 🏖️, il se place facilement sur votre bureau ou votre table de chevet. Avec son design pratique 👌, il vous accompagnera partout pour des moments frais et agréables, même lors des journées les plus chaudes ☀️.'
     },
 
+
+    ///////////20_01
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        id: 1163,
+        name: 'Diffuseur de senteur',
+        price: 3000, //2500
+        category: 'electronique',
+        imgSrcs: ['./image/20_01/Akuesley_diffuseur_de_senteur_2500/image1.png', './image/20_01/Akuesley_diffuseur_de_senteur_2500/image2.png', './image/20_01/Akuesley_diffuseur_de_senteur_2500/image3.png', './image/20_01/Akuesley_diffuseur_de_senteur_2500/image4.png', './image/20_01/Akuesley_diffuseur_de_senteur_2500/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Apaisant, parfumé, agréable.',
+        modalDescription: 'Diffuseur de senteur, parfait pour apporter une touche de douceur et de calme chez vous. Il répand un parfum agréable qui crée une atmosphère relaxante. Facile à utiliser, il rend vos moments à la maison encore plus agréables..'
+    },
+    {
+        id: 1164,
+        name: 'Brosse pour cheveux, air chaud, electrique',
+        price: 6000, //5000
+        category: 'electronique',
+        imgSrcs: ['./image/20_01/Martistore_Brosse_air_chaud_5000/image1.png', './image/20_01/Martistore_Brosse_air_chaud_5000/image2.png', './image/20_01/Martistore_Brosse_air_chaud_5000/image3.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Pratique, rapide, coiffant',
+        modalDescription: 'Brosse pour cheveux avec air chaud, idéale pour sécher et coiffer vos cheveux en même temps. Facile à utiliser, elle vous permet d obtenir une coiffure soignée rapidement, tout en donnant du volume et de la brillance à vos cheveux. Parfaite pour un look naturel au quotidien.'
+    },
+    {
+        id: 1165,
+        name: 'Ensembles Théière',
+        price: 6000, //5000
+        category: 'electronique',
+        imgSrcs: ['./image/20_01/Martistore_Ensembles_Theiere_3500/image1.png', './image/20_01/Martistore_Ensembles_Theiere_3500/image2.png', './image/20_01/Martistore_Ensembles_Theiere_3500/image3.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, complet, pratique',
+        modalDescription: 'Théière simple et élégante, idéale pour préparer votre thé préféré. Elle garde votre boisson bien chaude et est facile à utiliser, parfaite pour vos moments de détente.'
+    },
+    {
+        id: 1166,
+        name: 'Grille de Barbecue',
+        price: 2700, //2500
+        category: 'electronique',
+        imgSrcs: ['./image/20_01/Martistore_Grille_barbecue_2500/image1.png', './image/20_01/Martistore_Grille_barbecue_2500/image2.png', './image/20_01/Martistore_Grille_barbecue_2500/image3.png', './image/20_01/Martistore_Grille_barbecue_2500/image4.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: ' Pratique, robuste, efficace.',
+        modalDescription: 'Grille de barbecue idéale pour cuire vos viandes, légumes et autres plats en plein air. Robuste et facile à nettoyer, elle vous permet de préparer des repas savoureux avec une cuisson uniforme. Parfaite pour les barbecues entre amis ou en famille.'
+    },
+    {
+        id: 1167,
+        name: 'Mini Aiguiseur',
+        price: 900, //800
+        category: 'electronique',
+        imgSrcs: ['./image/20_01/Martistore_Mini_aiguiseur_800/image1.png', './image/20_01/Martistore_Mini_aiguiseur_800/image2.png', './image/20_01/Martistore_Mini_aiguiseur_800/image3.png', './image/20_01/Martistore_Mini_aiguiseur_800/image4.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Pratique, compact, efficace.',
+        modalDescription: 'Mini aiguiseur de couteau, super pratique pour garder vos couteaux bien tranchants. Il est petit, facile à utiliser et se range facilement dans un tiroir. Parfait pour une utilisation quotidienne, sans prise de tête.'
+    },
+    /*{
+        id: 1168,
+        name: 'Boîtes de conservation en plastique',
+        price: 6500, //5000
+        category: 'cuisine',
+        imgSrcs: ['./image/20_01/Martistore_Plastique_lot_de_17_5000/image1.png', './image/20_01/Martistore_Plastique_lot_de_17_5000/image2.png', './image/20_01/Martistore_Plastique_lot_de_17_5000/image3.png', './image/20_01/Martistore_Plastique_lot_de_17_5000/image4.png', './image/20_01/Martistore_Plastique_lot_de_17_5000/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'mini ventilateur de table',
+        modalDescription: 'Ce mini ventilateur de table est parfait pour un rafraîchissement instantané 🌬️. Compact et léger 🏖️, il se place facilement sur votre bureau ou votre table de chevet. Avec son design pratique 👌, il vous accompagnera partout pour des moments frais et agréables, même lors des journées les plus chaudes ☀️.'
+    },*/
+    {
+        id: 1169,
+        name: 'Boîtes de conservation en plastique',
+        price: 6500, //5000
+        category: 'tous',
+        imgSrcs: ['./image/20_01/Martistore_Plastique_lot_de_17_5000/image1.png', './image/20_01/Martistore_Plastique_lot_de_17_5000/image2.png', './image/20_01/Martistore_Plastique_lot_de_17_5000/image3.png', './image/20_01/Martistore_Plastique_lot_de_17_5000/image4.png', './image/20_01/Martistore_Plastique_lot_de_17_5000/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Pratique, hermétique, durable.',
+        modalDescription: 'Boîtes de conservation en plastique, idéales pour garder vos aliments frais et bien organisés. Légères et résistantes, elles offrent une fermeture hermétique pour maintenir la qualité des aliments, tout en étant faciles à empiler et à stocker dans vos placards ou réfrigérateur. Parfaites pour la cuisine au quotidien.'
+    },
+    {
+        id: 1170,
+        name: 'Porte Vêtements',
+        price: 15000, //12000
+        category: 'tous',
+        imgSrcs: ['./image/20_01/Martistore_Porte_vetements_12000/image1.png', './image/20_01/Martistore_Porte_vetements_12000/image2.png', './image/20_01/Martistore_Porte_vetements_12000/image3.png', './image/20_01/Martistore_Porte_vetements_12000/image4.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Pratique, spacieux, organisé.',
+        modalDescription: 'Porte-vêtements idéal pour garder vos vêtements bien rangés et facilement accessibles. Avec plusieurs barres ou crochets, il offre un espace de rangement pratique pour votre chambre ou entrée. Son design simple et fonctionnel vous aide à organiser votre quotidien tout en économisant de l espace.'
+    },
+    {
+        id: 1171,
+        name: 'Porte-brosse à dents mural',
+        price: 2500, //2000
+        category: 'tous',
+        imgSrcs: ['./image/20_01/Martistore_Porte-brosse_a_dents_mural_2000/image1.png', './image/20_01/Martistore_Porte-brosse_a_dents_mural_2000/image2.png', './image/20_01/Martistore_Porte-brosse_a_dents_mural_2000/image3.png', './image/20_01/Martistore_Porte-brosse_a_dents_mural_2000/image4.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Pratique, hygiénique, organisé.',
+        modalDescription: 'Porte-brosse à dents mural, idéal pour garder vos brosses à dents bien rangées et à portée de main. Il se fixe facilement sur le mur, économisant de l espace et ajoutant une touche de praticité à votre salle de bain. Parfait pour maintenir un environnement propre et organisé.'
+    },
+    {
+        id: 1172,
+        name: 'Seche-linge pliable',
+        price: 14000, //12000
+        category: 'tous',
+        imgSrcs: ['./image/20_01/Martistore_Seche-linge_pliable_12000/image1.png', './image/20_01/Martistore_Seche-linge_pliable_12000/image2.png', './image/20_01/Martistore_Seche-linge_pliable_12000/image3.png', './image/20_01/Martistore_Seche-linge_pliable_12000/image4.png', './image/20_01/Martistore_Seche-linge_pliable_12000/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Pratique, compact, efficace',
+        modalDescription: 'Sèche-linge pliable, idéal pour sécher vos vêtements rapidement tout en économisant de l espace. Facile à plier et à ranger, il est parfait pour les petits espaces ou les déplacements. Vous pouvez l utiliser à la maison ou en voyage pour un séchage pratique et rapide.'
+    },
+    {
+        id: 1173,
+        name: 'Support mural d’angle en fer',
+        price: 2200, //1700
+        category: 'tous',
+        imgSrcs: ['./image/20_01/Martistore_Support_mural_fer_1700/image1.png', './image/20_01/Martistore_Support_mural_fer_1700/image2.png', './image/20_01/Martistore_Support_mural_fer_1700/image3.png', './image/20_01/Martistore_Support_mural_fer_1700/image4.png', './image/20_01/Martistore_Support_mural_fer_1700/image5.png', './image/20_01/Martistore_Support_mural_fer_1700/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Pratique, solide, polyvalent',
+        modalDescription: 'Support mural d angle en fer, idéal pour optimiser l espace tout en offrant une solution de rangement robuste. Parfait pour organiser vos objets tout en gardant votre intérieur ordonné et fonctionnel. Facile à installer et durable, il s’adapte à tous les coins de votre maison.'
+    },
+    {
+        id: 1174,
+        name: 'Théière',
+        price: 4500, //3500
+        category: 'cuisine',
+        imgSrcs: ['./image/20_01/Martistore_Theiere_a_filtre_3500/image1.png', './image/20_01/Martistore_Theiere_a_filtre_3500/image2.png', './image/20_01/Martistore_Theiere_a_filtre_3500/image3.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Pratique, élégant, complet.',
+        modalDescription: ' Théière à filtre de 1L accompagnée de 4 petites tasses en verre. Parfaite pour préparer et déguster du thé en toute simplicité, cette ensemble offre tout ce dont vous avez besoin pour partager un moment agréable.'
+    },
 
 ];
 
