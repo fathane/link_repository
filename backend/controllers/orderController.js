@@ -4,7 +4,6 @@ const createOrder = (req, res) => {
     const { items, deliveryInfo, totalPrice } = req.body;
     console.log('Requête reçue:', JSON.stringify(req.body, null, 2));
 
-    // Vérification des données
     if (!items || !deliveryInfo || !totalPrice) {
         return res.status(400).json({ message: 'Données manquantes dans la requête.' });
     }
