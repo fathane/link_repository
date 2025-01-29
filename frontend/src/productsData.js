@@ -2490,14 +2490,14 @@ const products = [
     },
     {
         id: 1185,
-        name: 'Range vesselle',
-        price: 33000, //30000
+        name: 'Range vaisselle',
+        price: 27000, // 25000
         category: 'cuisine',
         imgSrcs: ['./image/22_01/Henri_distribution_Range_verselle_30000/image1.png', './image/22_01/Henri_distribution_Range_verselle_30000/image2.png', './image/22_01/Henri_distribution_Range_verselle_30000/image3.png', './image/22_01/Henri_distribution_Range_verselle_30000/image4.png', './image/22_01/Henri_distribution_Range_verselle_30000/image5.png', './image/22_01/Henri_distribution_Range_verselle_30000/image6.png', './image/22_01/Henri_distribution_Range_verselle_30000/image7.png', './image/22_01/Henri_distribution_Range_verselle_30000/image8.png', './image/22_01/Henri_distribution_Range_verselle_30000/image9.png'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Pratique, élégant, complet.',
-        modalDescription: 'Le range-vesselle 🍽️ apporte une solution pratique pour organiser et sécher votre vaisselle, optimisant l espace de votre cuisine tout en maintenant l ordre 🧼.'
+        modalDescription: 'Le range-vaisselle 🍽️ apporte une solution pratique pour organiser et sécher votre vaisselle, optimisant l espace de votre cuisine tout en maintenant l ordre 🧼.'
     },
     {
         id: 1186,
