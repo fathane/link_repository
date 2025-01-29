@@ -15,7 +15,7 @@ function AdminLoginPage() {
             const token = response.data.token;
             sessionStorage.setItem('token', token);
             axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
-            navigate('/admin'); // Rediriger vers /admin après une connexion réussie
+            navigate('/admin');
         } catch (error) {
             setError('Email ou mot de passe incorrect');
         }

@@ -2447,7 +2447,7 @@ const products = [
     {
         id: 1181,
         name: 'Moustiquaire pliable 3 places',
-        price: 11000, //9000
+        price: 7000, //5000  //martistore
         category: 'tous',
         imgSrcs: ['./image/22_01/Henri_distrib_Moustiquaire_pliable_3_places_9000/image1.png', './image/22_01/Henri_distrib_Moustiquaire_pliable_3_places_9000/image2.png', './image/22_01/Henri_distrib_Moustiquaire_pliable_3_places_9000/image3.png', './image/22_01/Henri_distrib_Moustiquaire_pliable_3_places_9000/image4.png', './image/22_01/Henri_distrib_Moustiquaire_pliable_3_places_9000/image5.png', './image/22_01/Henri_distrib_Moustiquaire_pliable_3_places_9000/image6.png', './image/22_01/Henri_distrib_Moustiquaire_pliable_3_places_9000/image7.png', './image/22_01/Henri_distrib_Moustiquaire_pliable_3_places_9000/image8.png', './image/22_01/Henri_distrib_Moustiquaire_pliable_3_places_9000/image9.png'],
         videoSrc: './video/link.mp4',
