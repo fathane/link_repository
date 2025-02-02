@@ -853,17 +853,17 @@ const products = [
 
 
 
-    {
+    /*{
         id: 1044,
         name: 'Armoire de rangement',
-        price: 4500, //3000
+        price: 22000, //3000
         category: 'decoration',
         imgSrcs: ['./image/new_24_12/Armoire_de_rangement_3000/image1.png'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Pratique, Spacieuse, Élégante',
         modalDescription: '✅ Cette armoire de rangement offre une solution élégante pour organiser votre espace. Avec sa grande capacité, elle vous aide à garder vos affaires bien rangées et accessibles.'
-    },
+    },*/
     {
         id: 1045,
         name: 'Chaussures',
@@ -915,7 +915,7 @@ const products = [
         category: 'cuisine',
         imgSrcs: ['./image/new_24_12/Coupe-legume_a_6_lamelles_4000/image1.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image2.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image3.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image4.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image5.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image6.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image7.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image8.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image9.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image10.png'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Innovant, Pratique, Rapide',
         modalDescription: '✅ Ce coupe-légume à 6 lamelles facilite la préparation de vos ingrédients. Sa conception innovante vous permet de gagner du temps en cuisine tout en obtenant des coupes parfaites.'
     },
@@ -2348,7 +2348,7 @@ const products = [
         category: 'tous',
         imgSrcs: ['./image/20_01/Martistore_Support_mural_fer_1700/image1.png', './image/20_01/Martistore_Support_mural_fer_1700/image2.png', './image/20_01/Martistore_Support_mural_fer_1700/image3.png', './image/20_01/Martistore_Support_mural_fer_1700/image4.png', './image/20_01/Martistore_Support_mural_fer_1700/image5.png', './image/20_01/Martistore_Support_mural_fer_1700/image6.png'],
         videoSrc: './video/link.mp4',
-        stock: "en stock",
+        stock: "Indisponible actuellement",
         description: 'Pratique, solide, polyvalent',
         modalDescription: 'Support mural d angle en fer, idéal pour optimiser l espace tout en offrant une solution de rangement robuste. Parfait pour organiser vos objets tout en gardant votre intérieur ordonné et fonctionnel. Facile à installer et durable, il s’adapte à tous les coins de votre maison.'
     },
@@ -2555,7 +2555,7 @@ const products = [
         modalDescription: 'L’organisateur de cannettes pour réfrigérateur 🥤 garde vos boissons bien rangées et à portée de main, maximisant l’espace tout en évitant le chaos 🍺.'
     },
     {
-        id: 1190,
+        id: 1191,
         name: 'Ventilateur numérique',
         price: 3500, //3000
         category: 'electronique',
@@ -2565,6 +2565,169 @@ const products = [
         description: 'Pratique, puissant, moderne',
         modalDescription: 'Le ventilateur numérique 🌬️ offre une fraîcheur instantanée avec des réglages précis, idéal pour rafraîchir votre espace en toute simplicité et efficacité 🔥'
     },
+    /////02_02
+
+
+
+
+    {
+        id: 1192,
+        name: 'Armoire de rangement 3 battants',
+        price: 25000, //22000
+        category: 'tous',
+        imgSrcs: ['./image/02_02/Akuesley_Armoire_de_rangement_3 _battant_22000/image1.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Grande, pratique, élégante.',
+        modalDescription: 'Une armoire spacieuse et bien pensée pour ranger facilement vos affaires tout en apportant une touche de style à votre intérieur.'
+    },
+    {
+        id: 1193,
+        name: 'Chauffe eau pliable',
+        price: 5000, //4000
+        category: 'electronique',
+        imgSrcs: ['./image/02_02/Akuesley_Chauffe_eau_pliable_4000/image1.png', './image/02_02/Akuesley_Chauffe_eau_pliable_4000/image2.png', './image/02_02/Akuesley_Chauffe_eau_pliable_4000/image3.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Compact, pratique, innovant',
+        modalDescription: 'Un chauffe-eau pliable, facile à transporter et à ranger, idéal pour les petits espaces ou les voyages.'
+    },
+    {
+        id: 1194,
+        name: 'Chauffe eau RAF',
+        price: 5000, //4000
+        category: 'electronique',
+        imgSrcs: ['./image/02_02/Akuesley_Chauffeur_eau_RAF_2,3L_4000/image1.png', './image/02_02/Akuesley_Chauffeur_eau_RAF_2,3L_4000/image2.png', './image/02_02/Akuesley_Chauffeur_eau_RAF_2,3L_4000/image3.png', './image/02_02/Akuesley_Chauffeur_eau_RAF_2,3L_4000/image4.png', './image/02_02/Akuesley_Chauffeur_eau_RAF_2,3L_4000/image5.png', './image/02_02/Akuesley_Chauffeur_eau_RAF_2,3L_4000/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Puissant, rapide, fiable.',
+        modalDescription: 'Le chauffe-eau RAF chauffe rapidement, pour un confort au quotidien. Fiable et économique, il s’adapte à vos besoins en eau chaude.'
+    },
+    {
+        id: 1195,
+        name: 'Ensemble jeu de dames et ludo',
+        price: 900, //700
+        category: 'electronique',
+        imgSrcs: ['./image/02_02/Akuesley_Ensemble_jeu_de_dames_ludo_700/image1.png', './image/02_02/Akuesley_Ensemble_jeu_de_dames_ludo_700/image2.png', './image/02_02/Akuesley_Ensemble_jeu_de_dames_ludo_700/image3.png', './image/02_02/Akuesley_Ensemble_jeu_de_dames_ludo_700/image4.png', './image/02_02/Akuesley_Ensemble_jeu_de_dames_ludo_700/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Amusant, convivial, classique.',
+        modalDescription: 'Un ensemble complet avec les jeux de dames et de ludo, parfait pour des moments de détente et de fun en famille ou entre amis.'
+    },
+    {
+        id: 1196,
+        name: 'Ensemble séchoir',
+        price: 9000, //8000
+        category: 'electronique',
+        imgSrcs: ['./image/02_02/Akuesley_Ensemble_séchoir_8000/image1.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Pratique, léger, efficace.',
+        modalDescription: 'Un séchoir à cheveux compact et puissant, parfait pour un séchage rapide tout en douceur pour vos cheveux.'
+    },
+    {
+        id: 1197,
+        name: 'Fouet manuel',
+        price: 400, //350
+        category: 'electronique',
+        imgSrcs: ['./image/02_02/Akuesley_Fouet_manuel_350/image1.png', './image/02_02/Akuesley_Fouet_manuel_350/image2.png', './image/02_02/Akuesley_Fouet_manuel_350/image3.png', './image/02_02/Akuesley_Fouet_manuel_350/image4.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Pratique, léger, efficace',
+        modalDescription: 'Un fouet manuel idéal pour battre, mélanger et fouetter vos ingrédients facilement, avec un design simple et efficace.'
+    },
+    {
+        id: 1198,
+        name: 'Kits de manucure et pédicure',
+        price: 900, //700
+        category: 'electronique',
+        imgSrcs: ['./image/02_02/Akuesley_Kits_de_manucure_et_pédicure_800/image1.png', './image/02_02/Akuesley_Kits_de_manucure_et_pédicure_800/image2.png', './image/02_02/Akuesley_Kits_de_manucure_et_pédicure_800/image3.png', './image/02_02/Akuesley_Kits_de_manucure_et_pédicure_800/image4.png', './image/02_02/Akuesley_Kits_de_manucure_et_pédicure_800/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Complet, pratique, soigné',
+        modalDescription: 'Un kit complet pour manucure et pédicure, avec tout le nécessaire pour prendre soin de vos ongles à la maison.'
+    },
+    {
+        id: 1199,
+        name: 'Ménagère en plaqué or',
+        price: 9500, //8000
+        category: 'tous',
+        imgSrcs: ['./image/02_02/Akuesley_ménagère_en_plaqué_or_8000/image1.png', './image/02_02/Akuesley_ménagère_en_plaqué_or_8000/image2.png', './image/02_02/Akuesley_ménagère_en_plaqué_or_8000/image3.png', './image/02_02/Akuesley_ménagère_en_plaqué_or_8000/image4.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Élégant, raffiné, durable',
+        modalDescription: 'Une ménagère en plaqué or comprenant cuillères, fourchettes et couteaux, alliant luxe et fonctionnalité pour vos repas.'
+    },
+    {
+        id: 1200,
+        name: 'Mini Plaque Chauffante',
+        price: 5500, //4000
+        category: 'electronique',
+        imgSrcs: ['./image/02_02/Akuesley_Mini_Plaque_Chauffante_4000/image1.png', './image/02_02/Akuesley_Mini_Plaque_Chauffante_4000/image2.png', './image/02_02/Akuesley_Mini_Plaque_Chauffante_4000/image3.png', './image/02_02/Akuesley_Mini_Plaque_Chauffante_4000/image4.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Compacte, pratique, rapide',
+        modalDescription: 'Une mini plaque chauffante idéale pour chauffer rapidement vos plats, facile à utiliser et à transporter.'
+    },
+    {
+        id: 1201,
+        name: 'Mini ventilo',
+        price: 1500, //1300
+        category: 'electronique',
+        imgSrcs: ['./image/02_02/Akuesley_Mini_ventilo_1300/image1.png', './image/02_02/Akuesley_Mini_ventilo_1300/image2.png', './image/02_02/Akuesley_Mini_ventilo_1300/image3.png', './image/02_02/Akuesley_Mini_ventilo_1300/image4.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Compact, puissant, portable',
+        modalDescription: 'Un mini ventilo léger et efficace, parfait pour vous rafraîchir où que vous soyez.'
+    },
+    {
+        id: 1202,
+        name: 'Moulinex à sec',
+        price: 3500, //2800
+        category: 'electronique',
+        imgSrcs: ['./image/02_02/Akuesley_Moulinex_à_sec_2800/image1.png', './image/02_02/Akuesley_Moulinex_à_sec_2800/image2.png', './image/02_02/Akuesley_Moulinex_à_sec_2800/image3.png', './image/02_02/Akuesley_Moulinex_à_sec_2800/image4.png', './image/02_02/Akuesley_Moulinex_à_sec_2800/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Pratique, puissant, rapide',
+        modalDescription: 'Un moulinex à sec idéal pour moudre vos épices, café et autres ingrédients secs rapidement et efficacement.'
+    },
+    {
+        id: 1203,
+        name: 'Tapis',
+        price: 2000, //1500
+        category: 'decoration',
+        imgSrcs: ['./image/02_02/Akuesley_Tapis_1500/image1.png', './image/02_02/Akuesley_Tapis_1500/image2.png', './image/02_02/Akuesley_Tapis_1500/image3.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Confortable, décoratif, polyvalent.',
+        modalDescription: 'Un tapis doux et élégant, parfait pour ajouter du confort et de la couleur à n importe quelle pièce.'
+    },
+    {
+        id: 1204,
+        name: 'Tapis antidérapant',
+        price: 2300, //1700
+        category: 'decoration',
+        imgSrcs: ['./image/02_02/Akuesley_Tapis_antidérapant_1700/image1.png', './image/02_02/Akuesley_Tapis_antidérapant_1700/image2.png', './image/02_02/Akuesley_Tapis_antidérapant_1700/image3.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Sécurisé, pratique, stable',
+        modalDescription: 'Un tapis antidérapant qui reste bien en place, offrant confort et sécurité dans toutes les pièces.'
+    },
+    {
+        id: 1205,
+        name: 'Aspirateur portable',
+        price: 6400, //5500
+        category: 'electronique',
+        imgSrcs: ['./image/02_02/Martistore_aspirateur_portable_5500/image1.png', './image/02_02/Martistore_aspirateur_portable_5500/image2.png', './image/02_02/Martistore_aspirateur_portable_5500/image3.png', './image/02_02/Martistore_aspirateur_portable_5500/image4.png', './image/02_02/Martistore_aspirateur_portable_5500/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Compact, puissant, pratique',
+        modalDescription: 'Un aspirateur portable léger et efficace, idéal pour nettoyer facilement vos espaces et les recoins difficiles d accès.'
+    },
+
+
+
+
     
 ];
 
