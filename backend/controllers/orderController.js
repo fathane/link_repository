@@ -1,7 +1,7 @@
 const db = require('../config/db');
 
 const createOrder = (req, res) => {
-    const { items, deliveryInfo, totalPrice } = req.body;
+    const { items, deliveryInfo, totalPrice, promoCode } = req.body;
     console.log('Requête reçue:', JSON.stringify(req.body, null, 2));
 
     if (!items || !deliveryInfo || !totalPrice) {
@@ -18,8 +18,8 @@ const createOrder = (req, res) => {
         const deliveryId = result.rows[0].id;
         console.log('Informations de livraison ajoutées avec l\'ID:', deliveryId);
 
-        const queryOrder = 'INSERT INTO orders (delivery_id, total_price) VALUES ($1, $2) RETURNING id';
-        db.query(queryOrder, [deliveryId, totalPrice], (err, result) => {
+        const queryOrder = 'INSERT INTO orders (delivery_id, total_price, promo_code) VALUES ($1, $2, $3) RETURNING id';
+        db.query(queryOrder, [deliveryId, totalPrice, promoCode || null], (err, result) => {
             if (err) {
                 console.error('Erreur lors de la création de la commande:', err);
                 return res.status(500).json({ message: 'Erreur lors de la création de la commande.', error: err });
