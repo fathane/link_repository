@@ -102,6 +102,13 @@ function App() {
                     className="search-bar"
                     placeholder="Rechercher un produit ...."
                     onChange={e => setSearchQuery(e.target.value)}
+                    style={{
+                        borderRadius: '8px',
+                        border: '2px solid orange',
+                        padding: '8px',
+                        width: '200px',
+                        textAlign: 'center'
+                    }}
                 />
                 <Link to="/cart" className="cart-icon">
                     <i className="fas fa-shopping-cart"></i>

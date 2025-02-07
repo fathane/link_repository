@@ -5,14 +5,37 @@ import './cart.css';
 function CartPage({ cart, onRemoveFromCart }) {
     const navigate = useNavigate();
     const [errorMessage, setErrorMessage] = useState('');
+    const [promoCode, setPromoCode] = useState('');
+    const [isPromoValid, setIsPromoValid] = useState(null);
+
+    const validPromoCodes = {
+        "ISIRA07": 0.9,
+        "FREESHIP": 1
+    };
 
     const calculateTotal = () => {
-        return cart.reduce((acc, item) => acc + item.quantity * item.price, 0);
+        let total = cart.reduce((acc, item) => acc + item.quantity * item.price, 0);
+        if (isPromoValid !== null && validPromoCodes[promoCode]) {
+            total *= validPromoCodes[promoCode];
+        }
+        return total;
+    };
+
+    const handlePromoChange = (e) => {
+        const code = e.target.value.toUpperCase();
+        setPromoCode(code);
+        if (validPromoCodes[code]) {
+            setIsPromoValid(true);
+            setErrorMessage('');
+        } else {
+            setIsPromoValid(false);
+            setErrorMessage('Code promo invalide.');
+        }
     };
 
     const handleProceedToDelivery = () => {
         if (cart.length > 0) {
-            navigate('/delivery', { state: { cart, totalPrice: calculateTotal() } });
+            navigate('/delivery', { state: { cart, totalPrice: calculateTotal(), appliedPromo: promoCode } });
         } else {
             setErrorMessage('Votre panier est vide. Ajoutez des articles avant de valider la commande.');
         }
@@ -27,13 +50,13 @@ function CartPage({ cart, onRemoveFromCart }) {
                 {cart.length > 0 ? (
                     cart.map((item, index) => (
                         <div key={index} className="cart-item">
-                            <img src={`${process.env.PUBLIC_URL}${item.imgSrcs[0]}`} alt={item.name} className="cart-item-image" /> {/* Utilise le premier chemin d'image */}
+                            <img src={`${process.env.PUBLIC_URL}${item.imgSrcs[0]}`} alt={item.name} className="cart-item-image" />
                             <span className="cart-item-name">{item.name}</span>
                             <span className="cart-item-quantity">Quantité: {item.quantity}</span>
                             <span className="cart-item-price">Prix unitaire: {item.price} FCFA</span>
                             <span className="cart-item-total">Total: {item.quantity * item.price} FCFA</span>
                             <button onClick={() => onRemoveFromCart(item.id)} className="remove-button">
-                                Supprimer
+                                Retirer
                             </button>
                         </div>
                     ))
@@ -41,14 +64,31 @@ function CartPage({ cart, onRemoveFromCart }) {
                     <p>Votre panier est vide</p>
                 )}
             </div>
+
+            <div className="promo-section">
+                <input 
+                    type="text" 
+                    placeholder="Code promo" 
+                    value={promoCode} 
+                    onChange={handlePromoChange} 
+                    className={`promo-input ${isPromoValid === true ? "valid-input" : isPromoValid === false ? "invalid-input" : ""}`}
+                    style={{
+                        borderRadius: '8px',
+                        border: '2px solid orange',
+                        padding: '8px',
+                        width: '200px',
+                        textAlign: 'center',
+                        color: isPromoValid === true ? 'green' : isPromoValid === false ? 'red' : 'black'
+                    }}
+                />
+            </div>
+
             <div className="cart-summary">
-                <span className="total-general">Total Général ({cart.length} articles) = {calculateTotal()} FCFA</span>
+                <span className="total-general">Total Général ({cart.length} articles) = <span className={isPromoValid === true ? "valid-total" : isPromoValid === false ? "invalid-total" : ""}>{calculateTotal()} FCFA</span></span>
                 <button className="validate-button" onClick={handleProceedToDelivery}>
                     Procéder à la livraison
                 </button>
             </div>
-
-            {errorMessage && <p className="error-message">{errorMessage}</p>}
         </div>
     );
 }

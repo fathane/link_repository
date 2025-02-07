@@ -1,5 +1,11 @@
 /* src/components/cart.css */
 
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
 /* Agrandit le cadre du panier */
 .cart-page {
     width: calc(100% - 150px); /* Espace de chaque côté pour centrer le cadre */

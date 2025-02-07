@@ -3,8 +3,8 @@ import '../menu.css';
 
 function Modal({ product, onClose, onAddToCart }) {
     const [quantity, setQuantity] = useState(1);
-    const [currentImageIndex, setCurrentImageIndex] = useState(0); // État pour gérer l'image actuelle
-    const [showVideo, setShowVideo] = useState(false); // État pour basculer entre image et vidéo
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+    const [showVideo, setShowVideo] = useState(false);
 
     if (!product) return null;
 
@@ -53,7 +53,8 @@ function Modal({ product, onClose, onAddToCart }) {
                 </div>
 
                 <div className="modal-buttons">
-                    <button onClick={handleAddToCart}>Ajouter au panier</button>
+                    <button onClick={handleAddToCart}>Ajouter au panier <i className="fas fa-shopping-cart"></i></button>
+                    
                     <button className="cancel-button" onClick={onClose}>Annuler</button>
                 </div>
             </div>

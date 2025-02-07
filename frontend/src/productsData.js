@@ -1012,7 +1012,7 @@ const products = [
         name: 'Serviette 3 pcs',
         price: 15000, //12000
         category: 'tous',
-        imgSrcs: ['./image/new_24_12/serviette_3_pcs_12000/image1.png', './image/new_24_12/serviette_3_pcs_12000/image2.png', './image/new_24_12/serviette_3_pcs_12000/image3.png', './image/new_24_12/serviette_3_pcs_12000/image4.png', './image/new_24_12/serviette_3_pcs_12000/image5.png'],
+        imgSrcs: ['./image/new_24_12/serviette_3_pcs_12000/image1.png', './image/new_24_12/serviette_3_pcs_12000/image2.png', './image/new_24_12/serviette_3_pcs_12000/image3.png'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Douce, Pratique, Essentielle',
