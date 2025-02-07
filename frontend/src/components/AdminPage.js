@@ -9,7 +9,7 @@ function AdminPage() {
     useEffect(() => {
         const fetchOrders = async () => {
             try {
-                const response = await axios.get(' https://link-repository.onrender.com/api/orders');
+                const response = await axios.get('https://link-repository.onrender.com/api/orders');
                 console.log(response.data);
                 setOrders(response.data);
             } catch (error) {
@@ -22,7 +22,7 @@ function AdminPage() {
 
     const handleStatusChange = async (orderId, newStatus) => {
         try {
-            await axios.put(` https://link-repository.onrender.com/api/orders/${orderId}/status`, { status: newStatus });
+            await axios.put(`https://link-repository.onrender.com/api/orders/${orderId}/status`, { status: newStatus });
             setOrders(prevOrders =>
                 prevOrders.map(order =>
                     order.id === orderId ? { ...order, status: newStatus } : order
@@ -66,12 +66,13 @@ function AdminPage() {
                         <th>Statut</th>
                         <th>Actions</th>
                         <th>Produits</th>
+                        <th>Code Promo</th> {/* Nouvelle colonne */}
                     </tr>
                 </thead>
                 <tbody>
                     {orders.map(order => {
                         const className = getStatusClassName(order.status);
-                        console.log(`Statut: ${order.status}, Classe CSS: ${className}`); // Log pour vérifier les classes CSS
+                        console.log(`Statut: ${order.status}, Classe CSS: ${className}`);
                         return (
                             <tr key={order.id} className={className}>
                                 <td>{order.id}</td>
@@ -102,6 +103,7 @@ function AdminPage() {
                                         ))}
                                     </ul>
                                 </td>
+                                <td>{order.promo_code || 'N/A'}</td> {/* Ajout de la colonne promo */}
                             </tr>
                         );
                     })}
