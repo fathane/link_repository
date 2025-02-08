@@ -12,8 +12,9 @@ function DeliveryForm() {
         surname: '',
         city: '',
         neighborhood: '',
-        phone: ''
+        phone: '',
     });
+    const [promoCode, setPromoCode] = useState(''); // Ajout du code promo
     const [errorMessage, setErrorMessage] = useState('');
     const [isLoading, setIsLoading] = useState(false);
 
@@ -37,10 +38,11 @@ function DeliveryForm() {
                 items: cart,
                 deliveryInfo,
                 totalPrice,
+                promoCode: promoCode || null, // Ajout du code promo
             };
             console.log("Données de commande envoyées:", orderData);
 
-            const response = await axios.post(' https://link-repository.onrender.com/api/orders', orderData);
+            const response = await axios.post('https://link-repository.onrender.com/api/orders', orderData);
             console.log("Réponse du serveur:", response.data);
 
             navigate('/confirmation');
@@ -89,6 +91,12 @@ function DeliveryForm() {
                     value={deliveryInfo.phone}
                     onChange={handleInputChange}
                     placeholder="Téléphone"
+                />
+                <input
+                    type="text"
+                    value={promoCode}
+                    onChange={(e) => setPromoCode(e.target.value)}
+                    placeholder="Code promo (optionnel)"
                 />
                 <button type="button" onClick={handleConfirmDelivery} disabled={isLoading}>
                     {isLoading ? 'Validation en cours...' : 'Confirmer la commande'}
