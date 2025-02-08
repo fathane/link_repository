@@ -6,7 +6,7 @@ import './delivery.css';
 function DeliveryForm() {
     const location = useLocation();
     const navigate = useNavigate();
-    const { cart, totalPrice } = location.state;
+    const { cart, totalPrice, appliedPromo } = location.state;
     const [deliveryInfo, setDeliveryInfo] = useState({
         name: '',
         surname: '',
@@ -14,7 +14,6 @@ function DeliveryForm() {
         neighborhood: '',
         phone: '',
     });
-    const [promoCode, setPromoCode] = useState(''); // Ajout du code promo
     const [errorMessage, setErrorMessage] = useState('');
     const [isLoading, setIsLoading] = useState(false);
 
@@ -38,7 +37,7 @@ function DeliveryForm() {
                 items: cart,
                 deliveryInfo,
                 totalPrice,
-                promoCode: promoCode || null, // Ajout du code promo
+                promoCode: appliedPromo || null, // Utilisation du code promo reçu depuis CartPage
             };
             console.log("Données de commande envoyées:", orderData);
 
@@ -91,12 +90,6 @@ function DeliveryForm() {
                     value={deliveryInfo.phone}
                     onChange={handleInputChange}
                     placeholder="Téléphone"
-                />
-                <input
-                    type="text"
-                    value={promoCode}
-                    onChange={(e) => setPromoCode(e.target.value)}
-                    placeholder="Code promo (optionnel)"
                 />
                 <button type="button" onClick={handleConfirmDelivery} disabled={isLoading}>
                     {isLoading ? 'Validation en cours...' : 'Confirmer la commande'}
