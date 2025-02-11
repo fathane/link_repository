@@ -13,7 +13,7 @@ function CartPage({ cart, onRemoveFromCart }) {
         "FREESHIP": 1,
         "RCY_01": 0.9,
         "4KULTURE_4": 0.9,
-        "LORD_01": 0.9
+        "DEVS20": 0.9
     };
 
     const calculateTotal = () => {
