@@ -14,7 +14,8 @@ function CartPage({ cart, onRemoveFromCart }) {
         "RCY_01": 0.9,
         "4KULTURE_4": 0.9,
         "DEVS20": 0.9,
-        "RICO_02": 0.9
+        "RICO_02": 0.9,
+        "WHILFCART_1": 0.9
     };
 
     const calculateTotal = () => {
