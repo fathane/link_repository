@@ -404,7 +404,7 @@ const products = [
     {
         id: 1005,
         name: 'Lampe solaire de luxe',
-        price: 2950, //1700
+        price: 4950, //1700
         originalPrice: 5000,
         category: 'decoration',
         imgSrcs: ['./image/Martistore_calavi/lampe_solaire/image1.png', './image/Martistore_calavi/lampe_solaire/image2.png', './image/Martistore_calavi/lampe_solaire/image3.png', './image/Martistore_calavi/lampe_solaire/image4.png', './image/Martistore_calavi/lampe_solaire/image5.png', './image/Martistore_calavi/lampe_solaire/image6.png'],
@@ -486,8 +486,8 @@ const products = [
     {
         id: 1011,
         name: 'Chauffe eaux Scarlett',
-        price: 5600, //4000
-        originalPrice: 6000,
+        price: 5800, //4000
+        originalPrice: 6500,
         category: 'cuisine',
         imgSrcs: ['./image/Martistore_calavi/termousse/image1.png', './image/Martistore_calavi/termousse/image2.png', './image/Martistore_calavi/termousse/image3.png', './image/Martistore_calavi/termousse/image4.png', './image/Martistore_calavi/termousse/image5.png'],
         videoSrc: './video/link.mp4',
@@ -498,7 +498,7 @@ const products = [
     {
         id: 1026,
         name: 'Tondeuse rechargeable',
-        price: 9000, //8000
+        price: 9500, //8000
         originalPrice: 10000,
         category: 'electronique',
         imgSrcs: ['./image/Martistore_calavi/tondeuses/image1.png', './image/Martistore_calavi/tondeuses/image2.png', './image/Martistore_calavi/tondeuses/image3.png', './image/Martistore_calavi/tondeuses/image4.png', './image/Martistore_calavi/tondeuses/image5.png'],
@@ -510,8 +510,8 @@ const products = [
     {
         id: 1012,
         name: 'verre à vin',
-        price: 7700, //5500
-        originalPrice: 9000,
+        price: 8700, //5500
+        originalPrice: 10000,
         category: 'tous',
         imgSrcs: ['./image/Martistore_calavi/verre_arrondi/image1.png', './image/Martistore_calavi/verre_arrondi/image2.png', './image/Martistore_calavi/verre_arrondi/image3.png'],
         videoSrc: './video/link.mp4',
@@ -522,7 +522,7 @@ const products = [
     {
         id: 1013,
         name: 'verre à whisky',
-        price: 5200, //3000
+        price: 6200, //3000
         originalPrice: 7000,
         category: 'tous',
         imgSrcs: ['./image/Martistore_calavi/verre_cylindrique/image1.png', './image/Martistore_calavi/verre_cylindrique/image2.png', './image/Martistore_calavi/verre_cylindrique/image3.png', './image/Martistore_calavi/verre_cylindrique/image4.png', './image/Martistore_calavi/verre_cylindrique/image5.png'],
@@ -534,8 +534,8 @@ const products = [
     {
         id: 1014,
         name: 'verre',
-        price: 7500, //5500
-        originalPrice: 8200,
+        price: 9500, //5500
+        originalPrice: 10200,
         category: 'tous',
         imgSrcs: ['./image/Martistore_calavi/verre_forme_ovale/image1.png', './image/Martistore_calavi/verre_forme_ovale/image2.png', './image/Martistore_calavi/verre_forme_ovale/image3.png', './image/Martistore_calavi/verre_forme_ovale/image4.png'],
         videoSrc: './video/link.mp4',
@@ -543,7 +543,7 @@ const products = [
         description: 'Un choix élégant pour votre table.',
         modalDescription: 'Un design unique et pratique pour vos repas et moments de détente. Ces verres ajouteront une note raffinée à vos occasions spéciales. Lot de 6'
     },
-    {
+    /*{
         id: 1015,
         name: 'Jouet automobile pour enfant',
         price: 3000, //2500
@@ -554,12 +554,12 @@ const products = [
         stock: "en stock",
         description: 'Parfait pour des heures de jeu.',
         modalDescription: '✅ Offrez à votre enfant des moments de jeu captivants avec cette voiture jouet, conçue pour stimuler l imagination.'
-    },
+    },*/
     {
         id: 1016,
         name: 'Ecouteur M10',
-        price: 3500, //1500
-        originalPrice: 4000,
+        price: 4500, //1500
+        originalPrice: 6000,
         category: 'electronique',
         imgSrcs: ['./image/Martistore_calavi/ecouteur_m10/image1.png', './image/Martistore_calavi/ecouteur_m10/image2.png', './image/Martistore_calavi/ecouteur_m10/image3.png', './image/Martistore_calavi/ecouteur_m10/image4.png', './image/Martistore_calavi/ecouteur_m10/image5.png'],
         videoSrc: './video/link.mp4',
@@ -570,8 +570,8 @@ const products = [
     {
         id: 1017,
         name: 'Ecouteur powerbank JBL Air F9 Pro',
-        price: 3500, //1500
-        originalPrice: 4200,
+        price: 4500, //1500
+        originalPrice: 6200,
         category: 'electronique',
         imgSrcs: ['./image/Martistore_calavi/ecouteur_m10/image4.png', './image/Martistore_calavi/ecouteur_m10/image5.png'],
         videoSrc: './video/link.mp4',
@@ -582,7 +582,7 @@ const products = [
     {
         id: 1018,
         name: 'Casque bluethoot P35',
-        price: 4200, //1500
+        price: 4000, //1500
         originalPrice: 6000,
         category: 'tous',
         imgSrcs: ['./image/doss_new_martistore/Casque_Bluetooth_P35/image1.png', './image/doss_new_martistore/Casque_Bluetooth_P35/image2.png', './image/doss_new_martistore/Casque_Bluetooth_P35/image3.png', './image/doss_new_martistore/Casque_Bluetooth_P35/image4.png', './image/doss_new_martistore/Casque_Bluetooth_P35/image5.png', './image/doss_new_martistore/Casque_Bluetooth_P35/image6.png'],
@@ -594,7 +594,7 @@ const products = [
     {
         id: 1019,
         name: 'Chargeurs rapide',
-        price: 1900, //1200
+        price: 2900, //1200
         originalPrice: 2500,
         category: 'tous',
         imgSrcs: ['./image/doss_new_martistore/chargeurs/image1.png', './image/doss_new_martistore/chargeurs/image2.png', './image/doss_new_martistore/chargeurs/image3.png', './image/doss_new_martistore/chargeurs/image4.png', './image/doss_new_martistore/chargeurs/image5.png', './image/doss_new_martistore/chargeurs/image6.png', './image/doss_new_martistore/chargeurs/image7.png', './image/doss_new_martistore/chargeurs/image8.png'],
@@ -618,7 +618,7 @@ const products = [
     {
         id: 1027,
         name: 'Lampe solaire',
-        price: 6300, //4500
+        price: 6700, //4500
         originalPrice: 8000,
         category: 'electronique',
         imgSrcs: ['./image/doss_new_martistore/lampe_solaire/image1.png', './image/doss_new_martistore/lampe_solaire/image2.png', './image/doss_new_martistore/lampe_solaire/image3.png', './image/doss_new_martistore/lampe_solaire/image4.png', './image/doss_new_martistore/lampe_solaire/image5.png', './image/doss_new_martistore/lampe_solaire/image6.png'],
@@ -630,7 +630,7 @@ const products = [
     {
         id: 1021,
         name: 'Moustiquaire pliable',
-        price: 6300, //4500
+        price: 7300, //4500
         originalPrice: 8000,
         category: 'tous',
         imgSrcs: ['./image/doss_new_martistore/moustiquaire_pliable/image1.png', './image/doss_new_martistore/moustiquaire_pliable/image2.png', './image/doss_new_martistore/moustiquaire_pliable/image3.png', './image/doss_new_martistore/moustiquaire_pliable/image4.png', './image/doss_new_martistore/moustiquaire_pliable/image5.png', './image/doss_new_martistore/moustiquaire_pliable/image6.png'],
@@ -666,7 +666,7 @@ const products = [
     {
         id: 1024,
         name: 'Papier peint autocollant',
-        price: 4200, //3000
+        price: 6200, //3000
         originalPrice: 7000,
         category: 'beauté',
         imgSrcs: ['./image/doss_new_martistore/rouleau_deco/image1.png', './image/doss_new_martistore/rouleau_deco/image2.png', './image/doss_new_martistore/rouleau_deco/image3.png', './image/doss_new_martistore/rouleau_deco/image4.png', './image/doss_new_martistore/rouleau_deco/image5.png'],
@@ -694,7 +694,7 @@ const products = [
     {
         id: 1028,
         name: 'Assiete plateau',
-        price: 7000, //5000
+        price: 8000, //5000
         originalPrice: 12000,
         category: 'tous',
         imgSrcs: ['./image/new_doss/Assiette_plateau_7000/image1.png', './image/new_doss/Assiette_plateau_7000/image2.png', './image/new_doss/Assiette_plateau_7000/image3.png', './image/new_doss/Assiette_plateau_7000/image4.png', './image/new_doss/Assiette_plateau_7000/image5.png'],
