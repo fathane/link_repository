@@ -9,7 +9,6 @@ function CartPage({ cart, onRemoveFromCart }) {
     const [isPromoValid, setIsPromoValid] = useState(null);
 
     const validPromoCodes = {
-        "ST_VAL_02": 0.9,
         "FREESHIP": 1,
         "RCY_01": 0.9,
         "4KULTURE_4": 0.9,
