@@ -2976,8 +2976,8 @@ const products = [
     {
         id: 1213,
         name: 'Tasse de mélange automatique',
-        price: 4500, //3000
-        originalPrice: 55000,
+        price: 6500, //3000
+        originalPrice: 7000,
         category: 'tous',
         imgSrcs: ['./image/09_02/Martistore_Tasse_de_melange_automatique_3000/image1.png', './image/09_02/Martistore_Tasse_de_melange_automatique_3000/image2.png', './image/09_02/Martistore_Tasse_de_melange_automatique_3000/image3.png', './image/09_02/Martistore_Tasse_de_melange_automatique_3000/image4.png', './image/09_02/Martistore_Tasse_de_melange_automatique_3000/image5.png'],
         videoSrc: './video/link.mp4',
