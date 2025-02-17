@@ -2645,8 +2645,8 @@ const products = [
     {
         id: 1186,
         name: 'Sac de rangement',
-        price: 5100, //4000
-        originalPrice: 6000,
+        price: 8500, //4000
+        originalPrice: 9000,
         category: 'tous',
         imgSrcs: ['./image/22_01/Henri_distribution_Sac_de_rangement_4000/image1.png', './image/22_01/Henri_distribution_Sac_de_rangement_4000/image2.png', './image/22_01/Henri_distribution_Sac_de_rangement_4000/image3.png', './image/22_01/Henri_distribution_Sac_de_rangement_4000/image4.png', './image/22_01/Henri_distribution_Sac_de_rangement_4000/image5.png', './image/22_01/Henri_distribution_Sac_de_rangement_4000/image6.png', './image/22_01/Henri_distribution_Sac_de_rangement_4000/image7.png', './image/22_01/Henri_distribution_Sac_de_rangement_4000/image8.png'],
         videoSrc: './video/link.mp4',
@@ -2964,8 +2964,8 @@ const products = [
     {
         id: 1212,
         name: 'Sac de rangement',
-        price: 4900, //3500
-        originalPrice: 6000,
+        price: 6900, //3500
+        originalPrice: 7000,
         category: 'tous',
         imgSrcs: ['./image/09_02/Martistore_Sac_de_rangement_100l_3500/image1.png', './image/09_02/Martistore_Sac_de_rangement_100l_3500/image2.png', './image/09_02/Martistore_Sac_de_rangement_100l_3500/image3.png', './image/09_02/Martistore_Sac_de_rangement_100l_3500/image4.png', './image/09_02/Martistore_Sac_de_rangement_100l_3500/image5.png'],
         videoSrc: './video/link.mp4',
