@@ -1506,8 +1506,8 @@ const products = [
     {
         id: 1093,
         name: 'Verre à whisky 6pcs',
-        price: 7600, //3500
-        originalPrice: 10000,
+        price: 11000, //3500
+        originalPrice: 12000,
         category: 'tous',
         imgSrcs: ['./image/Product_new/Martistore_Verre_a_whisky_de_luxe_lot_de_6_pcs_3500/image1.png', './image/Product_new/Martistore_Verre_a_whisky_de_luxe_lot_de_6_pcs_3500/image2.png', './image/Product_new/Martistore_Verre_a_whisky_de_luxe_lot_de_6_pcs_3500/image3.png', './image/Product_new/Martistore_Verre_a_whisky_de_luxe_lot_de_6_pcs_3500/image4.png', './image/Product_new/Martistore_Verre_a_whisky_de_luxe_lot_de_6_pcs_3500/image5.png', './image/Product_new/Martistore_Verre_a_whisky_de_luxe_lot_de_6_pcs_3500/image6.png'],
         videoSrc: './video/link.mp4',
@@ -1542,8 +1542,8 @@ const products = [
     {
         id: 1096,
         name: 'Peigne chauffante',
-        price: 5600, //4000
-        originalPrice: 6500,
+        price: 6500, //4000
+        originalPrice: 7000,
         category: 'beauté',
         imgSrcs: ['./image/Product_new/SK_LUXe_Peigne_chauffante_4000/image1.png', './image/Product_new/SK_LUXe_Peigne_chauffante_4000/image2.png', './image/Product_new/SK_LUXe_Peigne_chauffante_4000/image3.png', './image/Product_new/SK_LUXe_Peigne_chauffante_4000/image4.png', './image/Product_new/SK_LUXe_Peigne_chauffante_4000/image5.png', './image/Product_new/SK_LUXe_Peigne_chauffante_4000/image6.png'],
         videoSrc: './video/link.mp4',
