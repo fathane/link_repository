@@ -1350,8 +1350,8 @@ const products = [
     {
         id: 1080,
         name: 'Gaine à bande',
-        price: 3700, //2500
-        originalPrice: 4500,
+        price: 6000, //2500
+        originalPrice: 7000,
         category: 'beauté',
         imgSrcs: ['./image/Product_new/Martistore_Gaine_a_bande_retrace_2500/image1.png', './image/Product_new/Martistore_Gaine_a_bande_retrace_2500/image2.png', './image/Product_new/Martistore_Gaine_a_bande_retrace_2500/image3.png', './image/Product_new/Martistore_Gaine_a_bande_retrace_2500/image4.png', './image/Product_new/Martistore_Gaine_a_bande_retrace_2500/image5.png', './image/Product_new/Martistore_Gaine_a_bande_retrace_2500/image6.png'],
         videoSrc: './video/link.mp4',
@@ -1386,8 +1386,8 @@ const products = [
     {
         id: 1083,
         name: 'Mini couteau pliant',
-        price: 500, //200
-        originalPrice: 700,
+        price: 1200, //200
+        originalPrice: 2000,
         category: 'cuisine',
         imgSrcs: ['./image/Product_new/Martistore_Mini_couteau_porte_cle_pliant_200/image1.png', './image/Product_new/Martistore_Mini_couteau_porte_cle_pliant_200/image2.png', './image/Product_new/Martistore_Mini_couteau_porte_cle_pliant_200/image3.png', './image/Product_new/Martistore_Mini_couteau_porte_cle_pliant_200/image4.png', './image/Product_new/Martistore_Mini_couteau_porte_cle_pliant_200/image5.png', './image/Product_new/Martistore_Mini_couteau_porte_cle_pliant_200/image6.png'],
         videoSrc: './video/link.mp4',
@@ -2474,8 +2474,8 @@ const products = [
     {
         id: 1173,
         name: 'Support mural d’angle en fer',
-        price: 2800, //1700
-        originalPrice: 3500,
+        price: 4000, //1700
+        originalPrice: 5000,
         category: 'tous',
         imgSrcs: ['./image/20_01/Martistore_Support_mural_fer_1700/image1.png', './image/20_01/Martistore_Support_mural_fer_1700/image2.png', './image/20_01/Martistore_Support_mural_fer_1700/image3.png', './image/20_01/Martistore_Support_mural_fer_1700/image4.png', './image/20_01/Martistore_Support_mural_fer_1700/image5.png', './image/20_01/Martistore_Support_mural_fer_1700/image6.png'],
         videoSrc: './video/link.mp4',
