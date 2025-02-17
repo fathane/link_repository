@@ -1518,8 +1518,8 @@ const products = [
     {
         id: 1094,
         name: 'Minicoupe-légumes',
-        price: 2500, //1300
-        originalPrice: 3000,
+        price: 3500, //1300
+        originalPrice: 4000,
         category: 'cuisine',
         imgSrcs: ['./image/Product_new/sk_lux_Mini_coupe-légumes_manuel_1300/image1.png', './image/Product_new/sk_lux_Mini_coupe-légumes_manuel_1300/image2.png', './image/Product_new/sk_lux_Mini_coupe-légumes_manuel_1300/image3.png', './image/Product_new/sk_lux_Mini_coupe-légumes_manuel_1300/image4.png', './image/Product_new/sk_lux_Mini_coupe-légumes_manuel_1300/image5.png', './image/Product_new/sk_lux_Mini_coupe-légumes_manuel_1300/image6.png', './image/Product_new/sk_lux_Mini_coupe-légumes_manuel_1300/image7.png'],
         videoSrc: './video/link.mp4',
