@@ -14,7 +14,7 @@ const products = [
     {
         id: 2,
         name: 'Adidas blanc, Stan Smith.',
-        price: 13000,
+        price: 14000,
         originalPrice: 15000,
         category: 'habillement',
         imgSrcs: ['./image/Adidas_blanc/image.jpeg', './image/Adidas_blanc/image2.jpeg', './image/Adidas_blanc/image3.jpeg'],
@@ -26,7 +26,7 @@ const products = [
     {
         id: 3,
         name: 'Adidas Campus bleu',
-        price: 18000,
+        price: 21000,
         originalPrice: 23000,
         category: 'habillement',
         imgSrcs: ['./image/adidas_bleu/image1.jpeg', './image/adidas_bleu/image2.jpeg', './image/adidas_bleu/image3.jpeg'],
@@ -38,8 +38,8 @@ const products = [
     {
         id: 4,
         name: 'Adidas Campus marron',
-        price: 14000,
-        originalPrice: 15000,
+        price: 21000,
+        originalPrice: 25000,
         category: 'habillement',
         imgSrcs: ['./image/Adidas_marron/image1.jpeg', './image/Adidas_marron/image2.jpeg'],
         videoSrc: './video/Adidas_campus_marron.mp4',
@@ -50,7 +50,7 @@ const products = [
     {
         id: 5,
         name: 'Adidas Campus vert',
-        price: 15000,
+        price: 21000,
         category: 'habillement',
         imgSrcs: ['./image/adidas_vert_fonce/image1.jpeg', './image/adidas_vert_fonce/image2.jpeg', './image/adidas_vert_fonce/image3.jpeg'],
         videoSrc: './video/Adidas_campus_vert.mp4',
@@ -61,7 +61,7 @@ const products = [
     {
         id: 6,
         name: 'Air blanc',
-        price: 16000,
+        price: 18000,
         originalPrice: 20000,
         category: 'habillement',
         imgSrcs: ['./image/Air_blanc/image1.jpeg', './image/Air_blanc/image2.jpeg'],
@@ -84,7 +84,7 @@ const products = [
     {
         id: 8,
         name: 'Nike Air noir',
-        price: 16000,
+        price: 17000,
         category: 'habillement',
         imgSrcs: ['./image/Air_noir/image1.jpeg', './image/Air_noir/image2.jpeg', './image/Air_noir/image3.jpeg'],
         videoSrc: './video/link.mp4',
@@ -150,7 +150,7 @@ const products = [
     {
         id: 14,
         name: 'New Balance 2002R vert pastel',
-        price: 14000,
+        price: 16000,
         category: 'habillement',
         imgSrcs: ['./image/New_balance_vert/image1.jpeg', './image/New_balance_vert/image2.jpeg'],
         videoSrc: './video/link.mp4',
