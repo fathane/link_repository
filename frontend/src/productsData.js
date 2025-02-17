@@ -1554,8 +1554,8 @@ const products = [
     {
         id: 1097,
         name: 'Pistolet masseur',
-        price: 6600, //4000
-        originalPrice: 7200,
+        price: 9800, //4000
+        originalPrice: 11000,
         category: 'beauté',
         imgSrcs: ['./image/Product_new/sk_luxe_Pistolet_masseur_5000/image1.png', './image/Product_new/sk_luxe_Pistolet_masseur_5000/image2.png', './image/Product_new/sk_luxe_Pistolet_masseur_5000/image3.png', './image/Product_new/sk_luxe_Pistolet_masseur_5000/image4.png', './image/Product_new/sk_luxe_Pistolet_masseur_5000/image5.png', './image/Product_new/sk_luxe_Pistolet_masseur_5000/image6.png'],
         videoSrc: './video/link.mp4',
