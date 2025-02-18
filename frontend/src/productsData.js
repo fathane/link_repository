@@ -26,8 +26,8 @@ const products = [
     {
         id: 3,
         name: 'Adidas Campus bleu',
-        price: 21000,
-        originalPrice: 23000,
+        price: 23500,
+        originalPrice: 25000,
         category: 'habillement',
         imgSrcs: ['./image/adidas_bleu/image1.jpeg', './image/adidas_bleu/image2.jpeg', './image/adidas_bleu/image3.jpeg'],
         videoSrc: './video/link.mp4',
@@ -38,7 +38,7 @@ const products = [
     {
         id: 4,
         name: 'Adidas Campus marron',
-        price: 21000,
+        price: 23500,
         originalPrice: 25000,
         category: 'habillement',
         imgSrcs: ['./image/Adidas_marron/image1.jpeg', './image/Adidas_marron/image2.jpeg'],
@@ -50,7 +50,7 @@ const products = [
     {
         id: 5,
         name: 'Adidas Campus vert',
-        price: 21000,
+        price: 23500,
         category: 'habillement',
         imgSrcs: ['./image/adidas_vert_fonce/image1.jpeg', './image/adidas_vert_fonce/image2.jpeg', './image/adidas_vert_fonce/image3.jpeg'],
         videoSrc: './video/Adidas_campus_vert.mp4',
