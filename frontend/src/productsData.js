@@ -14,8 +14,8 @@ const products = [
     {
         id: 2,
         name: 'Adidas blanc, Stan Smith.',
-        price: 14000,
-        originalPrice: 15000,
+        price: 15500,
+        originalPrice: 17000,
         category: 'habillement',
         imgSrcs: ['./image/Adidas_blanc/image.jpeg', './image/Adidas_blanc/image2.jpeg', './image/Adidas_blanc/image3.jpeg'],
         videoSrc: './video/link.mp4',
@@ -754,7 +754,7 @@ const products = [
     {
         id: 1033,
         name: 'Diffuseur de senteurs',
-        price: 5500, //1000
+        price: 6000, //1000
         originalPrice: 6000,
         category: 'tous',
         imgSrcs: ['./image/new_doss/diffuseur_de_senteur_2000/image1.png', './image/new_doss/diffuseur_de_senteur_2000/image2.png', './image/new_doss/diffuseur_de_senteur_2000/image3.png', './image/new_doss/diffuseur_de_senteur_2000/image4.png', './image/new_doss/diffuseur_de_senteur_2000/image5.png', './image/new_doss/diffuseur_de_senteur_2000/image6.png', './image/new_doss/diffuseur_de_senteur_2000/image7.png'],
