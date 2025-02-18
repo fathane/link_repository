@@ -26,6 +26,31 @@ function App() {
         setShuffledProducts(shuffleProducts(products));
     }, []);
 
+
+
+    /////////////////
+    const [showScrollButton, setShowScrollButton] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 300) {
+                setShowScrollButton(true);
+            } else {
+                setShowScrollButton(false);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    };
+
+
     const filteredProducts = useMemo(() => {
         const calculateRelevance = (product) => {
             let relevanceScore = 0;
@@ -166,6 +191,12 @@ function App() {
                     onAddToCart={addToCart}
                 />
             )}
+            {showScrollButton && (
+                <button className="scroll-to-top" onClick={scrollToTop}>
+                    ⬆
+                </button>
+            )}
+
         </div>
     );
 }
