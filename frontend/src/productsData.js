@@ -3211,7 +3211,106 @@ const products = [
         description: 'Pratique, Résistant, portable',
         modalDescription: 'Thermos numérique 🧃, pratique et moderne, permettant de contrôler la température de vos boissons avec précision grâce à son affichage numérique'
     },
-    
+
+
+    //////////////////19_02
+
+    {
+        id: 1231,
+        name: 'Diffuseur de senteurs en cristal + veilleuse',
+        price: 5400, //2500
+        originalPrice: 6200,
+        category: 'decoration',
+        imgSrcs: ['./image/19_02/Martistore_Diffuseur_de_senteurs_de_luxe_en_cristal_avec_veilleuse_2500/image1.png', './image/19_02/Martistore_Diffuseur_de_senteurs_de_luxe_en_cristal_avec_veilleuse_2500/image2.png', './image/19_02/Martistore_Diffuseur_de_senteurs_de_luxe_en_cristal_avec_veilleuse_2500/image3.png', './image/19_02/Martistore_Diffuseur_de_senteurs_de_luxe_en_cristal_avec_veilleuse_2500/image4.png', './image/19_02/Martistore_Diffuseur_de_senteurs_de_luxe_en_cristal_avec_veilleuse_2500/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Raffiné, apaisant, lumineux ✅',
+        modalDescription: 'Diffuseur de senteurs de luxe en cristal 💎🌿 Avec veilleuse multicolore 🌈✨, il crée une ambiance élégante et apaisante ! 🏡💖'
+    },
+    {
+        id: 1232,
+        name: 'Lot de cintres en acier',
+        price: 4500, //1500
+        originalPrice: 5300,
+        category: 'tous',
+        imgSrcs: ['./image/19_02/Martistore_Lot_de_10_cintres_en_acier_1500/image1.png', './image/19_02/Martistore_Lot_de_10_cintres_en_acier_1500/image2.png', './image/19_02/Martistore_Lot_de_10_cintres_en_acier_1500/image3.png', './image/19_02/Martistore_Lot_de_10_cintres_en_acier_1500/image4.png', './image/19_02/Martistore_Lot_de_10_cintres_en_acier_1500/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Solide, pratique, antidérapant ✅',
+        modalDescription: 'Lot de 10 cintres en acier 🏡👕 avec creux antidérapants pour un maintien parfait de vos vêtements ! ✨👌'
+    },
+    {
+        id: 1233,
+        name: 'Protège Brosse à dent et pâte',
+        price: 2800, //1300
+        originalPrice: 3500,
+        category: 'tous',
+        imgSrcs: ['./image/19_02/Martistore_Protège_Brosse_à_dent_et_pâte_1300/image1.png', './image/19_02/Martistore_Protège_Brosse_à_dent_et_pâte_1300/image2.png', './image/19_02/Martistore_Protège_Brosse_à_dent_et_pâte_1300/image3.png', './image/19_02/Martistore_Protège_Brosse_à_dent_et_pâte_1300/image4.png', './image/19_02/Martistore_Protège_Brosse_à_dent_et_pâte_1300/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Pratique, hygiénique, compact ✅',
+        modalDescription: 'Protège brosse à dents et pâte 🪥🧴 Pratique et hygiénique, parfait pour garder votre brosse à dents propre ! ✨🚶‍♂️'
+    },
+    {
+        id: 1234,
+        name: 'Racloir miroirs, vitres de voiture',
+        price: 7500, //3500
+        originalPrice: 9500,
+        category: 'tous',
+        imgSrcs: ['./image/19_02/Martistore_Racloir_pour_nettoyer_vos_miroirs_vitres_de_voiture_3500/image1.png', './image/19_02/Martistore_Racloir_pour_nettoyer_vos_miroirs_vitres_de_voiture_3500/image2.png', './image/19_02/Martistore_Racloir_pour_nettoyer_vos_miroirs_vitres_de_voiture_3500/image3.png', './image/19_02/Martistore_Racloir_pour_nettoyer_vos_miroirs_vitres_de_voiture_3500/image4.png', './image/19_02/Martistore_Racloir_pour_nettoyer_vos_miroirs_vitres_de_voiture_3500/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Polyvalent, efficace, pratique ✅',
+        modalDescription: 'Racloir multi-usage 🧼🚗. Idéal pour nettoyer miroirs, vitres de voiture, fenêtres, canapés et meubles en bois ou métal ! ✨'
+    },
+    {
+        id: 1235,
+        name: 'Verre à acrylique',
+        price: 6200, //3000
+        originalPrice: 7500,
+        category: 'tous',
+        imgSrcs: ['./image/19_02/Martistore_Verre_à_acrylique_6pcs_3000/image1.png', './image/19_02/Martistore_Verre_à_acrylique_6pcs_3000/image2.png', './image/19_02/Martistore_Verre_à_acrylique_6pcs_3000/image3.png', './image/19_02/Martistore_Verre_à_acrylique_6pcs_3000/image4.png', './image/19_02/Martistore_Verre_à_acrylique_6pcs_3000/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Résistant, pratique, élégant ✅',
+        modalDescription: 'Verre en acrylique, lot de 6 🍹✨ Légers, résistants et parfaits pour toutes les occasions ! 🎉👌'
+    },
+    {
+        id: 1236,
+        name: 'Verre en forme de boule',
+        price: 9200, //4500
+        originalPrice: 10500,
+        category: 'tous',
+        imgSrcs: ['./image/19_02/Martistore_Verre_en_forme_de_boule_6pcs_4500/image1.png', './image/19_02/Martistore_Verre_en_forme_de_boule_6pcs_4500/image2.png', './image/19_02/Martistore_Verre_en_forme_de_boule_6pcs_4500/image3.png', './image/19_02/Martistore_Verre_en_forme_de_boule_6pcs_4500/image4.png', './image/19_02/Martistore_Verre_en_forme_de_boule_6pcs_4500/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Luxe, unique, raffiné ✅',
+        modalDescription: 'Verre en forme de boule en or, lot de 6 🏅✨ Chic, élégant et parfait pour ajouter du style à vos boissons ! 🍸🌟'
+    },
+    {
+        id: 1237,
+        name: 'Tasse',
+        price: 3500, //1700
+        originalPrice: 5700,
+        category: 'tous',
+        imgSrcs: ['./image/19_02/Poupe_chine_Tasse_1700/image1.png', './image/19_02/Poupe_chine_Tasse_1700/image2.png', './image/19_02/Poupe_chine_Tasse_1700/image3.png', './image/19_02/Poupe_chine_Tasse_1700/image4.png', './image/19_02/Poupe_chine_Tasse_1700/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Isolante, pratique, durable ✅',
+        modalDescription: 'Tasse qui garde le chaud et froid 🍵❄️🔥 Idéale pour maintenir la température de vos boissons toute la journée ! ✨☕'
+    },
+    {
+        id: 1238,
+        name: 'Petite valise',
+        price: 8000, //3700
+        originalPrice: 9700,
+        category: 'tous',
+        imgSrcs: ['./image/19_02/Poupee_chine_Petit_valide_3700/image1.png', './image/19_02/Poupee_chine_Petit_valide_3700/image2.png', './image/19_02/Poupee_chine_Petit_valide_3700/image3.png', './image/19_02/Poupee_chine_Petit_valide_3700/image4.png', './image/19_02/Poupee_chine_Petit_valide_3700/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: ' Pratique, maniable, stylée ✅',
+        modalDescription: 'Petite valise 🧳 Compacte, légère et parfaite pour les escapades de courte durée ! ✨🌍'
+    },
 ];
 
 export default products;
