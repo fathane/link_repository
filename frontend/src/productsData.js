@@ -1097,7 +1097,7 @@ const products = [
         price: 4500, //2000
         originalPrice: 5000,
         category: 'tous',
-        imgSrcs: ['./image/new_24_12/Thermos_numérique_2000/image1.png', './image/new_24_12/Thermos_numérique_2000/image2.png', './image/new_24_12/Thermos_numérique_2000/image3.png', './image/new_24_12/Thermos_numérique_2000/image4.png', './image/new_24_12/Thermos_numérique_2000/image5.png', './image/new_24_12/Thermos_numérique_2000/image6.png', './image/new_24_12/Thermos_numérique_2000/image7.png', './image/new_24_12/Thermos_numérique_2000/image8.png'],
+        imgSrcs: ['./image/new_24_12/Thermos_numérique_2000/image1.png', './image/new_24_12/Thermos_numérique_2000/image2.png', './image/new_24_12/Thermos_numérique_2000/image3.png', './image/new_24_12/Thermos_numérique_2000/image4.png', './image/new_24_12/Thermos_numérique_2000/image5.png', './image/new_24_12/Thermos_numérique_2000/image6.png', './image/new_24_12/Thermos_numérique_2000/image7.png', './image/new_24_12/Thermos_numérique_2000/image8.png', './image/new_24_12/Thermos_numérique_2000/image9.jpeg'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Intelligent, Pratique, Durable',
@@ -2174,8 +2174,8 @@ const products = [
     {
         id: 1150,
         name: 'Boîte à lunch pratique 🥪🥤🍴',
-        price: 5700, //3000
-        originalPrice: 6000,
+        price: 6700, //3000
+        originalPrice: 8000,
         category: 'tous',
         imgSrcs: ['./image/08_01/Martistore_Enseigne_de_boite_a_lunche_3en1_et_gourde_3000/image1.png', './image/08_01/Martistore_Enseigne_de_boite_a_lunche_3en1_et_gourde_3000/image2.png', './image/08_01/Martistore_Enseigne_de_boite_a_lunche_3en1_et_gourde_3000/image3.png', './image/08_01/Martistore_Enseigne_de_boite_a_lunche_3en1_et_gourde_3000/image4.png', './image/08_01/Martistore_Enseigne_de_boite_a_lunche_3en1_et_gourde_3000/image5.png'],
         videoSrc: './video/link.mp4',
@@ -2985,6 +2985,234 @@ const products = [
         description: 'Pratique, Compact, portable',
         modalDescription: 'Tasse de mélange automatique, profiter d une tasse unique pour vous'
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //////////18_02
+    /*{
+        id: 1214,
+        name: 'Lampe multi-colores',
+        price: 8500, //4000
+        originalPrice: 10500,
+        category: 'tous',
+        imgSrcs: ['./image/18_02/Akuesley_Lampe_multi_colores_avec_panneau_solaire_4000/image1.png', './image/18_02/Akuesley_Lampe_multi_colores_avec_panneau_solaire_4000/image2.png', './image/18_02/Akuesley_Lampe_multi_colores_avec_panneau_solaire_4000/image3.png', './image/18_02/Akuesley_Lampe_multi_colores_avec_panneau_solaire_4000/image4.png', './image/18_02/Akuesley_Lampe_multi_colores_avec_panneau_solaire_4000/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Pratique, durable, portable',
+        modalDescription: 'Rechargeable à l’énergie solaire et électrique 🔋⚡. Ultra pratique et indispensable au quotidien ! 💡✨  '
+    },*/
+    {
+        id: 1215,
+        name: 'Powerbank 20000 mAh',
+        price: 9500, //4500
+        originalPrice: 11500,
+        category: 'electronique',
+        imgSrcs: ['./image/18_02/Akuesley_Powerbank_6-en-1_de_20000_mAh_4500/image1.png', './image/18_02/Akuesley_Powerbank_6-en-1_de_20000_mAh_4500/image2.png', './image/18_02/Akuesley_Powerbank_6-en-1_de_20000_mAh_4500/image3.png', './image/18_02/Akuesley_Powerbank_6-en-1_de_20000_mAh_4500/image4.png', './image/18_02/Akuesley_Powerbank_6-en-1_de_20000_mAh_4500/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Pratique, puissant, polyvalent',
+        modalDescription: 'Avec ventouse pour poser ton téléphone 📱 et lampe torche intégrée 🔦. Pratique et toujours prêt à l’usage ! ⚡✨ '
+    },
+    {
+        id: 1216,
+        name: 'Thermos numérique avec intérieur en verre',
+        price: 8600, //4000
+        originalPrice: 9500,
+        category: 'tous',
+        imgSrcs: ['./image/18_02/Akuesley_Thermos_numériques_4000/image1.jpeg'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Pratique, Compact, portable',
+        modalDescription: 'Haute qualité pour garder vos boissons à la bonne température toute la journée ! ⏳👌'
+    },
+    {
+        id: 1217,
+        name: 'Ventilateur + veilleuse rechargeable ',
+        price: 7600, //3500
+        originalPrice: 8500,
+        category: 'electronique',
+        imgSrcs: ['./image/18_02/Akuesley_Ventilo_veilleuse_rechargeable_3500/image1.png', './image/18_02/Akuesley_Ventilo_veilleuse_rechargeable_3500/image2.png', './image/18_02/Akuesley_Ventilo_veilleuse_rechargeable_3500/image3.png', './image/18_02/Akuesley_Ventilo_veilleuse_rechargeable_3500/image4.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Pratique, design, efficace',
+        modalDescription: 'Super joli, esthétique et rafraîchit efficacement ! ✨❄️'
+    },
+    {
+        id: 1218,
+        name: 'Boîte à couture complète 🧵✂️',
+        price: 2500, //1000
+        originalPrice: 4000,
+        category: 'tous',
+        imgSrcs: ['./image/18_02/Martistore_Boite_couture_1000/image1.png', './image/18_02/Martistore_Boite_couture_1000/image2.png', './image/18_02/Martistore_Boite_couture_1000/image3.png', './image/18_02/Martistore_Boite_couture_1000/image4.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Compacte, fonctionnelle, essentielle',
+        modalDescription: 'Pratique, bien organisée et idéale pour toutes vos réparations ! 👌✨'
+    },
+    {
+        id: 1219,
+        name: 'Bol en mélamine 🍽️',
+        price: 3700, //1500
+        originalPrice: 4500,
+        category: 'tous',
+        imgSrcs: ['./image/18_02/Martistore_bol_en_melamine_1500/image1.png', './image/18_02/Martistore_bol_en_melamine_1500/image2.png', './image/18_02/Martistore_bol_en_melamine_1500/image3.png', './image/18_02/Martistore_bol_en_melamine_1500/image4.png', './image/18_02/Martistore_bol_en_melamine_1500/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Solide, pratique, durable',
+        modalDescription: 'Léger, résistant et parfait pour un usage quotidien ! ✨👌'
+    },
+    {
+        id: 1220,
+        name: 'Chic diffuseur de senteur',
+        price: 6500, //3000
+        originalPrice: 8500,
+        category: 'tous',
+        imgSrcs: ['./image/18_02/Martistore_Chic_Diffuseur_de_senteur_3en1_avec_clazer_3000/image1.png', './image/18_02/Martistore_Chic_Diffuseur_de_senteur_3en1_avec_clazer_3000/image2.png', './image/18_02/Martistore_Chic_Diffuseur_de_senteur_3en1_avec_clazer_3000/image3.png', './image/18_02/Martistore_Chic_Diffuseur_de_senteur_3en1_avec_clazer_3000/image4.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Design, apaisant, innovant',
+        modalDescription: 'Avec laser et jeux de lumière ✨🎆. Ultra stylé et crée une ambiance magique ! 🏡💖'
+    },
+    {
+        id: 1221,
+        name: 'Distributeur de boissons en forme de globe',
+        price: 18500, //9000
+        originalPrice: 19900,
+        category: 'tous',
+        imgSrcs: ['./image/18_02/Martistore_Distributeur_de_boissons_en_forme_de_globe_3,5L_9000/image1.png', './image/18_02/Martistore_Distributeur_de_boissons_en_forme_de_globe_3,5L_9000/image2.png', './image/18_02/Martistore_Distributeur_de_boissons_en_forme_de_globe_3,5L_9000/image3.png', './image/18_02/Martistore_Distributeur_de_boissons_en_forme_de_globe_3,5L_9000/image4.png', './image/18_02/Martistore_Distributeur_de_boissons_en_forme_de_globe_3,5L_9000/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Unique, fonctionnel, décoratif',
+        modalDescription: 'Distributeur de boissons en forme de globe 🌍 de 3,5L. Original, pratique et parfait pour épater vos invités ! 🍹✨ '
+    },
+    {
+        id: 1222,
+        name: 'Genouillère',
+        price: 3700, //1500
+        originalPrice: 5500,
+        category: 'tous',
+        imgSrcs: ['./image/18_02/Martistore_Genouillere_1500/image1.png', './image/18_02/Martistore_Genouillere_1500/image2.png', './image/18_02/Martistore_Genouillere_1500/image3.png', './image/18_02/Martistore_Genouillere_1500/image4.png', './image/18_02/Martistore_Genouillere_1500/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Confortable, fiable, protectrice',
+        modalDescription: 'Genouillère de qualité avec support, 1 pièce 🦵💪. Confortable, robuste et idéale pour le soutien ! 🏋️‍♂️✨'
+    },
+    {
+        id: 1223,
+        name: 'Gourde coca cola isotherme',
+        price: 3500, //1700
+        originalPrice: 4900,
+        category: 'tous',
+        imgSrcs: ['./image/18_02/Martistore_Gourde_coca_cola_isotherme_1700/image1.png', './image/18_02/Martistore_Gourde_coca_cola_isotherme_1700/image2.png', './image/18_02/Martistore_Gourde_coca_cola_isotherme_1700/image3.png', './image/18_02/Martistore_Gourde_coca_cola_isotherme_1700/image4.png', './image/18_02/Martistore_Gourde_coca_cola_isotherme_1700/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Pratique, efficace, stylée',
+        modalDescription: 'Gourde Coca-Cola isotherme 🥤❄️🔥. Parfaite pour garder vos boissons bien chaudes ou bien froides toute la journée ! 🌡️✨ '
+    },
+    {
+        id: 1224,
+        name: 'Matelas gonflable',
+        price: 15700, //10000
+        originalPrice: 19500,
+        category: 'tous',
+        imgSrcs: ['./image/18_02/Martistore_Matelas_gonflable_1place_10000/image1.png', './image/18_02/Martistore_Matelas_gonflable_1place_10000/image2.png', './image/18_02/Martistore_Matelas_gonflable_1place_10000/image3.png', './image/18_02/Martistore_Matelas_gonflable_1place_10000/image4.png', './image/18_02/Martistore_Matelas_gonflable_1place_10000/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Pratique, confortable, rapide',
+        modalDescription: 'Matelas gonflable 1 place avec pompe. Confortable, facile à installer et parfait pour les nuits improvisées ! 🌙✨'
+    },
+    {
+        id: 1225,
+        name: 'Mini fer à eau',
+        price: 5500, //2500
+        originalPrice: 7800,
+        category: 'tous',
+        imgSrcs: ['./image/18_02/Martistore_Mini_fer_a_eau_2500/image1.png', './image/18_02/Martistore_Mini_fer_a_eau_2500/image2.png', './image/18_02/Martistore_Mini_fer_a_eau_2500/image3.png', './image/18_02/Martistore_Mini_fer_a_eau_2500/image4.png', './image/18_02/Martistore_Mini_fer_a_eau_2500/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Compact, performant, pratique',
+        modalDescription: 'Mini fer à vapeur très efficace et pratique 🌟👚.Idéal pour un repassage rapide et facile où que vous soyez ! ✨'
+    },
+    {
+        id: 1226,
+        name: 'Serviette en microfibre',
+        price: 3500, //1700
+        originalPrice: 4700,
+        category: 'tous',
+        imgSrcs: ['./image/18_02/Martistore_Serviette_en_microfibre_3500/image1.png', './image/18_02/Martistore_Serviette_en_microfibre_3500/image2.png', './image/18_02/Martistore_Serviette_en_microfibre_3500/image3.png', './image/18_02/Martistore_Serviette_en_microfibre_3500/image4.png', './image/18_02/Martistore_Serviette_en_microfibre_3500/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Absorbant, durable, économique',
+        modalDescription: 'Serviettes en microfibre absorbantes réutilisables, boîte de 20 pièces 🧻💧. Ultra pratiques, écologiques et parfaites pour toutes les utilisations ! ✨🌿'
+    },
+    {
+        id: 1227,
+        name: 'Chargeurs',
+        price: 2600, //1200
+        originalPrice: 3700,
+        category: 'tous',
+        imgSrcs: ['./image/18_02/Poupe_chine_chargeurs_1200/image1.png', './image/18_02/Poupe_chine_chargeurs_1200/image2.png', './image/18_02/Poupe_chine_chargeurs_1200/image3.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Rapide, pratique, efficace',
+        modalDescription: 'Chargeurs rapides et fiables ⚡🔌. Idéals pour garder vos appareils toujours chargés ! 📱✨ '
+    },
+    {
+        id: 1228,
+        name: 'Mixeur 2 en 1',
+        price: 6700, //3000
+        originalPrice: 8700,
+        category: 'tous',
+        imgSrcs: ['./image/18_02/Poupe_chine_Mixeur2en1_3000/image1.png', './image/18_02/Poupe_chine_Mixeur2en1_3000/image2.png', './image/18_02/Poupe_chine_Mixeur2en1_3000/image3.png', './image/18_02/Poupe_chine_Mixeur2en1_3000/image4.png', './image/18_02/Poupe_chine_Mixeur2en1_3000/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Polyvalent, puissant, efficace',
+        modalDescription: 'Mixeur 2 en 1 🌀🍹. Idéal pour mixer et hacher en un clin d œil, pratique pour toutes vos recettes ! ✨'
+    },
+    {
+        id: 1229,
+        name: 'Moulinex 2 en 1',
+        price: 18700, //10500
+        originalPrice: 19600,
+        category: 'tous',
+        imgSrcs: ['./image/18_02/Poupe_chine_Moulinex_2_en_1SAVANNA_10500/image1.png', './image/18_02/Poupe_chine_Moulinex_2_en_1SAVANNA_10500/image2.png', './image/18_02/Poupe_chine_Moulinex_2_en_1SAVANNA_10500/image3.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Polyvalent, robuste, pratique',
+        modalDescription: 'Moulinex 2 en 1 SAVANNA 🍲🍹. Multifonction, facile à utiliser et idéal pour toutes vos préparations culinaires ! ✨ '
+    },
+    {
+        id: 1230,
+        name: 'Thermos à 3 gobolet',
+        price: 5600, //2500
+        originalPrice: 6700,
+        category: 'tous',
+        imgSrcs: ['./image/18_02/Ppoupé_chine_Thermos_trois_Gobolet_2500/image1.png', './image/18_02/Ppoupé_chine_Thermos_trois_Gobolet_2500/image2.png', './image/18_02/Ppoupé_chine_Thermos_trois_Gobolet_2500/image3.png', './image/18_02/Ppoupé_chine_Thermos_trois_Gobolet_2500/image4.png', './image/18_02/Ppoupé_chine_Thermos_trois_Gobolet_2500/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Pratique, Résistant, portable',
+        modalDescription: 'Thermos numérique 🧃, pratique et moderne, permettant de contrôler la température de vos boissons avec précision grâce à son affichage numérique'
+    },
+    
 ];
 
 export default products;
+
