@@ -489,7 +489,7 @@ const products = [
         price: 8000, //4000
         originalPrice: 9500,
         category: 'cuisine',
-        imgSrcs: ['./image//termousse/image1.png', './image/Martistore_calavi/termousse/image2.png', './image/Martistore_calavi/termousse/image3.png', './image/Martistore_calavi/termousse/image4.png', './image/Martistore_calavi/termousse/image5.png'],
+        imgSrcs: ['./image/Martistore_calavi/termousse/image1.png', './image/Martistore_calavi/termousse/image2.png', './image/Martistore_calavi/termousse/image3.png', './image/Martistore_calavi/termousse/image4.png', './image/Martistore_calavi/termousse/image5.png'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Idéal pour fournir de l’eau chaude rapidement.',
