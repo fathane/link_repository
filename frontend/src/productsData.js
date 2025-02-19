@@ -489,7 +489,7 @@ const products = [
         price: 8000, //4000
         originalPrice: 9500,
         category: 'cuisine',
-        imgSrcs: ['./image/Martistore_calavi/termousse/image1.png', './image/Martistore_calavi/termousse/image2.png', './image/Martistore_calavi/termousse/image3.png', './image/Martistore_calavi/termousse/image4.png', './image/Martistore_calavi/termousse/image5.png'],
+        imgSrcs: ['./image//termousse/image1.png', './image/Martistore_calavi/termousse/image2.png', './image/Martistore_calavi/termousse/image3.png', './image/Martistore_calavi/termousse/image4.png', './image/Martistore_calavi/termousse/image5.png'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
         description: 'Idéal pour fournir de l’eau chaude rapidement.',
@@ -2369,7 +2369,7 @@ const products = [
         name: 'Brosse pour cheveux, air chaud, electrique',
         price: 6500, //5000
         originalPrice: 9000,
-        category: 'electronique',
+        category: 'beauté',
         imgSrcs: ['./image/20_01/Martistore_Brosse_air_chaud_5000/image1.png', './image/20_01/Martistore_Brosse_air_chaud_5000/image2.png', './image/20_01/Martistore_Brosse_air_chaud_5000/image3.png'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
@@ -2771,7 +2771,7 @@ const products = [
         name: 'Ensemble séchoir',
         price: 9000, //8000
         originalPrice: 10000,
-        category: 'electronique',
+        category: 'beauté',
         imgSrcs: ['./image/02_02/Akuesley_Ensemble_séchoir_8000/image1.jpeg'],
         videoSrc: './video/link.mp4',
         stock: "en stock",
