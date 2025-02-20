@@ -2111,7 +2111,7 @@ const products = [
         description: 'Support pliable ergonomique ✨💻',
         modalDescription: 'C est un support ajustable et ergonomique 🪑💻, parfait pour travailler confortablement. Léger, pliable et pratique à transporter, il s adapte à toutes vos positions et besoins. ✅✨'
     },
-    {
+    /*{
         id: 1145,
         name: 'Bureau pliable',
         price: 9500, //7500
@@ -2122,7 +2122,7 @@ const products = [
         stock: "en stock",
         description: 'Ustensiles cuisine 🍴✨',
         modalDescription: 'Un ensemble de casseroles 🥘, parfait pour cuisiner avec style. Robustes, antiadhésives et faciles à nettoyer'
-    },
+    },*/
     {
         id: 1146,
         name: 'Casseroles antiadhesive',
