@@ -2769,8 +2769,8 @@ const products = [
     {
         id: 1196,
         name: 'Ensemble séchoir',
-        price: 9000, //8000
-        originalPrice: 10000,
+        price: 16500, //9000
+        originalPrice: 18500,
         category: 'beauté',
         imgSrcs: ['./image/02_02/Akuesley_Ensemble_séchoir_8000/image1.jpeg'],
         videoSrc: './video/link.mp4',
