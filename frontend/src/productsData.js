@@ -3265,7 +3265,7 @@ const products = [
     },
     {
         id: 1235,
-        name: 'Verre à acrylique',
+        name: 'Verre acrylique',
         price: 6200, //3000
         originalPrice: 7500,
         category: 'tous',
