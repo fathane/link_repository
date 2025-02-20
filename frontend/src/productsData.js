@@ -3299,7 +3299,7 @@ const products = [
         description: 'Isolante, pratique, durable ✅',
         modalDescription: 'Tasse qui garde le chaud et froid 🍵❄️🔥 Idéale pour maintenir la température de vos boissons toute la journée ! ✨☕'
     },
-    {
+    /*{
         id: 1238,
         name: 'Petite valise',
         price: 8000, //3700
@@ -3310,7 +3310,7 @@ const products = [
         stock: "en stock",
         description: ' Pratique, maniable, stylée ✅',
         modalDescription: 'Petite valise 🧳 Compacte, légère et parfaite pour les escapades de courte durée ! ✨🌍'
-    },
+    },*/
 ];
 
 export default products;
