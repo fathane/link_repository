@@ -367,18 +367,18 @@ const products = [
         stock: "en stock",
         description: 'Un tam-tam ludique et éducatif.',
         modalDescription: '✅ Découvrez ce tam-tam pour enfants, un instrument coloré et amusant qui développe la créativité et l’amour de la musique.'
-    },
+    },*/
     {
         id: 1002,
         name: 'Moule pastel',
-        price: 750, //700
+        price: 1500, //700
         category: 'cuisine',
         imgSrcs: ['./image/Martistore_calavi/forme_pates/image1.png', './image/Martistore_calavi/forme_pates/image2.png', './image/Martistore_calavi/forme_pates/image3.png', './image/Martistore_calavi/forme_pates/image4.png', './image/Martistore_calavi/forme_pates/image5.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Moule_pastel.mp4',
         stock: "en stock",
         description: 'Moule pastel pratique et résistant.',
         modalDescription: '✅ Simplifiez vos créations culinaires avec ce moule pastel, parfait pour des résultats impeccables et un design élégant.'
-    },*/
+    },
     /*{
         id: 1003,
         name: 'Jeux de construction',
@@ -408,7 +408,7 @@ const products = [
         originalPrice: 5000,
         category: 'decoration',
         imgSrcs: ['./image/Martistore_calavi/lampe_solaire/image1.png', './image/Martistore_calavi/lampe_solaire/image2.png', './image/Martistore_calavi/lampe_solaire/image3.png', './image/Martistore_calavi/lampe_solaire/image4.png', './image/Martistore_calavi/lampe_solaire/image5.png', './image/Martistore_calavi/lampe_solaire/image6.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Lampe_solaire_de_luxe.mp4',
         stock: "en stock",
         description: 'Lampe solaire élégante et économique',
         modalDescription: '✅ Profitez d un éclairage durable et écologique avec cette lampe solaire de luxe, parfaite pour vos décorations extérieures.'
@@ -455,7 +455,7 @@ const products = [
         originalPrice: 2000,
         category: 'tous',
         imgSrcs: ['./image/Martistore_calavi/petit_ventillateur/image1.png', './image/Martistore_calavi/petit_ventillateur/image2.png', './image/Martistore_calavi/petit_ventillateur/image3.png', './image/Martistore_calavi/petit_ventillateur/image4.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Mini_ventilateur_rechargeable.mp4',
         stock: "en stock",
         description: 'Mini ventilateur, pratique et portable.',
         modalDescription: '✅ Restez frais où que vous soyez avec ce mini ventilateur rechargeable, léger et puissant.'
@@ -682,7 +682,7 @@ const products = [
         originalPrice: 8000,
         category: 'cuisine',
         imgSrcs: ['./image/doss_new_martistore/ustensiles_aliments/image1.png', './image/doss_new_martistore/ustensiles_aliments/image2.png', './image/doss_new_martistore/ustensiles_aliments/image3.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Découpeuse_de_légume_multifonction.mp4',
         stock: "en stock",
         description: 'Découpeuse pratique pour trancher.',
         modalDescription: 'Avec ses multiples lames, cette découpeuse vous permet de gagner du temps en cuisine tout en obtenant des résultats parfaits à chaque utilisation.'
@@ -722,7 +722,7 @@ const products = [
         originalPrice: 7000,
         category: 'electronique',
         imgSrcs: ['./image/new_doss/cable_trois_entre/image1.png', './image/new_doss/cable_trois_entre/image2.png', './image/new_doss/cable_trois_entre/image3.png', './image/new_doss/cable_trois_entre/image4.png', './image/new_doss/cable_trois_entre/image5.png', './image/new_doss/cable_trois_entre/image6.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/cable_à_trois_entrées.webm',
         stock: "en stock",
         description: 'Cable multifonction',
         modalDescription: '✅ Rechargez plusieurs appareils simultanément avec ce câble durable et pratique.'
@@ -746,7 +746,7 @@ const products = [
         originalPrice: 4800,
         category: 'tous',
         imgSrcs: ['./image/new_doss/Decapsuleur_magnétique/image1.png', './image/new_doss/Decapsuleur_magnétique/image2.png', './image/new_doss/Decapsuleur_magnétique/image3.png', './image/new_doss/Decapsuleur_magnétique/image4.png', './image/new_doss/Decapsuleur_magnétique/image5.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/decapsuleur.webm',
         stock: "en stock",
         description: 'Décapsuleur moderne',
         modalDescription: '✅ Aimanté et pratique, il simplifie l’ouverture de vos bouteilles.'
@@ -782,7 +782,7 @@ const products = [
         originalPrice: 16500,
         category: 'tous',
         imgSrcs: ['./image/new_doss/etagere_de_range/image1.png', './image/new_doss/etagere_de_range/image2.png', './image/new_doss/etagere_de_range/image3.png', './image/new_doss/etagere_de_range/image4.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Étagère_de_rangement.mp4',
         stock: "en stock",
         description: 'Organisateur pratique.',
         modalDescription: '✅ Rangez efficacement vos affaires grâce à cette étagère solide et esthétique.'
@@ -806,7 +806,7 @@ const products = [
         originalPrice: 750,
         category: 'cuisine',
         imgSrcs: ['./image/new_doss/filtre_eau_700/image1.png', './image/new_doss/filtre_eau_700/image2.png', './image/new_doss/filtre_eau_700/image3.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Filtre_eau.mp4',
         stock: "en stock",
         description: 'Filtrage rapide et efficace.',
         modalDescription: '✅ Profitez d’une eau pure et saine avec ce filtre pratique et économique.'
@@ -854,7 +854,7 @@ const products = [
         originalPrice: 4000,
         category: 'tous',
         imgSrcs: ['./image/new_doss/lumiere_led/image1.png', './image/new_doss/lumiere_led/image2.png', './image/new_doss/lumiere_led/image3.png', './image/new_doss/lumiere_led/image4.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Lumiere_led_petit.webm',
         stock: "en stock",
         description: 'Éclairage écoénergétique.',
         modalDescription: '✅ Illuminez votre espace avec cette lumière LED longue durée et économique.'
@@ -942,7 +942,7 @@ const products = [
         originalPrice: 17000,
         category: 'tous',
         imgSrcs: ['./image/new_24_12/Bassin_pour_pedicure_10000/image1.png', './image/new_24_12/Bassin_pour_pedicure_10000/image2.png', './image/new_24_12/Bassin_pour_pedicure_10000/image3.png', './image/new_24_12/Bassin_pour_pedicure_10000/image4.png', './image/new_24_12/Bassin_pour_pedicure_10000/image5.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Bassin_pour_pédicure.webm',
         stock: "en stock",
         description: 'Relaxant, Pratique, Confortable',
         modalDescription: '✅ Ce bassin pour pédicure est parfait pour un moment de détente à la maison. Sa conception pratique vous permet de prendre soin de vos pieds tout en vous relaxant.'
@@ -1050,7 +1050,7 @@ const products = [
         originalPrice: 9000,
         category: 'cuisine',
         imgSrcs: ['./image/new_24_12/Mixeur_de_fruits_3000/image1.png', './image/new_24_12/Mixeur_de_fruits_3000/image2.png', './image/new_24_12/Mixeur_de_fruits_3000/image3.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Mixeur_de_fruits.webm',
         stock: "en stock",
         description: 'Pratique, Efficace, Rapide',
         modalDescription: '✅ Ce mixeur de fruits est idéal pour préparer des smoothies et des jus frais. Sa puissance vous permet de créer des boissons saines en un rien de temps.'
@@ -1110,7 +1110,7 @@ const products = [
         originalPrice: 15000,
         category: 'electronique',
         imgSrcs: ['./image/new_24_12/Ventilation_de_climatisation_4500/image1.png', './image/new_24_12/Ventilation_de_climatisation_4500/image2.png', './image/new_24_12/Ventilation_de_climatisation_4500/image3.png', './image/new_24_12/Ventilation_de_climatisation_4500/image4.png', './image/new_24_12/Ventilation_de_climatisation_4500/image5.png', './image/new_24_12/Ventilation_de_climatisation_4500/image6.png', './image/new_24_12/Ventilation_de_climatisation_4500/image7.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Ventilation_de_climatisation.webm',
         stock: "en stock",
         description: 'Efficace, Pratique, Confortable',
         modalDescription: 'Ventilation de climatisation 🌬️, idéale pour rafraîchir et améliorer la circulation de l air dans votre espace. Facile à installer, elle permet de maintenir une température agréable tout en réduisant l humidité, pour un confort optimal.'
@@ -1210,7 +1210,7 @@ const products = [
         originalPrice: 19000,
         category: 'tous',
         imgSrcs: ['./image/Product_new/Akuesley_pose_ordinateur_a_refroidisseur_6000/image1.png', './image/Product_new/Akuesley_pose_ordinateur_a_refroidisseur_6000/image2.png', './image/Product_new/Akuesley_pose_ordinateur_a_refroidisseur_6000/image3.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Pose_ordinateur_refroidissant.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: 'Support refroidissant pour ordinateur 💻, pratique et efficace, idéal pour maintenir votre ordinateur à une température optimale pendant de longues sessions de travail ou de jeu. Son design ergonomique aide également à améliorer votre confort en ajustant la position de l écran.'
@@ -1282,7 +1282,7 @@ const products = [
         originalPrice: 16000,
         category: 'cuisine',
         imgSrcs: ['./image/Product_new/Martistore_Barbecue_pliable_portable_6000/image1.png', './image/Product_new/Martistore_Barbecue_pliable_portable_6000/image2.png', './image/Product_new/Martistore_Barbecue_pliable_portable_6000/image3.png', './image/Product_new/Martistore_Barbecue_pliable_portable_6000/image4.png', './image/Product_new/Martistore_Barbecue_pliable_portable_6000/image5.png', './image/Product_new/Martistore_Barbecue_pliable_portable_6000/image6.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Barbecue_pliable_et_portable.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: 'Barbecue pliable et portable 🔥, idéal pour vos sorties en plein air 🌳. Facile à transporter et à installer, il vous permet de griller vos plats préférés où que vous soyez 🍖. Compact et pratique, il rend vos moments conviviaux encore plus simples et agréables.'
@@ -1342,7 +1342,7 @@ const products = [
         originalPrice: 7500,
         category: 'cuisine',
         imgSrcs: ['./image/Product_new/Martistore_Extrateur_de_jus_rechargeable_5000/image1.png', './image/Product_new/Martistore_Extrateur_de_jus_rechargeable_5000/image2.png', './image/Product_new/Martistore_Extrateur_de_jus_rechargeable_5000/image3.png', './image/Product_new/Martistore_Extrateur_de_jus_rechargeable_5000/image4.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Extrateur_de_jus_rechargeable.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: 'Extracteur de jus 🍊, pratique et écologique 🌱, idéal pour préparer des jus frais et sains 🍹, facile à utiliser et à transporter 🚶‍♂️, parfait pour un mode de vie actif.'
@@ -1414,7 +1414,7 @@ const products = [
         originalPrice: 6800,
         category: 'electronique',
         imgSrcs: ['./image/Product_new/Martistore_Mini_lampe_de_nuit_intelligente_telecommande_2000/image1.png', './image/Product_new/Martistore_Mini_lampe_de_nuit_intelligente_telecommande_2000/image2.png', './image/Product_new/Martistore_Mini_lampe_de_nuit_intelligente_telecommande_2000/image3.png', './image/Product_new/Martistore_Mini_lampe_de_nuit_intelligente_telecommande_2000/image4.png', './image/Product_new/Martistore_Mini_lampe_de_nuit_intelligente_telecommande_2000/image5.png', './image/Product_new/Martistore_Mini_lampe_de_nuit_intelligente_telecommande_2000/image6.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Mini_lampe_de_nuit_intelligente.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: 'Mini lampe de nuit intelligente 💡, légère et réglable, idéale pour un éclairage doux la nuit 🌙.'
@@ -1522,7 +1522,7 @@ const products = [
         originalPrice: 4000,
         category: 'cuisine',
         imgSrcs: ['./image/Product_new/sk_lux_Mini_coupe-légumes_manuel_1300/image1.png', './image/Product_new/sk_lux_Mini_coupe-légumes_manuel_1300/image2.png', './image/Product_new/sk_lux_Mini_coupe-légumes_manuel_1300/image3.png', './image/Product_new/sk_lux_Mini_coupe-légumes_manuel_1300/image4.png', './image/Product_new/sk_lux_Mini_coupe-légumes_manuel_1300/image5.png', './image/Product_new/sk_lux_Mini_coupe-légumes_manuel_1300/image6.png', './image/Product_new/sk_lux_Mini_coupe-légumes_manuel_1300/image7.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Minicoupe-légumes.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: 'Minicoupe-légumes 🥕, pratique et compact, idéal pour hacher rapidement vos légumes en petites portions, facile à utiliser et à nettoyer.'
@@ -1558,7 +1558,7 @@ const products = [
         originalPrice: 11000,
         category: 'beauté',
         imgSrcs: ['./image/Product_new/sk_luxe_Pistolet_masseur_5000/image1.png', './image/Product_new/sk_luxe_Pistolet_masseur_5000/image2.png', './image/Product_new/sk_luxe_Pistolet_masseur_5000/image3.png', './image/Product_new/sk_luxe_Pistolet_masseur_5000/image4.png', './image/Product_new/sk_luxe_Pistolet_masseur_5000/image5.png', './image/Product_new/sk_luxe_Pistolet_masseur_5000/image6.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Pistolet_masseur.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: 'Pistolet masseur 💆‍♂️, idéal pour détendre les muscles et soulager les tensions, facile à utiliser pour un confort optimal.'
@@ -2094,7 +2094,7 @@ const products = [
         originalPrice: 7000,
         category: 'tous',
         imgSrcs: ['./image/08_01/Martistore_Bouteille_a_moule_a_glace_2300/image1.png', './image/08_01/Martistore_Bouteille_a_moule_a_glace_2300/image2.png', './image/08_01/Martistore_Bouteille_a_moule_a_glace_2300/image3.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Bouteille_à_glaçons..mp4',
         stock: "en stock",
         description: 'Glaçons nomades frais ❄️',
         modalDescription: 'C est une bouteille pratique 🧊✨ qui permet de faire et transporter des glaçons facilement. Idéale pour garder vos boissons bien fraîches 🥤❄️, où que vous soyez !'
@@ -2207,7 +2207,7 @@ const products = [
         originalPrice: 45000,
         category: 'tous',
         imgSrcs: ['./image/08_01/Martistore_Lumière_led_déclairage_39000/image1.png', './image/08_01/Martistore_Lumière_led_déclairage_39000/image2.png', './image/08_01/Martistore_Lumière_led_déclairage_39000/image3.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Éclairage_studio_professionnel.webm',
         stock: "en stock",
         description: 'Éclairage studio',
         modalDescription: 'Une lampe de studio puissante avec un réflecteur et un support réglable, parfaite pour la photographie et la vidéographie 🎥📸💡.'
@@ -2327,7 +2327,7 @@ const products = [
         originalPrice: 5000,
         category: 'electronique',
         imgSrcs: ['./image/08_01/SK_LUX_Mini_ventilateur_de_table_3000/image1.png', './image/08_01/SK_LUX_Mini_ventilateur_de_table_3000/image2.png', './image/08_01/SK_LUX_Mini_ventilateur_de_table_3000/image3.png', './image/08_01/SK_LUX_Mini_ventilateur_de_table_3000/image4.png', './image/08_01/SK_LUX_Mini_ventilateur_de_table_3000/image5.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Mini_ventilateur.mp4',
         stock: "en stock",
         description: 'mini ventilateur de table',
         modalDescription: 'Ce mini ventilateur de table est parfait pour un rafraîchissement instantané 🌬️. Compact et léger 🏖️, il se place facilement sur votre bureau ou votre table de chevet. Avec son design pratique 👌, il vous accompagnera partout pour des moments frais et agréables, même lors des journées les plus chaudes ☀️.'
@@ -2454,7 +2454,7 @@ const products = [
         originalPrice: 6000,
         category: 'tous',
         imgSrcs: ['./image/20_01/Martistore_Porte-brosse_a_dents_mural_2000/image1.png', './image/20_01/Martistore_Porte-brosse_a_dents_mural_2000/image2.png', './image/20_01/Martistore_Porte-brosse_a_dents_mural_2000/image3.png', './image/20_01/Martistore_Porte-brosse_a_dents_mural_2000/image4.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Porte-brosse_à_dents_mural.mp4',
         stock: "en stock",
         description: 'Pratique, hygiénique, organisé.',
         modalDescription: 'Porte-brosse à dents mural, idéal pour garder vos brosses à dents bien rangées et à portée de main. Il se fixe facilement sur le mur, économisant de l espace et ajoutant une touche de praticité à votre salle de bain. Parfait pour maintenir un environnement propre et organisé.'
@@ -2829,11 +2829,11 @@ const products = [
     {
         id: 1201,
         name: 'Mini ventilo',
-        price: 1500, //1300
-        originalPrice: 1800,
+        price: 1800, //1300
+        originalPrice: 2500,
         category: 'electronique',
         imgSrcs: ['./image/02_02/Akuesley_Mini_ventilo_1300/image1.png', './image/02_02/Akuesley_Mini_ventilo_1300/image2.png', './image/02_02/Akuesley_Mini_ventilo_1300/image3.png', './image/02_02/Akuesley_Mini_ventilo_1300/image4.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Mini_ventilo.mp4',
         stock: "en stock",
         description: 'Compact, puissant, portable',
         modalDescription: 'Un mini ventilo léger et efficace, parfait pour vous rafraîchir où que vous soyez.'
@@ -3086,7 +3086,7 @@ const products = [
         originalPrice: 8500,
         category: 'tous',
         imgSrcs: ['./image/18_02/Martistore_Chic_Diffuseur_de_senteur_3en1_avec_clazer_3000/image1.png', './image/18_02/Martistore_Chic_Diffuseur_de_senteur_3en1_avec_clazer_3000/image2.png', './image/18_02/Martistore_Chic_Diffuseur_de_senteur_3en1_avec_clazer_3000/image3.png', './image/18_02/Martistore_Chic_Diffuseur_de_senteur_3en1_avec_clazer_3000/image4.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Chic_diffuseur_de_senteur.mp4',
         stock: "en stock",
         description: 'Design, apaisant, innovant',
         modalDescription: 'Avec laser et jeux de lumière ✨🎆. Ultra stylé et crée une ambiance magique ! 🏡💖'
@@ -3098,7 +3098,7 @@ const products = [
         originalPrice: 19900,
         category: 'tous',
         imgSrcs: ['./image/18_02/Martistore_Distributeur_de_boissons_en_forme_de_globe_3,5L_9000/image1.png', './image/18_02/Martistore_Distributeur_de_boissons_en_forme_de_globe_3,5L_9000/image2.png', './image/18_02/Martistore_Distributeur_de_boissons_en_forme_de_globe_3,5L_9000/image3.png', './image/18_02/Martistore_Distributeur_de_boissons_en_forme_de_globe_3,5L_9000/image4.png', './image/18_02/Martistore_Distributeur_de_boissons_en_forme_de_globe_3,5L_9000/image5.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Distributeur_de_boissons_en_forme_de_globe.mp4',
         stock: "en stock",
         description: 'Unique, fonctionnel, décoratif',
         modalDescription: 'Distributeur de boissons en forme de globe 🌍 de 3,5L. Original, pratique et parfait pour épater vos invités ! 🍹✨ '
@@ -3122,7 +3122,7 @@ const products = [
         originalPrice: 4900,
         category: 'tous',
         imgSrcs: ['./image/18_02/Martistore_Gourde_coca_cola_isotherme_1700/image1.png', './image/18_02/Martistore_Gourde_coca_cola_isotherme_1700/image2.png', './image/18_02/Martistore_Gourde_coca_cola_isotherme_1700/image3.png', './image/18_02/Martistore_Gourde_coca_cola_isotherme_1700/image4.png', './image/18_02/Martistore_Gourde_coca_cola_isotherme_1700/image5.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Gourde_coca_cola_isotherme.mp4',
         stock: "en stock",
         description: 'Pratique, efficace, stylée',
         modalDescription: 'Gourde Coca-Cola isotherme 🥤❄️🔥. Parfaite pour garder vos boissons bien chaudes ou bien froides toute la journée ! 🌡️✨ '
@@ -3134,7 +3134,7 @@ const products = [
         originalPrice: 19500,
         category: 'tous',
         imgSrcs: ['./image/18_02/Martistore_Matelas_gonflable_1place_10000/image1.png', './image/18_02/Martistore_Matelas_gonflable_1place_10000/image2.png', './image/18_02/Martistore_Matelas_gonflable_1place_10000/image3.png', './image/18_02/Martistore_Matelas_gonflable_1place_10000/image4.png', './image/18_02/Martistore_Matelas_gonflable_1place_10000/image5.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Matelas_gonflable.mp4',
         stock: "en stock",
         description: 'Pratique, confortable, rapide',
         modalDescription: 'Matelas gonflable 1 place avec pompe. Confortable, facile à installer et parfait pour les nuits improvisées ! 🌙✨'
@@ -3258,7 +3258,7 @@ const products = [
         originalPrice: 9500,
         category: 'tous',
         imgSrcs: ['./image/19_02/Martistore_Racloir_pour_nettoyer_vos_miroirs_vitres_de_voiture_3500/image1.png', './image/19_02/Martistore_Racloir_pour_nettoyer_vos_miroirs_vitres_de_voiture_3500/image2.png', './image/19_02/Martistore_Racloir_pour_nettoyer_vos_miroirs_vitres_de_voiture_3500/image3.png', './image/19_02/Martistore_Racloir_pour_nettoyer_vos_miroirs_vitres_de_voiture_3500/image4.png', './image/19_02/Martistore_Racloir_pour_nettoyer_vos_miroirs_vitres_de_voiture_3500/image5.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Racloir_miroirs_vitres_de_voiture.mp4',
         stock: "en stock",
         description: 'Polyvalent, efficace, pratique ✅',
         modalDescription: 'Racloir multi-usage 🧼🚗. Idéal pour nettoyer miroirs, vitres de voiture, fenêtres, canapés et meubles en bois ou métal ! ✨'
