@@ -1009,7 +1009,7 @@ const products = [
     },
     {
         id: 1053,
-        name: 'Fer repasser raf',
+        name: 'Fer à repasser raf',
         price: 4500, //4000
         originalPrice: 5000,
         category: 'cuisine',
