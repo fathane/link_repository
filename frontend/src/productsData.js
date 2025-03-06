@@ -374,7 +374,7 @@ const products = [
         price: 1500, //700
         category: 'cuisine',
         imgSrcs: ['./image/Martistore_calavi/forme_pates/image1.png', './image/Martistore_calavi/forme_pates/image2.png', './image/Martistore_calavi/forme_pates/image3.png', './image/Martistore_calavi/forme_pates/image4.png', './image/Martistore_calavi/forme_pates/image5.png'],
-        videoSrc: './video/Moule_pastel.mp4',
+        videoSrc: './video/Moule_pastel1.mp4',
         stock: "en stock",
         description: 'Moule pastel pratique et résistant.',
         modalDescription: '✅ Simplifiez vos créations culinaires avec ce moule pastel, parfait pour des résultats impeccables et un design élégant.'
@@ -490,7 +490,7 @@ const products = [
         originalPrice: 9500,
         category: 'cuisine',
         imgSrcs: ['./image/Martistore_calavi/termousse/image1.png', './image/Martistore_calavi/termousse/image2.png', './image/Martistore_calavi/termousse/image3.png', './image/Martistore_calavi/termousse/image4.png', './image/Martistore_calavi/termousse/image5.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Chauffe_eaux_Scarlett1.mp4',
         stock: "en stock",
         description: 'Idéal pour fournir de l’eau chaude rapidement.',
         modalDescription: '✅ Profitez d’une eau chaude instantanée avec ce chauffe-eaux Scarlett, conçu pour une utilisation pratique et rapide.'
@@ -498,7 +498,7 @@ const products = [
     {
         id: 1026,
         name: 'Tondeuse rechargeable',
-        price: 1000, //8000
+        price: 10500, //8000
         originalPrice: 12000,
         category: 'electronique',
         imgSrcs: ['./image/Martistore_calavi/tondeuses/image1.png', './image/Martistore_calavi/tondeuses/image2.png', './image/Martistore_calavi/tondeuses/image3.png', './image/Martistore_calavi/tondeuses/image4.png', './image/Martistore_calavi/tondeuses/image5.png'],
@@ -718,8 +718,8 @@ const products = [
     {
         id: 1030,
         name: 'cable à trois entrées',
-        price: 6500, //5000
-        originalPrice: 7000,
+        price: 2500, //500
+        originalPrice: 4600,
         category: 'electronique',
         imgSrcs: ['./image/new_doss/cable_trois_entre/image1.png', './image/new_doss/cable_trois_entre/image2.png', './image/new_doss/cable_trois_entre/image3.png', './image/new_doss/cable_trois_entre/image4.png', './image/new_doss/cable_trois_entre/image5.png', './image/new_doss/cable_trois_entre/image6.png'],
         videoSrc: './video/cable_à_trois_entrées.webm',
@@ -742,11 +742,11 @@ const products = [
     {
         id: 1032,
         name: 'Decapsuleur magnétique',
-        price: 3400, //1200
+        price: 2500, //1200
         originalPrice: 4800,
         category: 'tous',
         imgSrcs: ['./image/new_doss/Decapsuleur_magnétique/image1.png', './image/new_doss/Decapsuleur_magnétique/image2.png', './image/new_doss/Decapsuleur_magnétique/image3.png', './image/new_doss/Decapsuleur_magnétique/image4.png', './image/new_doss/Decapsuleur_magnétique/image5.png'],
-        videoSrc: './video/decapsuleur.webm',
+        videoSrc: './video/Decapsuleur_magnétique1.mp4',
         stock: "en stock",
         description: 'Décapsuleur moderne',
         modalDescription: '✅ Aimanté et pratique, il simplifie l’ouverture de vos bouteilles.'
@@ -755,7 +755,7 @@ const products = [
         id: 1033,
         name: 'Diffuseur de senteurs',
         price: 6000, //1000
-        originalPrice: 6000,
+        originalPrice: 8000,
         category: 'tous',
         imgSrcs: ['./image/new_doss/diffuseur_de_senteur_2000/image1.png', './image/new_doss/diffuseur_de_senteur_2000/image2.png', './image/new_doss/diffuseur_de_senteur_2000/image3.png', './image/new_doss/diffuseur_de_senteur_2000/image4.png', './image/new_doss/diffuseur_de_senteur_2000/image5.png', './image/new_doss/diffuseur_de_senteur_2000/image6.png', './image/new_doss/diffuseur_de_senteur_2000/image7.png'],
         videoSrc: './video/link.mp4',
@@ -866,7 +866,7 @@ const products = [
         originalPrice: 26000,
         category: 'cuisine',
         imgSrcs: ['./image/new_doss/Mini_four_electrique_3en1_19.000/image1.png', './image/new_doss/Mini_four_electrique_3en1_19.000/image2.png', './image/new_doss/Mini_four_electrique_3en1_19.000/image3.png', './image/new_doss/Mini_four_electrique_3en1_19.000/image4.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Mini_four_electrique_3en1.mp4',
         stock: "en stock",
         description: 'Four compact et polyvalent',
         modalDescription: '✅ Idéal pour griller, cuire et réchauffer avec un seul appareil.'
@@ -966,7 +966,7 @@ const products = [
         originalPrice: 9500,
         category: 'cuisine',
         imgSrcs: ['./image/new_24_12/Coupe-legume_a_6_lamelles_4000/image1.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image2.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image3.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image4.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image5.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image6.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image7.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image8.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image9.png', './image/new_24_12/Coupe-legume_a_6_lamelles_4000/image10.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Coupe_légume_à_6_lamelles1.mp4',
         stock: "Indisponible actuellement",
         description: 'Innovant, Pratique, Rapide',
         modalDescription: '✅ Ce coupe-légume à 6 lamelles facilite la préparation de vos ingrédients. Sa conception innovante vous permet de gagner du temps en cuisine tout en obtenant des coupes parfaites.'
@@ -1138,7 +1138,7 @@ const products = [
         originalPrice: 12000,
         category: 'tous',
         imgSrcs: ['./image/Product_new/Akuesle_Sac_multifonction_3500/image1.png', './image/Product_new/Akuesle_Sac_multifonction_3500/image2.png', './image/Product_new/Akuesle_Sac_multifonction_3500/image3.png', './image/Product_new/Akuesle_Sac_multifonction_3500/image4.png', './image/Product_new/Akuesle_Sac_multifonction_3500/image5.png', './image/Product_new/Akuesle_Sac_multifonction_3500/image6.png', './image/Product_new/Akuesle_Sac_multifonction_3500/image7.png', './image/Product_new/Akuesle_Sac_multifonction_3500/image8.png', './image/Product_new/Akuesle_Sac_multifonction_3500/image9.png', './image/Product_new/Akuesle_Sac_multifonction_3500/image10.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Sac_multi-fonction1.mp4',
         stock: "en stock",
         description: 'Efficace, Pratique, Confortable',
         modalDescription: 'Sac multi-fonction 👜, pratique et polyvalent, idéal pour organiser vos affaires au quotidien. Avec plusieurs compartiments, il offre un espace de rangement optimal pour vos objets personnels, que ce soit pour le travail, les loisirs ou les voyages.'
@@ -1162,7 +1162,7 @@ const products = [
         originalPrice: 7500,
         category: 'electronique',
         imgSrcs: ['./image/Product_new/Akuesley_Casque_P9_pro_max_2200/image1.png', './image/Product_new/Akuesley_Casque_P9_pro_max_2200/image2.png', './image/Product_new/Akuesley_Casque_P9_pro_max_2200/image3.png', './image/Product_new/Akuesley_Casque_P9_pro_max_2200/image4.png', './image/Product_new/Akuesley_Casque_P9_pro_max_2200/image5.png', './image/Product_new/Akuesley_Casque_P9_pro_max_2200/image6.png', './image/Product_new/Akuesley_Casque_P9_pro_max_2200/image7.png', './image/Product_new/Akuesley_Casque_P9_pro_max_2200/image8.png', './image/Product_new/Akuesley_Casque_P9_pro_max_2200/image9.png', './image/Product_new/Akuesley_Casque_P9_pro_max_2200/image10.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Casque_P9_pro_max1.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: 'Casque P9 Pro Max 🎧, offrant un son clair et puissant pour une expérience audio immersive. Confortable et réglable, il est parfait pour écouter de la musique, regarder des films ou passer des appels, tout en offrant une bonne isolation sonore.'
@@ -1198,7 +1198,7 @@ const products = [
         originalPrice: 25000,
         category: 'electronique',
         imgSrcs: ['./image/Product_new/Akuesley_Kits_de_studio_professionnel_11000/image1.png', './image/Product_new/Akuesley_Kits_de_studio_professionnel_11000/image2.png', './image/Product_new/Akuesley_Kits_de_studio_professionnel_11000/image3.png', './image/Product_new/Akuesley_Kits_de_studio_professionnel_11000/image4.png', './image/Product_new/Akuesley_Kits_de_studio_professionnel_11000/image5.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Kits_de_studio_professionnel1.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: 'Kits de studio professionnel 🎬, l équipement essentiel pour des enregistrements de qualité supérieure. Ils offrent tout ce qu il faut pour vos projets de photographie, vidéo ou audio. Parfaits pour les créateurs cherchant des résultats professionnels.'
@@ -1222,7 +1222,7 @@ const products = [
         originalPrice: 6500,
         category: 'tous',
         imgSrcs: ['./image/Product_new/Akuesley_Projecteur_multicolore_2700/image1.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image2.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image3.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image4.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image5.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image6.png', './image/Product_new/Akuesley_Projecteur_multicolore_2700/image7.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Diffuseur_de_lumière1.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: 'Diffuseur de lumière 🌟, idéal pour créer une ambiance douce et apaisante dans n importe quelle pièce. Il répartit la lumière de manière homogène, offrant un éclairage agréable pour vos moments de détente ou de travail.'
@@ -1306,7 +1306,7 @@ const products = [
         originalPrice: 7500,
         category: 'electronique',
         imgSrcs: ['./image/Product_new/Martistore_Bouclier_anti-onde_4000/image1.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Bouclier_anti-onde1.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: 'Bouclier anti-onde ⚡, conçu pour protéger contre les ondes électromagnétiques 📶, léger et discret 🛡️, idéal pour réduire l exposition aux appareils électroniques et favoriser un environnement plus sain.'
@@ -1330,7 +1330,7 @@ const products = [
         originalPrice: 21000,
         category: 'electronique',
         imgSrcs: ['./image/Product_new/Martistore_Drone_amateur_15000/image1.png', './image/Product_new/Martistore_Drone_amateur_15000/image2.png', './image/Product_new/Martistore_Drone_amateur_15000/image3.png', './image/Product_new/Martistore_Drone_amateur_15000/image4.png', './image/Product_new/Martistore_Drone_amateur_15000/image5.png', './image/Product_new/Martistore_Drone_amateur_15000/image6.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Drone_amateur.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: 'Drone amateur 🚁, léger et facile à manœuvrer 🕹️, idéal pour capturer des vidéos aériennes et des photos époustouflantes 📸, parfait pour les débutants et les passionnés de technologie.'
@@ -1402,7 +1402,7 @@ const products = [
         originalPrice: 3100,
         category: 'tous',
         imgSrcs: ['./image/Product_new/Martistore_Mini_diffuseur_de_senteurs_1200/image1.png', './image/Product_new/Martistore_Mini_diffuseur_de_senteurs_1200/image2.png', './image/Product_new/Martistore_Mini_diffuseur_de_senteurs_1200/image3.png', './image/Product_new/Martistore_Mini_diffuseur_de_senteurs_1200/image4.png', './image/Product_new/Martistore_Mini_diffuseur_de_senteurs_1200/image5.png', './image/Product_new/Martistore_Mini_diffuseur_de_senteurs_1200/image6.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Mini_diffuseur_de_senteurs1.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: '✅ Ce produit a été conçu avec soin pour offrir un maximum de confort, de praticité et d efficacité. Que ce soit pour une utilisation professionnelle ou quotidienne, il assure une performance optimale. Son design réfléchi garantit une expérience utilisateur agréable, tout en répondant à vos besoins spécifiques.'
@@ -1474,7 +1474,7 @@ const products = [
         originalPrice: 7500,
         category: 'tous',
         imgSrcs: ['./image/Product_new/Martistore_Support_ordinateur_2000/image1.png', './image/Product_new/Martistore_Support_ordinateur_2000/image2.png', './image/Product_new/Martistore_Support_ordinateur_2000/image3.png', './image/Product_new/Martistore_Support_ordinateur_2000/image4.png', './image/Product_new/Martistore_Support_ordinateur_2000/image5.png', './image/Product_new/Martistore_Support_ordinateur_2000/image6.png', './image/Product_new/Martistore_Support_ordinateur_2000/image7.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Support_pour_les_ordinateurs1.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: 'Support pour ordinateur 💻, ergonomique et stable, idéal pour améliorer votre confort de travail en ajustant la hauteur de votre écran.'
@@ -1483,10 +1483,10 @@ const products = [
         id: 1091,
         name: 'Tondeuse rechargeable',
         price: 5500, //2000
-        originalPrice: 6000,
+        originalPrice: 7000,
         category: 'electronique',
         imgSrcs: ['./image/Product_new/Martistore_Tondeuse_rechargeable_3500/image1.png', './image/Product_new/Martistore_Tondeuse_rechargeable_3500/image2.png', './image/Product_new/Martistore_Tondeuse_rechargeable_3500/image3.png', './image/Product_new/Martistore_Tondeuse_rechargeable_3500/image4.png', './image/Product_new/Martistore_Tondeuse_rechargeable_3500/image5.png', './image/Product_new/Martistore_Tondeuse_rechargeable_3500/image6.png', './image/Product_new/Martistore_Tondeuse_rechargeable_3500/image7.png', './image/Product_new/Martistore_Tondeuse_rechargeable_3500/image8.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Tondeuse_rechargeable1.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: 'Tondeuse rechargeable ✂️, pratique et sans fil, idéale pour une coupe précise à tout moment, facile à utiliser et à recharger.'
@@ -1498,7 +1498,7 @@ const products = [
         originalPrice: 7000,
         category: 'electronique',
         imgSrcs: ['./image/Product_new/Martistore_Trepied_selfie_avec_lumières_4000/image1.png', './image/Product_new/Martistore_Trepied_selfie_avec_lumières_4000/image2.png', './image/Product_new/Martistore_Trepied_selfie_avec_lumières_4000/image3.png', './image/Product_new/Martistore_Trepied_selfie_avec_lumières_4000/image4.png', './image/Product_new/Martistore_Trepied_selfie_avec_lumières_4000/image5.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Trepied_selfie_avec_lumières.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: 'Trépied selfie avec lumières 📸, idéal pour des photos et vidéos parfaites, ajustable et portable, offre un éclairage optimal pour des selfies réussis à tout moment.'
@@ -2178,7 +2178,7 @@ const products = [
         originalPrice: 8000,
         category: 'tous',
         imgSrcs: ['./image/08_01/Martistore_Enseigne_de_boite_a_lunche_3en1_et_gourde_3000/image1.png', './image/08_01/Martistore_Enseigne_de_boite_a_lunche_3en1_et_gourde_3000/image2.png', './image/08_01/Martistore_Enseigne_de_boite_a_lunche_3en1_et_gourde_3000/image3.png', './image/08_01/Martistore_Enseigne_de_boite_a_lunche_3en1_et_gourde_3000/image4.png', './image/08_01/Martistore_Enseigne_de_boite_a_lunche_3en1_et_gourde_3000/image5.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Boîte_à_lunch_pratique1.mp4',
         stock: "en stock",
         description: 'Boîte à lunch pratique',
         modalDescription: 'Un ensemble tout-en-un pour vos repas 🍱, comprenant une boîte hermétique, une tasse isotherme 🥤 et des couverts 🍴. Idéal pour le bureau, l école ou les sorties, avec un design moderne et coloré. 🌟'
@@ -2352,7 +2352,7 @@ const products = [
 
 
 
-    {
+    /*{
         id: 1163,
         name: 'Diffuseur de senteur',
         price: 5500, //2500
@@ -2363,7 +2363,7 @@ const products = [
         stock: "en stock",
         description: 'Apaisant, parfumé, agréable.',
         modalDescription: 'Diffuseur de senteur, parfait pour apporter une touche de douceur et de calme chez vous. Il répand un parfum agréable qui crée une atmosphère relaxante. Facile à utiliser, il rend vos moments à la maison encore plus agréables..'
-    },
+    },*/
     {
         id: 1164,
         name: 'Brosse pour cheveux, air chaud, electrique',
@@ -2517,7 +2517,7 @@ const products = [
         originalPrice: 7200,
         category: 'tous',
         imgSrcs: ['./image/22_01/Akuesley_diffuseur_de_senteur_2500/image1.png', './image/22_01/Akuesley_diffuseur_de_senteur_2500/image2.png', './image/22_01/Akuesley_diffuseur_de_senteur_2500/image3.png', './image/22_01/Akuesley_diffuseur_de_senteur_2500/image4.png', './image/22_01/Akuesley_diffuseur_de_senteur_2500/image5.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Diffuseur_de_senteur1.mp4',
         stock: "en stock",
         description: ' Élégant, apaisant, parfumé.',
         modalDescription: 'Un diffuseur de senteur 🌿 apporte une ambiance agréable à votre espace 🏡, en libérant doucement des parfums 🌸 qui créent un environnement relaxant et harmonieux 🕯️✨.'
@@ -2541,7 +2541,7 @@ const products = [
         originalPrice: 5500,
         category: 'tous',
         imgSrcs: ['./image/22_01/Henri_distrib_Chic_lampe_veilleuse_de_table_5000/image1.png', './image/22_01/Henri_distrib_Chic_lampe_veilleuse_de_table_5000/image2.png', './image/22_01/Henri_distrib_Chic_lampe_veilleuse_de_table_5000/image3.png', './image/22_01/Henri_distrib_Chic_lampe_veilleuse_de_table_5000/image4.png', './image/22_01/Henri_distrib_Chic_lampe_veilleuse_de_table_5000/image5.png', './image/22_01/Henri_distrib_Chic_lampe_veilleuse_de_table_5000/image6.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Lampe_veilleuse1.mp4',
         stock: "en stock",
         description: 'Douce, apaisante, lumineuse.',
         modalDescription: 'Une lampe veilleuse ✨ diffuse une lumière douce 🌙 qui crée une ambiance réconfortante, parfaite pour accompagner vos nuits ou apaiser les tout-petits 🛏️.'
@@ -2613,7 +2613,7 @@ const products = [
         originalPrice: 9800,
         category: 'cuisine',
         imgSrcs: ['./image/22_01/Henri_distrib_Poele_frire_anti_adhésive_5500/image1.png', './image/22_01/Henri_distrib_Poele_frire_anti_adhésive_5500/image2.png', './image/22_01/Henri_distrib_Poele_frire_anti_adhésive_5500/image3.png', './image/22_01/Henri_distrib_Poele_frire_anti_adhésive_5500/image4.png', './image/22_01/Henri_distrib_Poele_frire_anti_adhésive_5500/image5.png', './image/22_01/Henri_distrib_Poele_frire_anti_adhésive_5500/image6.png', './image/22_01/Henri_distrib_Poele_frire_anti_adhésive_5500/image7.png', './image/22_01/Henri_distrib_Poele_frire_anti_adhésive_5500/image8.png', './image/22_01/Henri_distrib_Poele_frire_anti_adhésive_5500/image9.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Poêle_à_frire_anti-adhésive1.mp4',
         stock: "en stock",
         description: 'Pratique, élégant, complet.',
         modalDescription: 'Elle apporte une cuisson sans accrocs, permettant de préparer vos plats avec moins d huile 🧈 et un nettoyage facile 🧼.'
@@ -2737,7 +2737,7 @@ const products = [
         originalPrice: 6500,
         category: 'electronique',
         imgSrcs: ['./image/02_02/Akuesley_Chauffe_eau_pliable_4000/image1.png', './image/02_02/Akuesley_Chauffe_eau_pliable_4000/image2.png', './image/02_02/Akuesley_Chauffe_eau_pliable_4000/image3.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Chauffe_eau_pliable1.mp4',
         stock: "en stock",
         description: 'Compact, pratique, innovant',
         modalDescription: 'Un chauffe-eau pliable, facile à transporter et à ranger, idéal pour les petits espaces ou les voyages.'
@@ -2896,7 +2896,7 @@ const products = [
         originalPrice: 3000,
         category: 'cuisine',
         imgSrcs: ['./image/09_02/Akuesley_Planche_legumes_1500/image1.png', './image/09_02/Akuesley_Planche_legumes_1500/image2.png', './image/09_02/Akuesley_Planche_legumes_1500/image3.png', './image/09_02/Akuesley_Planche_legumes_1500/image4.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Planche_légumes1.mp4',
         stock: "en stock",
         description: 'Pratique, stable, solide',
         modalDescription: 'Planche pour découper vos légumes en toute simplicité, pratique, stable et solide'
@@ -3182,7 +3182,7 @@ const products = [
         originalPrice: 8700,
         category: 'tous',
         imgSrcs: ['./image/18_02/Poupe_chine_Mixeur2en1_3000/image1.png', './image/18_02/Poupe_chine_Mixeur2en1_3000/image2.png', './image/18_02/Poupe_chine_Mixeur2en1_3000/image3.png', './image/18_02/Poupe_chine_Mixeur2en1_3000/image4.png', './image/18_02/Poupe_chine_Mixeur2en1_3000/image5.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Mixeur_2_en_1.mp4',
         stock: "en stock",
         description: 'Polyvalent, puissant, efficace',
         modalDescription: 'Mixeur 2 en 1 🌀🍹. Idéal pour mixer et hacher en un clin d œil, pratique pour toutes vos recettes ! ✨'
@@ -3206,7 +3206,7 @@ const products = [
         originalPrice: 6700,
         category: 'tous',
         imgSrcs: ['./image/18_02/Ppoupé_chine_Thermos_trois_Gobolet_2500/image1.png', './image/18_02/Ppoupé_chine_Thermos_trois_Gobolet_2500/image2.png', './image/18_02/Ppoupé_chine_Thermos_trois_Gobolet_2500/image3.png', './image/18_02/Ppoupé_chine_Thermos_trois_Gobolet_2500/image4.png', './image/18_02/Ppoupé_chine_Thermos_trois_Gobolet_2500/image5.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Thermos_à_3_gobolet1.mp4',
         stock: "en stock",
         description: 'Pratique, Résistant, portable',
         modalDescription: 'Thermos numérique 🧃, pratique et moderne, permettant de contrôler la température de vos boissons avec précision grâce à son affichage numérique'
@@ -3254,8 +3254,8 @@ const products = [
     {
         id: 1234,
         name: 'Racloir miroirs, vitres de voiture',
-        price: 7500, //3500
-        originalPrice: 9500,
+        price: 850, //400
+        originalPrice: 1200,
         category: 'tous',
         imgSrcs: ['./image/19_02/Martistore_Racloir_pour_nettoyer_vos_miroirs_vitres_de_voiture_3500/image1.png', './image/19_02/Martistore_Racloir_pour_nettoyer_vos_miroirs_vitres_de_voiture_3500/image2.png', './image/19_02/Martistore_Racloir_pour_nettoyer_vos_miroirs_vitres_de_voiture_3500/image3.png', './image/19_02/Martistore_Racloir_pour_nettoyer_vos_miroirs_vitres_de_voiture_3500/image4.png', './image/19_02/Martistore_Racloir_pour_nettoyer_vos_miroirs_vitres_de_voiture_3500/image5.png'],
         videoSrc: './video/Racloir_miroirs_vitres_de_voiture.mp4',
