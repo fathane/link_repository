@@ -818,7 +818,7 @@ const products = [
         originalPrice: 25000,
         category: 'cuisine',
         imgSrcs: ['./image/new_doss/Friteuse_a_air_19.000/image1.png', './image/new_doss/Friteuse_a_air_19.000/image2.png', './image/new_doss/Friteuse_a_air_19.000/image3.png', './image/new_doss/Friteuse_a_air_19.000/image4.png', './image/new_doss/Friteuse_a_air_19.000/image5.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Friteuse_à_air.webm',
         stock: "en stock",
         description: 'Cuisine sans huile. 6 L',
         modalDescription: '✅ Préparez des repas sains et savoureux grâce à cette friteuse à air moderne.'
@@ -866,7 +866,7 @@ const products = [
         originalPrice: 26000,
         category: 'cuisine',
         imgSrcs: ['./image/new_doss/Mini_four_electrique_3en1_19.000/image1.png', './image/new_doss/Mini_four_electrique_3en1_19.000/image2.png', './image/new_doss/Mini_four_electrique_3en1_19.000/image3.png', './image/new_doss/Mini_four_electrique_3en1_19.000/image4.png'],
-        videoSrc: './video/Mini_four_electrique_3en1.mp4',
+        videoSrc: './video/Mini_four_electrique_3en1.webm',
         stock: "en stock",
         description: 'Four compact et polyvalent',
         modalDescription: '✅ Idéal pour griller, cuire et réchauffer avec un seul appareil.'
@@ -878,7 +878,7 @@ const products = [
         originalPrice: 4000,
         category: 'cuisine',
         imgSrcs: ['./image/new_doss/Spatule_de_cuisine/image1.png', './image/new_doss/Spatule_de_cuisine/image2.png', './image/new_doss/Spatule_de_cuisine/image3.png', './image/new_doss/Spatule_de_cuisine/image4.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Spatule_de_cuisine1.webm',
         stock: "en stock",
         description: ' Outil pratique de cuisine. Lot de 4 pcs',
         modalDescription: '✅ Manipulez vos aliments facilement grâce à cette spatule ergonomique et résistante.'
@@ -1110,7 +1110,7 @@ const products = [
         originalPrice: 15000,
         category: 'electronique',
         imgSrcs: ['./image/new_24_12/Ventilation_de_climatisation_4500/image1.png', './image/new_24_12/Ventilation_de_climatisation_4500/image2.png', './image/new_24_12/Ventilation_de_climatisation_4500/image3.png', './image/new_24_12/Ventilation_de_climatisation_4500/image4.png', './image/new_24_12/Ventilation_de_climatisation_4500/image5.png', './image/new_24_12/Ventilation_de_climatisation_4500/image6.png', './image/new_24_12/Ventilation_de_climatisation_4500/image7.png'],
-        videoSrc: './video/Ventilation_de_climatisation.webm',
+        videoSrc: './video/Ventilation_de_climatisation1.webm',
         stock: "en stock",
         description: 'Efficace, Pratique, Confortable',
         modalDescription: 'Ventilation de climatisation 🌬️, idéale pour rafraîchir et améliorer la circulation de l air dans votre espace. Facile à installer, elle permet de maintenir une température agréable tout en réduisant l humidité, pour un confort optimal.'
@@ -3311,7 +3311,131 @@ const products = [
         description: ' Pratique, maniable, stylée ✅',
         modalDescription: 'Petite valise 🧳 Compacte, légère et parfaite pour les escapades de courte durée ! ✨🌍'
     },*/
+
+
+
+
+    /////////////07_03
+    {
+        id: 1239,
+        name: 'Armoire de rangement 3 battants',
+        price: 38500, //26500
+        originalPrice: 51700,
+        category: 'tous',
+        imgSrcs: ['./image/07_03/Akuesley_Armoire_de_rangement_3_battants_26500/image1.png', './image/07_03/Akuesley_Armoire_de_rangement_3_battants_26500/image2.png', './image/07_03/Akuesley_Armoire_de_rangement_3_battants_26500/image3.png', './image/07_03/Akuesley_Armoire_de_rangement_3_battants_26500/image4.png', './image/07_03/Akuesley_Armoire_de_rangement_3_battants_26500/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Spacieuse, robuste, élégante ✅',
+        modalDescription: 'Une armoire idéale pour organiser vos affaires avec style et efficacité ! 🏡✨'
+    },
+    {
+        id: 1240,
+        name: 'Gourde ice cream',
+        price: 4500, //2000
+        originalPrice: 5800,
+        category: 'tous',
+        imgSrcs: ['./image/07_03/Akuesley_Gourde_ice_cream_2000/image1.png', './image/07_03/Akuesley_Gourde_ice_cream_2000/image2.png', './image/07_03/Akuesley_Gourde_ice_cream_2000/image3.png', './image/07_03/Akuesley_Gourde_ice_cream_2000/image4.png', './image/07_03/Akuesley_Gourde_ice_cream_2000/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Colorée, pratique, légère ✅',
+        modalDescription: 'Restez hydraté avec une gourde fun et stylée ! Parfaite pour toutes vos sorties. 💦🎨'
+    },
+    {
+        id: 1241,
+        name: 'Micro cravate multi-fonction',
+        price: 8500, //3500
+        originalPrice: 5800,
+        category: 'tous',
+        imgSrcs: ['./image/07_03/Akuesley_micro_cravate_multi-fonction_3_bouts_3500/image1.png', './image/07_03/Akuesley_micro_cravate_multi-fonction_3_bouts_3500/image2.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Compact, performant, polyvalent ✅',
+        modalDescription: 'Capturez un son clair et net partout où vous allez ! Idéal pour vidéos et conférences. 🎤🎬'
+    },
+    {
+        id: 1242,
+        name: 'Thermos coffee',
+        price: 4700, //2300
+        originalPrice: 5800,
+        category: 'tous',
+        imgSrcs: ['./image/07_03/Akuesley_thermos_coffee_des_caviars_2300/image1.png', './image/07_03/Akuesley_thermos_coffee_des_caviars_2300/image2.png', './image/07_03/Akuesley_thermos_coffee_des_caviars_2300/image3.png', './image/07_03/Akuesley_thermos_coffee_des_caviars_2300/image4.png', './image/07_03/Akuesley_thermos_coffee_des_caviars_2300/image5.png', './image/07_03/Akuesley_thermos_coffee_des_caviars_2300/image6.png', './image/07_03/Akuesley_thermos_coffee_des_caviars_2300/image7.png', './image/07_03/Akuesley_thermos_coffee_des_caviars_2300/image8.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Isolant, moderne, durable ✅',
+        modalDescription: 'Gardez vos boissons chaudes ou froides toute la journée ! Un design élégant et pratique. ☕❄️🔥'
+    },
+    {
+        id: 1243,
+        name: 'Thermos coffee haute Qualité',
+        price: 5700, //2700
+        originalPrice: 7800,
+        category: 'tous',
+        imgSrcs: ['./image/07_03/Akuesley_thermos_haute_qualitée_2700/image1.png', './image/07_03/Akuesley_thermos_haute_qualitée_2700/image2.png', './image/07_03/Akuesley_thermos_haute_qualitée_2700/image3.png', './image/07_03/Akuesley_thermos_haute_qualitée_2700/image4.png', './image/07_03/Akuesley_thermos_haute_qualitée_2700/image5.png', './image/07_03/Akuesley_thermos_haute_qualitée_2700/image6.png', './image/07_03/Akuesley_thermos_haute_qualitée_2700/image7.png', './image/07_03/Akuesley_thermos_haute_qualitée_2700/image8.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: ' Élégant, efficace, isolant ✅',
+        modalDescription: 'Un thermos premium pour savourer vos boissons à la température idéale ! 🔥❄️'
+    },
+    {
+        id: 1244,
+        name: 'Verre Smothie',
+        price: 2500, //1000
+        originalPrice: 3800,
+        category: 'tous',
+        imgSrcs: ['./image/07_03/Akuesley_verre_smothie_1000/image1.png', './image/07_03/Akuesley_verre_smothie_1000/image2.png', './image/07_03/Akuesley_verre_smothie_1000/image3.png', './image/07_03/Akuesley_verre_smothie_1000/image4.png', './image/07_03/Akuesley_verre_smothie_1000/image5.png', './image/07_03/Akuesley_verre_smothie_1000/image6.png', './image/07_03/Akuesley_verre_smothie_1000/image7.png', './image/07_03/Akuesley_verre_smothie_1000/image8.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: ' Transparent, chic, ergonomique ✅',
+        modalDescription: ' Savourez vos smoothies et boissons fraîches avec style ! Léger et facile à transporter. 🥤✨'
+    },
+    {
+        id: 1245,
+        name: 'Bouteuille d eau en acier 710 ml',
+        price: 7300, //3500
+        originalPrice: 8900,
+        category: 'tous',
+        imgSrcs: ['./image/07_03/Martistore_bouteuille_deau_en_acier_710ml_3500/image1.png', './image/07_03/Martistore_bouteuille_deau_en_acier_710ml_3500/image2.png', './image/07_03/Martistore_bouteuille_deau_en_acier_710ml_3500/image3.png', './image/07_03/Martistore_bouteuille_deau_en_acier_710ml_3500/image4.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Robuste, étanche, écologique ✅',
+        modalDescription: ' Une bouteille en acier inoxydable pour garder votre eau fraîche toute la journée ! 💧♻️'
+    },
+    {
+        id: 1246,
+        name: 'Grand extracteur de jus',
+        price: 4200, //35000
+        originalPrice: 45000,
+        category: 'tous',
+        imgSrcs: ['./image/07_03/Martistore_géante_extracteur_de_jus_35000/image1.png', './image/07_03/Martistore_géante_extracteur_de_jus_35000/image2.png', './image/07_03/Martistore_géante_extracteur_de_jus_35000/image3.png', './image/07_03/Martistore_géante_extracteur_de_jus_35000/image4.png', './image/07_03/Martistore_géante_extracteur_de_jus_35000/image5.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Puissant, rapide, pratique ✅',
+        modalDescription: 'Préparez des jus frais et naturels en un instant ! Facile à utiliser et à nettoyer. 🍊🥕'
+    },
+    {
+        id: 1247,
+        name: 'Lumière led 24 pouces',
+        price: 27000, //20000
+        originalPrice: 32000,
+        category: 'tous',
+        imgSrcs: ['./image/07_03/Martistore_grande_lumière_led_24pouces_20000/image1.png', './image/07_03/Martistore_grande_lumière_led_24pouces_20000/image2.png', './image/07_03/Martistore_grande_lumière_led_24pouces_20000/image3.png', './image/07_03/Martistore_grande_lumière_led_24pouces_20000/image4.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Lumineux, réglable, puissant ✅',
+        modalDescription: ' Une lumière LED idéale pour un éclairage optimal ! Parfait pour le maquillage ou les vidéos. 💡📸'
+    },
+    {
+        id: 1248,
+        name: 'Machine à popcorn',
+        price: 17000, //13000
+        originalPrice: 19000,
+        category: 'tous',
+        imgSrcs: ['./image/07_03/Martistore_machine_a_popcorn_13000/image1.png', './image/07_03/Martistore_machine_a_popcorn_13000/image2.png', './image/07_03/Martistore_machine_a_popcorn_13000/image3.png', './image/07_03/Martistore_machine_a_popcorn_13000/image4.png', './image/07_03/Martistore_machine_a_popcorn_13000/image5.png', './image/07_03/Martistore_machine_a_popcorn_13000/image6.png'],
+        videoSrc: './video/link.mp4',
+        stock: "en stock",
+        description: 'Rapide, ludique, compacte ✅',
+        modalDescription: 'Faites du popcorn maison en quelques minutes ! Idéale pour les soirées ciné. 🍿🎬'
+    },
 ];
 
 export default products;
-
