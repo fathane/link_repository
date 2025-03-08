@@ -874,8 +874,8 @@ const products = [
     {
         id: 1042,
         name: 'Spatule de cuisine',
-        price: 7600, //1500
-        originalPrice: 4000,
+        price: 3700, //1500
+        originalPrice: 4500,
         category: 'cuisine',
         imgSrcs: ['./image/new_doss/Spatule_de_cuisine/image1.png', './image/new_doss/Spatule_de_cuisine/image2.png', './image/new_doss/Spatule_de_cuisine/image3.png', './image/new_doss/Spatule_de_cuisine/image4.png'],
         videoSrc: './video/Spatule_de_cuisine1.webm',
@@ -3403,7 +3403,7 @@ const products = [
     {
         id: 1246,
         name: 'Grand extracteur de jus',
-        price: 4200, //35000
+        price: 42000, //35000
         originalPrice: 45000,
         category: 'tous',
         imgSrcs: ['./image/07_03/Martistore_géante_extracteur_de_jus_35000/image1.png', './image/07_03/Martistore_géante_extracteur_de_jus_35000/image2.png', './image/07_03/Martistore_géante_extracteur_de_jus_35000/image3.png', './image/07_03/Martistore_géante_extracteur_de_jus_35000/image4.png', './image/07_03/Martistore_géante_extracteur_de_jus_35000/image5.png'],
