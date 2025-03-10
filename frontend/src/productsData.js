@@ -990,7 +990,7 @@ const products = [
         originalPrice: 15000,
         category: 'cuisine',
         imgSrcs: ['./image/new_24_12/ensemble_silicone_19pcs_8500/image1.png', './image/new_24_12/ensemble_silicone_19pcs_8500/image2.png', './image/new_24_12/ensemble_silicone_19pcs_8500/image3.png', './image/new_24_12/ensemble_silicone_19pcs_8500/image4.png', './image/new_24_12/ensemble_silicone_19pcs_8500/image5.png', './image/new_24_12/ensemble_silicone_19pcs_8500/image6.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Ensemble_silicone.mp4',
         stock: "en stock",
         description: 'Complet, Pratique, Durable',
         modalDescription: '✅ Cet ensemble de 19 pièces en silicone est idéal pour tous vos besoins culinaires. Sa durabilité et sa polyvalence en font un choix parfait pour les passionnés de cuisine'
@@ -1294,7 +1294,7 @@ const products = [
         originalPrice: 7500,
         category: 'cuisine',
         imgSrcs: ['./image/Product_new/Martistore_Batteuse_électrique_3000/image1.png', './image/Product_new/Martistore_Batteuse_électrique_3000/image2.png', './image/Product_new/Martistore_Batteuse_électrique_3000/image3.png', './image/Product_new/Martistore_Batteuse_électrique_3000/image4.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Batteuse_électrique_pratique.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: 'Batteuse électrique pratique 🧁, parfaite pour vous simplifier la vie en cuisine. Elle vous aide à mélanger, fouetter et pétrir en un rien de temps, que ce soit pour des gâteaux 🍰, des pâtes ou d autres recettes. Son design et ses vitesses la rendent facile à utiliser, rendant la préparation de vos plats encore plus agréable.'
@@ -1546,7 +1546,7 @@ const products = [
         originalPrice: 7000,
         category: 'beauté',
         imgSrcs: ['./image/Product_new/SK_LUXe_Peigne_chauffante_4000/image1.png', './image/Product_new/SK_LUXe_Peigne_chauffante_4000/image2.png', './image/Product_new/SK_LUXe_Peigne_chauffante_4000/image3.png', './image/Product_new/SK_LUXe_Peigne_chauffante_4000/image4.png', './image/Product_new/SK_LUXe_Peigne_chauffante_4000/image5.png', './image/Product_new/SK_LUXe_Peigne_chauffante_4000/image6.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Peigne_chauffante.mp4',
         stock: "en stock",
         description: 'Élégant, Durable, Polyvalent',
         modalDescription: 'Peigne chauffant 🔥, idéal pour lisser vos cheveux en douceur, chauffe rapidement pour un coiffage rapide et efficace.'
@@ -2407,7 +2407,7 @@ const products = [
         originalPrice: 2000,
         category: 'electronique',
         imgSrcs: ['./image/20_01/Martistore_Mini_aiguiseur_800/image1.png', './image/20_01/Martistore_Mini_aiguiseur_800/image2.png', './image/20_01/Martistore_Mini_aiguiseur_800/image3.png', './image/20_01/Martistore_Mini_aiguiseur_800/image4.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Mini_Aiguiseur.mp4',
         stock: "en stock",
         description: 'Pratique, compact, efficace.',
         modalDescription: 'Mini aiguiseur de couteau, super pratique pour garder vos couteaux bien tranchants. Il est petit, facile à utiliser et se range facilement dans un tiroir. Parfait pour une utilisation quotidienne, sans prise de tête.'
@@ -3234,7 +3234,7 @@ const products = [
         originalPrice: 5300,
         category: 'tous',
         imgSrcs: ['./image/19_02/Martistore_Lot_de_10_cintres_en_acier_1500/image1.png', './image/19_02/Martistore_Lot_de_10_cintres_en_acier_1500/image2.png', './image/19_02/Martistore_Lot_de_10_cintres_en_acier_1500/image3.png', './image/19_02/Martistore_Lot_de_10_cintres_en_acier_1500/image4.png', './image/19_02/Martistore_Lot_de_10_cintres_en_acier_1500/image5.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Lot_de_cintres_en_acier.mp4',
         stock: "en stock",
         description: 'Solide, pratique, antidérapant ✅',
         modalDescription: 'Lot de 10 cintres en acier 🏡👕 avec creux antidérapants pour un maintien parfait de vos vêtements ! ✨👌'
@@ -3407,7 +3407,7 @@ const products = [
         originalPrice: 45000,
         category: 'tous',
         imgSrcs: ['./image/07_03/Martistore_géante_extracteur_de_jus_35000/image1.png', './image/07_03/Martistore_géante_extracteur_de_jus_35000/image2.png', './image/07_03/Martistore_géante_extracteur_de_jus_35000/image3.png', './image/07_03/Martistore_géante_extracteur_de_jus_35000/image4.png', './image/07_03/Martistore_géante_extracteur_de_jus_35000/image5.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/Grand_extracteur_de_jus.mp4',
         stock: "en stock",
         description: 'Puissant, rapide, pratique ✅',
         modalDescription: 'Préparez des jus frais et naturels en un instant ! Facile à utiliser et à nettoyer. 🍊🥕'
@@ -3431,7 +3431,7 @@ const products = [
         originalPrice: 19000,
         category: 'tous',
         imgSrcs: ['./image/07_03/Martistore_machine_a_popcorn_13000/image1.png', './image/07_03/Martistore_machine_a_popcorn_13000/image2.png', './image/07_03/Martistore_machine_a_popcorn_13000/image3.png', './image/07_03/Martistore_machine_a_popcorn_13000/image4.png', './image/07_03/Martistore_machine_a_popcorn_13000/image5.png', './image/07_03/Martistore_machine_a_popcorn_13000/image6.png'],
-        videoSrc: './video/link.mp4',
+        videoSrc: './video/pop_corn_machine.mp4',
         stock: "en stock",
         description: 'Rapide, ludique, compacte ✅',
         modalDescription: 'Faites du popcorn maison en quelques minutes ! Idéale pour les soirées ciné. 🍿🎬'
